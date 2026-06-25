@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-06-25T19:52:02.355182+00:00",
+  "uretim_zamani": "2026-06-25T20:45:44.001727+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu — Ders 3: 'Hiçbir şeyin anlamı yok' derken, aslında ne kastediliyor?",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Yunus Emre'ye göre 'aşk', 'ben'liği nasıl eritir?",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing — Bölüm 3: 'Hiçbir şey yapmama' sanatının gizemi",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_King",
+      "baslik": "Mevlana'nın kalbin gözüyle dünyayı görmek ne demek?",
+      "url": "https://tr.wikipedia.org/wiki/Mevlana_Celaleddin-i_Rumi",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Jung'a göre 'Gölge'nin karanlığı, senin en büyük ışık potansiyelin olabilir mi?",
-      "url": "https://tr.wikipedia.org/wiki/Carl_Jung",
+      "baslik": "Dostoyevski'nin Raskolnikov'u: Vicdan ve Ego arasında sıkışmak",
+      "url": "https://tr.wikipedia.org/wiki/Su%C3%A7_ve_Ceza",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-06-25T20:57:39.813333+00:00",
+  "uretim_zamani": "2026-06-25T21:29:07.582810+00:00",
   "haberler": [
     {
-      "baslik": "Kalp çakran tıkalıysa, aşkı neden hissedemiyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Mucizeler Kursu — Ders 4: Bu düşünceler hiçbir şey ifade etmiyor.",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sinkroniste: Evrenin sana fısıldadığı anlamlı tesadüfler",
-      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
+      "baslik": "Tao Te Ching'in 9. bölümü: Dolu bardağı taşırmadan yaşamak ne demek?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Stoacılık: Kontrol edemediğin şeyler yüzünden neden acı çekiyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/Stoac%C4%B1l%C4%B1k",
+      "baslik": "Jung'a göre 'Persona': Maskelerin Ardındaki Gerçek Sen Kimsin?",
+      "url": "https://tr.wikipedia.org/wiki/Carl_Jung",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

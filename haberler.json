@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-06-25T19:52:02.355182+00:00",
+  "uretim_zamani": "2026-06-25T20:57:39.813333+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu — Ders 3: 'Hiçbir şeyin anlamı yok' derken, aslında ne kastediliyor?",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Kalp çakran tıkalıysa, aşkı neden hissedemiyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing — Bölüm 3: 'Hiçbir şey yapmama' sanatının gizemi",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_King",
+      "baslik": "Sinkroniste: Evrenin sana fısıldadığı anlamlı tesadüfler",
+      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Jung'a göre 'Gölge'nin karanlığı, senin en büyük ışık potansiyelin olabilir mi?",
-      "url": "https://tr.wikipedia.org/wiki/Carl_Jung",
+      "baslik": "Stoacılık: Kontrol edemediğin şeyler yüzünden neden acı çekiyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/Stoac%C4%B1l%C4%B1k",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

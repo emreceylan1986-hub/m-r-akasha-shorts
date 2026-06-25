@@ -1,0 +1,255 @@
+name: M-R Otonom Pipeline
+
+on:
+  schedule:
+    # Mindgaps cron — TrendCatcher 12/16/19 · Cosmos 13/17/20 → Mindgaps 14/18/21 UTC
+    # (protokol #6: quota çakışmasını önlemek için 1'er saat kaydırılmış)
+    # 3 video/gün — yeni kanal + paylaşılan GCP quota (10K/gün, 3 kanal) için temkinli.
+    - cron: "0 14,18,21 * * *"
+  workflow_dispatch:
+    inputs:
+      gizlilik:
+        description: "Yayın gizliliği (private | unlisted | public)"
+        required: false
+        default: "public"
+        type: choice
+        options:
+          - public
+          - unlisted
+          - private
+
+permissions:
+  contents: write   # yuklemeler.json + haberler.json commit
+  issues: write     # fail durumunda otomatik issue (mail bildirimi tetikler)
+
+jobs:
+  shorts-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Write secrets to runtime files
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          JAMENDO_CLIENT_ID: ${{ secrets.JAMENDO_CLIENT_ID }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          PINTEREST_TOKEN: ${{ secrets.PINTEREST_TOKEN }}
+          PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
+          AMAZON_ASSOCIATES_TAG: ${{ secrets.AMAZON_ASSOCIATES_TAG }}
+          CLIENT_SECRET_JSON: ${{ secrets.CLIENT_SECRET_JSON }}
+          TOKEN_JSON: ${{ secrets.TOKEN_JSON }}
+        run: |
+          {
+            echo "GEMINI_API_KEY=${GEMINI_API_KEY}"
+            echo "PEXELS_API_KEY=${PEXELS_API_KEY}"
+            echo "PIXABAY_API_KEY=${PIXABAY_API_KEY}"
+            echo "JAMENDO_CLIENT_ID=${JAMENDO_CLIENT_ID}"
+            echo "REDDIT_CLIENT_ID=${REDDIT_CLIENT_ID}"
+            echo "REDDIT_CLIENT_SECRET=${REDDIT_CLIENT_SECRET}"
+            echo "PINTEREST_TOKEN=${PINTEREST_TOKEN}"
+            echo "PINTEREST_BOARD_ID=${PINTEREST_BOARD_ID}"
+            echo "AMAZON_ASSOCIATES_TAG=${AMAZON_ASSOCIATES_TAG}"
+          } > .env
+          printf '%s' "$CLIENT_SECRET_JSON" > client_secret.json
+          printf '%s' "$TOKEN_JSON"         > token.json
+          # Sağlamlık doğrulaması (içerik yok ya da bozuksa burada erken patlasın)
+          python -c "import json; json.load(open('client_secret.json')); json.load(open('token.json')); print('secrets OK')"
+
+      - name: 0) Trend Signal Mixer + Viral Radar (PROVEN VIRAL last 72h)
+        continue-on-error: true
+        run: |
+          python viral_radar.py || echo "viral_radar opsiyonel — skip"
+          python competitor_scan.py || echo "competitor_scan opsiyonel — skip"
+          python trend_signal_mixer.py || echo "trend_signal opsiyonel — skip"
+
+      - name: 1) Haberci — Reddit PRAW + Gemini fallback (psychology/mind niche)
+        run: python haberci.py
+
+      - name: 2) Seslendirici — Gemini senaryo + edge-tts MP3 (hook+CTA güçlendirilmiş)
+        run: python seslendirici.py
+
+      - name: 3) Montajcı — Pexels + Wikimedia + Suno fallback → 1080×1920 MP4
+        run: python montajci.py
+
+      - name: 4) Yükleyici — YouTube Shorts upload + affiliate açıklama
+        env:
+          GIZLILIK: ${{ github.event.inputs.gizlilik || 'public' }}
+        run: python yukleyici.py --gizlilik "$GIZLILIK"
+
+      - name: 4b) Post-Upload — Thumbnail set + Pinterest pin + Multilang caption
+        if: success()
+        continue-on-error: true
+        run: python post_upload.py
+
+      - name: 5) Pattern Detector — viral öğrenme loop
+        if: success()
+        continue-on-error: true
+        run: python pattern_detector.py --esik 500
+
+      - name: 5b) Retention Learner — drop-off feedback → seslendirici
+        if: success()
+        continue-on-error: true
+        run: python retention_learner.py
+
+      - name: 6) Analytics çek — retention + CTR + traffic source
+        if: success()
+        continue-on-error: true
+        run: python analytics.py --gun 14
+
+      - name: 7) Dashboard üret — lokal HTML KPI panel
+        if: success()
+        continue-on-error: true
+        run: python dashboard.py
+
+      - name: 8) A/B title karşılaştır (24h+ önceki testler)
+        if: success()
+        continue-on-error: true
+        run: python ab_title_test.py --karsilastir
+
+      - name: 8b) Thumbnail A/B karşılaştır + auto-swap (24h+)
+        if: success()
+        continue-on-error: true
+        run: python thumbnail_ab.py --karsilastir
+
+      - name: 9) YPP Eligibility Tracker — para yolu durumu
+        if: success()
+        continue-on-error: true
+        run: python ypp_tracker.py
+
+      - name: 10) Sponsor Media Kit — outreach raporu
+        if: success()
+        continue-on-error: true
+        run: python sponsor_kit.py
+
+      - name: 11) Yorum Yanıt Bot — kanaldaki yeni yorumlara cevap (cron yedek)
+        if: success()
+        continue-on-error: true
+        run: python yorum_yanit_bot.py --max-cevap 15 --min-yas 5
+
+      - name: 12) Schedule Optimizer — optimum yayın saatleri (rapor)
+        if: success()
+        continue-on-error: true
+        run: python schedule_optimizer.py
+
+      - name: 13) Community Post — viral video'lar için poll kuyruğu
+        if: success()
+        continue-on-error: true
+        run: python community_post.py
+
+      - name: 14) QC kontrol — son yayınlanan video düzgün mü
+        if: success()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # OCR (altyazı taşma kontrolü için)
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-eng >/dev/null 2>&1 || true
+          echo "⏳ 60sn bekle (YouTube indeksleme için)..."
+          sleep 60
+          python qc_video.py --son 1 --issue || echo "QC sorunu var, issue açıldı"
+
+      - name: State commit (JSON-aware merge + push retry)
+        if: always()
+        env:
+          GITHUB_RUN_NUMBER: ${{ github.run_number }}
+        run: bash state_push.sh
+
+      - name: Upload artifacts (debug için)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-output-${{ github.run_number }}
+          path: |
+            ses_ciktilari/
+            shorts_ciktilari/
+            yuklemeler.json
+            haberler.json
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Başarılı yayın bildirimi (issue + mail)
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f .basarili_yayin ]; then
+            VID=$(python3 -c "import json; print(json.load(open('.basarili_yayin'))['video_id'])")
+            TITLE=$(python3 -c "import json; print(json.load(open('.basarili_yayin'))['title'])")
+            WATCH=$(python3 -c "import json; print(json.load(open('.basarili_yayin'))['watch_url'])")
+            STUDIO=$(python3 -c "import json; print(json.load(open('.basarili_yayin'))['studio_url'])")
+            GIZ=$(python3 -c "import json; print(json.load(open('.basarili_yayin'))['gizlilik'])")
+            TAG=$(python3 -c "import json; print(json.load(open('.basarili_yayin'))['tag_sayisi'])")
+            ACK=$(python3 -c "import json; print(json.load(open('.basarili_yayin'))['aciklama_uzunluk'])")
+            gh issue create \
+              --title "✅ Yeni video yayında — $TITLE" \
+              --body "**Run #${{ github.run_number }}** otomatik yayın tamamlandı.
+
+          - **Başlık:** $TITLE
+          - **Video ID:** \`$VID\`
+          - **Watch:** $WATCH
+          - **Studio:** $STUDIO
+          - **Gizlilik:** $GIZ
+          - **SEO:** $TAG tag, açıklama $ACK karakter
+          - **Denetim:** UYGUN ✓ (telif/clickbait/olgusal/politika/marka)
+
+          İzlemek istemiyorsan bu issue'yu kapat. Sorun varsa Studio'dan müdahale et."
+            rm -f .basarili_yayin
+          fi
+
+      - name: Denetim uyarısı (şüpheli/redded içerik → issue + mail)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f .denetim_uyari ]; then
+            NOT=$(cat .denetim_uyari)
+            gh issue create \
+              --title "⚠️ Denetim uyarısı — run #${{ github.run_number }}" \
+              --body "Yayın uygunluk denetimi içeriği şüpheli buldu, video PRIVATE olarak yüklendi.
+
+          **Karar/Sebep:** $NOT
+
+          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          İncele: https://studio.youtube.com/ → Mindgaps → Content → en yeni video.
+          Uygunsa Public yap, değilse Tamamen sil. Sorunu çözünce bu issue'yu kapat."
+            rm -f .denetim_uyari
+          fi
+
+      - name: Hata bildirimi (fail durumunda issue aç → mail tetiklenir)
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "🚨 Pipeline FAIL — run #${{ github.run_number }} ($(date -u +'%Y-%m-%d %H:%MZ'))" \
+            --body "Workflow başarısız oldu. Detaylar için run sayfasını aç:
+
+          https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          - Run number: ${{ github.run_number }}
+          - Tetikleyici: ${{ github.event_name }}
+          - Bittiği zaman: $(date -u +'%Y-%m-%dT%H:%M:%SZ')
+
+          Bu issue otomatik açıldı. Sorunu çözünce close et."

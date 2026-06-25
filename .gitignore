@@ -1,0 +1,17 @@
+.env
+client_secret.json
+token.json
+.DS_Store
+yedekler/
+gecici_video/
+ses_ciktilari/
+shorts_ciktilari/
+__pycache__/
+*.pyc
+
+# Trailer binary çıktılar (script ile yeniden üretilebilir)
+branding/trailer.mp4
+branding/trailer.mp3
+branding/trailer.wav
+branding/trailer_bg.png
+branding/trailer_sahneler/

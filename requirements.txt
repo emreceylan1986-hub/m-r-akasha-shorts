@@ -1,0 +1,15 @@
+google-genai>=1.74.0
+requests>=2.32.0
+edge-tts>=7.2.0
+mutagen>=1.47.0
+imageio-ffmpeg>=0.5.0
+google-auth>=2.30.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.130.0
+pytrends>=4.9.0
+# Faz 0-3 yeni eklenenler (PRAW=Reddit OAuth, Pillow=thumbnail, deep-translator=i18n)
+praw>=7.7.0
+Pillow>=10.0.0
+deep-translator>=1.11.4
+pandas>=2.0.0

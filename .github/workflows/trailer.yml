@@ -1,0 +1,48 @@
+name: TC Trailer üret + yükle (manuel tetik)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+  JAMENDO_CLIENT_ID: ${{ secrets.JAMENDO_CLIENT_ID }}
+
+jobs:
+  trailer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: pip install
+        run: pip install -r requirements.txt
+
+      - name: ffmpeg yükle (apt)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-liberation libass9
+
+      - name: Write OAuth secret files
+        env:
+          CLIENT_SECRET_JSON: ${{ secrets.CLIENT_SECRET_JSON }}
+          TOKEN_JSON: ${{ secrets.TOKEN_JSON }}
+        run: |
+          printf '%s' "$CLIENT_SECRET_JSON" > client_secret.json
+          printf '%s' "$TOKEN_JSON" > token.json
+          python -c "import json; json.load(open('client_secret.json')); json.load(open('token.json')); print('secrets OK')"
+
+      - name: Trailer üret (Pexels + Wikimedia + ASS altyazı)
+        run: python trailer_uret.py
+
+      - name: Trailer yükle + kanal trailer set
+        run: python trailer_yukle.py

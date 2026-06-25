@@ -1,0 +1,41 @@
+{
+  "guncelleme_tarihi": "2026-06-17",
+  "esik_izlenme": 700,
+  "viral": {
+    "video_sayisi": 13,
+    "ortalama_izlenme": 1024,
+    "ornek_basliklar": [
+      "Why Babies React in Surprising Ways",
+      "Thorny dragons drink water through their skin using capillary action",
+      "Blobfish: Deep-Sea Marvel's Secret!",
+      "Australia's Lake Hillier is a naturally bubblegum pink lake",
+      "Nature's Real-Life Horror: The Zombie-Ant Fungus!",
+      "Frogs Freeze Solid & Revive!",
+      "Cavefish Thrive in Total Darkness Without Eyes!",
+      "Deep Sea Mystery: Giant Squid's Epic Battles!",
+      "Weaver Birds: Nature's Master Architects",
+      "Mountain goats use specialized hooves to climb sheer cliffs",
+      "Eagles have incredible eyesight, spotting a mouse from a mile away",
+      "The Lake That Boils Non-Stop: Dominica's Fiery Secret",
+      "Mimic Octopus Transforms into Over 15 Different Marine Animals"
+    ],
+    "ortak_paternler": [
+      "Yoksunluk/sıra dışı yetenek — 'without eyes', 'no rain', 'no mouth', 'freeze and revive'",
+      "Anomali yer — 'pink lake', 'boiling lake', 'dry valleys', 'dead sea'",
+      "Garip yaratık + spesifik isim — 'Blobfish', 'Thorny dragon', 'Mimic Octopus'",
+      "Korku/dramatik — 'real-life horror', 'zombie-ant fungus', 'epic battles'",
+      "Süper yetenek + somut sayı — '200 MPH', 'a mile away', 'over 15 species'",
+      "Sırf 'secret' kelimesi 3x patlamış: 'Marvel's Secret', 'Fiery Secret', 'Mind-Bending Secret'"
+    ],
+    "yasak_paternler": [
+      "Tech haberleri — '... Ditches GitHub', 'Spain Blocks ...' (eski TC kalıntısı, dip aldı)",
+      "Soyut concept — 'Magnetic Field Weakening' (7 izlenme)",
+      "Cliche giriş — 'Did you know', 'Ever wonder' (algoritma AI sinyali)"
+    ]
+  },
+  "metric": {
+    "top_5_ortalama_izlenme": 1240,
+    "kanal_ortalama_izlenme": 525,
+    "carpan": 2.4
+  }
+}

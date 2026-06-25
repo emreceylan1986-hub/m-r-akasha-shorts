@@ -27,48 +27,46 @@ PANEL_KOK = Path(__file__).parent
 TOKEN = PANEL_KOK / "token.json"
 BANNER = PANEL_KOK / "branding" / "banner.png"
 
-# Kanal "About" metni — Mindgaps (psikoloji / "senin zihnin hakkında" facts)
-KANAL_DESCRIPTION = """🧠 Daily psychology & brain shorts about who you really are.
+# Kanal "About" metni — Aydınlanmanın Doruk Noktası (spiritüel / Jung-vari motivasyon)
+KANAL_DESCRIPTION = """🕯️ Her gün içine biraz daha derin in.
 
-Your mind is hiding things from you. Mindgaps reveals them — science-backed facts about how your brain, personality, habits, and relationships actually work. Why you do what you do, in under 60 seconds.
+Aydınlanmanın Doruk Noktası — Mucizeler Kursu, Tao Te Jing, Carl Jung, Yunus Emre ve sufi bilgeliğinden günlük kısa motivasyon videoları. Ego'nun ötesinde 'sen' kimsin? Bir dakikadan az, bir ömür sürer.
 
-🧬 New short every day at 5 PM, 9 PM and midnight (UTC).
-🔔 Subscribe and notice yourself differently.
+📿 Her gün yeni video — 18:00, 22:00, 01:00 (TR).
+🔔 Yolun aydın olsun — abone ol.
 
-For more mind-bending facts → subscribe.
-
-Business inquiries: emreceylanistanbul@gmail.com"""
+İletişim: demetcyln90@gmail.com"""
 
 # Kanal arama anahtarları (search'te bulunabilirlik)
 KANAL_KEYWORDS = (
-    '"psychology" "psychology facts" "brain facts" "mind facts" '
-    '"human behavior" "personality" "self improvement" "mindset" '
-    '"cognitive bias" "dopamine" "habits" "body language" '
-    '"relationship psychology" "memory" "neuroscience" "shorts"'
+    '"spiritüellik" "ruhsal gelişim" "carl jung" "mucizeler kursu" '
+    '"tao te jing" "yunus emre" "mevlana" "sufi" "farkındalık" '
+    '"içsel yolculuk" "özsevgi" "gölge" "ego" "bireyleşme" '
+    '"akashic" "frekans" "motivasyon" "türkçe shorts"'
 )
 
-# 3 ana playlist — Mindgaps nişi (7 günlük tema rotasyonundan ana 3'lü)
+# 3 ana playlist — Akasha nişi
 PLAYLISTS = [
     {
-        "title": "Your Brain & How It Works",
-        "description": "Neuroscience, dopamine, memory, focus, sleep — quick science-backed facts about the brain you live in.",
-        "keywords": ["brain", "neuroscience", "dopamine", "memory", "focus", "sleep",
-                     "neuron", "amygdala", "prefrontal", "anxiety", "stress",
-                     "habit", "mental", "cognitive"],
+        "title": "Mucizeler Kursu — Günlük Dersler",
+        "description": "A Course in Miracles (Mucizeler Kursu) 365 dersi günlük, kısa, sade Türkçe anlatımlarla. Affedicilik, ego, içsel barış.",
+        "keywords": ["mucizeler kursu", "acim", "affedicilik", "ego", "içsel barış",
+                     "ders", "ruhsal eğitim", "uyanış", "bilinç", "spiritüel",
+                     "manifest", "öğrenci"],
     },
     {
-        "title": "Why You Do That — Personality & Behavior",
-        "description": "Personality, habits, hidden motives — psychology facts that explain why you do what you do.",
-        "keywords": ["personality", "behavior", "habit", "introvert", "extrovert",
-                     "self", "motivation", "decision", "bias", "perception",
-                     "trait", "type", "tendency"],
+        "title": "Carl Jung — Gölge, Persona, Bireyleşme",
+        "description": "Carl Gustav Jung'un derin kavramları: gölge, persona, anima/animus, kollektif bilinçaltı, sinkroniste, bireyleşme — kendi karanlığında ışığı bul.",
+        "keywords": ["carl jung", "gölge", "persona", "anima", "animus", "bireyleşme",
+                     "individuation", "kollektif bilinçaltı", "sinkroniste",
+                     "arketip", "psikanaliz", "kendinden kaçış"],
     },
     {
-        "title": "People, Attraction & Persuasion",
-        "description": "Relationships, attraction, body language, persuasion, dark psychology — how minds interact.",
-        "keywords": ["relationship", "attraction", "body language", "persuasion",
-                     "dark psychology", "influence", "manipulation", "love",
-                     "trust", "social", "charisma", "first impression"],
+        "title": "Tao Te Jing & Sufi Bilgeliği",
+        "description": "Lao Tzu'nun 81 bölüm Tao Te Jing'i + Yunus Emre, Mevlana ve sufi bilgeliği. Su gibi akmak, fenâ, gerçek özgürlük.",
+        "keywords": ["tao te jing", "lao tzu", "wu wei", "su benzetmesi", "sufi",
+                     "yunus emre", "mevlana", "fenâ", "aşk", "tasavvuf",
+                     "kalp", "tao"],
     },
 ]
 

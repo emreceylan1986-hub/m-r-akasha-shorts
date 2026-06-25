@@ -33,50 +33,49 @@ YOUTUBE_SCOPES = [
 YOUTUBE_KATEGORI_NEWS = "25"        # News & Politics
 YOUTUBE_KATEGORI_TECH = "28"        # Science & Technology
 YOUTUBE_KATEGORI_ANIMALS = "15"     # Pets & Animals
-YOUTUBE_KATEGORI_EDU = "27"         # Education (Mindgaps psikoloji varsayılanı)
+YOUTUBE_KATEGORI_EDU = "27"         # Education
+YOUTUBE_KATEGORI_PEOPLE = "22"      # People & Blogs (Akasha — kişisel/spiritüel blog varsayılanı)
 
-METADATA_SISTEM_PROMPTU = """You produce YouTube Shorts metadata as STRICT JSON.
+METADATA_SISTEM_PROMPTU = """YouTube Shorts metadata üret — STRICT JSON.
 
-LANGUAGE: ALL output (title, description, tags) MUST be in ENGLISH ONLY.
-Even if the source news is Turkish or any other language, translate and write
-100% English. This channel targets a global English-speaking audience for
-maximum reach and ad revenue. Non-English output is forbidden — non-negotiable.
-
-This metadata MUST be SEO-optimized for YouTube search.
+DİL: TÜM çıktı (title, description, tags) **TÜRKÇE**. Kanal: Aydınlanmanın
+Doruk Noktası (@akashainme) — Türkiye odaklı spiritüel / Jung-vari kanal.
 
 Schema:
 {
-  "title": "60-95 characters. FRONT-LOAD the main keyword in the first 50 chars (critical for search). No emojis, no ALL CAPS. BANNED clickbait words/phrases — never use any of: shocking, secretly, secret, hidden, they don't want you to know, you won't believe, this is why, the truth about, exposed, will blow your mind, insane, crazy. The title must be a calm factual statement of what happened.",
-  "description": "200-400 characters TOTAL. Structure:
-    - LINE 1 (most important — first 100 chars get strongest SEO weight):
-      Start with a CONCRETE FACT statement that contains the main keyword.
-      Example: 'Your brain forms a first impression of someone in about 100 milliseconds.'
-      The keyword MUST appear in the first 80 characters.
-      ⚠️ BANNED OPENINGS (AI signal / bot detection risk):
-        'Did you know' / 'Ever wonder' / 'Ever wondered' / 'Ever imagine'
-        'Do you know' / 'Have you ever' / 'Imagine' / 'Picture this' / 'Meet the'
-      Start with a STATEMENT, not a question. Calm factual tone.
-    - Lines 2-3: 1-2 short sentences expanding the fact with a concrete number
-      or comparison (e.g. 'That's faster than you can blink.').
-    - Last line: 4-6 hashtags. ALWAYS include #Shorts, then 3-5 niche tags
-      like #psychology #psychologyfacts #mindfacts #humanbehavior #brainfacts #didyouknow #fyp
-    NO external links. NO 'subscribe' / 'like' / 'follow' calls.",
-  "tags": ["8-12 lowercase tags, no '#' prefix, no spaces in single tags. Mix:
-            - 3 broad niche tags ('psychology', 'psychologyfacts', 'mindfacts', 'humanbehavior', 'brainfacts')
-            - 5 specific tags about the actual concept ('dopamine', 'memory', 'first impression', 'overthinking')
-            - 2 trending ('shorts', 'fyp', 'selfimprovement', 'mindset')"]
+  "title": "60-95 karakter. Ana anahtar kelime ilk 50 karakterde olmalı (SEO).
+            Emoji yok, BÜYÜK HARF yok. YASAK klişe sözcükler: 'şok edici',
+            'inanamayacaksın', 'bunu kimse söylemez', 'gerçek perde arkası',
+            'aklını başından alacak', 'çılgın', 'inanılmaz'. Başlık sakin,
+            edebi, doğrudan olsun.",
+  "description": "200-400 karakter. Yapı:
+    - SATIR 1 (en önemli, ilk 100 karakter): Konunun özünü bir cümlede ver.
+      Örnek: 'Carl Jung 1916'da gölge kavramını ortaya attı: en güçlü olduğun
+      yer, kabul edemediğin yerdir.'
+      Anahtar kelime ilk 80 karakterde geçsin.
+      YASAK açılışlar: 'Biliyor muydun', 'Hiç düşündün mü', 'Bir zaman',
+      'Şimdi sana harika bir sır vereceğim'. Sakin doğal cümleyle başla.
+    - SATIR 2-3: somut bir referans (yıl, yazar, kitap, ders no) + tek cümle açıklama
+    - SON SATIR: 4-6 hashtag. Mutlaka #Shorts + 3-5 niş:
+      #spiritüelyolculuk #içyolculuk #özsevgi #ruhsalgelişim #mucizelerkursu
+      #carljung #taoteching #yunusemre #farkındalık #mindfulness
+    Dış link YOK. 'Abone ol' / 'beğen' YOK (description'da).",
+  "tags": ["8-12 küçük harf tag, '#' yok, tek tag içinde boşluk yok. Karışım:
+            - 3 geniş: 'spiritüellik', 'ruhsalgelişim', 'içsel yolculuk',
+              'farkındalık', 'mindfulness'
+            - 5 spesifik: konuya özel ('carl jung', 'gölge', 'mucizeler kursu',
+              'tao te jing', 'persona', 'bireyleşme', 'akashic', 'sufi', 'yunus emre')
+            - 2 trend: 'shorts', 'türkçe', 'motivasyon', 'felsefe'"]
 }
 
-Rules:
-- FACTUAL FIDELITY (highest priority): title + description must be 100%
-  faithful to the script. NEVER overstate, never invent, never present a
-  rumored/unverified item as confirmed. Do not change outcome/cause/actors.
-  A metaphorical script line must be stated literally in the title.
-- Title is a FACTUAL hook, not a question, not fake controversy
-- Description summarizes the script faithfully (no invented claims, no hype)
-- Hashtags in description help YouTube clustering — 4-6 max, last line only
-- Tags drive search match — be specific to the actual story
-- Output ONLY the JSON object, no prose
+Kurallar:
+- KAYNAK SADAKATI (en üst): title + description, senaryo + kaynağa %100 sadık.
+  Sahte alıntı, uydurma yıl, abartı çıkarım YOK.
+- Title doğal Türkçe çelişki/merak — soru değil, hisli ifade
+- Description sade Türkçe, edebi ton
+- Hashtag son satır, max 4-6
+- Tags arama eşleştirme — spesifik kalsın
+- ÇIKTI: yalnızca JSON nesnesi, başka şey yok
 """
 
 
@@ -147,9 +146,9 @@ def _metadata_dogrula(veri: dict) -> dict:
     # kanal açılıp ilk playlist'ler oluşunca eklenecek (şimdilik sadece subscribe).
     cta_sonek = (
         "\n\n━━━━━━━━━━━━━━━━━━━━\n"
-        "🧠 Subscribe for daily mind facts:\n"
-        "https://youtube.com/@mindgaps?sub_confirmation=1\n\n"
-        "Understand yourself a little better, every day."
+        "🕯️ Yolun aydın olsun — abone ol:\n"
+        "https://youtube.com/@akashainme?sub_confirmation=1\n\n"
+        "Her gün içine biraz daha derin in."
     )
     if "sub_confirmation" not in veri["description"]:
         veri["description"] = veri["description"].rstrip() + cta_sonek
@@ -274,7 +273,8 @@ def videoyu_yukle(
             "description": veri["description"],
             "tags": veri["tags"],
             "categoryId": kategori_id,
-            "defaultLanguage": "en",
+            "defaultLanguage": "tr",
+            "defaultAudioLanguage": "tr",
         },
         "status": {
             "privacyStatus": gizlilik,
@@ -327,8 +327,8 @@ def main() -> int:
         help="COPPA/Made for Kids beyanı. Varsayılan: no (haber içeriği).",
     )
     p.add_argument(
-        "--kategori", choices=["news", "tech", "animals", "edu"], default="edu",
-        help="YouTube kategori: news=25, tech=28, animals=15, edu=27. Varsayılan: edu (psikoloji).",
+        "--kategori", choices=["news", "tech", "animals", "edu", "people"], default="people",
+        help="YouTube kategori: news=25, tech=28, animals=15, edu=27, people=22. Varsayılan: people (Akasha spiritüel).",
     )
     args = p.parse_args()
 
@@ -415,6 +415,7 @@ def main() -> int:
             "tech": YOUTUBE_KATEGORI_TECH,
             "animals": YOUTUBE_KATEGORI_ANIMALS,
             "edu": YOUTUBE_KATEGORI_EDU,
+            "people": YOUTUBE_KATEGORI_PEOPLE,
         }[args.kategori]
         _adim(
             5,

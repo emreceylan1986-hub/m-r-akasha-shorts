@@ -2,10 +2,10 @@ name: M-R Otonom Pipeline
 
 on:
   schedule:
-    # Mindgaps cron — TrendCatcher 12/16/19 · Cosmos 13/17/20 → Mindgaps 14/18/21 UTC
+    # Akasha cron — TC 12/16/19 · Cosmos 13/17/20 · Mindgaps 14/18/21 → Akasha 15/19/22 UTC
     # (protokol #6: quota çakışmasını önlemek için 1'er saat kaydırılmış)
     # 3 video/gün — yeni kanal + paylaşılan GCP quota (10K/gün, 3 kanal) için temkinli.
-    - cron: "0 14,18,21 * * *"
+    - cron: "0 15,19,22 * * *"
   workflow_dispatch:
     inputs:
       gizlilik:
@@ -95,7 +95,7 @@ jobs:
       - name: 4) Yükleyici — YouTube Shorts upload + affiliate açıklama
         env:
           GIZLILIK: ${{ github.event.inputs.gizlilik || 'public' }}
-        run: python yukleyici.py --gizlilik "$GIZLILIK"
+        run: python yukleyici.py --gizlilik "$GIZLILIK" --kategori people
 
       - name: 4b) Post-Upload — Thumbnail set + Pinterest pin + Multilang caption
         if: success()

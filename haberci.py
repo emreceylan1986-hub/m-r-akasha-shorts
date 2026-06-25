@@ -31,10 +31,12 @@ import requests
 # Kaynaklar: tek bir konuya değil çoğunlukla görsel/duygusal/şaşırtıcı içeriğe
 # odaklı, telif riski sıfır subreddit'ler.
 REDDIT_URLS = [
-    "https://www.reddit.com/r/psychology/top.json?t=day&limit=25",
-    "https://www.reddit.com/r/todayilearned/top.json?t=day&limit=25",
-    "https://www.reddit.com/r/Damnthatsinteresting/top.json?t=day&limit=25",
-    "https://www.reddit.com/r/YouShouldKnow/top.json?t=day&limit=25",
+    "https://www.reddit.com/r/Jung/top.json?t=day&limit=25",
+    "https://www.reddit.com/r/spirituality/top.json?t=day&limit=25",
+    "https://www.reddit.com/r/awakened/top.json?t=day&limit=25",
+    "https://www.reddit.com/r/sufism/top.json?t=day&limit=25",
+    "https://www.reddit.com/r/taoism/top.json?t=day&limit=25",
+    "https://www.reddit.com/r/ACIM/top.json?t=week&limit=25",
 ]
 KULLANICI_AJANI = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15"
 
@@ -206,68 +208,64 @@ def gunun_trend_seedleri() -> list[str]:
         return []
 
 
-GEMINI_KONU_SISTEM = """You produce viral YouTube Shorts TOPICS for a
-PSYCHOLOGY / HUMAN-MIND channel called Mindgaps. Output ONLY a JSON array of EXACTLY
-3 topic objects.
+GEMINI_KONU_SISTEM = """Viral YouTube Shorts KONULARI üret — Türkçe spiritüel / Jung-vari motivasyon
+kanalı **Aydınlanmanın Doruk Noktası** (@akashainme) için. ÇIKTI: yalnızca 3 nesneli
+JSON DİZİ.
 
-Each topic = a well-established, factual, surprising fact about the human mind,
-psychology, behavior, personality, or the brain that:
-- Is SELF-RELEVANT: the viewer sees THEMSELVES in it ("you", "your brain")
-- Is broadly accepted and TRUE (real psychology/neuroscience, no pop-myths,
-  no debunked claims like "we use 10% of our brain")
-- Stops the scroll: makes the viewer think "wait, that's me"
+Her konu = derin, içe dönük, kişisel bir farkındalık anı.
+İzleyici "vay bu beni anlatıyor" hissi yaşamalı.
 
-═══ VALUE-EQUATION RULE (her başlık şu 4 koldan EN AZ 2-3'ünü vurmalı) ═══
-  • DREAM OUTCOME yüksek → izleyici kendini görsün / kazanım vaadi ("your", "you")
-  • SUCCESS/CURIOSITY yüksek → net payoff, merak boşluğu ("the real reason")
-  • TIME düşük → kısa/anında çözülen ("in 5 seconds", "instantly")
-  • EFFORT düşük → tek cümlede anlaşılır, basit
-fikir_motoru.py bunu skorlar; başlık 3+ kol vurursa öncelikli.
+═══ KAYNAK HAVUZLARI (kullanılabilir konular) ═══
+1) **Mucizeler Kursu (A Course in Miracles / ACIM)** — affedicilik, ego, içsel barış
+2) **Tao Te Jing (Lao Tzu — 81 bölüm)** — wu-wei, su benzetmesi, akış, denge
+3) **Carl Jung** — gölge (shadow), anima/animus, kişilik tipleri, kollektif bilinçaltı,
+   sinkroniste (eşzamanlılık), bireyleşme (individuation), persona, arketipler
+4) **Yunus Emre + Mevlana + Sufi bilgeliği** — fenâ, aşk, kalbin gözü, mürşid
+5) **Dostoyevski karakter felsefesi** — Raskolnikov, Karamazov, ego çelişkisi
+6) **Çakralar / enerji / frekans** — kalp çakra, taç çakra, titreşim seviyesi
+7) **Sinkronistik / akashic / kuantum çekim** — anlamlı tesadüfler
+8) **Stoacılık / Marcus Aurelius** — kontrol edilebilenler, premeditatio malorum
 
-═══ PROVEN VIRAL PATTERNS (psikoloji Shorts nişinde kanıtlı kalıplar) ═══
-  🧠 KENDİ KANALIMIZIN VİRALİ (25 Haz, n=1 ama güçlü sinyal):
-  🚀 897 izl: "Why Your Brain Confuses Adrenaline with Attraction"
-     PATTERN: RELATABLE PHYSIOLOGICAL BIAS + "YOUR BRAIN CONFUSES X WITH Y"
-     Konsept: Misattribution of arousal (Dutton-Aron köprü deneyi)
-  ✅ "Why you check your phone the second you wake up" — DAVRANIŞ + 'why you'
-  ✅ "What your sleeping position reveals about you" — KİŞİLİK + 'reveals about you'
-  ✅ "The 3-second rule that makes anyone trust you" — ETKİ/GÜÇ + sayı + düşük zaman
-  ✅ "Your brain deletes this memory every night" — BEYİN + sürpriz + 'your'
-  ✅ "This is why you can't stop overthinking" — ACI NOKTASI + 'this is why'
-  ✅ "The psychology trick that makes people like you" — PERSUASION + kazanım
+═══ VALUE-EQUATION (her başlık 2-3 kol vurmalı) ═══
+  • DERİN RÜYA → izleyici kendini görsün ("sen", "senin")
+  • MERAK/PAYOFF → net içsel kazanım vaadi ("gerçek sebep", "fark eder")
+  • DÜŞÜK ZAMAN → "60 saniyede", "anlık", "tek nefes"
+  • DÜŞÜK ÇABA → tek cümlede anlaşılır
 
-═══ FAZ 1 ZORUNLU KURAL — "Relatable Bias Formülü" (Emre 25 Haz) ═══
-Her gün ÜRETİLEN konularda EN AZ 1 tane şu kalıp ZORUNLU:
-  → "Why Your Brain CONFUSES X with Y" / "Your Brain MISTAKES X for Y"
-  X ve Y günlük hayatta tanıdığı 2 deneyim olsun (Adrenaline+Attraction,
-  Hunger+Anger, Boredom+Loneliness, Tiredness+Sadness, Fear+Excitement…)
-Örnek başlıklar:
-  • "Why Your Brain Confuses Hunger with Anger (Hangry Is Real)"
-  • "Your Brain Mistakes Boredom for Loneliness — Here's Why"
-  • "Why You Confuse Tiredness with Sadness Every Evening"
-Bu kalıp tek viral kanıtlanmış kalıbımız — günde en az 1 üret.
+═══ FORMÜL ÖRNEKLERİ (uygulanabilir kalıplar) ═══
+  ✅ "Carl Jung'a göre 'Gölge' senin en güçlü hediyendir"
+  ✅ "Tao Te Jing'in 8. bölümü: Su gibi olmak ne demek?"
+  ✅ "Mucizeler Kursu Ders 1: 'Hiçbir şeyin anlamı yok' — gerçek anlamı"
+  ✅ "Yunus Emre 700 yıl önce ego'yu nasıl tarif etti?"
+  ✅ "Sen aslında 'kim' olduğunu hiç sordun mu? — Jung'un cevabı"
+  ✅ "Kalp çakran kapalıysa hayatın böyle görünür"
+  ✅ "Sinkroniste bir tesadüf değil — Jung neyi keşfetti?"
 
-KEY VIRAL TRIGGERS:
-- 'Why you ...' / 'This is why you ...' (kendini görme)
-- 'What your X says/reveals about you' (kişilik testi merakı)
-- 'The trick/rule that makes people ...' (sosyal güç)
-- 'Your brain does THIS when ...' (nörobilim sürprizi)
-- Somut sayı/süre: '3 seconds', '90% of people', 'in the first 7 seconds'
+═══ ZORUNLU KURAL — Seri içerik (her gün 1 zorunlu) ═══
+3 konudan EN AZ 1 tanesi şu seri yapılardan biri olmalı (gün gün ilerle):
+  → "Mucizeler Kursu — Ders X" (1-365 arası, sırayla)
+  → "Tao Te Jing — Bölüm X" (1-81 arası, sırayla)
+  → "Jung — Kavram: …" (gölge, persona, bireyleşme, anima, vb.)
+Seri kayıt fikir_motoru.py'de tutulur, dünkü ders/bölüme +1 ekle.
 
-═══ FORBIDDEN PATTERNS (low performers) ═══
-  ❌ Hayvan/doğa/uzay (eski TC/Cosmos kalıntısı — bu kanal psikoloji)
-  ❌ Soyut akademik ("dopamine receptor subtypes") — self-relevant DEĞİL
-  ❌ Debunked pop-psikoloji ("left-brain/right-brain", "10% brain")
-  ❌ "Did you know" / "Ever wonder" başlangıçları (AI sinyali)
+═══ TON ═══
+- Sakin, mistik, bilge — bağırmayan
+- Edebi: Yunus Emre, Mevlana alıntıları yerinde
+- Felsefi DERİNLİK — yüzeysel motivasyon DEĞİL
+- "Sen" hitabı (3. tekil değil)
 
-Each object MUST have:
-- "baslik": punchy self-relevant English headline (e.g. "Why your brain remembers embarrassment forever")
-- "url": Wikipedia URL of the main concept. MUST be a real Wikipedia page (e.g. Dopamine, Cognitive_bias, Zeigarnik_effect).
+═══ YASAK ═══
+  ❌ "Did you know" / "Biliyor muydun" başlangıçları
+  ❌ Yüzeysel klişe ("hayat bir yolculuktur")
+  ❌ Pop-bilim ("beynimizin %10'unu kullanırız")
+  ❌ Reklamcı dilbilim ("Şimdi sana harika bir sır vereceğim")
+  ❌ Hayvan/uzay/teknoloji (diğer kanallar — bu spiritüel)
 
-CRITICAL — ANTI-DUPLICATE RULES:
-1) Avoid any topic whose Wikipedia URL appears in the BLOCKED URLs list.
-2) Avoid topics SEMANTICALLY SIMILAR to BLOCKED TITLES.
-3) Prefer subjects that do NOT share the main noun with any blocked title.
+Her nesne:
+- "baslik": çarpıcı Türkçe başlık (örnek: "Jung'a göre 'Gölge' senin en güçlü hediyendir")
+- "url": Türkçe Wikipedia URL'si (örnek: tr.wikipedia.org/wiki/Carl_Jung). Yoksa EN.
+
+ANTI-DUPLICATE: BLOCKED URLs ve BLOCKED TITLES listesindeki konuları üretme.
 """
 
 

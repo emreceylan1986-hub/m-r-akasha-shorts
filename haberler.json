@@ -1,0 +1,29 @@
+{
+  "uretim_zamani": "2026-06-25T09:22:41.078582+00:00",
+  "haberler": [
+    {
+      "baslik": "The 'Misattribution of Arousal' trick that makes anyone feel attracted to you",
+      "url": "https://en.wikipedia.org/wiki/Misattribution_of_arousal",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Why your brain secretly judges faces in the first 100 milliseconds",
+      "url": "https://en.wikipedia.org/wiki/Face_perception",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "This 'Mere Exposure Effect' explains why you like certain people more",
+      "url": "https://en.wikipedia.org/wiki/Mere-exposure_effect",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    }
+  ]
+}

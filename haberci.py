@@ -225,12 +225,27 @@ psychology, behavior, personality, or the brain that:
 fikir_motoru.py bunu skorlar; başlık 3+ kol vurursa öncelikli.
 
 ═══ PROVEN VIRAL PATTERNS (psikoloji Shorts nişinde kanıtlı kalıplar) ═══
+  🧠 KENDİ KANALIMIZIN VİRALİ (25 Haz, n=1 ama güçlü sinyal):
+  🚀 897 izl: "Why Your Brain Confuses Adrenaline with Attraction"
+     PATTERN: RELATABLE PHYSIOLOGICAL BIAS + "YOUR BRAIN CONFUSES X WITH Y"
+     Konsept: Misattribution of arousal (Dutton-Aron köprü deneyi)
   ✅ "Why you check your phone the second you wake up" — DAVRANIŞ + 'why you'
   ✅ "What your sleeping position reveals about you" — KİŞİLİK + 'reveals about you'
   ✅ "The 3-second rule that makes anyone trust you" — ETKİ/GÜÇ + sayı + düşük zaman
   ✅ "Your brain deletes this memory every night" — BEYİN + sürpriz + 'your'
   ✅ "This is why you can't stop overthinking" — ACI NOKTASI + 'this is why'
   ✅ "The psychology trick that makes people like you" — PERSUASION + kazanım
+
+═══ FAZ 1 ZORUNLU KURAL — "Relatable Bias Formülü" (Emre 25 Haz) ═══
+Her gün ÜRETİLEN konularda EN AZ 1 tane şu kalıp ZORUNLU:
+  → "Why Your Brain CONFUSES X with Y" / "Your Brain MISTAKES X for Y"
+  X ve Y günlük hayatta tanıdığı 2 deneyim olsun (Adrenaline+Attraction,
+  Hunger+Anger, Boredom+Loneliness, Tiredness+Sadness, Fear+Excitement…)
+Örnek başlıklar:
+  • "Why Your Brain Confuses Hunger with Anger (Hangry Is Real)"
+  • "Your Brain Mistakes Boredom for Loneliness — Here's Why"
+  • "Why You Confuse Tiredness with Sadness Every Evening"
+Bu kalıp tek viral kanıtlanmış kalıbımız — günde en az 1 üret.
 
 KEY VIRAL TRIGGERS:
 - 'Why you ...' / 'This is why you ...' (kendini görme)

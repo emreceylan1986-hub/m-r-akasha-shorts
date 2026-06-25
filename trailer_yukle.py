@@ -23,23 +23,23 @@ YOUTUBE_SCOPES = [
     "https://www.googleapis.com/auth/youtube.force-ssl",
 ]
 
-TRAILER_TITLE = "Welcome to TrendCatcher — Wild Facts in 30 Seconds"
+TRAILER_TITLE = "Welcome to Mindgaps — Facts About Your Mind in 60 Seconds"
 
-TRAILER_DESC = """Welcome to TrendCatcher — wild facts about extreme animals, anomaly places, and the planet's strangest survivors.
+TRAILER_DESC = """Welcome to Mindgaps — daily psychology & brain shorts about who you really are.
 
-Eagles that hunt goats off cliffs. Lakes that boil. Creatures that shouldn't exist.
+Your mind is hiding things from you. Mindgaps reveals them — science-backed facts about how your brain, personality, habits, and relationships actually work. Why you do what you do, in under 60 seconds.
 
-Four new shorts every day at 3 PM, 7 PM, 10 PM and 1 AM (TR).
+Three new shorts every day. For the curious mind, the wanderer, the dreamer.
 
-For the curious. For the explorer. For anyone who still wonders.
+Subscribe → https://youtube.com/@getmindgaps?sub_confirmation=1
 
-Subscribe → https://youtube.com/@TrendCatcher?sub_confirmation=1
+Understand yourself a little better, every day.
 
-#Shorts #nature #wildlife #animals #science #anomaly"""
+#Shorts #psychology #psychologyfacts #brain #mindfacts #fyp"""
 
 TRAILER_TAGS = [
-    "trendcatcher", "wildlife", "nature", "animals", "extreme animals",
-    "science", "shorts", "wild facts", "channel trailer", "welcome",
+    "mindgaps", "psychology", "psychology facts", "brain facts", "mind facts",
+    "human behavior", "neuroscience", "shorts", "channel trailer", "welcome",
 ]
 
 

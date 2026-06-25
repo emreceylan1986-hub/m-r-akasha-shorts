@@ -26,14 +26,14 @@ Path(montajci.GECICI_KLASOR).mkdir(exist_ok=True)
 if hasattr(montajci, "CIKTI_KLASOR"):
     Path(montajci.CIKTI_KLASOR).mkdir(exist_ok=True)
 
-SCRIPT = """Welcome to TrendCatcher.
+SCRIPT = """Welcome to Mindgaps.
 
-Wild facts in 30 seconds. Extreme animals, anomaly places, the planet's strangest survivors — four new shorts every day.
+Quick, science-backed facts about how your brain, personality, habits, and relationships actually work. Why you do what you do — in under 60 seconds.
 
-Hit subscribe. The wild is waiting."""
+Three new shorts every day. Hit subscribe and notice yourself differently."""
 
-# TC nişi — Pexels'ten doğa/vahşi yaşam videoları
-KEYWORDS = ["wild eagle flying", "tropical jungle nature", "mountain landscape"]
+# Mindgaps nişi — Pexels'ten beyin/zihin/psikoloji görselleri
+KEYWORDS = ["human brain closeup", "thinking woman face", "neurons firing animation"]
 
 
 def log(msg):

@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-06-25T20:45:44.001727+00:00",
+  "uretim_zamani": "2026-06-25T20:57:39.813333+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'ye göre 'aşk', 'ben'liği nasıl eritir?",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mevlana'nın kalbin gözüyle dünyayı görmek ne demek?",
-      "url": "https://tr.wikipedia.org/wiki/Mevlana_Celaleddin-i_Rumi",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Dostoyevski'nin Raskolnikov'u: Vicdan ve Ego arasında sıkışmak",
-      "url": "https://tr.wikipedia.org/wiki/Su%C3%A7_ve_Ceza",
+      "baslik": "Kalp çakran tıkalıysa, aşkı neden hissedemiyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sinkroniste: Evrenin sana fısıldadığı anlamlı tesadüfler",
+      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Stoacılık: Kontrol edemediğin şeyler yüzünden neden acı çekiyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/Stoac%C4%B1l%C4%B1k",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

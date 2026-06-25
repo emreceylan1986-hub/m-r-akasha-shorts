@@ -49,39 +49,49 @@ FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 
 KEYWORD_SISTEM_PROMPTU = """You output ONLY a JSON array of exactly 3 short
 visual stock-footage search queries (1–4 English words each) for a viral
-YouTube Short in the ANIMAL / NATURE / AMAZING-FACTS niche, IN NARRATIVE ORDER.
+YouTube Short in the SPIRITUAL / JUNG / SUFI / MYSTICAL / MEDITATION niche
+(Turkish channel "Aydınlanmanın Doruk Noktası"), IN NARRATIVE ORDER.
 
-═══ HARD RULE — SUBJECT FIDELITY ═══
-The script names a SPECIFIC subject (a species, place, or phenomenon). Identify
-the PRIMARY SUBJECT and put it in ALL THREE queries.
+═══ TEMA EVRENİ (ZORUNLU) ═══
+Bu kanalın görsel dünyası: meditasyon, doğa, gökyüzü, yıldız, ay, gün doğumu/
+batımı, mum ışığı, sis, dağ silüeti, sakin deniz/göl, yapraklar, kuş uçuşu,
+gölge, ışık huzmesi, eski kitap, Buddha/derviş silüeti, sema/sufi figürü,
+yoga/lotus pozu, kapalı göz/yüz, su damlası, dua eli, mandala, kristal,
+karanlık → ışık geçişi, orman güneşi, çay/buhar.
 
-- Query 1 MUST be the EXACT subject name (most specific form).
-  • If species: common name + "closeup" or "footage" (e.g. "oarfish closeup",
-    "tardigrade microscope", "mantis shrimp footage")
-  • If place: place name + descriptor (e.g. "Lake Hillier pink", "Salar Uyuni")
-  • If phenomenon: phenomenon name (e.g. "bioluminescence ocean",
-    "northern lights aurora")
-- Query 2 = supporting visual still tied to the subject (habitat, scale,
-  behavior, prey). NOT generic. Example for oarfish: "deep sea silver fish",
-  NOT "deep ocean".
-- Query 3 = atmosphere/context that PAIRS with the subject. Slightly broader
-  is okay but must still relate (e.g. "deep sea darkness" for oarfish, NOT
-  "blue sky"). For broader nature stories use the biome of the species.
+═══ HARD RULE — TEMA SADAKATİ ═══
+Her senaryo bir KAVRAM anlatır (ego, gölge, anlam, teslimiyet, bireyleşme,
+çakra, sinkroniste, vd.). Bu kavramı bilinçaltı görsel metaforla bağla.
 
-NEVER use a generic biome (just "ocean", "forest", "sky") as Query 1. The
-viewer KNOWS what you said the subject is — if your footage doesn't show it,
-they call it out and trust dies.
+- Query 1 = ana DUYGU/AKSİYON görseli (meditasyon, dua, düşünen yüz, kapalı
+  göz, lotus pose). Soyut kavram (ego, gölge) değil — onu temsil eden HUMAN
+  veya DOĞA görseli.
+- Query 2 = ATMOSFER/DOĞA (gün doğumu, sis, dağ silüeti, yıldızlı gökyüzü,
+  mum, ay, sakin deniz, orman güneşi).
+- Query 3 = SEMBOL/DETAY (mandala kapatma, su damlası, ışık huzmesi, eski
+  kitap sayfası, çay buharı, mum alevi, yaprak düşüşü).
 
-If the subject is so rare that no stock footage will exist (e.g. extinct
-species, deep-sea anomalies), use the common name + "illustration" or
-"animation" so we get artwork instead of unrelated stock.
+═══ YASAKLAR ═══
+- ASLA: ofis, laptop, beyaz tahta, post-it, plaza, takım elbise, market,
+  AVM, telefon ekranı, çocuk oyuncağı, sanat stüdyosu, boş oda, mutfak,
+  spor, kahve dükkanı, dans kulübü.
+- ASLA Query 1 olarak "blank canvas" / "empty room" / "abstract texture" /
+  "fresh perspective" gibi soyut/zayıf eşleşmeler.
+- Yakın çekim insan yüzü > geniş peyzaj. Hareket > durağan.
 
-═══ STYLE ═══
-- Close-ups beat wide shots. Faces beat scenery. Motion beats stills.
-- Avoid: people in offices, logos, abstract data, empty rooms, brand shots.
+═══ KOMBİNASYON ÖRNEKLERİ ═══
+- Mucizeler Kursu — anlam:
+  ["woman meditation eyes closed", "golden sunrise mountain", "candle flame slow"]
+- Carl Jung — gölge:
+  ["man silhouette mirror", "dark forest light beam", "shadow on wall flicker"]
+- Tao — boşluk:
+  ["lotus position water", "still mountain lake", "single leaf falling"]
+- Sufi — teslimiyet:
+  ["whirling dervish slow", "stars night sky", "hand reaching light"]
+- Çakra — enerji:
+  ["yoga lotus sunrise", "energy light spine", "mandala painting closeup"]
 
-Format example for an oarfish video:
-["oarfish footage", "deep sea silver fish", "ocean depths darkness"]
+İngilizce yaz (Pexels EN arar) ama TEMA spiritüel/mistik olsun.
 """
 
 

@@ -20,35 +20,37 @@ from pathlib import Path
 
 PANEL_KOK = Path(__file__).parent
 
-# Hazır soru havuzu — Gemini fail olursa düşülecek fallback
+# Hazır soru havuzu — Gemini fail olursa düşülecek fallback (TÜRKÇE)
 SORULAR = [
-    "Did this match your experience? 🧠",
-    "Wait — did you catch yourself doing this? 👇",
-    "Which mind trick surprised you most? 🤯",
-    "Have you noticed this in yourself?",
-    "Drop a 🧠 if this hit different.",
-    "What's a psychology fact that blew YOUR mind?",
-    "Comment if you recognized yourself here 👇",
-    "Did this change how you see yourself?",
+    "Bu sözler içinde sana en çok ne dokundu? 👇",
+    "Sen bugün egonun mu yoksa ruhunun mu sesini dinledin? 🕯️",
+    "Bunu kendi hayatında nerede fark ettin? ✨",
+    "İçindeki gölgeyle hiç yüzleştin mi? 🌙",
+    "Hangi cümle sana 'tam da bendim' dedirtti? 💫",
+    "Bugün neyi bırakmaya hazırsın? 🍂",
+    "Sessizliğin sana ne fısıldıyor? 🤍",
+    "Bu farkındalık seni nasıl değiştirdi? 👇",
 ]
 
 
 def gemini_soru_uret(baslik: str, senaryo: str = "") -> str | None:
-    """Video konusuna uygun, kısa engagement sorusu üret."""
+    """Video konusuna uygun, kısa engagement sorusu üret (TÜRKÇE)."""
     try:
         import bridge
     except ImportError:
         return None
     sistem = (
-        "You are a YouTube Shorts creator about to write a PINNED COMMENT under "
-        "your own video. Goal: trigger replies. Output ONE engaging question "
-        "(max 12 words, English). NO hashtags, NO links, NO 'subscribe'. End "
-        "with an emoji or 👇."
+        "Sen 'Aydınlanmanın Doruk Noktası' adlı Türkçe spiritüel/Jung YouTube "
+        "kanalının sahibisin ve kendi videonun altına SABİTLENMİŞ YORUM "
+        "yazıyorsun. Amaç: izleyiciyi yanıt vermeye davet etmek. SADECE TEK bir "
+        "içten, derin soru üret (en fazla 12 kelime, TÜRKÇE). Hashtag YOK, link "
+        "YOK, 'abone ol' YOK. Sıcak, samimi, 'sen' diliyle. Sonunda bir emoji "
+        "veya 👇 olsun."
     )
     prompt = (
-        f"Video title: {baslik}\n"
-        f"Script context: {senaryo[:250]}\n\n"
-        f"Your pinned comment (1 line, max 12 words):"
+        f"Video başlığı: {baslik}\n"
+        f"Senaryo bağlamı: {senaryo[:250]}\n\n"
+        f"Sabitlenmiş yorumun (1 satır, en fazla 12 kelime, Türkçe):"
     )
     try:
         c = bridge.gemini_metin_uret(prompt=prompt, sistem_promptu=sistem,

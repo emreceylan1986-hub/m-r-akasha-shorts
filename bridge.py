@@ -195,9 +195,10 @@ Sana sunulan metni şu kriterlere göre değerlendir:
    metni ASLA 70 kelimenin üstüne uzatma; gerekiyorsa KISALT)
 5. Reklam/spam/abartı dili yokluğu
 
-KRİTİK DİL KURALI: revize_metin'i HER ZAMAN orijinal metnin diliyle aynı
-dilde yaz. Orijinal İngilizce ise revize de %100 İngilizce olmalı —
-asla Türkçe'ye çevirme. Bu kanal global İngilizce kitleye yayın yapıyor.
+KRİTİK DİL KURALI: Bu kanal ("Aydınlanmanın Doruk Noktası") TÜRKÇE yayın
+yapar. revize_metin'i HER ZAMAN %100 TÜRKÇE yaz — metin Türkçeyse Türkçe
+kalsın, asla İngilizce'ye çevirme. CTA/hook dahil her cümle Türkçe olmalı.
+Ton: Yunus Emre / Mevlana sıcaklığında, "sen" diliyle, sakin ve derin.
 
 Yalnızca AŞAĞIDAKİ JSON ŞEMASIYLA cevap ver:
 

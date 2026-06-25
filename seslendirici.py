@@ -30,8 +30,8 @@ CIKTI_KLASORU = Path(__file__).parent / "ses_ciktilari"
 
 SES = "tr-TR-EmelNeural"          # Türkçe kadın sıcak ses (Akasha — kadın sahibi)
 SES_IKINCI = "tr-TR-AhmetNeural"  # Türkçe erkek ses (dialog için)
-HIZ = "-8%"        # Hafif yavaş — spiritüel/derin ton (Türkçe TTS biraz hızlı)
-PERDE = "+0Hz"
+HIZ = "-3%"        # Doğal akıcı ton (-8% fazla yavaş/robotikti, 25 Haz düzeltme)
+PERDE = "+2Hz"     # Hafif sıcak tonlama
 SES_SEVIYESI = "+0%"
 
 # FAZ 8: Çarşamba (haftada 1) → dialog formatı dene

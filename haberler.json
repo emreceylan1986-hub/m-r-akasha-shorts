@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-25T16:13:40.109325+00:00",
+  "uretim_zamani": "2026-06-25T19:52:02.355182+00:00",
   "haberler": [
     {
-      "baslik": "The 7-Second Rule That Makes Anyone Trust You Instantly",
-      "url": "https://en.wikipedia.org/wiki/First_impression",
+      "baslik": "Mucizeler Kursu — Ders 3: 'Hiçbir şeyin anlamı yok' derken, aslında ne kastediliyor?",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Why you instantly judge people based on their voice (and what it says about you)",
-      "url": "https://en.wikipedia.org/wiki/Voice_perception",
+      "baslik": "Tao Te Jing — Bölüm 3: 'Hiçbir şey yapmama' sanatının gizemi",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_King",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Your brain decides if you like someone in 1/10th of a second. This is how.",
-      "url": "https://en.wikipedia.org/wiki/Thin-slicing",
+      "baslik": "Jung'a göre 'Gölge'nin karanlığı, senin en büyük ışık potansiyelin olabilir mi?",
+      "url": "https://tr.wikipedia.org/wiki/Carl_Jung",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

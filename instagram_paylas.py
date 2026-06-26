@@ -210,8 +210,10 @@ def paylas(mp4: Path, caption: str = "", reel_de: bool = True) -> bool:
     uid = _env("IG_AKASHA_USER_ID")
     token = _env("IG_AKASHA_TOKEN")
 
-    # Story'ye YouTube kanal kartı göm (alt orta). Reel'de orijinal kalır.
-    story_mp4 = youtube_kart_bindir(mp4)
+    # 26 Haz: Emre kartı beğenmedi (altyazıyla çakışıyor + tıklanmıyor) → KALDIRILDI.
+    # Story tertemiz, orijinal video. Tıklanabilir YT link API'de yok; yönlendirme
+    # IG profil bio linkinden. youtube_kart_bindir() kodda duruyor ama çağrılmıyor.
+    story_mp4 = mp4
 
     # Host: R2 varsa onu kullan (daha stabil), yoksa catbox (anahtarsız varsayılan)
     video_url = (r2_yukle_public(story_mp4) if _env("R2_ENDPOINT") else None) \

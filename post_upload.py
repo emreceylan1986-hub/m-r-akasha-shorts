@@ -85,6 +85,21 @@ def multilang_caption(veri: dict) -> bool:
         print(f"  multilang fail: {h}"); return False
 
 
+def ig_story_paylas(veri: dict) -> bool:
+    """En son üretilen MP4'ü @akashainme'ye STORY + REEL akıt (gated)."""
+    try:
+        import instagram_paylas
+    except ImportError as h:
+        print(f"  instagram_paylas modül yok: {h}"); return False
+    mp4lar = sorted((PANEL_KOK / "shorts_ciktilari").glob("shorts_*.mp4"),
+                    key=lambda p: p.stat().st_mtime, reverse=True)
+    if not mp4lar:
+        print("  shorts MP4 bulunamadı — atlandı"); return False
+    yt = f"https://youtu.be/{veri['video_id']}"
+    caption = f"{veri['title']}\n\nDevamı YouTube'da 🕯️ {yt}\n\n#spiritüellik #farkındalık #jung #içsesyolculuk"
+    return instagram_paylas.paylas(mp4lar[0], caption, reel_de=True)
+
+
 def main() -> int:
     veri = _veri_oku()
     print(f"[post_upload] Video: {veri['video_id']} | {veri['title'][:50]}")
@@ -92,16 +107,20 @@ def main() -> int:
     sonuclar = {}
 
     # 1) Thumbnail
-    print("\n[1/3] Thumbnail üretim + upload...")
+    print("\n[1/4] Thumbnail üretim + upload...")
     thumb_yolu = PANEL_KOK / f"_thumb_{veri['video_id']}.png"
     sonuclar["thumbnail"] = thumbnail_uret_ve_yukle(veri)
 
     # 2) Pinterest pin
-    print("\n[2/3] Pinterest pin...")
+    print("\n[2/4] Pinterest pin...")
     sonuclar["pinterest"] = pinterest_pin_olustur(veri, thumb_yolu if thumb_yolu.exists() else None)
 
-    # 3) Multilang caption
-    print("\n[3/3] Multilang caption upload (tr,es,pt)...")
+    # 3) Instagram STORY + REEL (@akashainme) — gated, token gelince aktif
+    print("\n[3/4] Instagram story + reel (@akashainme)...")
+    sonuclar["instagram"] = ig_story_paylas(veri)
+
+    # 4) Multilang caption — Türkçe kanal, sadece tr (es/pt kapalı)
+    print("\n[4/4] Multilang caption upload...")
     sonuclar["multilang"] = multilang_caption(veri)
 
     # Temizle

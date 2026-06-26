@@ -98,6 +98,73 @@ def r2_yukle_public(mp4: Path) -> str | None:
 
 
 # ---------------------------------------------------------------------------
+def _youtube_kart_png() -> "Path | None":
+    """Story altına gömülecek YouTube kanal kartını (1080x1920 şeffaf) üret/cache'le."""
+    from pathlib import Path as _P
+    kok = _P(__file__).parent
+    kart = kok / "branding" / "yt_story_kart.png"
+    if kart.exists():
+        return kart
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except ImportError:
+        return None
+    W, H = 1080, 1920
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    # Kart: alt-orta, IG UI güvenli bölgesinin üstünde (y~1500)
+    kw, kh = 880, 150
+    kx, ky = (W - kw) // 2, 1500
+    # Yarı saydam koyu pill
+    d.rounded_rectangle([kx, ky, kx + kw, ky + kh], radius=34, fill=(15, 12, 30, 235))
+    # YouTube ikonu (kırmızı yuvarlak dikdörtgen + beyaz üçgen)
+    iy = ky + (kh - 84) // 2
+    ix = kx + 36
+    d.rounded_rectangle([ix, iy, ix + 120, iy + 84], radius=22, fill=(255, 0, 0, 255))
+    pcx, pcy = ix + 60, iy + 42
+    d.polygon([(pcx - 18, pcy - 22), (pcx - 18, pcy + 22), (pcx + 26, pcy)], fill=(255, 255, 255, 255))
+    # Metin
+    try:
+        f1 = ImageFont.truetype("/System/Library/Fonts/HelveticaNeue.ttc", 44, index=1)
+        f2 = ImageFont.truetype("/System/Library/Fonts/HelveticaNeue.ttc", 32, index=0)
+    except Exception:
+        f1 = ImageFont.load_default(); f2 = ImageFont.load_default()
+    tx = ix + 150
+    d.text((tx, ky + 34), "Aydınlanmanın Doruk Noktası", font=f1, fill=(248, 245, 230, 255))
+    d.text((tx, ky + 88), "▶ YouTube'da devamı — @akashainme", font=f2, fill=(212, 175, 55, 255))
+    kart.parent.mkdir(exist_ok=True)
+    img.save(kart, "PNG")
+    return kart
+
+
+def youtube_kart_bindir(mp4: "Path") -> "Path":
+    """Story videosunun altına YouTube kanal kartını bas → yeni mp4 döner.
+    Başarısızsa orijinal mp4'ü döner (story yine atılır)."""
+    import subprocess
+    try:
+        import imageio_ffmpeg
+        ff = imageio_ffmpeg.get_ffmpeg_exe()
+    except ImportError:
+        return mp4
+    kart = _youtube_kart_png()
+    if not kart:
+        return mp4
+    cikti = mp4.with_name(mp4.stem + "_ytkart.mp4")
+    try:
+        subprocess.run(
+            [ff, "-y", "-i", str(mp4), "-i", str(kart),
+             "-filter_complex", "[0][1]overlay=0:0:format=auto",
+             "-c:a", "copy", "-c:v", "libx264", "-preset", "veryfast",
+             "-pix_fmt", "yuv420p", str(cikti)],
+            check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+        )
+        return cikti if cikti.exists() else mp4
+    except Exception as h:
+        print(f"[ig] YouTube kartı basılamadı ({str(h)[:80]}) → kartsız devam")
+        return mp4
+
+
+# ---------------------------------------------------------------------------
 def _container_olustur(uid: str, token: str, video_url: str,
                        media_type: str, caption: str = "") -> str | None:
     """STORIES veya REELS container oluştur → creation_id döner."""
@@ -143,9 +210,12 @@ def paylas(mp4: Path, caption: str = "", reel_de: bool = True) -> bool:
     uid = _env("IG_AKASHA_USER_ID")
     token = _env("IG_AKASHA_TOKEN")
 
+    # Story'ye YouTube kanal kartı göm (alt orta). Reel'de orijinal kalır.
+    story_mp4 = youtube_kart_bindir(mp4)
+
     # Host: R2 varsa onu kullan (daha stabil), yoksa catbox (anahtarsız varsayılan)
-    video_url = (r2_yukle_public(mp4) if _env("R2_ENDPOINT") else None) \
-        or catbox_yukle_public(mp4)
+    video_url = (r2_yukle_public(story_mp4) if _env("R2_ENDPOINT") else None) \
+        or catbox_yukle_public(story_mp4)
     if not video_url:
         print("[ig] public MP4 URL üretilemedi — atlandı")
         return False

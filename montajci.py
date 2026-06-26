@@ -373,6 +373,40 @@ def _gorsel_qc_gecer_mi(klip_yolu: Path, keyword: str, baslik: str = "") -> bool
         return True
 
 
+def gemini_gorsel_uret(keyword: str, hedef_png: Path, baslik: str = "") -> bool:
+    """Spiritüel/mistik temalı ÖZGÜN dikey görsel üret (gemini-2.5-flash-image).
+    Pexels uygun klip bulamayınca devreye girer → niş'e %100 uygun görsel."""
+    try:
+        import bridge
+        from google.genai import types as _gt
+        client = bridge._client()
+    except Exception as h:
+        print(f"   ↳ Gemini görsel altyapı yok: {str(h)[:80]}")
+        return False
+    prompt = (
+        f"Cinematic vertical 9:16 spiritual and mystical image for a calm meditation "
+        f"video. Theme: {keyword}. Mood: serene, warm golden mystical light, soft "
+        f"ethereal mist, Jungian/sufi spiritual atmosphere, peaceful. Photorealistic, "
+        f"atmospheric, cinematic color. NO text, NO words, NO watermark, NO logo."
+    )
+    import time as _t
+    for deneme in range(2):
+        try:
+            r = client.models.generate_content(
+                model="gemini-2.5-flash-image", contents=prompt,
+                config=_gt.GenerateContentConfig(response_modalities=["IMAGE", "TEXT"]),
+            )
+            for p in r.candidates[0].content.parts:
+                if getattr(p, "inline_data", None) and p.inline_data.data:
+                    with open(hedef_png, "wb") as f:
+                        f.write(p.inline_data.data)
+                    return True
+        except Exception as h:
+            print(f"   ↳ Gemini görsel hata ({deneme+1}/2): {str(h)[:100]}")
+            _t.sleep(3)
+    return False
+
+
 def gorsel_kaynak_indir(keyword: str, hedef: Path, sure_sn: float, api_key: str,
                          baslik: str = "") -> dict:
     """
@@ -400,7 +434,19 @@ def gorsel_kaynak_indir(keyword: str, hedef: Path, sure_sn: float, api_key: str,
     if qc_passed and pexels_bilgi:
         return pexels_bilgi
 
-    # 2. Wikimedia deneme
+    # 2. AI ÖZGÜN GÖRSEL (gemini-2.5-flash-image) — niş'e %100 uygun, Wikimedia'dan
+    #    daha temalı. Pexels QC'den geçemeyince devreye girer.
+    ai_png = hedef.with_suffix(".ai.png")
+    try:
+        if gemini_gorsel_uret(keyword, ai_png, baslik):
+            foto_video_yap(ai_png, hedef, sure_sn)
+            ai_png.unlink(missing_ok=True)
+            print(f"   ↳ AI özgün görsel üretildi (Gemini) — '{keyword}'")
+            return {"sure": sure_sn, "fotograf": f"AI-Gemini: {keyword}"}
+    except Exception as e:
+        print(f"   ↳ AI görsel video'ya çevrilemedi ({str(e)[:80]}) → Wikimedia")
+
+    # 3. Wikimedia deneme
     foto = hedef.with_suffix(".jpg")
     try:
         bilgi = wikimedia_foto_indir(keyword, foto)

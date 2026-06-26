@@ -10,10 +10,10 @@ Akış:
   3) (opsiyon) REELS container oluştur → publish (kalıcı + erişim)
 
 ⚠️ GATE — şu env'ler yoksa GRACEFUL SKIP (video yine YouTube'da yayında):
-  IG_AKASHA_TOKEN     : @akashainme uzun ömürlü access token (İşletme hesabı)
-  IG_AKASHA_USER_ID   : IG business user id
-  R2_ENDPOINT / R2_ACCESS_KEY / R2_SECRET_KEY / R2_BUCKET / R2_PUBLIC_BASE
-                        : public MP4 host (yoksa story atlanır)
+  IG_AKASHA_TOKEN     : @akashainme access token (Akasha Sosyal app, appid 1919615585416373)
+  IG_AKASHA_USER_ID   : IG business user id (@akashainme)
+Host: VARSAYILAN catbox.moe (anahtarsız, ücretsiz). R2_* env'leri OPSİYONEL
+(verilirse R2 tercih edilir, daha stabil). Yani host için kimlik GEREKMEZ.
 
 ⚠️ DURUM (26 Haz): Kod HAZIR ama CANLI TEST EDİLMEDİ — token + İşletme hesabı
 gelince ilk gerçek story ile doğrulanacak. O ana kadar "çalışıyor" denmeyecek.
@@ -44,13 +44,31 @@ def _env(*adlar: str) -> str | None:
 
 
 def _gate_ok() -> tuple[bool, str]:
+    # Host artık catbox.moe (anahtarsız) → R2 zorunlu değil. Sadece IG token gerek.
     if not _env("IG_AKASHA_TOKEN"):
         return False, "IG_AKASHA_TOKEN yok"
     if not _env("IG_AKASHA_USER_ID"):
         return False, "IG_AKASHA_USER_ID yok"
-    if not _env("R2_ENDPOINT"):
-        return False, "R2 host env yok (public MP4 URL üretilemez)"
     return True, ""
+
+
+def catbox_yukle_public(mp4: Path) -> str | None:
+    """MP4'ü catbox.moe'ye yükle (ücretsiz, anahtarsız, kalıcı) → public URL.
+    IG video_url buradan çeker. 200MB'a kadar destekler."""
+    try:
+        with open(mp4, "rb") as f:
+            r = requests.post(
+                "https://catbox.moe/user/api.php",
+                data={"reqtype": "fileupload"},
+                files={"fileToUpload": (mp4.name, f, "video/mp4")},
+                timeout=180,
+            )
+        if r.status_code == 200 and r.text.startswith("http"):
+            return r.text.strip()
+        print(f"[ig] catbox hata: {r.status_code} {r.text[:120]}")
+    except Exception as h:
+        print(f"[ig] catbox yükleme hatası: {str(h)[:120]}")
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -122,7 +140,9 @@ def paylas(mp4: Path, caption: str = "", reel_de: bool = True) -> bool:
     uid = _env("IG_AKASHA_USER_ID")
     token = _env("IG_AKASHA_TOKEN")
 
-    video_url = r2_yukle_public(mp4)
+    # Host: R2 varsa onu kullan (daha stabil), yoksa catbox (anahtarsız varsayılan)
+    video_url = (r2_yukle_public(mp4) if _env("R2_ENDPOINT") else None) \
+        or catbox_yukle_public(mp4)
     if not video_url:
         print("[ig] public MP4 URL üretilemedi — atlandı")
         return False

@@ -98,9 +98,12 @@ jobs:
           GIZLILIK: ${{ github.event.inputs.gizlilik || 'public' }}
         run: python yukleyici.py --gizlilik "$GIZLILIK" --kategori people
 
-      - name: 4b) Post-Upload — Thumbnail set + Pinterest pin + Multilang caption
+      - name: 4b) Post-Upload — Thumbnail set + Pinterest pin + Instagram story
         if: success()
         continue-on-error: true
+        env:
+          IG_AKASHA_TOKEN: ${{ secrets.IG_AKASHA_TOKEN }}
+          IG_AKASHA_USER_ID: ${{ secrets.IG_AKASHA_USER_ID }}
         run: python post_upload.py
 
       - name: 5) Pattern Detector — viral öğrenme loop

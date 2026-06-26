@@ -55,9 +55,27 @@ def _gate_ok() -> tuple[bool, str]:
     return True, ""
 
 
+def tmpfiles_yukle_public(mp4: Path) -> str | None:
+    """MP4'ü tmpfiles.org'a yükle (ücretsiz, anahtarsız, CI/bulut IP kabul eder).
+    Dönen 'page' URL'sini direct '/dl/' URL'sine çevirir (IG video_url için).
+    Dosya ~1 saat tutulur; IG container oluştururken saniyeler içinde çeker → yeterli."""
+    try:
+        with open(mp4, "rb") as f:
+            r = requests.post("https://tmpfiles.org/api/v1/upload",
+                              files={"file": (mp4.name, f, "video/mp4")}, timeout=180)
+        if r.status_code == 200:
+            page = ((r.json() or {}).get("data") or {}).get("url", "")
+            if page.startswith("http"):
+                return page.replace("tmpfiles.org/", "tmpfiles.org/dl/", 1)
+        print(f"[ig] tmpfiles hata: {r.status_code} {r.text[:120]}")
+    except Exception as h:
+        print(f"[ig] tmpfiles yükleme hatası: {str(h)[:120]}")
+    return None
+
+
 def catbox_yukle_public(mp4: Path) -> str | None:
-    """MP4'ü catbox.moe'ye yükle (ücretsiz, anahtarsız, kalıcı) → public URL.
-    IG video_url buradan çeker. 200MB'a kadar destekler."""
+    """catbox.moe yedek host (anahtarsız). NOT: bulut/datacenter IP'lerini reddeder
+    (GitHub Actions'tan '412 Invalid uploader') → ana host tmpfiles."""
     try:
         with open(mp4, "rb") as f:
             r = requests.post(
@@ -215,8 +233,9 @@ def paylas(mp4: Path, caption: str = "", reel_de: bool = True) -> bool:
     # IG profil bio linkinden. youtube_kart_bindir() kodda duruyor ama çağrılmıyor.
     story_mp4 = mp4
 
-    # Host: R2 varsa onu kullan (daha stabil), yoksa catbox (anahtarsız varsayılan)
+    # Host önceliği: R2 (varsa) → tmpfiles (CI-dostu ana host) → catbox (yedek)
     video_url = (r2_yukle_public(story_mp4) if _env("R2_ENDPOINT") else None) \
+        or tmpfiles_yukle_public(story_mp4) \
         or catbox_yukle_public(story_mp4)
     if not video_url:
         print("[ig] public MP4 URL üretilemedi — atlandı")

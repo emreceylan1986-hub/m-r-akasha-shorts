@@ -97,7 +97,7 @@ def ig_story_paylas(veri: dict) -> bool:
         print("  shorts MP4 bulunamadı — atlandı"); return False
     yt = f"https://youtu.be/{veri['video_id']}"
     caption = f"{veri['title']}\n\nDevamı YouTube'da 🕯️ {yt}\n\n#spiritüellik #farkındalık #jung #içsesyolculuk"
-    return instagram_paylas.paylas(mp4lar[0], caption, reel_de=True)
+    return instagram_paylas.paylas(mp4lar[0], caption, reel_de=False)  # Emre 26 Haz: sadece STORY
 
 
 def main() -> int:

@@ -1,41 +1,346 @@
 {
-  "guncelleme_tarihi": "2026-06-17",
-  "esik_izlenme": 700,
+  "uretim": "2026-06-26T21:20:56Z",
+  "esik_izlenme": 500,
   "viral": {
-    "video_sayisi": 13,
-    "ortalama_izlenme": 1024,
+    "video_sayisi": 1,
+    "ortalama_izlenme": 914.0,
+    "ortalama_baslik_uzunluk": 50.0,
+    "top_kelimeler": [
+      [
+        "your",
+        1
+      ],
+      [
+        "brain",
+        1
+      ],
+      [
+        "confuses",
+        1
+      ],
+      [
+        "adrenaline",
+        1
+      ],
+      [
+        "attraction",
+        1
+      ]
+    ],
+    "top_tagler": [
+      [
+        "adrenaline",
+        1
+      ],
+      [
+        "attraction",
+        1
+      ],
+      [
+        "brainfacts",
+        1
+      ],
+      [
+        "emotions",
+        1
+      ],
+      [
+        "fyp",
+        1
+      ],
+      [
+        "humanbehavior",
+        1
+      ],
+      [
+        "misattributionofarousal",
+        1
+      ],
+      [
+        "perception",
+        1
+      ],
+      [
+        "psychology",
+        1
+      ],
+      [
+        "psychologyfacts",
+        1
+      ],
+      [
+        "shorts",
+        1
+      ]
+    ],
     "ornek_basliklar": [
-      "Why Babies React in Surprising Ways",
-      "Thorny dragons drink water through their skin using capillary action",
-      "Blobfish: Deep-Sea Marvel's Secret!",
-      "Australia's Lake Hillier is a naturally bubblegum pink lake",
-      "Nature's Real-Life Horror: The Zombie-Ant Fungus!",
-      "Frogs Freeze Solid & Revive!",
-      "Cavefish Thrive in Total Darkness Without Eyes!",
-      "Deep Sea Mystery: Giant Squid's Epic Battles!",
-      "Weaver Birds: Nature's Master Architects",
-      "Mountain goats use specialized hooves to climb sheer cliffs",
-      "Eagles have incredible eyesight, spotting a mouse from a mile away",
-      "The Lake That Boils Non-Stop: Dominica's Fiery Secret",
-      "Mimic Octopus Transforms into Over 15 Different Marine Animals"
-    ],
-    "ortak_paternler": [
-      "Yoksunluk/sıra dışı yetenek — 'without eyes', 'no rain', 'no mouth', 'freeze and revive'",
-      "Anomali yer — 'pink lake', 'boiling lake', 'dry valleys', 'dead sea'",
-      "Garip yaratık + spesifik isim — 'Blobfish', 'Thorny dragon', 'Mimic Octopus'",
-      "Korku/dramatik — 'real-life horror', 'zombie-ant fungus', 'epic battles'",
-      "Süper yetenek + somut sayı — '200 MPH', 'a mile away', 'over 15 species'",
-      "Sırf 'secret' kelimesi 3x patlamış: 'Marvel's Secret', 'Fiery Secret', 'Mind-Bending Secret'"
-    ],
-    "yasak_paternler": [
-      "Tech haberleri — '... Ditches GitHub', 'Spain Blocks ...' (eski TC kalıntısı, dip aldı)",
-      "Soyut concept — 'Magnetic Field Weakening' (7 izlenme)",
-      "Cliche giriş — 'Did you know', 'Ever wonder' (algoritma AI sinyali)"
+      "Why Your Brain Confuses Adrenaline with Attraction"
     ]
   },
-  "metric": {
-    "top_5_ortalama_izlenme": 1240,
-    "kanal_ortalama_izlenme": 525,
-    "carpan": 2.4
-  }
+  "orta": {
+    "video_sayisi": 2,
+    "ortalama_izlenme": 274.0,
+    "ortalama_baslik_uzunluk": 49.0,
+    "top_kelimeler": [
+      [
+        "decide",
+        1
+      ],
+      [
+        "trust",
+        1
+      ],
+      [
+        "seconds",
+        1
+      ],
+      [
+        "kalbinin",
+        1
+      ],
+      [
+        "kap",
+        1
+      ],
+      [
+        "neden",
+        1
+      ],
+      [
+        "kapal",
+        1
+      ],
+      [
+        "sevgiye",
+        1
+      ],
+      [
+        "lman",
+        1
+      ]
+    ],
+    "top_tagler": [
+      [
+        "shorts",
+        2
+      ],
+      [
+        "communication",
+        1
+      ],
+      [
+        "firstimpression",
+        1
+      ],
+      [
+        "fyp",
+        1
+      ],
+      [
+        "humanbehavior",
+        1
+      ],
+      [
+        "psychology",
+        1
+      ],
+      [
+        "psychologyfacts",
+        1
+      ],
+      [
+        "snapjudgments",
+        1
+      ],
+      [
+        "socialcues",
+        1
+      ],
+      [
+        "thin-slicing",
+        1
+      ],
+      [
+        "trust",
+        1
+      ],
+      [
+        "anahata",
+        1
+      ],
+      [
+        "farkındalık",
+        1
+      ],
+      [
+        "hintfelsefesi",
+        1
+      ],
+      [
+        "içselyolculuk",
+        1
+      ]
+    ],
+    "ornek_basliklar": [
+      "Kalbinin kapısı neden kapalı? Sevgiye açılmanın sırrı...",
+      "They decide if they trust you in 7 seconds"
+    ]
+  },
+  "dip": {
+    "video_sayisi": 7,
+    "ortalama_izlenme": 12.857142857142858,
+    "ortalama_baslik_uzunluk": 54.4,
+    "top_kelimeler": [
+      [
+        "jung",
+        4
+      ],
+      [
+        "ger",
+        2
+      ],
+      [
+        "carl",
+        2
+      ],
+      [
+        "bilin",
+        2
+      ],
+      [
+        "yunus",
+        1
+      ],
+      [
+        "emre",
+        1
+      ],
+      [
+        "ben",
+        1
+      ],
+      [
+        "likten",
+        1
+      ],
+      [
+        "lahi",
+        1
+      ],
+      [
+        "yolculuk",
+        1
+      ],
+      [
+        "zihnini",
+        1
+      ],
+      [
+        "rak",
+        1
+      ],
+      [
+        "ncelerin",
+        1
+      ],
+      [
+        "anlams",
+        1
+      ],
+      [
+        "huzur",
+        1
+      ],
+      [
+        "potansiyel",
+        1
+      ],
+      [
+        "bireyle",
+        1
+      ],
+      [
+        "yolculu",
+        1
+      ],
+      [
+        "masken",
+        1
+      ],
+      [
+        "topluma",
+        1
+      ]
+    ],
+    "top_tagler": [
+      [
+        "farkındalık",
+        7
+      ],
+      [
+        "ruhsalgelişim",
+        7
+      ],
+      [
+        "shorts",
+        7
+      ],
+      [
+        "spiritüellik",
+        7
+      ],
+      [
+        "türkçe",
+        7
+      ],
+      [
+        "içselyolculuk",
+        6
+      ],
+      [
+        "carljung",
+        5
+      ],
+      [
+        "bireyleşme",
+        2
+      ],
+      [
+        "gölge",
+        2
+      ],
+      [
+        "persona",
+        2
+      ],
+      [
+        "psikoloji",
+        2
+      ],
+      [
+        "benlik",
+        1
+      ],
+      [
+        "ilahiask",
+        1
+      ],
+      [
+        "sufi",
+        1
+      ],
+      [
+        "yunusemre",
+        1
+      ]
+    ],
+    "ornek_basliklar": [
+      "Yunus Emre: 'Ben'likten İlahi Aşka Yolculuk",
+      "Jung'a göre en güçlü masken: Topluma sunduğun sosyal yüzün",
+      "Zihnini Özgür Bırak: Düşüncelerin Anlamsızlığı ve Huzur",
+      "Gerçek potansiyel: Carl Jung'un bireyleşme yolculuğu",
+      "İçsel denge: ruhunun anima ve animus seslerini keşfetmek"
+    ]
+  },
+  "viral_ozel_kelimeler": []
 }

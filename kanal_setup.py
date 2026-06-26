@@ -146,7 +146,7 @@ def banner_yukle_set(yt, kanal_id):
                 "channel": {
                     "description": KANAL_DESCRIPTION,
                     "keywords": KANAL_KEYWORDS,
-                    "defaultLanguage": "en",
+                    "defaultLanguage": "tr",
                     "country": "TR",
                 },
                 "image": {"bannerExternalUrl": banner_url},

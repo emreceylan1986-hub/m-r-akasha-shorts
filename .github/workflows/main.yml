@@ -2,10 +2,11 @@ name: M-R Otonom Pipeline
 
 on:
   schedule:
-    # Akasha cron — TC 12/16/19 · Cosmos 13/17/20 · Mindgaps 14/18/21 → Akasha 15/19/22 UTC
-    # (protokol #6: quota çakışmasını önlemek için 1'er saat kaydırılmış)
-    # 3 video/gün — yeni kanal + paylaşılan GCP quota (10K/gün, 3 kanal) için temkinli.
-    - cron: "0 15,19,22 * * *"
+    # Akasha AYRI GCP projesi (akasha-shorts) → kendi 10K/gün kotası.
+    # 26 Haz: Emre "3 saatte bir" istedi ama 8/gün × 1600 = 12.800 > 10.000 (aşar).
+    # Güvenli tavan = 6/gün (4 saatte bir): 6 × 1600 = 9.600 birim (+ ~150 diğer çağrı).
+    # 00/04/08/12/16/20 UTC = TR 03/07/11/15/19/23.
+    - cron: "0 0,4,8,12,16,20 * * *"
   workflow_dispatch:
     inputs:
       gizlilik:

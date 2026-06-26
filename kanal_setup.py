@@ -32,7 +32,7 @@ KANAL_DESCRIPTION = """🕯️ Her gün içine biraz daha derin in.
 
 Aydınlanmanın Doruk Noktası — Mucizeler Kursu, Tao Te Jing, Carl Jung, Yunus Emre ve sufi bilgeliğinden günlük kısa motivasyon videoları. Ego'nun ötesinde 'sen' kimsin? Bir dakikadan az, bir ömür sürer.
 
-📿 Her gün yeni video — 18:00, 22:00, 01:00 (TR).
+📿 Her gün 6 yeni video — 4 saatte bir (TR 07:00–23:00 arası).
 🔔 Yolun aydın olsun — abone ol.
 
 İletişim: demetcyln90@gmail.com"""

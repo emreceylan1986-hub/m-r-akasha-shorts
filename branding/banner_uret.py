@@ -3,7 +3,9 @@ Başlık otomatik küçülür: genişlik ≤ 1300px (1546 güvenli alanın için
 """
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 import math, random
+from pathlib import Path
 
+CIKTI = Path(__file__).parent / "banner.png"
 W, H = 2560, 1440
 cx, cy = W // 2, H // 2
 # YouTube güvenli alan (tüm cihazlarda görünen): 1546×423 ortalı
@@ -72,5 +74,5 @@ ft = ImageFont.truetype(FONT, max(40, int(boyut*0.42)), index=2)
 bbt = draw.textbbox((0, 0), tag, font=ft)
 draw.text((cx - (bbt[2]-bbt[0])//2, my + mh + 30), tag, font=ft, fill=(212, 175, 55))
 
-img.save("str(__import__("pathlib").Path(__file__).parent / "banner.png")", "PNG", optimize=True)
+img.save(str(CIKTI), "PNG", optimize=True)
 print("✓ banner kaydedildi")

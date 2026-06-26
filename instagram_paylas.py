@@ -30,7 +30,10 @@ from pathlib import Path
 
 import requests
 
-GRAPH = "https://graph.facebook.com/v21.0"
+# Akasha Sosyal = YENİ "Instagram API with Instagram login" (graph.instagram.com).
+# Instagram app id: 998375079784414. Token = IG User access token (instagram_business_*).
+# Yayın/publish/status uçları aynı şekil, sadece host graph.instagram.com.
+GRAPH = "https://graph.instagram.com/v21.0"
 STORY_MAX_SN = 60  # IG story video üst sınırı
 
 

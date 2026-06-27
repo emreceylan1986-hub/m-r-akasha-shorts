@@ -1,12 +1,12 @@
 {
-  "uretim_zamani": "2026-06-27T08:13:30.307449+00:00",
+  "uretim_zamani": "2026-06-27T08:25:30.360428+00:00",
   "haberler": [
     {
-      "baslik": "Bergson'un hareket felsefesi: Zaman, süre (durée) ve élan vital",
-      "url": "https://tr.wikipedia.org/wiki/Henri_Bergson",
-      "ozet": "Bergson'a göre gerçek zaman saatle ölçülen değil, yaşanan akış (durée) ve yaşam atılımı (élan vital).",
+      "baslik": "Jung'un persona kavramı: Topluma taktığın maske",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "ozet": "Persona, dünyaya gösterdiğimiz sosyal maske; gerçek benlikle karıştırılınca kendine yabancılaşma doğurur.",
       "kaynak": "manuel",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

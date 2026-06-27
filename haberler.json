@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-06-26T21:12:05.776945+00:00",
+  "uretim_zamani": "2026-06-27T02:01:28.969764+00:00",
   "haberler": [
     {
-      "baslik": "Jung — Kavram: Gölge. Kim olduğunu sanıyorsun? Gerçekte kimsin?",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(psikoloji)",
+      "baslik": "Gerçek yalnızlık: Zeka seni neden izole eder? #shorts",
+      "url": "https://tr.wikipedia.org/wiki/Yaln%C4%B1zl%C4%B1k",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Çocukluk travmaları yetişkin ilişkilerini nasıl zehirler? #shorts",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87ocukluk_travmas%C4%B1",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Wu-wei: Tao felsefesine göre 'çabasız eylem'in gücü",
+      "url": "https://tr.wikipedia.org/wiki/Wu_Wei",
+      "kaynak": "gemini-fallback",
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

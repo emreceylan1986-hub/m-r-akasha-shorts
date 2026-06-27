@@ -2,11 +2,10 @@ name: M-R Otonom Pipeline
 
 on:
   schedule:
-    # Akasha AYRI GCP projesi (akasha-shorts) → kendi 10K/gün kotası.
-    # 26 Haz: Emre "3 saatte bir" istedi ama 8/gün × 1600 = 12.800 > 10.000 (aşar).
-    # Güvenli tavan = 6/gün (4 saatte bir): 6 × 1600 = 9.600 birim (+ ~150 diğer çağrı).
-    # 00/04/08/12/16/20 UTC = TR 03/07/11/15/19/23.
-    - cron: "0 0,4,8,12,16,20 * * *"
+    # 27 Haz: Emre → 5 video/gün = 4 NORMAL (bu workflow) + 1 SEDA (seda_mode.yml).
+    # Türkiye en yüksek izlenme pencereleri (öğle + akşam prime). 4×1600=6400 birim.
+    # TR 13:00/19:00/21:00/22:00 = UTC 10/16/18/19. (SEDA son: TR 23:00=20 UTC)
+    - cron: "0 10,16,18,19 * * *"
   workflow_dispatch:
     inputs:
       gizlilik:

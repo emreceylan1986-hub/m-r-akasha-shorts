@@ -6,7 +6,7 @@ name: Akasha SEDA Modu (oracle/etkileşim — günde 1)
 
 on:
   schedule:
-    - cron: "0 18 * * *"   # 18:00 UTC = TR 21:00 (main.yml slotlarıyla çakışmaz)
+    - cron: "0 20 * * *"   # 20:00 UTC = TR 23:00 — günün SON videosu (Emre 27 Haz)
   workflow_dispatch:
     inputs:
       gizlilik:

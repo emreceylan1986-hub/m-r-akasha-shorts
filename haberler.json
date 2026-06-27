@@ -1,19 +1,12 @@
 {
-  "uretim_zamani": "2026-06-27T06:45:50.200144+00:00",
+  "uretim_zamani": "2026-06-27T08:13:30.307449+00:00",
   "haberler": [
     {
-      "baslik": "Marcus Aurelius'tan 60 saniyede: Kontrol edemediğin şeyler yüzünden neden uykun kaçar?",
-      "url": "https://tr.wikipedia.org/wiki/Marcus_Aurelius",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Uyku felci: Bilinçaltının sana göndermek istediği mesaj ne?",
-      "url": "https://tr.wikipedia.org/wiki/Uyku_felci",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
+      "baslik": "Bergson'un hareket felsefesi: Zaman, süre (durée) ve élan vital",
+      "url": "https://tr.wikipedia.org/wiki/Henri_Bergson",
+      "ozet": "Bergson'a göre gerçek zaman saatle ölçülen değil, yaşanan akış (durée) ve yaşam atılımı (élan vital).",
+      "kaynak": "manuel",
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

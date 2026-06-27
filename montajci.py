@@ -260,10 +260,21 @@ def en_son_seslendirmeyi_al() -> tuple[Path, Path, Path, float]:
 
 
 def keywordleri_uret(senaryo: str) -> list[str]:
+    import random
+    # Her videoda FARKLI görsel açıya yönlendir → Pexels'te aynı klipler tekrar etmesin
+    aci = random.choice([
+        "yakın çekim doku/detay", "geniş manzara/dağ silüeti", "yıldızlı gece/kozmik",
+        "su ve yansımalar", "mum/ateş/ışık huzmesi", "orman ve güneş",
+        "soyut ışık/bokeh", "sis ve bulut", "el/jest/dokunuş", "mandala/kutsal geometri",
+        "gün doğumu/altın saat", "yağmur/cam/damla",
+    ])
     yanit = bridge.gemini_metin_uret(
-        prompt=f"Script:\n{senaryo}",
+        prompt=(f"Script:\n{senaryo}\n\nVISUAL DIVERSITY (ÖNEMLİ): bu sefer görselleri "
+                f"'{aci}' yönüne kaydır. En jenerik 'woman meditation' / 'misty forest' "
+                f"kliplerinden KAÇIN; her 3 keyword birbirinden ve önceki videolardan farklı, "
+                f"özgün görsel öğeler olsun."),
         sistem_promptu=KEYWORD_SISTEM_PROMPTU,
-        sicaklik=0.4,
+        sicaklik=0.9,   # 0.4→0.9: daha çeşitli, tekrar azalır
         max_token=512,
     )
     eslesme = re.search(r"\[.*?\]", yanit, re.DOTALL)
@@ -483,6 +494,10 @@ def pexels_video_indir(keyword: str, hedef: Path, api_key: str) -> dict:
     videolar = veri.get("videos") or []
     if not videolar:
         raise RuntimeError(f"'{keyword}' için Pexels'te portrait video yok.")
+
+    # Aynı keyword her seferinde aynı klibi vermesin → sonuçları karıştır (çeşitlilik)
+    import random
+    random.shuffle(videolar)
 
     en_iyi_dosya = None
     en_iyi_video = None

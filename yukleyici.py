@@ -155,11 +155,27 @@ def _metadata_dogrula(veri: dict) -> dict:
     return veri
 
 
+def _son_basliklar(adet: int = 12) -> list[str]:
+    """Son yüklenen başlıklar — yeni başlık bunlardan FARKLI olsun."""
+    try:
+        d = json.loads(YUKLEME_LOGU.read_text(encoding="utf-8"))
+        kayitlar = d if isinstance(d, list) else d.get("yuklemeler", [])
+        return [k.get("title", "") for k in kayitlar[-adet:] if k.get("title")]
+    except Exception:
+        return []
+
+
 def metadata_uret(senaryo: str) -> dict:
+    son = _son_basliklar()
+    kacin = ""
+    if son:
+        liste = "\n".join(f"- {b}" for b in son)
+        kacin = (f"\n\nBU SON BAŞLIKLARDAN FARKLI, ÖZGÜN bir başlık üret "
+                 f"(kalıp/kelime tekrarı yapma, aynı başlığı ASLA verme):\n{liste}")
     yanit = bridge.gemini_metin_uret(
-        prompt=f"Script:\n{senaryo}",
+        prompt=f"Script:\n{senaryo}{kacin}",
         sistem_promptu=METADATA_SISTEM_PROMPTU,
-        sicaklik=0.6,
+        sicaklik=0.7,
         max_token=2048,
     )
     eslesme = re.search(r"\{.*\}", yanit, re.DOTALL)

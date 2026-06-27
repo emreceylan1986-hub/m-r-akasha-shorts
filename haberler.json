@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-06-26T20:29:58.702250+00:00",
+  "uretim_zamani": "2026-06-27T06:45:50.200144+00:00",
   "haberler": [
     {
-      "baslik": "Jung — Kavram: Kolllektif bilinçaltı — Ortak rüyalarımız neyi fısıldıyor?",
-      "url": "https://tr.wikipedia.org/wiki/Kollektif_bilin%c3%a7alt%c4%b1",
+      "baslik": "Marcus Aurelius'tan 60 saniyede: Kontrol edemediğin şeyler yüzünden neden uykun kaçar?",
+      "url": "https://tr.wikipedia.org/wiki/Marcus_Aurelius",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 993,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Uyku felci: Bilinçaltının sana göndermek istediği mesaj ne?",
+      "url": "https://tr.wikipedia.org/wiki/Uyku_felci",
+      "kaynak": "gemini-fallback",
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

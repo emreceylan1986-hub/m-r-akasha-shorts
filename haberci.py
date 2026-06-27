@@ -544,9 +544,30 @@ def en_populer_3() -> list[dict]:
     return secilen[:3]
 
 
+MANUEL_KONULAR = Path(__file__).parent / "manuel_konular.json"
+
+
+def _manuel_konu_al() -> dict | None:
+    """SEDA modunda DEĞİLSE ve manuel kuyrukta konu varsa ilkini al + kuyruktan düş.
+    Emre'nin elle eklediği konular normal pipeline'da sırayla işlenir, sonra otomatiğe döner."""
+    if _os_haberci.environ.get("MOD_SEDA"):
+        return None  # seda modu kendi oracle konularını üretir
+    try:
+        kuyruk = json.loads(MANUEL_KONULAR.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    if not isinstance(kuyruk, list) or not kuyruk:
+        return None
+    konu = kuyruk.pop(0)
+    MANUEL_KONULAR.write_text(json.dumps(kuyruk, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[haberci] 📌 MANUEL kuyruktan konu: {konu.get('baslik','?')} (kalan: {len(kuyruk)})")
+    return konu
+
+
 def main() -> int:
     print("[haberci] Psikoloji/zihin nişi — Reddit + Gemini fallback taranıyor...\n")
-    secilenler = en_populer_3()
+    manuel = _manuel_konu_al()
+    secilenler = [manuel] if manuel else en_populer_3()
 
     if not secilenler:
         print("[haberci] Hiç haber bulunamadı.")

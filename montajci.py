@@ -587,10 +587,26 @@ def klipleri_birlestir(klipler: list[Path], hedef: Path,
 
 
 def _hook_ass_satiri(hook_metin: str) -> str:
-    """İlk ~2.6sn üst-orta büyük HOOK metni (libass — font güvenli).
-    Retention: izleyici ilk saniyede ne izlediğini görür."""
+    """Üst-orta büyük başlık (libass — font güvenli).
+    Normal: ilk 2.6sn hook. SEDA modu (MOD_SEDA): tüm video boyunca KALICI
+    dekoratif GOLD başlık (oracle/etkileşim sorusu) — @sedademirdogenn tarzı."""
+    seda = bool(os.environ.get("MOD_SEDA"))
     t = " ".join(hook_metin.replace("{", "").replace("}", "").split())
-    # İlk cümle / ilk ~7 kelime, max 58 karakter
+    if seda:
+        # Başlık: ilk cümlenin vurucu kısmı. Virgülden önceki bölüm yeterince
+        # uzunsa onu al (daha temiz başlık). Kelime sınırında ~50 char'a kır.
+        ham = t.split(".")[0].strip()
+        if "," in ham and len(ham.split(",")[0].split()) >= 4:
+            ham = ham.split(",")[0].strip()
+        if len(ham) > 50:
+            ham = ham[:50].rsplit(" ", 1)[0]
+        ilk = ham.strip()
+        if not ilk:
+            return ""
+        # an8=üst-orta, KALICI (0→9:59), gold metin + kalın koyu kenar (kutu hissi)
+        return (f"Dialogue: 1,0:00:00.00,0:09:59.00,Pop,,0,0,0,,"
+                f"{{\\an8\\fs60\\b1\\bord9\\shad3\\1c&H30C8F5&\\3c&H101010&\\fad(300,0)}}{ilk}\n")
+    # Normal: ilk cümle / ilk ~7 kelime, max 58 karakter, 2.6sn
     ilk = t.split(".")[0].strip()
     kelime = ilk.split()
     if len(kelime) > 7:
@@ -598,7 +614,6 @@ def _hook_ass_satiri(hook_metin: str) -> str:
     ilk = ilk[:58].strip()
     if not ilk:
         return ""
-    # an8=üst-orta, büyük, sarımsı-beyaz, kalın outline, fade in/out
     return (f"Dialogue: 1,0:00:00.00,0:00:02.60,Pop,,0,0,0,,"
             f"{{\\an8\\fs74\\b1\\bord6\\shad2\\1c&H30F5F8&\\3c&H000000&\\fad(250,450)}}{ilk}\n")
 

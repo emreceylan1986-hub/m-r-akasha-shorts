@@ -1,0 +1,95 @@
+name: Akasha SEDA Modu (oracle/etkileşim — günde 1)
+
+# Normal 6/gün rutinine (main.yml) EK. Günde 1 kez oracle/etkileşim tarzı
+# (@sedademirdogenn modu) video → YouTube + IG story. MOD_SEDA=1 ile aynı
+# pipeline scriptleri farklı senaryo/başlık üretir. Rutin DOKUNULMAZ.
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # 18:00 UTC = TR 21:00 (main.yml slotlarıyla çakışmaz)
+  workflow_dispatch:
+    inputs:
+      gizlilik:
+        description: "Yayın gizliliği (private | unlisted | public)"
+        required: false
+        default: "public"
+        type: choice
+        options:
+          - public
+          - unlisted
+          - private
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  seda-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      MOD_SEDA: "1"        # haberci/seslendirici/montajci → SEDA oracle modu
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Write secrets to runtime files
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          JAMENDO_CLIENT_ID: ${{ secrets.JAMENDO_CLIENT_ID }}
+          PINTEREST_TOKEN: ${{ secrets.PINTEREST_TOKEN }}
+          PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
+          AMAZON_ASSOCIATES_TAG: ${{ secrets.AMAZON_ASSOCIATES_TAG }}
+          CLIENT_SECRET_JSON: ${{ secrets.CLIENT_SECRET_JSON }}
+          TOKEN_JSON: ${{ secrets.TOKEN_JSON }}
+        run: |
+          {
+            echo "GEMINI_API_KEY=${GEMINI_API_KEY}"
+            echo "PEXELS_API_KEY=${PEXELS_API_KEY}"
+            echo "JAMENDO_CLIENT_ID=${JAMENDO_CLIENT_ID}"
+            echo "PINTEREST_TOKEN=${PINTEREST_TOKEN}"
+            echo "PINTEREST_BOARD_ID=${PINTEREST_BOARD_ID}"
+            echo "AMAZON_ASSOCIATES_TAG=${AMAZON_ASSOCIATES_TAG}"
+          } > .env
+          printf '%s' "$CLIENT_SECRET_JSON" > client_secret.json
+          printf '%s' "$TOKEN_JSON"         > token.json
+          python -c "import json; json.load(open('client_secret.json')); json.load(open('token.json')); print('secrets OK')"
+
+      - name: 1) Haberci (SEDA oracle konuları)
+        run: python haberci.py
+
+      - name: 2) Seslendirici (SEDA senaryo + Leda)
+        run: python seslendirici.py
+
+      - name: 3) Montajcı (kalıcı dekoratif başlık + mistik görsel)
+        run: python montajci.py
+
+      - name: 4) Yükleyici — YouTube Shorts
+        env:
+          GIZLILIK: ${{ github.event.inputs.gizlilik || 'public' }}
+        run: python yukleyici.py --gizlilik "$GIZLILIK" --kategori people
+
+      - name: 4b) Post-Upload — IG story + thumbnail
+        if: success()
+        continue-on-error: true
+        env:
+          IG_AKASHA_TOKEN: ${{ secrets.IG_AKASHA_TOKEN }}
+          IG_AKASHA_USER_ID: ${{ secrets.IG_AKASHA_USER_ID }}
+        run: python post_upload.py

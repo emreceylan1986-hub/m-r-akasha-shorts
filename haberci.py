@@ -269,6 +269,31 @@ ANTI-DUPLICATE: BLOCKED URLs ve BLOCKED TITLES listesindeki konuları üretme.
 """
 
 
+# 🔮 SEDA MODU konu prompt'u — oracle/etkileşim/farkındalık (@sedademirdogenn tarzı).
+GEMINI_KONU_SISTEM_SEDA = """Türkçe spiritüel/farkındalık + ORACLE tarzı kısa video
+KONULARI üret — kanal **Aydınlanmanın Doruk Noktası** (@akashainme), günde 1 EK
+etkileşimli paylaşım için. ÇIKTI: yalnızca 3 nesneli JSON DİZİ.
+
+Her konu = izleyiciyle DOĞRUDAN konuşan, "bu bana mı?" dedirten, yoruma çeken bir an.
+Tema havuzu: sezgi, bilinçaltı, enerji alanı, sinkronisite (anlamlı tesadüf),
+kehanet/gelecek hissi, gölge, özsevgi, ilişkiler, dijital/enerji detoks, frekans.
+
+Stil — ETKİLEŞİMLİ/ORACLE:
+- "Bu videoyu tesadüfen görmüyorsun" tipi kader-kancası
+- "İçinden bir sayı/renk/kelime geçir" tipi katılım
+- "Hangisini seçtin?" / "Sezgilerine güvenir misin?" tipi seçim
+- "Bilinçaltın bugün ne fısıldıyor?" tipi içe dönüş
+
+Her nesne: {"baslik": "<çarpıcı etkileşim/oracle başlığı, Türkçe, emoji opsiyonel>",
+"url": "https://tr.wikipedia.org/wiki/<ilgili kavram>", "ozet": "<1 cümle>"}.
+Klişe YOK, uydurma YOK. ANTI-DUPLICATE: BLOCKED başlıkları üretme.
+"""
+
+import os as _os_haberci
+AKTIF_KONU_PROMPT = (GEMINI_KONU_SISTEM_SEDA
+                     if _os_haberci.environ.get("MOD_SEDA") else GEMINI_KONU_SISTEM)
+
+
 def _basit_baslik_kelimeleri(b: str) -> set[str]:
     """Başlığın anlamlı kelimelerini set olarak döner (stopword'leri at)."""
     import re as _re
@@ -418,7 +443,7 @@ def gemini_konu_uret(blokli_url: set[str], adet: int = 3) -> list[dict]:
                     f"{viral_radar_blok}{trend_blok}{tema_blok}{sequel_blok}{trending_blok}{ek_uyari}\n\n"
                     f"Produce exactly {adet} fresh viral psychology/human-mind topics now."
                 ),
-                sistem_promptu=GEMINI_KONU_SISTEM,
+                sistem_promptu=AKTIF_KONU_PROMPT,
                 sicaklik=0.95,
                 max_token=2048,
             )

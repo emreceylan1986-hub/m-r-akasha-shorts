@@ -1,12 +1,12 @@
 {
-  "uretim_zamani": "2026-06-27T08:25:30.360428+00:00",
+  "uretim_zamani": "2026-06-27T08:35:18.697579+00:00",
   "haberler": [
     {
-      "baslik": "Jung'un persona kavramı: Topluma taktığın maske",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
-      "ozet": "Persona, dünyaya gösterdiğimiz sosyal maske; gerçek benlikle karıştırılınca kendine yabancılaşma doğurur.",
+      "baslik": "Jung'un gölge kavramı: İçindeki reddettiğin yön",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(psikoloji)",
+      "ozet": "Gölge, bastırılan ve inkâr edilen yanlarımız; onunla yüzleşmek bireyleşmenin (individuation) anahtarı.",
       "kaynak": "manuel",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

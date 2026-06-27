@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-06-27T02:01:28.969764+00:00",
+  "uretim_zamani": "2026-06-27T06:45:50.200144+00:00",
   "haberler": [
     {
-      "baslik": "Gerçek yalnızlık: Zeka seni neden izole eder? #shorts",
-      "url": "https://tr.wikipedia.org/wiki/Yaln%C4%B1zl%C4%B1k",
+      "baslik": "Marcus Aurelius'tan 60 saniyede: Kontrol edemediğin şeyler yüzünden neden uykun kaçar?",
+      "url": "https://tr.wikipedia.org/wiki/Marcus_Aurelius",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Çocukluk travmaları yetişkin ilişkilerini nasıl zehirler? #shorts",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87ocukluk_travmas%C4%B1",
+      "baslik": "Uyku felci: Bilinçaltının sana göndermek istediği mesaj ne?",
+      "url": "https://tr.wikipedia.org/wiki/Uyku_felci",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Wu-wei: Tao felsefesine göre 'çabasız eylem'in gücü",
-      "url": "https://tr.wikipedia.org/wiki/Wu_Wei",
-      "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

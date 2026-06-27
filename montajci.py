@@ -442,7 +442,8 @@ def gorsel_kaynak_indir(keyword: str, hedef: Path, sure_sn: float, api_key: str,
             foto_video_yap(ai_png, hedef, sure_sn)
             ai_png.unlink(missing_ok=True)
             print(f"   ↳ AI özgün görsel üretildi (Gemini) — '{keyword}'")
-            return {"sure": sure_sn, "fotograf": f"AI-Gemini: {keyword}"}
+            return {"sure": sure_sn, "fotograf": f"AI-Gemini: {keyword}",
+                    "boyut": (HEDEF_GENISLIK, HEDEF_YUKSEKLIK)}
     except Exception as e:
         print(f"   ↳ AI görsel video'ya çevrilemedi ({str(e)[:80]}) → Wikimedia")
 
@@ -463,7 +464,8 @@ def gorsel_kaynak_indir(keyword: str, hedef: Path, sure_sn: float, api_key: str,
         print(f"   ↳ Son çare: Pexels QC-red klibi zorla kullan")
         import shutil as _sh
         _sh.move(str(backup), str(hedef))
-        return pexels_bilgi or {"sure": sure_sn, "fotograf": f"Pexels(QC-red): {keyword}"}
+        return pexels_bilgi or {"sure": sure_sn, "fotograf": f"Pexels(QC-red): {keyword}",
+                                "boyut": (HEDEF_GENISLIK, HEDEF_YUKSEKLIK)}
 
     # 4. Hiç bulunamadıysa exception
     raise RuntimeError(f"'{keyword}' için ne Pexels ne Wikimedia bulundu")
@@ -721,8 +723,9 @@ def main() -> int:
             ham = GECICI_KLASOR / f"ham_{damga}_{sira}.mp4"
             bilgi = gorsel_kaynak_indir(kw, ham, klip_basina, api_key)
             ham_klipler.append(ham)
+            _boyut = bilgi.get("boyut", ("?", "?"))
             _alt(
-                f"#{sira} '{kw}' → {bilgi['boyut'][0]}×{bilgi['boyut'][1]}, "
+                f"#{sira} '{kw}' → {_boyut[0]}×{_boyut[1]}, "
                 f"kaynak: {bilgi.get('fotograf','?')} "
                 f"({ham.stat().st_size/1024:.0f} KB)"
             )

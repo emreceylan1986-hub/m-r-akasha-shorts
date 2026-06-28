@@ -28,7 +28,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
-      MOD_SEDA: "1"        # haberci/seslendirici/montajci → SEDA oracle modu
+      MOD_SEDA: "1"
+      GEMINI_TASARRUF: "1"        # haberci/seslendirici/montajci → SEDA oracle modu
 
     steps:
       - name: Checkout

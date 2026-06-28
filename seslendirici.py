@@ -471,6 +471,22 @@ async def _edge_cue_al(metin: str) -> tuple[list, int]:
     return cues, toplam
 
 
+# Türkçe TTS telaffuz düzeltmesi — yabancı isimler doğru SESLENDİRİLSİN ama
+# altyazıda DOĞRU yazım kalsın. Sese fonetik metin, cue'lara orijinal verilir.
+import re as _re
+_TELAFFUZ_HARITASI = [
+    (_re.compile(r"\bJung\b", _re.IGNORECASE), "Yung"),  # Carl Jung → "Yung" (Yang DEĞİL); 'Jung'un' yakalar, 'jungle' yakalamaz
+    (_re.compile(r"\bCarl\b", _re.IGNORECASE), "Karl"),  # Carl → "Karl"
+]
+
+
+def _telaffuz_duzelt(metin: str) -> str:
+    """Yalnızca SESE giden metni fonetikleştir (altyazı/cue orijinal kalır)."""
+    for pat, rep in _TELAFFUZ_HARITASI:
+        metin = pat.sub(rep, metin)
+    return metin
+
+
 async def _gemini_tts_dene(metin: str, mp3_yolu: Path, ass_yolu: Path) -> bool:
     """
     Ana ses Gemini TTS (doğal). Altyazı zamanlaması edge-tts cue'larından
@@ -483,7 +499,8 @@ async def _gemini_tts_dene(metin: str, mp3_yolu: Path, ass_yolu: Path) -> bool:
     try:
         # 1) Gemini sesi üret (bloklayıcı → thread'e at)
         import asyncio as _aio
-        sure_sn = await _aio.to_thread(gemini_tts.seslendir, metin, mp3_yolu)
+        ses_metni = _telaffuz_duzelt(metin)  # ses "Yung" der; cue/altyazı "Jung" kalır
+        sure_sn = await _aio.to_thread(gemini_tts.seslendir, ses_metni, mp3_yolu)
         if not sure_sn:
             return False
         # edge cue'ları 100ns TICK biriminde (1sn = 10_000_000 tick). _karaoke_ass
@@ -531,7 +548,7 @@ async def _seslendir_async(metin: str, mp3_yolu: Path, ass_yolu: Path) -> None:
     for deneme in range(5):
         try:
             iletisim = edge_tts.Communicate(
-                text=metin,
+                text=_telaffuz_duzelt(metin),
                 voice=SES,
                 rate=HIZ,
                 pitch=PERDE,

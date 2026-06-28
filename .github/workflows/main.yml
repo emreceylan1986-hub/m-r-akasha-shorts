@@ -25,8 +25,7 @@ jobs:
   shorts-pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 25
-    env:
-      GEMINI_TASARRUF: "1"   # free-tier tasarruf: opsiyonel Gemini denetim/hook çağrıları atlanır
+    # 28 Haz: TAM KALİTE (frugal kapalı) — 2 anahtar rotasyonu (40/gün) ile 4 video sığar.
 
     steps:
       - name: Checkout
@@ -50,6 +49,7 @@ jobs:
       - name: Write secrets to runtime files
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           JAMENDO_CLIENT_ID: ${{ secrets.JAMENDO_CLIENT_ID }}
@@ -63,6 +63,7 @@ jobs:
         run: |
           {
             echo "GEMINI_API_KEY=${GEMINI_API_KEY}"
+            echo "GEMINI_API_KEY_2=${GEMINI_API_KEY_2}"
             echo "PEXELS_API_KEY=${PEXELS_API_KEY}"
             echo "PIXABAY_API_KEY=${PIXABAY_API_KEY}"
             echo "JAMENDO_CLIENT_ID=${JAMENDO_CLIENT_ID}"

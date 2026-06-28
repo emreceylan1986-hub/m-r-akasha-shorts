@@ -2,10 +2,9 @@ name: M-R Otonom Pipeline
 
 on:
   schedule:
-    # 27 Haz: Emre → 5 video/gün = 4 NORMAL (bu workflow) + 1 SEDA (seda_mode.yml).
-    # Türkiye en yüksek izlenme pencereleri (öğle + akşam prime). 4×1600=6400 birim.
-    # TR 13:00/19:00/21:00/22:00 = UTC 10/16/18/19. (SEDA son: TR 23:00=20 UTC)
-    - cron: "0 10,16,18,19 * * *"
+    # 28 Haz: Emre → 4 video/gün = 1 ÖĞLEN + 3 AKŞAM. 3 NORMAL (bu workflow) + 1 SEDA (seda_mode.yml).
+    # Öğlen: TR 13:00 (10 UTC). Akşam normal: TR 19:00/21:00 (16/18 UTC). SEDA son: TR 23:00 (20 UTC).
+    - cron: "0 10,16,18 * * *"
   workflow_dispatch:
     inputs:
       gizlilik:

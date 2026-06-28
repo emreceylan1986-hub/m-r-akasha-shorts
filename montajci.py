@@ -259,33 +259,41 @@ def en_son_seslendirmeyi_al() -> tuple[Path, Path, Path, float]:
     return mp3, txt, ass, sure
 
 
+_KEYWORD_YEDEK = ['misty mountain at dawn', 'candle flame in darkness', 'starry night sky', 'calm ocean reflection', 'sunlight through forest', 'golden abstract bokeh', 'flowing water meditation', 'sacred geometry mandala', 'fog over mountains', 'soft clouds time lapse']
+
+
 def keywordleri_uret(senaryo: str) -> list[str]:
-    import random
-    # Her videoda FARKLI görsel açıya yönlendir → Pexels'te aynı klipler tekrar etmesin
-    aci = random.choice([
-        "yakın çekim doku/detay", "geniş manzara/dağ silüeti", "yıldızlı gece/kozmik",
-        "su ve yansımalar", "mum/ateş/ışık huzmesi", "orman ve güneş",
-        "soyut ışık/bokeh", "sis ve bulut", "el/jest/dokunuş", "mandala/kutsal geometri",
-        "gün doğumu/altın saat", "yağmur/cam/damla",
-    ])
-    yanit = bridge.gemini_metin_uret(
-        prompt=(f"Script:\n{senaryo}\n\nVISUAL DIVERSITY (ÖNEMLİ): bu sefer görselleri "
-                f"'{aci}' yönüne kaydır. En jenerik 'woman meditation' / 'misty forest' "
-                f"kliplerinden KAÇIN; her 3 keyword birbirinden ve önceki videolardan farklı, "
-                f"özgün görsel öğeler olsun."),
-        sistem_promptu=KEYWORD_SISTEM_PROMPTU,
-        sicaklik=0.9,   # 0.4→0.9: daha çeşitli, tekrar azalır
-        max_token=512,
-    )
-    eslesme = re.search(r"\[.*?\]", yanit, re.DOTALL)
-    if not eslesme:
-        raise RuntimeError(f"Keyword çıkışı JSON dizi değil:\n{yanit}")
-    keywords = json.loads(eslesme.group(0))
-    if not isinstance(keywords, list) or len(keywords) != KLIP_SAYISI:
-        raise RuntimeError(
-            f"Tam {KLIP_SAYISI} keyword bekleniyordu, gelen: {keywords!r}"
+    try:
+        import random
+        # Her videoda FARKLI görsel açıya yönlendir → Pexels'te aynı klipler tekrar etmesin
+        aci = random.choice([
+            "yakın çekim doku/detay", "geniş manzara/dağ silüeti", "yıldızlı gece/kozmik",
+            "su ve yansımalar", "mum/ateş/ışık huzmesi", "orman ve güneş",
+            "soyut ışık/bokeh", "sis ve bulut", "el/jest/dokunuş", "mandala/kutsal geometri",
+            "gün doğumu/altın saat", "yağmur/cam/damla",
+        ])
+        yanit = bridge.gemini_metin_uret(
+            prompt=(f"Script:\n{senaryo}\n\nVISUAL DIVERSITY (ÖNEMLİ): bu sefer görselleri "
+                    f"'{aci}' yönüne kaydır. En jenerik 'woman meditation' / 'misty forest' "
+                    f"kliplerinden KAÇIN; her 3 keyword birbirinden ve önceki videolardan farklı, "
+                    f"özgün görsel öğeler olsun."),
+            sistem_promptu=KEYWORD_SISTEM_PROMPTU,
+            sicaklik=0.9,   # 0.4→0.9: daha çeşitli, tekrar azalır
+            max_token=512,
         )
-    return [str(k).strip() for k in keywords]
+        eslesme = re.search(r"\[.*?\]", yanit, re.DOTALL)
+        if not eslesme:
+            raise RuntimeError(f"Keyword çıkışı JSON dizi değil:\n{yanit}")
+        keywords = json.loads(eslesme.group(0))
+        if not isinstance(keywords, list) or len(keywords) != KLIP_SAYISI:
+            raise RuntimeError(
+                f"Tam {KLIP_SAYISI} keyword bekleniyordu, gelen: {keywords!r}"
+            )
+        return [str(k).strip() for k in keywords]
+    except Exception as _h:
+        import random as _r
+        print(f"[montajci] keyword Gemini düştü ({str(_h)[:90]}) → niş yedek keyword", flush=True)
+        return _r.sample(_KEYWORD_YEDEK, KLIP_SAYISI)
 
 
 WIKIMEDIA_API = "https://commons.wikimedia.org/w/api.php"

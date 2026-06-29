@@ -208,7 +208,7 @@ def gunun_trend_seedleri() -> list[str]:
         return []
 
 
-GEMINI_KONU_SISTEM = """Viral YouTube Shorts KONULARI üret — Türkçe spiritüel / Jung-vari motivasyon
+GEMINI_KONU_SISTEM = """Viral YouTube Shorts KONULARI üret — Türkçe spiritüel / mistik motivasyon
 kanalı **Aydınlanmanın Doruk Noktası** (@akashainme) için. ÇIKTI: yalnızca 3 nesneli
 JSON DİZİ.
 
@@ -245,8 +245,12 @@ Her konu = derin, içe dönük, kişisel bir farkındalık anı.
 3 konudan EN AZ 1 tanesi şu seri yapılardan biri olmalı (gün gün ilerle):
   → "Mucizeler Kursu — Ders X" (1-365 arası, sırayla)
   → "Tao Te Jing — Bölüm X" (1-81 arası, sırayla)
-  → "Jung — Kavram: …" (gölge, persona, bireyleşme, anima, vb.)
 Seri kayıt fikir_motoru.py'de tutulur, dünkü ders/bölüme +1 ekle.
+
+⚖️ DENGE KURALI (ÇOK ÖNEMLİ — Emre geri bildirimi): Jung havuzdaki kaynaklardan SADECE
+BİRİ; izleyici Jung'a boğuldu. 3 konunun EN FAZLA 1'i Jung olsun (çoğu gün HİÇ Jung olmasın).
+Çoğunluğu DİĞER kaynaklardan seç: Tasavvuf/Mevlana/Yunus, Tao, ACIM, çakra/enerji/frekans,
+meditasyon/nefes, kadim bilgelik, Stoa, sezgi, rüyalar, şükür/niyet. Her gün farklı kaynak karışımı.
 
 ═══ TON ═══
 - Sakin, mistik, bilge — bağırmayan

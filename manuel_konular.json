@@ -1,10 +1,64 @@
 [
   {
+    "baslik": "Mevlana'dan Bir Sır: Aradığın Zaten Sende",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Aradığın huzur dışarıda değil; Mevlana der ki yolculuk içeri doğrudur. Kendi derinliğine bir an dur ve bak. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Sessizliğin İçindeki Ses",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Zihnin sustuğunda duyulan o ince ses, asıl sensin. Meditasyon o sessizliğe açılan kapıdır. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Evrenin İşaretleri: Tesadüf Diye Bir Şey Yok",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Tekrar eden sayılar, doğru anda gelen kişiler... Evren seninle fısıltıyla konuşur, dinlemeyi öğren. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
     "baslik": "Persona ve Gölge Entegrasyonu: Bütünlüğe Giden Yol",
     "url": "https://tr.wikipedia.org/wiki/Carl_Gustav_Jung",
     "ozet": "Sosyal maskemiz Persona ve bastırılmış yönümüz Gölge arasındaki dengeyi bulmak, gerçek bütünlüğe ulaşmanın anahtarıdır. Bu video, bu iki zıt kutbu nasıl birleştirebileceğimizi ve daha otantik bir benlik yaratabileceğimizi gösteriyor. (Çerçeve: Murray Stein, Ruhun Haritası)",
     "kaynak": "manuel-ruhunharitasi",
     "skor": 891,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Nefesin Gücü: Şimdiki Ana Dönüş",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Tek bir bilinçli nefes seni geçmişin pişmanlığından, geleceğin kaygısından çekip şimdiye getirir. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Ego'nun Ötesinde Gerçek Huzur",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Ego sürekli 'daha fazla' der. Gerçek dinginlik, hiçbir şeye ihtiyacın olmadığını fark ettiğin andadır. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Şükrün Titreşimi: Frekansını Yükselt",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Şükür, sahip olduğunu büyütür. Minnettar bir kalp, evrenin en yüksek frekansıdır. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
     "yas_saat": 0,
     "yorum_sayisi": 0
   },
@@ -18,11 +72,65 @@
     "yorum_sayisi": 0
   },
   {
+    "baslik": "Dolunayın Enerjisi: Bırakma Sanatı",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Dolunay, taşıdığın yükleri bırakma zamanıdır. Bu gece neyi serbest bırakacaksın? #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Sezgi: İçindeki Pusula",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Mantığın bilmediğini kalbin bilir. Sezgin, ruhunun sana fısıldayan rehberidir. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Yunus Emre: Sevgi ile Var Olmak",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "'Yaratılanı severim Yaratandan ötürü.' Yunus'un bu sözü, tüm bir varoluş felsefesidir. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
     "baslik": "Cinsiyet ve Anima/Animus: İçimizdeki Zıtlıkların Dansı",
     "url": "https://tr.wikipedia.org/wiki/Carl_Gustav_Jung",
     "ozet": "Jung, her bireyde hem dişil hem de eril niteliklerin bulunduğunu öne sürer. Bu video, cinsiyet kimliğimizin ötesinde, anima ve animus'un içsel dünyamızı nasıl zenginleştirdiğini ve dengelediğini ele alıyor. (Çerçeve: Murray Stein, Ruhun Haritası)",
     "kaynak": "manuel-ruhunharitasi",
     "skor": 889,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Bırakmak: Tutunduğun Şey Seni Tutsak Eder",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Bazen en güçlü hareket, bırakmaktır. Avucunu açtığında ellerin özgür kalır. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Çakralar: İçindeki 7 Enerji Merkezi",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Kökten taca, bedeninde akan yedi enerji kapısı. Hangisi tıkalı, hangisi açık? #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Hermetik Sır: Yukarıda Ne Varsa Aşağıda da O Var",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Kadim bilgeliğin temel yasası: dış dünyan, iç dünyanın aynasıdır. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
     "yas_saat": 0,
     "yorum_sayisi": 0
   },
@@ -36,11 +144,65 @@
     "yorum_sayisi": 0
   },
   {
+    "baslik": "Rüyaların Dili: Gece Sana Ne Söylüyor",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Rüyalar bilinçaltının mektuplarıdır. Sembollerini okumayı öğrendiğinde kendini tanırsın. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Affetmek: Kendini Özgürleştirmek",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Affetmek, karşındakini değil seni serbest bırakır. Taşıdığın öfke en çok sana ağır. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Tao: Akışa Teslim Olmak",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Su engelle savaşmaz, etrafından akar. En büyük güç, direnmeyi bırakmaktadır. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
     "baslik": "Benlik (Self): Psikenin Aşkın Merkezi ve Bütünlüğümüzün Kaynağı",
     "url": "https://tr.wikipedia.org/wiki/Carl_Gustav_Jung",
     "ozet": "Benlik, Jung'un teorisinin kalbidir; tüm psişenin bütünleyici, düzenleyici ve aşkın merkezidir. Bu video, Benliğin ne olduğunu, nasıl deneyimlendiğini ve kişisel gelişimimizdeki nihai rolünü açıklıyor. (Çerçeve: Murray Stein, Ruhun Haritası)",
     "kaynak": "manuel-ruhunharitasi",
     "skor": 887,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Halvet: Sessizlikte Kendini Bulmak",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Yalnızlık bir eksiklik değil, ruhun kendine döndüğü kutsal bir alandır. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Niyetin Gücü: Düşünce Gerçeğe Dönüşür",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Nereye odaklanırsan o büyür. Bugünkü niyetin yarınki gerçeğinin tohumudur. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Ruhun Yolculuğu: Ölüm Son mu Geçiş mi?",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Beden bir elbisedir, ruh ise yolcu. Birçok gelenek der ki ölüm bir kapının kapanışı değil açılışıdır. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
     "yas_saat": 0,
     "yorum_sayisi": 0
   },
@@ -54,11 +216,65 @@
     "yorum_sayisi": 0
   },
   {
+    "baslik": "Zen: Boş Fincan, Açık Zihin",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Bardağın doluysa yenisi sığmaz. Öğrenmenin sırrı, önce boşalabilmektir. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Tasavvufta Aşk: Damlanın Denize Kavuşması",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Tasavvufta aşk, benliğin eriyip bütünle bir olmasıdır. Asıl kavuşma, kendini bırakıştadır. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "An'da Kalmak: Tek Gerçek Zaman Şimdi",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Geçmiş bir anı, gelecek bir hayal. Hayat sadece bu nefeste, şu anda yaşanıyor. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
     "baslik": "Bireyleşme: Gerçek Benliğe Uyanış Yolculuğu",
     "url": "https://tr.wikipedia.org/wiki/Carl_Gustav_Jung",
     "ozet": "Bireyleşme, yaşam boyu süren, kendimizi tam ve bütünsel bir birey olarak gerçekleştirme sürecidir. Bu video, Jung'un bireyleşme kavramını, aşamalarını ve bu yolculuktaki zorlukları ele alıyor. (Çerçeve: Murray Stein, Ruhun Haritası)",
     "kaynak": "manuel-ruhunharitasi",
     "skor": 885,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Karma: Her Eylemin Bir Yankısı",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Evrene ne gönderirsen o döner. Karma ceza değil, dengenin doğal yasasıdır. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Enerjini Onarmak: İçsel Şifa",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Bazen dinlenmek değil, kendini yeniden hizalamak gerekir. Şifa içeriden başlar. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Kadim Bilgelik: Atalarımızın Unuttuğumuz Sırları",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Modern dünya hız der, kadim bilgelik dinginlik. Unuttuğumuz şey belki de en önemlisiydi. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
     "yas_saat": 0,
     "yorum_sayisi": 0
   },
@@ -72,11 +288,47 @@
     "yorum_sayisi": 0
   },
   {
+    "baslik": "Sema: Dönerek Yükselmek",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Semazenin bir eli göğe, bir eli yere. Hem alır hem verir; denge ve teslimiyetin dansı. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "İçindeki Çocuğu İyileştirmek",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Taşıdığın eski yaralar hâlâ seninle. O küçük çocuğa şefkatle dönmek, gerçek olgunluktur. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Minnettarlık: 21 Günde Zihin Dönüşümü",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Her gün üç şeye şükret. 21 gün sonra baktığın dünya değişmemiş olacak; sen değişmiş olacaksın. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
     "baslik": "Senkronisite: Anlamlı Tesadüflerin Gizemi",
     "url": "https://tr.wikipedia.org/wiki/Carl_Gustav_Jung",
     "ozet": "Rüyalarımızla gerçek hayattaki olaylar arasındaki şaşırtıcı bağlantılar... Senkronisite, psişik ve fiziksel olaylar arasındaki nedensel olmayan, anlamlı tesadüfleri ifade eder. Bu video, bu gizemli fenomeni ve hayatımızdaki rolünü keşfediyor. (Çerçeve: Murray Stein, Ruhun Haritası)",
     "kaynak": "manuel-ruhunharitasi",
     "skor": 883,
+    "yas_saat": 0,
+    "yorum_sayisi": 0
+  },
+  {
+    "baslik": "Sukûnet: Fırtınanın Ortasındaki Dinginlik",
+    "url": "https://tr.wikipedia.org/wiki/Maneviyat",
+    "ozet": "Dışarısı ne kadar karışırsa karışsın, merkezinde her zaman sessiz bir alan var. Oraya dönmeyi öğren. #spiritüel #maneviyat",
+    "kaynak": "manuel-spirituel",
+    "skor": 880,
     "yas_saat": 0,
     "yorum_sayisi": 0
   },

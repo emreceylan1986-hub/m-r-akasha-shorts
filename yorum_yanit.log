@@ -328,3 +328,9 @@
 [2026-06-30 18:07:48] Cevaplanacak aday yorum: 0 (max 10 işlenecek)
 [2026-06-30 18:07:48] 
 === Bot bitti — 0 cevap gönderildi (toplam history: 1) ===
+[2026-06-30 20:14:01] === Bot başladı — Kanal: Aydınlanmanın Doruk Noktası (tahmini kota: 187u) ===
+[2026-06-30 20:14:01] Son 26 video taranıyor...
+[2026-06-30 20:14:01]   video Sa5eI26_ yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=Sa5eI26_Z-U&maxResults=100&orde
+[2026-06-30 20:14:08] Cevaplanacak aday yorum: 0 (max 10 işlenecek)
+[2026-06-30 20:14:08] 
+=== Bot bitti — 0 cevap gönderildi (toplam history: 1) ===

@@ -120,6 +120,13 @@ Sıcak, samimi, mistik ama yapmacık değil. "Sen" hitabı. Yunus/Mevlana derinl
 YASAK: reklamcı dil, klişe ("hayat bir yolculuktur"), pop-bilim yalanı,
 'like/paylaş'. # hashtag, emoji (metinde) YOK. Uydurma alıntı YOK.
 
+═══ OLGU KURALI (2 Tem — denetim RED'lerini önler) ═══
+Verilen kaynak/konuyu SADECE İLHAM olarak kullan; kaynakta OLMAYAN olgusal/
+bilimsel iddia KURMA. "X olan insanlar Y'dir", "bilim kanıtladı ki..." gibi
+KESİNLİK cümleleri YASAK. Mesajın bir sezgi/farkındalık DAVETİ olsun, olgu
+iddiası değil — kesinlik yerine soru ve davet formu kullan ("belki de...",
+"hiç fark ettin mi...", "içine sor...").
+
 Kısıt: 70-100 kelime. Kısa cümleler, konuşma ritmi. Sadece konuşulan metni ver —
 başlık/etiket/tırnak yok.
 """

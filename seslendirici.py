@@ -66,18 +66,27 @@ TON: Sakin, derin, bilge — bağırmayan. Yunus Emre + Mevlana tonu.
 - CONTEXT (1-2 cümle): kavramın derin anlamı, sade dilde
   Mümkünse SOMUT bir yıl, alıntı, kavram adı geçsin (Jung 1916, ACIM Ders 137,
   Tao Te Jing Bölüm 8). Bu güven inşa eder.
+- ARA KANCA (1 kısa cümle, CONTEXT'ten hemen sonra — 2 Tem retention):
+  ortada merakı tazele, drop-off'u kır. Örnek his: "Ama işin asıl sırrı şurada." /
+  "Derinde bir şey daha var." — kaynağa sadakatten kopmadan.
 - PAYOFF (1 kısa cümle): izleyiciyi içine döndüren düşünce.
   Örnek: "Belki de aradığın hiç kaybolmadı, sen onun kendini görmesini bekledin."
-- SUBSCRIBE CTA (son cümle, MAX 7 kelime, opsiyonel-warm):
-  Örnek: "Yolun aydın olsun — abone ol."
-         "Bu seriyi kaçırma — abone ol."
-         "İçsel yolculuğa devam — takip et."
+- SON CÜMLE (MAX 8 kelime) — konuya göre BİRİNİ seç:
+  A) YORUM DAVETİ (konu kişisel yankı taşıyorsa — 3 videodan ~2'sinde):
+     tek, içten, anında cevaplanır soru. Örnek:
+     "Sen en çok nerede takılıyorsun?" / "Bu sana da oldu mu?" /
+     "İçinden geçen ilk kelime ne?"
+     ("yorum yap" DEME — soru kendisi davettir.)
+  B) ABONE ÇAĞRISI (diğerlerinde, sıcak): "Yolun aydın olsun — abone ol." /
+     "İçsel yolculuğa devam — takip et."
+  ── DÖNGÜ KURALI: bitiş "veda" hissi vermesin — video başa sardığında akış
+     doğal dursun (kesintisiz döngü = tekrar izleme = algoritma sinyali).
 
 YASAK:
 - "Şimdi sana harika bir sır vereceğim" (reklamcı dil)
 - "Hayat bir yolculuktur" (klişe)
 - "Beynimizin %10'u" (pop-bilim yalan)
-- 'Like', 'yorum yap', 'paylaş' (sadece abone ol)
+- 'Like', 'paylaş', "yorum yap/yorumlara yaz" KELİMELERİ (soru sorabilirsin — komut verme)
 - # hashtag, emoji (senaryo metninde)
 
 Kısıt:

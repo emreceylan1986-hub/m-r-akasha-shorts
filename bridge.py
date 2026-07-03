@@ -304,9 +304,9 @@ def icerik_uygunluk_denetimi(
     kaynak_baslik/kaynak_url: orijinal haber — olgusal denetim 'senaryo
     kaynağa sadık mı' diye yapılır, 'haber gerçek mi' diye DEĞİL.
     """
-    import os as _os
-    if _os.environ.get("GEMINI_TASARRUF") == "1":
-        return {"karar": "UYGUN", "sebep": "tasarruf modu — denetim atlandı", "risk_alanlari": []}
+    # 4 Tem: FABRİKASYON DENETİMİ TASARRUF'TAN AYRILDI — Akasha'nın uydurma
+    # sorunu nedeniyle bu denetim frugal modda BİLE her zaman çalışmalı.
+    # (Sadece opsiyonel süsleme = hook_predictor + metin_onay_iste tasarrufta atlanır.)
     kaynak_blok = (
         f"KAYNAK HABER (senaryo buna sadık olmalı; bu kaynağın kendi "
         f"doğruluğunu sorgulama):\n  Başlık: {kaynak_baslik}\n  URL: {kaynak_url}\n\n"

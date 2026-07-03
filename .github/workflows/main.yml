@@ -2,9 +2,10 @@ name: M-R Otonom Pipeline
 
 on:
   schedule:
-    # 28 Haz: Emre → 4 video/gün (kalite için) = 1 ÖĞLEN + 3 AKŞAM. 3 NORMAL (bu workflow) + 1 SEDA (seda_mode.yml).
-    # Öğlen: TR 13:00 (10 UTC). Akşam normal: TR 19:00/21:00 (16/18 UTC). SEDA son: TR 23:00 (20 UTC).
-    - cron: "0 10,18 * * *"
+    # 4 Tem: Emre → 4 video/gün (SEDA kapalı; hepsi bu ana pipeline'da).
+    # 1 ÖĞLEN + 3 AKŞAM: TR 13/19/21/23 = 10/16/18/20 UTC.
+    # Kota: frugal AÇIK + denetim ayrık → video başı ~5 çağrı, 4 video ~20 (40 kotanın yarısı).
+    - cron: "0 10,16,18,20 * * *"
   workflow_dispatch:
     inputs:
       gizlilik:
@@ -25,7 +26,11 @@ jobs:
   shorts-pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 25
-    # 28 Haz: TAM KALİTE (frugal kapalı) — 2 anahtar rotasyonu (40/gün) ile 4 video sığar.
+    env:
+      # 4 Tem: frugal AÇIK ama fabrikasyon denetimi bridge'de TASARRUF'tan ayrıldı →
+      # denetim yine çalışır; sadece opsiyonel süsleme (hook/metin_onay) atlanır.
+      # İzleyicinin gördüğü video AYNI. 4 video ~20 çağrı = 40 kotanın yarısı (bol marj).
+      GEMINI_TASARRUF: "1"
 
     steps:
       - name: Checkout

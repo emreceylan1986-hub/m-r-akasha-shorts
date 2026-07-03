@@ -25,7 +25,7 @@ jobs:
         run: |
           # UTC saati al
           NOW_UTC=$(date -u +%H)
-          ANA_SAATLER="10 18"
+          ANA_SAATLER="10 16 18 20"
 
           # Şu an ana saatten 0-60 dk sonra mı?
           SAAT_KACIRILDI=""

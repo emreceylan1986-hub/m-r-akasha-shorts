@@ -806,5 +806,31 @@
     "studio_url": "https://studio.youtube.com/video/nBtkYJwDao0/edit",
     "denetim_notu": "REDDED: Senaryo, kaynak haberin içeriğini çarpıtmakta ve kaynakta olmayan iddialar eklemektedir. Kaynak haber 'Şükrün Titreşimi: Frekansını Yükselt' başlığına sahipken, senaryo 'Wikipedia bile bunu içsel bir yolculuk ve kişisel dönüşüm süreci olarak tanımlar' diyerek Wikipedia'yı kaynak göstermekte ve kaynak haberin içeriğiyle doğrudan bağlantısı olmayan bir iddia ortaya atmaktadır. Ayrıca, verilen kaynak haberin URL'si 'Maneviyat' maddesine işaret etse de, senaryo bu maddeyi 'Şükrün Titreşimi: Frekansını Yükselt' başlığı altında sunulan bir içerik olarak yanlış bir şekilde referans göstermektedir. (risk: olgusal)",
     "denetim_karari": "REDDED"
+  },
+  {
+    "zaman": "2026-07-03T12:49:03",
+    "video_id": "FVKL-Td-Cjk",
+    "title": "Dolunay ruhuna ne fısıldıyor? Bırakmanın gücü",
+    "tags": [
+      "spiritüellik",
+      "ruhsalgelişim",
+      "içsel yolculuk",
+      "farkındalık",
+      "dolunay",
+      "bırakmak",
+      "yenibaşlangıçlar",
+      "shorts",
+      "türkçe",
+      "felsefe"
+    ],
+    "gizlilik": "private",
+    "made_for_kids": "no",
+    "kategori": "people",
+    "kaynak_dosya": "shorts_20260703_124137.mp4",
+    "boyut_mb": 45.29,
+    "watch_url": "https://youtu.be/FVKL-Td-Cjk",
+    "studio_url": "https://studio.youtube.com/video/FVKL-Td-Cjk/edit",
+    "denetim_notu": "REDDED: Senaryo, verilen kaynak haberin içeriğini çarpıtmakta ve kaynakta olmayan iddialar eklemektedir. Kaynak haber 'Maneviyat' başlığı altında genel bir tanım sunarken, senaryo dolunay ile maneviyat arasında doğrudan bir bağlantı kurarak 'bırakma sanatı' gibi spesifik bir konuyu kaynakta olmayan bir şekilde ilişkilendirmektedir. (risk: olgusal)",
+    "denetim_karari": "REDDED"
   }
 ]

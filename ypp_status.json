@@ -1,7 +1,7 @@
 {
-  "uretim": "2026-07-04T19:25:27+00:00",
+  "uretim": "2026-07-04T21:04:54+00:00",
   "kanal": "Aydınlanmanın Doruk Noktası",
-  "abone": 12,
+  "abone": 16,
   "toplam_video": 33,
   "toplam_izlenme_yaşam_boyu": 5063,
   "son_90g_izlenme": 4996,
@@ -9,8 +9,8 @@
   "gunluk_izlenme_tahmin": 356.9,
   "early_tier": {
     "abone_hedef": 500,
-    "abone_yuzde": 2.4,
-    "abone_kalan": 488,
+    "abone_yuzde": 3.2,
+    "abone_kalan": 484,
     "shorts_hedef_90g": 3000000,
     "shorts_yuzde_90g": 0.17,
     "shorts_kalan_90g": 2995004,
@@ -18,8 +18,8 @@
   },
   "full_tier": {
     "abone_hedef": 1000,
-    "abone_yuzde": 1.2,
-    "abone_kalan": 988,
+    "abone_yuzde": 1.6,
+    "abone_kalan": 984,
     "shorts_hedef_90g": 10000000,
     "shorts_yuzde_90g": 0.05,
     "shorts_kalan_90g": 9995004,

@@ -512,3 +512,9 @@
 [2026-07-04 15:32:19] Cevaplanacak aday yorum: 0 (max 10 işlenecek)
 [2026-07-04 15:32:19] 
 === Bot bitti — 0 cevap gönderildi (toplam history: 2) ===
+[2026-07-04 17:20:21] === Bot başladı — Kanal: Aydınlanmanın Doruk Noktası (tahmini kota: 124u) ===
+[2026-07-04 17:20:21] Son 30 video taranıyor...
+[2026-07-04 17:20:21]   video _bIl5dlT yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=_bIl5dlTPiU&maxResults=100&orde
+[2026-07-04 17:20:25] Cevaplanacak aday yorum: 0 (max 10 işlenecek)
+[2026-07-04 17:20:25] 
+=== Bot bitti — 0 cevap gönderildi (toplam history: 2) ===

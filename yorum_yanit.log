@@ -596,3 +596,26 @@
 [2026-07-05 17:32:30] Cevaplanacak aday yorum: 0 (max 10 işlenecek)
 [2026-07-05 17:32:30] 
 === Bot bitti — 0 cevap gönderildi (toplam history: 2) ===
+[2026-07-05 21:20:06] === Bot başladı — Kanal: Aydınlanmanın Doruk Noktası (tahmini kota: 172u) ===
+[2026-07-05 21:20:06] Son 30 video taranıyor...
+[2026-07-05 21:20:06]   video 4GDjzDXb yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=4GDjzDXbITY&maxResults=100&orde
+[2026-07-05 21:20:06]   video URWC2xho yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=URWC2xhoc4A&maxResults=100&orde
+[2026-07-05 21:20:07]   video bTT2jJuv yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=bTT2jJuv0GE&maxResults=100&orde
+[2026-07-05 21:20:07]   video MD6E4Z9k yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=MD6E4Z9k39c&maxResults=100&orde
+[2026-07-05 21:20:07]   video 1v3He9dJ yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=1v3He9dJXl8&maxResults=100&orde
+[2026-07-05 21:20:07]   video _bIl5dlT yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=_bIl5dlTPiU&maxResults=100&orde
+[2026-07-05 21:20:07]   video lU3kkB9a yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=lU3kkB9airQ&maxResults=100&orde
+[2026-07-05 21:20:08]   video kMW2h9Cg yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=kMW2h9CgvCA&maxResults=100&orde
+[2026-07-05 21:20:08]   video Sa5eI26_ yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=Sa5eI26_Z-U&maxResults=100&orde
+[2026-07-05 21:20:08]   video cG3WBe-z yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=cG3WBe-zodg&maxResults=100&orde
+[2026-07-05 21:20:09]   video jl_XlLbZ yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=jl_XlLbZsJA&maxResults=100&orde
+[2026-07-05 21:20:09]   video hDQc_wGf yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=hDQc_wGfUig&maxResults=100&orde
+[2026-07-05 21:20:09]   video DVK0WLyM yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=DVK0WLyMaWE&maxResults=100&orde
+[2026-07-05 21:20:10]   video kFf01e8B yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=kFf01e8Bvys&maxResults=100&orde
+[2026-07-05 21:20:10]   video nkOvtISQ yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=nkOvtISQmDg&maxResults=100&orde
+[2026-07-05 21:20:10]   video L8Kulfcj yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=L8KulfcjZQw&maxResults=100&orde
+[2026-07-05 21:20:10]   video 5oMPAIMl yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=5oMPAIMlc9Y&maxResults=100&orde
+[2026-07-05 21:20:10]   video GyvHYQeH yorum çekme fail: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=GyvHYQeHfSQ&maxResults=100&orde
+[2026-07-05 21:20:10] Cevaplanacak aday yorum: 0 (max 10 işlenecek)
+[2026-07-05 21:20:10] 
+=== Bot bitti — 0 cevap gönderildi (toplam history: 2) ===

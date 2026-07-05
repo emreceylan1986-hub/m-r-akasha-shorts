@@ -551,9 +551,38 @@ def en_populer_3() -> list[dict]:
 MANUEL_KONULAR = Path(__file__).parent / "manuel_konular.json"
 
 
+def _jung_konu_mu(k) -> bool:
+    """Bir kuyruk konusu Jung/arketip temalı mı? (kaynak + anahtar kelime)."""
+    if not isinstance(k, dict):
+        return False
+    if k.get("kaynak", "") in ("manuel-arketipler", "manuel-ruhunharitasi"):
+        return True
+    metin = json.dumps(k, ensure_ascii=False).lower()
+    return any(w in metin for w in (
+        "jung", "arketip", "gölge", "persona", "anima", "animus",
+        "kolektif bilinç", "sinkron", "psişik", "kompleks"))
+
+
+def _son_yayinlarda_jung(n: int = 2) -> int:
+    """Son n yayınlanan video başlığından kaçı Jung? (throttle için)."""
+    try:
+        d = json.loads((Path(__file__).parent / "yuklemeler.json").read_text(encoding="utf-8"))
+        items = d if isinstance(d, list) else d.get("yuklemeler", [])
+        say = 0
+        for it in items[-n:]:
+            t = (it.get("title") or "").lower()
+            if any(w in t for w in ("jung", "arketip", "gölge", "persona", "anima", "kolektif")):
+                say += 1
+        return say
+    except Exception:
+        return 0
+
+
 def _manuel_konu_al() -> dict | None:
-    """SEDA modunda DEĞİLSE ve manuel kuyrukta konu varsa ilkini al + kuyruktan düş.
-    Emre'nin elle eklediği konular normal pipeline'da sırayla işlenir, sonra otomatiğe döner."""
+    """SEDA modunda DEĞİLSE ve manuel kuyrukta konu varsa al + kuyruktan düş.
+    4 Tem JUNG THROTTLE (Emre: 'Jung'a boğulduk'): son 2 yayında Jung varsa,
+    kuyruktan JUNG-OLMAYAN ilk konuyu seç (Jung'u atla, sırasını koru). Kuyruk
+    Jung ağırlıklı olsa bile bu, videolar arası Jung aralığını GARANTİLER."""
     if _os_haberci.environ.get("MOD_SEDA"):
         return None  # seda modu kendi oracle konularını üretir
     try:
@@ -562,9 +591,18 @@ def _manuel_konu_al() -> dict | None:
         return None
     if not isinstance(kuyruk, list) or not kuyruk:
         return None
-    konu = kuyruk.pop(0)
+
+    idx = 0
+    if _son_yayinlarda_jung(2) >= 1:  # yakında Jung olmuş → Jung-olmayanı öne al
+        for i, it in enumerate(kuyruk):
+            if not _jung_konu_mu(it):
+                idx = i
+                break
+        # hepsi Jung ise idx=0 kalır (mecbur)
+    konu = kuyruk.pop(idx)
     MANUEL_KONULAR.write_text(json.dumps(kuyruk, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[haberci] 📌 MANUEL kuyruktan konu: {konu.get('baslik','?')} (kalan: {len(kuyruk)})")
+    je = "🔴Jung" if _jung_konu_mu(konu) else "çeşitli"
+    print(f"[haberci] 📌 MANUEL kuyruktan konu ({je}): {konu.get('baslik','?')} (kalan: {len(kuyruk)})")
     return konu
 
 

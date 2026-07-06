@@ -32,7 +32,7 @@ jobs:
           printf '%s' "$TOKEN_JSON" > token.json
 
       - name: Hafta raporu üret
-        run: python3 hafta_rapor.py
+        run: python3 hafta_rapor.py || echo "hafta raporu atlandı (YouTube kota/hata, non-critical)"
 
       - name: Repo'ya commit
         run: |

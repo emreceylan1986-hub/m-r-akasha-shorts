@@ -155,7 +155,7 @@ jobs:
       - name: 11) Yorum Yanıt Bot — kanaldaki yeni yorumlara cevap (cron yedek)
         if: success()
         continue-on-error: true
-        run: python yorum_yanit_bot.py --max-cevap 15 --min-yas 5
+        run: python yorum_yanit_bot.py --max-cevap 3 --min-yas 5
 
       - name: 12) Schedule Optimizer — optimum yayın saatleri (rapor)
         if: success()

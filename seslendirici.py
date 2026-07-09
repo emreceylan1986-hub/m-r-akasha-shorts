@@ -54,7 +54,10 @@ DİL: Sade, temiz, akıcı **TÜRKÇE**. Yabancı sözcük asgari.
 TON: Sakin, derin, bilge — bağırmayan. Yunus Emre + Mevlana tonu.
 "Sen" hitabı (yumuşak), asla "siz". Klişe motivasyon DEĞİL.
 
-═══ YAPI (toplam 90-120 kelime ≈ 50-60 saniye Türkçe TTS) ═══
+═══ YAPI (toplam 60-80 kelime ≈ 35-45 saniye Türkçe TTS) ═══
+🔴 KISA = YÜKSEK RETENTION (9 Tem 2026 kanal verisi: Cosmos 60-75 kelime = %65
+retention; uzun videolar retention'ı düşürüp Shorts feed dağıtımını kesiyor —
+TC 47-60sn videolarla çöktü). KISA TUT, derinliği KORU ama her kelime saysın.
 - HOOK (ilk cümle, MAX 8 kelime): kendini-görme açıcı.
   Örnek: "Carl Jung en güçlü hediyenin sandığın yerde olmadığını söyledi."
         "Tao Te Jing'de su, en güçsüzdür — ama her şeyi yener."
@@ -63,12 +66,9 @@ TON: Sakin, derin, bilge — bağırmayan. Yunus Emre + Mevlana tonu.
      "Biliyor muydun..." / "Hiç düşündün mü..." / "Bir gün..."
 
 - TURN (1 cümle): hook'u açan sürpriz gerçek
-- CONTEXT (1-2 cümle): kavramın derin anlamı, sade dilde
-  Mümkünse SOMUT bir yıl, alıntı, kavram adı geçsin (Jung 1916, ACIM Ders 137,
-  Tao Te Jing Bölüm 8). Bu güven inşa eder.
-- ARA KANCA (1 kısa cümle, CONTEXT'ten hemen sonra — 2 Tem retention):
-  ortada merakı tazele, drop-off'u kır. Örnek his: "Ama işin asıl sırrı şurada." /
-  "Derinde bir şey daha var." — kaynağa sadakatten kopmadan.
+- CONTEXT (1 cümle): kavramın derin anlamı, sade dilde. Mümkünse SOMUT bir yıl/
+  alıntı/kavram adı (Jung 1916, ACIM Ders 137, Tao Bölüm 8) — güven inşa eder.
+  (KISA VİDEO: ara-kanca YOK, fazladan cümle YOK — her cümle retention'ı belirler.)
 - PAYOFF (1 kısa cümle): izleyiciyi içine döndüren düşünce.
   Örnek: "Belki de aradığın hiç kaybolmadı, sen onun kendini görmesini bekledin."
 - SON CÜMLE (MAX 8 kelime) — konuya göre BİRİNİ seç:
@@ -90,7 +90,7 @@ YASAK:
 - # hashtag, emoji (senaryo metninde)
 
 Kısıt:
-- Toplam: 90-120 kelime (CTA dahil). 120'yi geçme.
+- Toplam: 60-80 kelime (CTA dahil). 85'i geçme. 🔴 KISA TUT (retention).
 - Kısa cümleler, konuşma ritmi. "Bir gün düşündüm ki..." tarzı yumuşak akış.
 - Sadece konuşulan metni çıktı ver — başlık yok, etiket yok, tırnak yok.
 """
@@ -167,15 +167,17 @@ def senaryo_uret(haber: dict) -> str:
     # FAZ 8: Çarşamba (DIALOG_GUN=2) — dialog formatı dene (ikili ses)
     dialog_varyant = (wd == DIALOG_GUN)
 
+    # 9 Tem KANIT: uzun video = düşük retention = Shorts feed keser. Cosmos 60-75
+    # kelime = %65 ret (model). Akasha da kısa+derin zona çekildi (dialog kapalı).
     if uzun_varyant:
-        hedef_kelime = "100-115"
-        min_kelime = 95
+        hedef_kelime = "75-90"   # "biraz uzun" deneme — yine de güvenli bölge
+        min_kelime = 65
     elif dialog_varyant:
         hedef_kelime = "70-85"
         min_kelime = 60
     else:
-        hedef_kelime = "100-130"
-        min_kelime = 90  # 60-saniye Shorts → CPM 2x + watch time +%50
+        hedef_kelime = "60-80"   # VARSAYILAN: kısa+derin (35-45sn), Cosmos zonu
+        min_kelime = 55
 
     temel_prompt = (
         f"Headline: {haber['baslik']}\n"

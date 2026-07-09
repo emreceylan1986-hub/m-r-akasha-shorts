@@ -35,7 +35,7 @@ PERDE = "-4Hz"     # Hafif kalın/sıcak → daha az dijital, daha doğal
 SES_SEVIYESI = "+0%"
 
 # FAZ 8: Çarşamba (haftada 1) → dialog formatı dene
-DIALOG_GUN = 2  # Wednesday
+DIALOG_GUN = -1  # 9 Tem KAPALI: dialog iki-sesli edge-tts'e zorluyor, Leda kalitesini düşürüyordu
 
 SENARYO_SISTEM_PROMPTU = """Türkçe spiritüel/Jung-vari motivasyon YouTube Shorts
 anlatıcısısın — kanal: **Aydınlanmanın Doruk Noktası** (@akashainme).

@@ -3,7 +3,7 @@ seslendirici.py — YouTube Shorts Seslendirme Üreticisi
 
 Akış:
     1) haberler.json içindeki ilk haberi okur
-    2) Gemini ile çarpıcı bir İngilizce Shorts senaryosu üretir
+    2) Gemini ile çarpıcı bir TÜRKÇE Shorts senaryosu üretir
     3) Senaryoyu bridge.metin_onay_iste() ile denetler — REVIZE varsa
        revize edilmiş sürümü kullanır
     4) edge-tts (en-US-AriaNeural, sweet tone) ile MP3 dosyasına seslendirir

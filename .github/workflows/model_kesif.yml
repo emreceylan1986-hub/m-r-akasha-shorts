@@ -1,0 +1,28 @@
+name: Model Kesif (gecici — canli models.list)
+# 10 Tem 2026: gemini-2.5-flash 404 vermeye basladi ("no longer available").
+# Bu workflow free-tier anahtarla canli model listesini basar (key loga yazilmaz,
+# GitHub secrets zaten maskeler). Dogru halef secilince bu dosya SILINECEK.
+on: workflow_dispatch
+
+jobs:
+  liste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Canli model listesi
+        env:
+          KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          curl -s -H "x-goog-api-key: $KEY" \
+            "https://generativelanguage.googleapis.com/v1beta/models?pageSize=200" \
+          | python3 -c "
+          import json, sys
+          d = json.load(sys.stdin)
+          mods = d.get('models', [])
+          if not mods:
+              print('HATA / bos cevap:', json.dumps(d)[:400]); raise SystemExit(1)
+          for m in sorted(mods, key=lambda x: x['name']):
+              yont = ','.join(m.get('supportedGenerationMethods', []))
+              print(f\"{m['name']}  [{yont}]\")
+          print(f'--- TOPLAM: {len(mods)} model')
+          "

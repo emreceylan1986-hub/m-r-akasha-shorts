@@ -409,10 +409,11 @@ def gemini_gorsel_uret(keyword: str, hedef_png: Path, baslik: str = "") -> bool:
         f"atmospheric, cinematic color. NO text, NO words, NO watermark, NO logo."
     )
     import time as _t
+    gorsel_model = "gemini-2.5-flash-image"  # stil korunur; 404 olursa 3.1 halefine geçer
     for deneme in range(2):
         try:
             r = client.models.generate_content(
-                model="gemini-2.5-flash-image", contents=prompt,
+                model=gorsel_model, contents=prompt,
                 config=_gt.GenerateContentConfig(response_modalities=["IMAGE", "TEXT"]),
             )
             for p in r.candidates[0].content.parts:
@@ -422,6 +423,8 @@ def gemini_gorsel_uret(keyword: str, hedef_png: Path, baslik: str = "") -> bool:
                     return True
         except Exception as h:
             print(f"   ↳ Gemini görsel hata ({deneme+1}/2): {str(h)[:100]}")
+            if "404" in str(h) or "no longer available" in str(h):
+                gorsel_model = "gemini-3.1-flash-image"  # 10 Tem: 2.5-image emekli olursa halef
             _t.sleep(3)
     return False
 

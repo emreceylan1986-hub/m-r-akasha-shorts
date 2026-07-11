@@ -83,14 +83,13 @@ jobs:
           # Sağlamlık doğrulaması (içerik yok ya da bozuksa burada erken patlasın)
           python -c "import json; json.load(open('client_secret.json')); json.load(open('token.json')); print('secrets OK')"
 
-      - name: 0) Trend Signal Mixer + Viral Radar (PROVEN VIRAL last 72h)
-        continue-on-error: true
-        run: |
-          python viral_radar.py || echo "viral_radar opsiyonel — skip"
-          python competitor_scan.py || echo "competitor_scan opsiyonel — skip"
-          python trend_signal_mixer.py || echo "trend_signal opsiyonel — skip"
+      # 11 Tem KALDIRILDI: viral_radar/competitor_scan/trend_signal_mixer
+      # TC şablonundan kalma HAYVAN/PSİKOLOJİ seed'leriyle çalışıyordu (yanlış niş)
+      # ve viral_radar YouTube search.list (100 birim/çağrı) ile PAYLAŞILAN YouTube
+      # kotasını yakıp 429 → upload'ları vuruyordu. Akasha konuları zaten manuel
+      # spiritüel kuyruk + Gemini'den geliyor; bu adımlar gereksiz + zararlıydı.
 
-      - name: 1) Haberci — Reddit PRAW + Gemini fallback (psychology/mind niche)
+      - name: 1) Haberci — manuel spiritüel kuyruk + Gemini (TR spiritüel/Jung niche)
         run: python haberci.py
 
       - name: 2) Seslendirici — Gemini senaryo + edge-tts MP3 (hook+CTA güçlendirilmiş)

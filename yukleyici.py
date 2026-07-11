@@ -402,9 +402,12 @@ def main() -> int:
                 kaynak_baslik=kaynak_baslik,
                 kaynak_url=kaynak_url,
             )
-        except Exception as _dh:  # 3 Tem: Gemini kota (429) vb. → çökme yerine güvenli PRIVATE
-            print(f"[yukleyici] Uygunluk denetimi yapılamadı ({str(_dh)[:90]}) → güvenli SUPHELI/PRIVATE", flush=True)
-            denetim = {"karar": "SUPHELI", "sebep": "Denetim yapılamadı (Gemini kota/hata) — güvenli tarafta PRIVATE", "risk_alanlari": ["denetim-yapilamadi"]}
+        except Exception as _dh:  # 11 Tem: kota(429)≠içerik riski. Denetim ÇALIŞAMADIYSA
+            # videoyu GİZLEME — kendi kontrollü spiritüel prompt'umuz + diğer 3 kanal
+            # zaten denetimsiz public yayınlıyor. GERÇEK risk (denetim çalışıp SUPHELI
+            # derse) hâlâ PRIVATE'a gider. Bu, Akasha'nın %50 gizli-kalma kökünü çözer.
+            print(f"[yukleyici] Uygunluk denetimi yapılamadı ({str(_dh)[:90]}) → DENETIM_YOK (public kalır, bayrak atılır)", flush=True)
+            denetim = {"karar": "DENETIM_YOK", "sebep": "Denetim yapılamadı (Gemini kota/hata) — içerik riski DEĞİL, public kalır", "risk_alanlari": ["denetim-yapilamadi"]}
         _alt(f"Karar: {denetim['karar']} — {denetim['sebep']}")
         if denetim.get("risk_alanlari"):
             _alt(f"Risk: {', '.join(denetim['risk_alanlari'])}")

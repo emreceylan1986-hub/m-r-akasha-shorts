@@ -606,13 +606,51 @@ def _manuel_konu_al() -> dict | None:
     return konu
 
 
+# 11 Tem 2026 — EVERGREEN YEDEK: Gemini kotası biter + Reddit 403 olursa haberci
+# ASLA boş dönmesin (pipeline exit-1 çökme kökü). Footage-bol, niş-özel, kanıtlı konular.
+EVERGREEN_KONULAR = [
+    {"baslik": 'Şükür, sahip olduklarını yeterli görmenin anahtarıdır', "url": 'https://tr.wikipedia.org/wiki/Minnettarl%C4%B1k', "ozet": 'Her gün üç şeye şükret', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Şimdiki an, sahip olduğun tek gerçek zamandır', "url": 'https://tr.wikipedia.org/wiki/%C5%9Eimdiki_an', "ozet": 'Geçmiş ve gelecek zihindedir', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Gölge, kabul etmediğin yanlarında saklanır', "url": 'https://tr.wikipedia.org/wiki/G%C3%B6lge_(psikoloji)', "ozet": 'Jung: karanlığını aydınlat', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Su, en yumuşak olandır ama en sert kayayı deler', "url": 'https://tr.wikipedia.org/wiki/Tao_Te_King', "ozet": 'Lao Tzu ve suyun bilgeliği', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Nefesin, zihnini şimdiye demirleyen çapadır', "url": 'https://tr.wikipedia.org/wiki/Meditasyon', "ozet": 'Üç derin nefes yeter', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Affetmek, taşıdığın yükü yere bırakmaktır', "url": 'https://tr.wikipedia.org/wiki/Af', "ozet": 'Kendin için bırak', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Sezgin, henüz kelimelere dökülmemiş bilgeliktir', "url": 'https://tr.wikipedia.org/wiki/Sezgi', "ozet": 'İç sesini dinle', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Boşluk, dolmayı bekleyen sonsuz olanaktır', "url": 'https://tr.wikipedia.org/wiki/Zen', "ozet": 'Boş fincan öğretisi', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Korku, geçmediğin kapının ardındaki hayalettir', "url": 'https://tr.wikipedia.org/wiki/Korku', "ozet": 'Üstüne yürüdüğünde kaybolur', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Teslimiyet, akışa direnmeyi bırakmaktır', "url": 'https://tr.wikipedia.org/wiki/Tasavvuf', "ozet": 'Zorlamadan, kabullenerek', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Ego, olduğun şey değil, olduğunu sandığın şeydir', "url": 'https://tr.wikipedia.org/wiki/Ego', "ozet": 'Maskenin ötesine geç', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Sabır, tohumun toprakta beklediği o sessiz güçtür', "url": 'https://tr.wikipedia.org/wiki/Sab%C4%B1r', "ozet": 'Acele etmeden büyü', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Yalnızlık ile yalnız olmak aynı şey değildir', "url": 'https://tr.wikipedia.org/wiki/Yaln%C4%B1zl%C4%B1k', "ozet": 'Kendinle huzur kur', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'İçindeki çocuk, görmezden geldiğin ilk sesindir', "url": 'https://tr.wikipedia.org/wiki/%C4%B0%C3%A7_%C3%A7ocuk', "ozet": 'Ona kulak ver', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Kabullenmek, teslim olmak değil, gerçekle barışmaktır', "url": 'https://tr.wikipedia.org/wiki/Kabullenme', "ozet": 'Direnç bitince huzur başlar', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+]
+
+
+def _evergreen_sec(adet: int = 3) -> list:
+    """Gemini+Reddit boş dönerse evergreen havuzdan geçmişte-olmayan konu seç."""
+    import random
+    try:
+        gecmis = _gecmisi_oku()
+    except Exception:
+        gecmis = set()
+    taze = [k for k in EVERGREEN_KONULAR if _normalize_url(k["url"]) not in gecmis]
+    havuz = taze if len(taze) >= adet else list(EVERGREEN_KONULAR)
+    random.shuffle(havuz)
+    return [dict(k) for k in havuz[:adet]]
+
+
 def main() -> int:
     print("[haberci] Psikoloji/zihin nişi — Reddit + Gemini fallback taranıyor...\n")
     manuel = _manuel_konu_al()
     secilenler = [manuel] if manuel else en_populer_3()
 
     if not secilenler:
-        print("[haberci] Hiç haber bulunamadı.")
+        print("[haberci] Gemini+Reddit boş → EVERGREEN havuzdan seçiliyor (pipeline korunur)", flush=True)
+        secilenler = _evergreen_sec(3)
+
+    if not secilenler:
+        print("[haberci] Hiç haber bulunamadı (evergreen de boş?!).")
         return 1
 
     cikti = {

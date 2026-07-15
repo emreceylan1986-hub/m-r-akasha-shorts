@@ -1,0 +1,20 @@
+name: Model Test (gecici)
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: gemini-flash-lite-latest canli test
+        env:
+          KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          curl -s -H "x-goog-api-key: $KEY" -H "Content-Type: application/json" \
+            -d '{"contents":[{"parts":[{"text":"Reply with exactly: LITE_OK"}]}]}' \
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent" \
+          | python3 -c "
+          import json,sys
+          d=json.load(sys.stdin)
+          if 'error' in d: print('HATA:',json.dumps(d['error'])[:200]); raise SystemExit(1)
+          print('CEVAP:', d['candidates'][0]['content']['parts'][0]['text'].strip()[:60])
+          "

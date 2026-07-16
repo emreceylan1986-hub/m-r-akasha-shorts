@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-07-16T11:39:33.202419+00:00",
+  "uretim_zamani": "2026-07-16T19:37:11.734553+00:00",
   "haberler": [
     {
-      "baslik": "Dostoyevski'nin gözünden: Neden seni yaralayan kişiye çekiliyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/Fyodor_Dostoyevski",
+      "baslik": "Aşk sandığın o his aslında çocukluk yaralarının tanıdık yankısıdır",
+      "url": "https://en.wikipedia.org/wiki/Attachment_in_adults",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Seni en çok çeken insan, ruhunun iyileşmemiş yanını yansıtan bir aynadır",
+      "url": "https://en.wikipedia.org/wiki/Repetition_compulsion",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "İlişkilerde aynalama etkisi: Karşındaki kişi senin hangi bastırılmış yönün?",
-      "url": "https://tr.wikipedia.org/wiki/Psikolojik_projeksiyon",
+      "baslik": "Sessizce uzaklaşanların gücü: Güvenin bittiği yerde sessizlik başlar",
+      "url": "https://en.wikipedia.org/wiki/Boundary_(psychology)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

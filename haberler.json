@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-16T19:37:11.734553+00:00",
+  "uretim_zamani": "2026-07-16T20:57:49.820380+00:00",
   "haberler": [
     {
-      "baslik": "Aşk sandığın o his aslında çocukluk yaralarının tanıdık yankısıdır",
-      "url": "https://en.wikipedia.org/wiki/Attachment_in_adults",
+      "baslik": "Tao Te Jing — Bölüm 11: Zihnindeki boşluğun gücüyle ilişkide güveni bulmak",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Seni en çok çeken insan, ruhunun iyileşmemiş yanını yansıtan bir aynadır",
-      "url": "https://en.wikipedia.org/wiki/Repetition_compulsion",
+      "baslik": "Karşındaki insanın gözlerinin içine bakarken hissettiğin o derin yabancılık",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6z_temas%C4%b1",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sessizce uzaklaşanların gücü: Güvenin bittiği yerde sessizlik başlar",
-      "url": "https://en.wikipedia.org/wiki/Boundary_(psychology)",
+      "baslik": "Dostoyevski'nin Budala'sı ve her insana koşulsuz güvenen o tehlikeli saflık",
+      "url": "https://tr.wikipedia.org/wiki/Budala_(roman)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

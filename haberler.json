@@ -1,11 +1,21 @@
 {
-  "uretim_zamani": "2026-07-15T21:00:06.589765+00:00",
+  "uretim_zamani": "2026-07-16T11:39:33.202419+00:00",
   "haberler": [
     {
-      "baslik": "Kadim Bilgelik: Kalbin Aklı",
-      "url": "https://tr.wikipedia.org/wiki/Bilgelik",
-      "ozet": "Aklın ötesinde, kalbin sezgisiyle bilmenin kadim yolu.",
-      "kaynak": "manuel-spirituel"
+      "baslik": "Dostoyevski'nin gözünden: Neden seni yaralayan kişiye çekiliyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/Fyodor_Dostoyevski",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "İlişkilerde aynalama etkisi: Karşındaki kişi senin hangi bastırılmış yönün?",
+      "url": "https://tr.wikipedia.org/wiki/Psikolojik_projeksiyon",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
     }
   ]
 }

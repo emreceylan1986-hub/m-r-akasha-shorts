@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-17T19:08:57.823494+00:00",
+  "uretim_zamani": "2026-07-17T20:54:41.066863+00:00",
   "haberler": [
     {
-      "baslik": "Dostoyevski'nin Karamazov Kardeşler'deki büyük sırrı: İnsan neden kendine acı çektireni sever?",
-      "url": "https://tr.wikipedia.org/wiki/Karamazov_Karde%C5%9Fler",
+      "baslik": "Benjamin Franklin etkisi: Sana iyilik yapan biri seni neden daha çok sever?",
+      "url": "https://tr.wikipedia.org/wiki/Benjamin_Franklin_etkisi",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye tüm anlamını ben verdim' yanılsaması",
-      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Bunu hak etmek için ne yaptım? Kurban tuzağından çıkmanın Stoacı yolu",
+      "url": "https://tr.wikipedia.org/wiki/Logoterapi",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi bilgeliğinde 'Fena' makamı: Kendi egonun manipülasyonundan nasıl özgürleşirsin?",
-      "url": "https://tr.wikipedia.org/wiki/Fen%C3%A2",
+      "baslik": "Zihninin en karanlık odası: Bastırdığın arzuların hayatını nasıl yönetiyor?",
+      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%B1%C5%9F%C4%B1",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

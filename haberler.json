@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-16T20:57:49.820380+00:00",
+  "uretim_zamani": "2026-07-17T11:21:30.235535+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing — Bölüm 11: Zihnindeki boşluğun gücüyle ilişkide güveni bulmak",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "baslik": "Karanlık üçleme: Etrafındaki gizli narsisti ele veren o 'sessiz' ceza",
+      "url": "https://en.wikipedia.org/wiki/Dark_triad",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Karşındaki insanın gözlerinin içine bakarken hissettiğin o derin yabancılık",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6z_temas%C4%b1",
+      "baslik": "İkna sanatında 'kapıya ayak koyma' taktiği: Sana nasıl 'evet' dedirtiyorlar?",
+      "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Dostoyevski'nin Budala'sı ve her insana koşulsuz güvenen o tehlikeli saflık",
-      "url": "https://tr.wikipedia.org/wiki/Budala_(roman)",
+      "baslik": "Sessiz manipülasyon: Gaslighting senin kendi gerçeğinden şüphe etmeni nasıl sağlar?",
+      "url": "https://en.wikipedia.org/wiki/Gaslighting",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

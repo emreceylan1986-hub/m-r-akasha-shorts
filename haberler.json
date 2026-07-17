@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-17T11:21:30.235535+00:00",
+  "uretim_zamani": "2026-07-17T17:11:43.984560+00:00",
   "haberler": [
     {
-      "baslik": "Karanlık üçleme: Etrafındaki gizli narsisti ele veren o 'sessiz' ceza",
-      "url": "https://en.wikipedia.org/wiki/Dark_triad",
+      "baslik": "İkna sanatında 'kıtlık etkisi': İnsanların neden elde edemediklerine daha çok değer verdiğini biliyor musun?",
+      "url": "https://en.wikipedia.org/wiki/Scarcity_(social_psychology)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "İkna sanatında 'kapıya ayak koyma' taktiği: Sana nasıl 'evet' dedirtiyorlar?",
-      "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
+      "baslik": "Tao Te Jing 9. Bölüm: Bir kabı ağzına kadar doldurursan dökülür; tutkularında sınır nerede?",
+      "url": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sessiz manipülasyon: Gaslighting senin kendi gerçeğinden şüphe etmeni nasıl sağlar?",
-      "url": "https://en.wikipedia.org/wiki/Gaslighting",
+      "baslik": "İnsanları yöneten görünmez bağ: 'Karşılıklılık kuralı' sana nasıl borçlu hissettiriliyor?",
+      "url": "https://en.wikipedia.org/wiki/Reciprocity_(social_psychology)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

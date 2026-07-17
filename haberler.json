@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-17T17:11:43.984560+00:00",
+  "uretim_zamani": "2026-07-17T19:08:57.823494+00:00",
   "haberler": [
     {
-      "baslik": "İkna sanatında 'kıtlık etkisi': İnsanların neden elde edemediklerine daha çok değer verdiğini biliyor musun?",
-      "url": "https://en.wikipedia.org/wiki/Scarcity_(social_psychology)",
+      "baslik": "Dostoyevski'nin Karamazov Kardeşler'deki büyük sırrı: İnsan neden kendine acı çektireni sever?",
+      "url": "https://tr.wikipedia.org/wiki/Karamazov_Karde%C5%9Fler",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing 9. Bölüm: Bir kabı ağzına kadar doldurursan dökülür; tutkularında sınır nerede?",
-      "url": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye tüm anlamını ben verdim' yanılsaması",
+      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "İnsanları yöneten görünmez bağ: 'Karşılıklılık kuralı' sana nasıl borçlu hissettiriliyor?",
-      "url": "https://en.wikipedia.org/wiki/Reciprocity_(social_psychology)",
+      "baslik": "Sufi bilgeliğinde 'Fena' makamı: Kendi egonun manipülasyonundan nasıl özgürleşirsin?",
+      "url": "https://tr.wikipedia.org/wiki/Fen%C3%A2",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

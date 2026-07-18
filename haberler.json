@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-18T16:57:57.556913+00:00",
+  "uretim_zamani": "2026-07-18T19:03:08.316361+00:00",
   "haberler": [
     {
-      "baslik": "Rüyalarında sürekli düşüyorsan: Ruhunun kontrolü bırakma çığlığı",
-      "url": "https://tr.wikipedia.org/wiki/Hızlı_göz_hareketleri",
+      "baslik": "Neden her rüyada aynı yabancı yüzü görüyorsun? Kolektif rüya arketipleri",
+      "url": "https://tr.wikipedia.org/wiki/Arketip",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Uykuda sıçrayarak uyanmak: Kasların değil, egonun teslimiyet korkusu",
-      "url": "https://tr.wikipedia.org/wiki/Hipnik_seğirme",
+      "baslik": "Tao Te Jing Bölüm 11: Zihnindeki boşluk rüyalarını nasıl şekillendirir?",
+      "url": "https://tr.wikipedia.org/wiki/Bo%C5%9Fluk_(felsefe)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rüyanda aynı insanı görmek: O kişinin değil, senin bitmemiş bir hesabın",
-      "url": "https://tr.wikipedia.org/wiki/Rüya_yorumu",
+      "baslik": "Uykuda uyanmak: Tasavvufta 'yakaza' hali ve rüyadaki uyanış",
+      "url": "https://tr.wikipedia.org/wiki/Sezgisel_tasavvuf",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

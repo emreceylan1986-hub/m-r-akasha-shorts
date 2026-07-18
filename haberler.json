@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-07-18T11:03:35.744974+00:00",
+  "uretim_zamani": "2026-07-18T16:57:57.556913+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli aynı mekandaysan bilinçaltın sana ne anlatıyor?",
-      "url": "https://tr.wikipedia.org/wiki/L%C3%BCsid_r%C3%BCya",
+      "baslik": "Rüyalarında sürekli düşüyorsan: Ruhunun kontrolü bırakma çığlığı",
+      "url": "https://tr.wikipedia.org/wiki/Hızlı_göz_hareketleri",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kabuslar aslında ruhunun kabul edilmemiş hangi parçasını taşıyor?",
-      "url": "https://tr.wikipedia.org/wiki/Aktarım_(psikoloji)",
+      "baslik": "Uykuda sıçrayarak uyanmak: Kasların değil, egonun teslimiyet korkusu",
+      "url": "https://tr.wikipedia.org/wiki/Hipnik_seğirme",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyanda aynı insanı görmek: O kişinin değil, senin bitmemiş bir hesabın",
+      "url": "https://tr.wikipedia.org/wiki/Rüya_yorumu",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

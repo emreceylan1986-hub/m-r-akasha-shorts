@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-07-17T20:54:41.066863+00:00",
+  "uretim_zamani": "2026-07-18T11:03:35.744974+00:00",
   "haberler": [
     {
-      "baslik": "Benjamin Franklin etkisi: Sana iyilik yapan biri seni neden daha çok sever?",
-      "url": "https://tr.wikipedia.org/wiki/Benjamin_Franklin_etkisi",
+      "baslik": "Rüyanda sürekli aynı mekandaysan bilinçaltın sana ne anlatıyor?",
+      "url": "https://tr.wikipedia.org/wiki/L%C3%BCsid_r%C3%BCya",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Bunu hak etmek için ne yaptım? Kurban tuzağından çıkmanın Stoacı yolu",
-      "url": "https://tr.wikipedia.org/wiki/Logoterapi",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Zihninin en karanlık odası: Bastırdığın arzuların hayatını nasıl yönetiyor?",
-      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%B1%C5%9F%C4%B1",
+      "baslik": "Kabuslar aslında ruhunun kabul edilmemiş hangi parçasını taşıyor?",
+      "url": "https://tr.wikipedia.org/wiki/Aktarım_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

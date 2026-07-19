@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-17T20:54:41.066863+00:00",
+  "uretim_zamani": "2026-07-18T20:46:38.482496+00:00",
   "haberler": [
     {
-      "baslik": "Benjamin Franklin etkisi: Sana iyilik yapan biri seni neden daha çok sever?",
-      "url": "https://tr.wikipedia.org/wiki/Benjamin_Franklin_etkisi",
+      "baslik": "Neden uykudan hemen önce düşme hissiyle irkilerek uyanırsın?",
+      "url": "https://tr.wikipedia.org/wiki/Hipnik_se%C4%9Firme",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Bunu hak etmek için ne yaptım? Kurban tuzağından çıkmanın Stoacı yolu",
-      "url": "https://tr.wikipedia.org/wiki/Logoterapi",
+      "baslik": "Rüyalar neden uykunun sadece belirli bir evresinde gerçeğe dönüşür?",
+      "url": "https://tr.wikipedia.org/wiki/H%C4%B1zl%C4%B1_g%C3%B6z_hareketleri",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihninin en karanlık odası: Bastırdığın arzuların hayatını nasıl yönetiyor?",
-      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%B1%C5%9F%C4%B1",
+      "baslik": "Sigmund Freud'a göre rüyalar bastırılmış arzularının maskelenmiş hali midir?",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_yorumu",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,23 +1,23 @@
 # 📊 Aydınlanmanın Doruk Noktası — Haftalık Rapor
-_2026-07-05T22:58+00:00_
+_2026-07-19T22:46+00:00_
 
 ## Özet
-- **Abone:** 17 (+6 bu hafta)
-- **Toplam view:** 5,988 (+4,523 bu hafta)
-- **Toplam video:** 35
-- **Son 7 gün:** 19 video, 1,872 izl, ort 98/video
-- **<50 izl video sayısı:** 10/19 (kalite_temizleyici aday)
+- **Abone:** 29 (+12 bu hafta)
+- **Toplam view:** 13,512 (+7,524 bu hafta)
+- **Toplam video:** 82
+- **Son 7 gün:** 28 video, 5,424 izl, ort 193/video
+- **<50 izl video sayısı:** 7/28 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **906v** · 13👍 · 1💬 — Carl Jung: İçsel karşıtlıkları bütünleştirmek ve ruhsal olgunluk
-- **289v** · 5👍 · 1💬 — Carl Jung: Toplumsal maskenin ardındaki gerçek benliğini bulmak
-- **101v** · 1👍 · 0💬 — İçtiğin içecek ruhunun aynası mı? Her yudumda gizli bir mesaj
+- **865v** · 6👍 · 1💬 — Carl Jung, bin dokuz yüz on altı yılında, bilincin en derin gücünün sessiz bir niyet olduğ
+- **849v** · 5👍 · 2💬 — dostoyevski ve insanın acıya tutunma arzusu üzerine bir çözümleme
+- **441v** · 3👍 · 1💬 — benjamin franklin etkisi ve insan ilişkilerindeki ters psikoloji
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 1💬 — Tao'nun bilgeliği: Suyun akışına teslim olmanın sırrı
-- **0v** · 0👍 · 0💬 — Affetmenin sırrı: Zincirlerinden kurtulan tek kişi sensin
-- **0v** · 0👍 · 0💬 — Rüyaların dili: Bilinçaltının sana fısıldadıkları
+- **0v** · 0👍 · 0💬 — lao tzu felsefesinde zihni özgürleştiren boşluğun gücü
+- **2v** · 0👍 · 0💬 — epiktetos felsefesinde zihni yoran yargılardan kurtulma sanatı
+- **13v** · 1👍 · 0💬 — lao tzu felsefesinde ilişkileri ayakta tutan görünmez boşluk
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **17 abone / 98 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **29 abone / 193 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı

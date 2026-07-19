@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-07-19T19:06:16.498560+00:00",
+  "uretim_zamani": "2026-07-19T20:47:36.420369+00:00",
   "haberler": [
     {
-      "baslik": "Zihinsel yorgunluğunun gerçek sebebi: 'Zehirsiz asetik' dikkat eksikliği ve Stoacı çözüm",
-      "url": "https://tr.wikipedia.org/wiki/Epiktetos",
+      "baslik": "Tao Te Jing — Bölüm 11: Zihnindeki aşırı düşünme fırtınasını 'alan' açarak dindir",
+      "url": "https://en.wikipedia.org/wiki/Laozi",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Zihnin durmaksızın konuşuyorsa: Budist felsefesinde 'Maymun Zihin' nasıl sakinleştirilir?",
+      "url": "https://en.wikipedia.org/wiki/Monkey_mind",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm hiçbir şey benim ona yüklediğim anlamı taşımıyor'",
-      "url": "https://tr.wikipedia.org/wiki/Helen_Schucman",
+      "baslik": "Düşüncelerin arasında kaybolduğunda: Stoacıların 'Manevi Sığınak' yöntemiyle odağını geri kazan",
+      "url": "https://en.wikipedia.org/wiki/Spiritual_exercises",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

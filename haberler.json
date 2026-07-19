@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-18T20:46:38.482496+00:00",
+  "uretim_zamani": "2026-07-19T11:09:04.396658+00:00",
   "haberler": [
     {
-      "baslik": "Neden uykudan hemen önce düşme hissiyle irkilerek uyanırsın?",
-      "url": "https://tr.wikipedia.org/wiki/Hipnik_se%C4%9Firme",
+      "baslik": "Aşırı düşünmeyi durduran Stoacı teknik: Premeditatio Malorum",
+      "url": "https://tr.wikipedia.org/wiki/Seneca",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rüyalar neden uykunun sadece belirli bir evresinde gerçeğe dönüşür?",
-      "url": "https://tr.wikipedia.org/wiki/H%C4%B1zl%C4%B1_g%C3%B6z_hareketleri",
+      "baslik": "Mucizeler Kursu Ders 3: Zihnin gürültüsünü bitiren 'Yargısız Bakış'",
+      "url": "https://tr.wikipedia.org/wiki/Mucize",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sigmund Freud'a göre rüyalar bastırılmış arzularının maskelenmiş hali midir?",
-      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_yorumu",
+      "baslik": "Zihinsel yorgunluğun ardındaki sır: Kalp çakrasındaki enerji blokajı",
+      "url": "https://tr.wikipedia.org/wiki/Anahata",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

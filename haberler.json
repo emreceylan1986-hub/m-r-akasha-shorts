@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-19T11:09:04.396658+00:00",
+  "uretim_zamani": "2026-07-19T16:57:59.395071+00:00",
   "haberler": [
     {
-      "baslik": "Aşırı düşünmeyi durduran Stoacı teknik: Premeditatio Malorum",
-      "url": "https://tr.wikipedia.org/wiki/Seneca",
+      "baslik": "Aşırı düşünmeyi durdurmanın kadim yolu: Stoacıların 'dikkat' sanatı",
+      "url": "https://tr.wikipedia.org/wiki/Prosoche",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 3: Zihnin gürültüsünü bitiren 'Yargısız Bakış'",
-      "url": "https://tr.wikipedia.org/wiki/Mucize",
+      "baslik": "Zihnin gürültüsünü kesen tek nefes: Tasavvufta 'Hû' ile odaklanma",
+      "url": "https://tr.wikipedia.org/wiki/Zikir",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihinsel yorgunluğun ardındaki sır: Kalp çakrasındaki enerji blokajı",
-      "url": "https://tr.wikipedia.org/wiki/Anahata",
+      "baslik": "Zihnindeki karmaşayı bitirecek olan 'boşluk': Zen ve Ma felsefesi",
+      "url": "https://en.wikipedia.org/wiki/Ma_(space)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

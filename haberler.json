@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-20T12:16:31.094795+00:00",
+  "uretim_zamani": "2026-07-20T18:02:22.359921+00:00",
   "haberler": [
     {
-      "baslik": "Beyninin 'Zeigarnik Etkisi' seni neden geçmişe hapsediyor?",
-      "url": "https://en.wikipedia.org/wiki/Zeigarnik_effect",
+      "baslik": "Beynin neden 'eksik' olan bilgiyi kendi uydurur? Zihinsel boşlukları tamamlama yanılgısı",
+      "url": "https://tr.wikipedia.org/wiki/Alg%C4%B1",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihninin 'Anatomi Yanılgısı': Beynin acıyı neden fiziksel yaralarla aynı yerde hisseder?",
-      "url": "https://en.wikipedia.org/wiki/Social_rejection",
+      "baslik": "Neden acı veren anıları daha net hatırlarsın? Beyninin hayatta kalma odaklı hafıza filtresi",
+      "url": "https://tr.wikipedia.org/wiki/Haf%C4%B1za",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Beynindeki 'Tetris Etkisi': Günlük alışkanlıkların rüyalarını nasıl inşa ediyor?",
-      "url": "https://en.wikipedia.org/wiki/Tetris_effect",
+      "baslik": "Tao Te Jing 12. Bölüm: 'Gözler renklerle körleşir' — uyaran bolluğunun nörolojik esareti",
+      "url": "https://tr.wikipedia.org/wiki/N%C3%B6roplastisite",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

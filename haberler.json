@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-19T20:47:36.420369+00:00",
+  "uretim_zamani": "2026-07-20T12:16:31.094795+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing — Bölüm 11: Zihnindeki aşırı düşünme fırtınasını 'alan' açarak dindir",
-      "url": "https://en.wikipedia.org/wiki/Laozi",
+      "baslik": "Beyninin 'Zeigarnik Etkisi' seni neden geçmişe hapsediyor?",
+      "url": "https://en.wikipedia.org/wiki/Zeigarnik_effect",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihnin durmaksızın konuşuyorsa: Budist felsefesinde 'Maymun Zihin' nasıl sakinleştirilir?",
-      "url": "https://en.wikipedia.org/wiki/Monkey_mind",
+      "baslik": "Zihninin 'Anatomi Yanılgısı': Beynin acıyı neden fiziksel yaralarla aynı yerde hisseder?",
+      "url": "https://en.wikipedia.org/wiki/Social_rejection",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Düşüncelerin arasında kaybolduğunda: Stoacıların 'Manevi Sığınak' yöntemiyle odağını geri kazan",
-      "url": "https://en.wikipedia.org/wiki/Spiritual_exercises",
+      "baslik": "Beynindeki 'Tetris Etkisi': Günlük alışkanlıkların rüyalarını nasıl inşa ediyor?",
+      "url": "https://en.wikipedia.org/wiki/Tetris_effect",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

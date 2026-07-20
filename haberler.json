@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-07-20T18:02:22.359921+00:00",
+  "uretim_zamani": "2026-07-20T21:12:30.922619+00:00",
   "haberler": [
     {
-      "baslik": "Beynin neden 'eksik' olan bilgiyi kendi uydurur? Zihinsel boşlukları tamamlama yanılgısı",
-      "url": "https://tr.wikipedia.org/wiki/Alg%C4%B1",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neden acı veren anıları daha net hatırlarsın? Beyninin hayatta kalma odaklı hafıza filtresi",
-      "url": "https://tr.wikipedia.org/wiki/Haf%C4%B1za",
+      "baslik": "Beyninin 'Otomatik Pilot' modu: Neden günün çoğu kısmında uyuyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/Bilinç",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing 12. Bölüm: 'Gözler renklerle körleşir' — uyaran bolluğunun nörolojik esareti",
-      "url": "https://tr.wikipedia.org/wiki/N%C3%B6roplastisite",
+      "baslik": "Dostoyevski karakterleri neden kendi acılarına aşık olur? İrade zayıflığı mı?",
+      "url": "https://tr.wikipedia.org/wiki/Dostoyevski",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

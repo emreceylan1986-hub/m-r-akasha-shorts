@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-07-21T11:46:50.234652+00:00",
+  "uretim_zamani": "2026-07-21T12:31:48.435615+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing — Bölüm 11: Zihnindeki boşluk neden sürekli ertelemene sebep oluyor?",
-      "url": "https://en.wikipedia.org/wiki/Wuji_(philosophy)",
+      "baslik": "Tao Te Jing — Bölüm 11: Sürekli bir şeyler üretmek zorunda hissetmenin ruhsal sebebi",
+      "url": "https://en.wikipedia.org/wiki/Wuxing_(Chinese_philosophy)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sürekli aynı şeyleri ertelemenin arkasındaki gizli feryat: Ruhsal Atalet",
-      "url": "https://en.wikipedia.org/wiki/Akrasia",
+      "baslik": "Zihninin sürekli en kötüsünü hayal etmesi aslında antik bir korunma refleksidir",
+      "url": "https://tr.wikipedia.org/wiki/Ataraxia",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neden hep uykudan önce uyanık hissedersin? Ruhun gündüz gürültüsünden kaçma alışkanlığı",
-      "url": "https://en.wikipedia.org/wiki/Revenge_bedtime_procrastination",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-07-21T12:31:48.435615+00:00",
+  "uretim_zamani": "2026-07-21T17:20:14.413196+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing — Bölüm 11: Sürekli bir şeyler üretmek zorunda hissetmenin ruhsal sebebi",
-      "url": "https://en.wikipedia.org/wiki/Wuxing_(Chinese_philosophy)",
+      "baslik": "Sürekli bir şeyleri ertelemenin arkasındaki gizli 'yas': Mucizeler Kursu Ders 1",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihninin sürekli en kötüsünü hayal etmesi aslında antik bir korunma refleksidir",
-      "url": "https://tr.wikipedia.org/wiki/Ataraxia",
+      "baslik": "Tao Te Jing Bölüm 11: Odandaki eşyalar değil, aradaki boşluk seni yönetiyor",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre'nin 'Beni bende demen' sırrı: Neden sürekli başkalarının onayını arıyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

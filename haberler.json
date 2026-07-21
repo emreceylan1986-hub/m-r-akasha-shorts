@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-07-20T21:12:30.922619+00:00",
+  "uretim_zamani": "2026-07-21T11:46:50.234652+00:00",
   "haberler": [
     {
-      "baslik": "Beyninin 'Otomatik Pilot' modu: Neden günün çoğu kısmında uyuyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/Bilinç",
+      "baslik": "Tao Te Jing — Bölüm 11: Zihnindeki boşluk neden sürekli ertelemene sebep oluyor?",
+      "url": "https://en.wikipedia.org/wiki/Wuji_(philosophy)",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sürekli aynı şeyleri ertelemenin arkasındaki gizli feryat: Ruhsal Atalet",
+      "url": "https://en.wikipedia.org/wiki/Akrasia",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Dostoyevski karakterleri neden kendi acılarına aşık olur? İrade zayıflığı mı?",
-      "url": "https://tr.wikipedia.org/wiki/Dostoyevski",
+      "baslik": "Neden hep uykudan önce uyanık hissedersin? Ruhun gündüz gürültüsünden kaçma alışkanlığı",
+      "url": "https://en.wikipedia.org/wiki/Revenge_bedtime_procrastination",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

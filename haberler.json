@@ -1,30 +1,19 @@
 {
-  "uretim_zamani": "2026-07-22T17:20:00.614492+00:00",
+  "uretim_zamani": "2026-07-22T19:21:12.769536+00:00",
   "haberler": [
     {
-      "baslik": "İçindeki çocuk, görmezden geldiğin ilk sesindir",
-      "url": "https://tr.wikipedia.org/wiki/%C4%B0%C3%A7_%C3%A7ocuk",
-      "ozet": "Ona kulak ver",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Karşına çıkan o tekrar eden sayılar tesadüf mü? Eşzamanlılığın gizli dili",
+      "url": "https://en.wikipedia.org/wiki/Synchronicity",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sabır, tohumun toprakta beklediği o sessiz güçtür",
-      "url": "https://tr.wikipedia.org/wiki/Sab%C4%B1r",
-      "ozet": "Acele etmeden büyü",
-      "kaynak": "evergreen",
-      "skor": 900,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Affetmek, taşıdığın yükü yere bırakmaktır",
-      "url": "https://tr.wikipedia.org/wiki/Af",
-      "ozet": "Kendin için bırak",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Yunus Emre'nin bahsettiği 'Beni bende demen, bende değilim' sırrı nedir?",
+      "url": "https://en.wikipedia.org/wiki/Tasawwuf",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

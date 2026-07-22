@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-07-21T21:08:58.106139+00:00",
+  "uretim_zamani": "2026-07-22T11:47:12.901650+00:00",
   "haberler": [
     {
-      "baslik": "Yorulmaktan değil, içindeki ateşi yakamamaktan tükenirsin: Sufi felsefesinde himmet",
-      "url": "https://tr.wikipedia.org/wiki/Himmet",
+      "baslik": "İçindeki o bitmek bilmeyen 'yetersizlik' hissi: Egonun en büyük yalanı",
+      "url": "https://en.wikipedia.org/wiki/Ego_(religion)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Stoacıların 'Memento Mori' felsefesi: Ölümü düşünmek seni nasıl özgürleştirir?",
-      "url": "https://tr.wikipedia.org/wiki/Memento_mori",
+      "baslik": "Kendini cezalandırmaktan vazgeçtiğinde hayatında başlayacak ilk mucize",
+      "url": "https://en.wikipedia.org/wiki/Forgiveness",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

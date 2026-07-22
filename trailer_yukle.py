@@ -23,23 +23,23 @@ YOUTUBE_SCOPES = [
     "https://www.googleapis.com/auth/youtube.force-ssl",
 ]
 
-TRAILER_TITLE = "Welcome to Mindgaps — Facts About Your Mind in 60 Seconds"
+TRAILER_TITLE = "Aydınlanmanın Doruk Noktası'na Hoş Geldin"
 
-TRAILER_DESC = """Welcome to Mindgaps — daily psychology & brain shorts about who you really are.
+TRAILER_DESC = """Aydınlanmanın Doruk Noktası — Jung, tasavvuf ve iç huzur üzerine günlük kısa videolar.
 
-Your mind is hiding things from you. Mindgaps reveals them — science-backed facts about how your brain, personality, habits, and relationships actually work. Why you do what you do, in under 60 seconds.
+Zihnin ve ruhun derinliklerinde saklı olanı birlikte keşfediyoruz — gölge, bilinçdışı, sufi bilgeliği ve farkındalık üzerine kısa, derin videolar.
 
-Three new shorts every day. For the curious mind, the wanderer, the dreamer.
+Her gün yeni bir video. Arayan, sorgulayan, derinleşmek isteyen herkes için.
 
-Subscribe → https://youtube.com/@getmindgaps?sub_confirmation=1
+Abone ol → https://youtube.com/@akashainme?sub_confirmation=1
 
-Understand yourself a little better, every day.
+Her gün kendini biraz daha derinden tanı.
 
-#Shorts #psychology #psychologyfacts #brain #mindfacts #fyp"""
+#Shorts #spiritüellik #carljung #tasavvuf #farkındalık #fyp"""
 
 TRAILER_TAGS = [
-    "mindgaps", "psychology", "psychology facts", "brain facts", "mind facts",
-    "human behavior", "neuroscience", "shorts", "channel trailer", "welcome",
+    "akasha", "spiritüellik", "carl jung", "tasavvuf", "yunus emre", "mevlana",
+    "farkındalık", "meditasyon", "shorts", "kanal tanıtımı",
 ]
 
 
@@ -63,8 +63,8 @@ def video_yukle(yt, mp4: Path) -> str:
             "title": TRAILER_TITLE,
             "description": TRAILER_DESC,
             "tags": TRAILER_TAGS,
-            "categoryId": "15",  # Pets & Animals (TC nişi)
-            "defaultLanguage": "en",
+            "categoryId": "22",  # People & Blogs (Akasha nişi)
+            "defaultLanguage": "tr",
         },
         "status": {
             "privacyStatus": "public",

@@ -184,7 +184,7 @@ def senaryo_uret(haber: dict) -> str:
         f"Source URL: {haber['url']}\n"
         f"Engagement signal: score={haber.get('skor')}, "
         f"comments={haber.get('yorum_sayisi')}, age={haber.get('yas_saat')}h\n\n"
-        f"Write the Shorts voice-over script now ({hedef_kelime} words, English only)."
+        f"Write the Shorts voice-over script now ({hedef_kelime} words, TURKISH ONLY — Türkçe yaz)."
     )
     if uzun_varyant:
         temel_prompt += (

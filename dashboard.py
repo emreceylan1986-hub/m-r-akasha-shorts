@@ -126,7 +126,7 @@ def html_uret() -> str:
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<title>TrendCatcher Dashboard</title>
+<title>Akasha Dashboard</title>
 <script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
 <style>
 body {{ font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif; max-width: 1200px; margin: 20px auto; padding: 0 20px; color: #1a1a1a; }}
@@ -145,7 +145,7 @@ th {{ background: #f6f8fa; }}
 </style>
 </head>
 <body>
-<h1>🎯 TrendCatcher Dashboard</h1>
+<h1>🎯 Akasha Dashboard</h1>
 <div class="uretim">Üretildi: {datetime.now().strftime('%Y-%m-%d %H:%M')} | Kanal: <b>{cname}</b></div>
 
 <div class="metrik">

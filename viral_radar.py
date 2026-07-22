@@ -16,13 +16,13 @@ PANEL_KOK = Path(__file__).parent
 TOKEN = PANEL_KOK / "token.json"
 CIKTI = PANEL_KOK / "viral_targets.json"
 
-# Niş anahtar kelimeleri — TrendCatcher için extreme/anomaly nature
+# Niş anahtar kelimeleri — Akasha için spiritüel/Jung/mistik farkındalık
 NIS_ANAHTAR = [
-    "mountain goat", "ibex climbing", "markhor", "bighorn",
-    "extreme animal", "nature anomaly", "amazing wildlife",
-    "rare animal", "deep sea creature", "extremophile",
-    "pink lake", "boiling lake", "weird nature",
-    "wild facts", "incredible animal", "tardigrade",
+    "carl jung shadow work", "shadow self", "spiritual awakening signs",
+    "sufi wisdom", "rumi quotes", "synchronicity meaning",
+    "subconscious mind", "ego death", "inner child healing",
+    "dark night of the soul", "law of attraction", "self discovery",
+    "meditation for anxiety", "manifestation technique", "stoicism wisdom",
 ]
 
 

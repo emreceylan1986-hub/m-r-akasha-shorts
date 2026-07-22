@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-trailer_uret.py — TrendCatcher kanal trailer (~25 sn).
+trailer_uret.py — Aydınlanmanın Doruk Noktası (Akasha) kanal trailer (~25 sn).
 
 Shorts üretim motorunu yeniden kullan: Pexels video + Wikimedia foto +
-ASS altyazı + ses mux. TC shorts'larıyla aynı kalite.
+ASS altyazı + ses mux. Akasha shorts'larıyla aynı kalite.
 
 Çıktı: branding/trailer.mp4 (1080x1920)
 """
@@ -26,14 +26,14 @@ Path(montajci.GECICI_KLASOR).mkdir(exist_ok=True)
 if hasattr(montajci, "CIKTI_KLASOR"):
     Path(montajci.CIKTI_KLASOR).mkdir(exist_ok=True)
 
-SCRIPT = """Welcome to Mindgaps.
+SCRIPT = """Aydınlanmanın Doruk Noktası'na hoş geldin.
 
-Quick, science-backed facts about how your brain, personality, habits, and relationships actually work. Why you do what you do — in under 60 seconds.
+Jung'un gölgesinden Yunus Emre'nin sözlerine, sufi bilgeliğinden iç huzura — zihnini ve ruhunu derinden besleyen kısa videolar burada.
 
-Three new shorts every day. Hit subscribe and notice yourself differently."""
+Her gün yeni bir farkındalık. Abone ol, kendini biraz daha derinden tanı."""
 
-# Mindgaps nişi — Pexels'ten beyin/zihin/psikoloji görselleri
-KEYWORDS = ["human brain closeup", "thinking woman face", "neurons firing animation"]
+# Akasha nişi — Pexels'ten meditasyon/doğa/huzur görselleri
+KEYWORDS = ["meditation silhouette sunrise", "candle calm peaceful", "ocean horizon serenity"]
 
 
 def log(msg):
@@ -68,7 +68,7 @@ def main():
     ham_klipler = []
     for i, kw in enumerate(KEYWORDS, 1):
         ham = GECICI / f"ham_{i}.mp4"
-        bilgi = montajci.gorsel_kaynak_indir(kw, ham, klip_basi, api_key, baslik="TrendCatcher Trailer")
+        bilgi = montajci.gorsel_kaynak_indir(kw, ham, klip_basi, api_key, baslik="Akasha Trailer")
         log(f"   #{i} '{kw}' → {bilgi.get('fotograf','?')} ({ham.stat().st_size//1024} KB)")
         ham_klipler.append(ham)
 

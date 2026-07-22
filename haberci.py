@@ -1,11 +1,10 @@
 """
-haberci.py — YouTube Shorts için Teknoloji Haberi Çekici
+haberci.py — YouTube Shorts için Akasha (spiritüel/Jung) Konu Çekici
 
-Son 24 saatin en popüler 3 teknoloji haberini getirir.
+Son 24-48 saatin en popüler spiritüel/farkındalık gündemini getirir.
 
 Kaynaklar (hepsi RESMİ API, scraping yok, ban riski sıfır):
-    1) HackerNews Firebase API  → gerçek "score" metriği ile popülerlik
-    2) Reddit r/technology .json → "ups" metriği ile popülerlik
+    1) Reddit r/Jung, r/spirituality, r/awakened, r/sufism, r/taoism, r/ACIM → "ups" metriği ile popülerlik
 
 Çıktı: JSON dosyası ve konsol özeti
     {
@@ -27,9 +26,9 @@ from typing import Iterable
 import requests
 
 
-# NİŞ: HAYVAN + DOĞA + İLGİNÇ GERÇEKLER (viral evrensel format)
-# Kaynaklar: tek bir konuya değil çoğunlukla görsel/duygusal/şaşırtıcı içeriğe
-# odaklı, telif riski sıfır subreddit'ler.
+# NİŞ: SPİRİTÜEL/JUNG/TASAVVUF FARKINDALIK (Akasha — Türkçe çıktı)
+# Kaynaklar: Jung/spiritüellik/uyanış/sufizm/taoizm/Mucizeler Kursu odaklı,
+# telif riski sıfır subreddit'ler.
 REDDIT_URLS = [
     "https://www.reddit.com/r/Jung/top.json?t=day&limit=25",
     "https://www.reddit.com/r/spirituality/top.json?t=day&limit=25",
@@ -86,7 +85,7 @@ def _praw_clienti():
         r = praw.Reddit(
             client_id=cid,
             client_secret=csec,
-            user_agent="TrendCatcher/1.0 by /u/trendcatcher_bot",
+            user_agent="Akasha/1.0 by /u/akasha_bot",
             read_only=True,
         )
         # Test
@@ -356,16 +355,16 @@ def gemini_konu_uret(blokli_url: set[str], adet: int = 3) -> list[dict]:
     # FAZ 4: Daily Theme — kanal kimliği için günün haftasının teması
     import datetime
     DAILY_THEMES = {
-        # Mindgaps psikoloji rotasyonu (branding/README.md ile eşleşir)
-        0: "your brain — neuroscience, dopamine, memory tricks, how your mind actually works",
-        1: "why you do that — habits, procrastination, everyday behaviors explained",
-        2: "personality — types, traits, what small things reveal about who you are",
-        3: "relationships & attraction — psychology of trust, love, first impressions",
-        4: "dark psychology & persuasion — influence, manipulation tactics, social power",
-        5: "sleep & dreams — what dreams mean, sleep psychology, the sleeping brain",
-        6: "mind hacks — focus, memory, productivity, beating overthinking",
+        # Akasha spiritüel/Jung rotasyonu (kanal kimliği: Yunus Emre/Mevlana tonu)
+        0: "Carl Jung — gölge (shadow), persona, bireyleşme (individuation) kavramları",
+        1: "tasavvuf & sufi bilgeliği — Yunus Emre, Mevlana sözleri ve derin anlamları",
+        2: "Mucizeler Kursu (A Course in Miracles) — ego, af, iç huzur",
+        3: "Tao Te Ching — Taocu bilgelik, denge, akışta olma (wu wei)",
+        4: "rüyalar & bilinçdışı — Jungcu rüya sembolleri, arketipler",
+        5: "çakralar & enerji farkındalığı — beden-zihin bağlantısı",
+        6: "sinkronisite & anlam — tesadüf, kader, varoluşsal derinlik",
     }
-    bugun_tema = DAILY_THEMES.get(datetime.datetime.now().weekday(), "any psychology/human-mind")
+    bugun_tema = DAILY_THEMES.get(datetime.datetime.now().weekday(), "spiritüel farkındalık / Jung / tasavvuf")
     tema_blok = (
         f"\nDAILY THEME (today's editorial focus — STRONGLY prefer topics from this theme):\n"
         f"  → {bugun_tema}\n"

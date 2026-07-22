@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-fikir_motoru.py — Mindgaps fikir seçim motoru
+fikir_motoru.py — Akasha (spiritüel/Jung) fikir seçim motoru
 Erkan Kolcu "13 dakikada 1000 abone" videosundaki yöntemin koda dökülmüş hali.
 
 4 mekanik:
   1) ID Farming      — yan nişlerden çok sayıda fikir adayı topla
-  2) Cross-niş        — kanıtlı viral fikri psikoloji/beyin temasına uyarla
+  2) Cross-niş        — kanıtlı viral fikri spiritüel/Jung/tasavvuf temasına uyarla
   3) Değer Denklemi   — Değer = (Rüya × Başarı) / (Zaman × Çaba)
   4) 5'te-5 filtresi  — 100 fikri 3-5'e indir
 
@@ -16,27 +16,28 @@ Standalone test: python3 fikir_motoru.py
 import math, os, json
 
 # ---------------------------------------------------------------------------
-# CROSS-NİŞ BANKASI — psikoloji/beyin kanalının çekeceği yan nişler ve
+# CROSS-NİŞ BANKASI — Akasha (spiritüel/Jung) kanalının çekeceği yan nişler ve
 # bu nişlerde KANITLANMIŞ viral Shorts format iskeletleri.
 # (viral_radar.py canlı veriyle bunu besler; buradakiler tohum/fallback.)
 # ---------------------------------------------------------------------------
-YAN_NISLER = ["ilişki/aşk", "gizem/korku", "para/başarı", "vücut/sağlık",
-              "rüya/uyku", "kişilik testi", "sosyal davranış", "hafıza/öğrenme"]
+YAN_NISLER = ["rüya/bilinçdışı", "gölge çalışması", "ilişkiler/bağlanma",
+              "kader/sinkronisite", "meditasyon/huzur", "öz-farkındalık",
+              "tasavvuf/sufi bilgeliği", "manevi uyanış"]
 
 VIRAL_FORMAT_ISKELETLERI = [
-    "Why you {everyday behavior} (the real reason)",
-    "{Number} signs you're {trait} without knowing it",
-    "Your brain does THIS when {common situation}",
-    "The psychology trick that makes people {desired effect}",
-    "What your {small habit} secretly says about you",
-    "This is why you can't stop {behavior}",
-    "{Number} things your brain does in the first {time}",
-    "The reason {universal experience} feels so {emotion}",
+    "Neden hep {günlük davranış} yapıyorsun (gerçek sebep)",
+    "{Sayı} işaret — farkında olmadan {özellik} taşıyorsun",
+    "Jung'a göre zihnin {durum} anında bunu yapar",
+    "{Kavram} hakkındaki bu bilgelik seni değiştirecek",
+    "{Küçük alışkanlık} aslında senin hakkında bunu söylüyor",
+    "İşte {davranış} yapmayı bırakamamanın gerçek sebebi",
+    "İlk {zaman} içinde bilinçdışın bunu yapar",
+    "{Evrensel deneyim} neden bu kadar {duygu} hissettirir",
 ]
 
 # Rüya sonucu çok yüksek olan temalar (izleyici kendini görür = paylaşır)
-YUKSEK_RUYA_TEMALARI = ["senin hakkında", "kişiliğin", "neden böyle yapıyorsun",
-                        "zekâ", "çekicilik", "ilişkiler", "hafıza güçlendirme"]
+YUKSEK_RUYA_TEMALARI = ["senin hakkında", "gölge yanın", "neden böyle yapıyorsun",
+                        "bilinçdışın", "ilişkilerin", "iç huzurun"]
 
 
 # ---------------------------------------------------------------------------

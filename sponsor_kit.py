@@ -193,16 +193,16 @@ th {{ background: #f8f9fa; font-size: 12px; text-transform: uppercase; }}
 
 <div class="bolum">
   <h2>💼 Sponsor Opportunity</h2>
-  <p>Niche: <b>Animals · Nature · Amazing Facts</b> — global English-speaking audience with high curiosity engagement.
-  Format: 30-second YouTube Shorts published <b>2-3 times daily</b>, autonomous AI-powered pipeline.</p>
-  <p>Ideal sponsors: nature documentary platforms, wildlife books, hiking/camping gear,
-  pet products, science magazines, eco-tourism, educational apps.</p>
+  <p>Niche: <b>Spiritüellik · Carl Jung · Tasavvuf</b> — Türkçe konuşan, manevi arayış içindeki kitle, yüksek ilgi/etkileşim.
+  Format: 30 saniyelik YouTube Shorts, <b>günde 2-3 kez</b> yayınlanır, otonom AI destekli üretim hattı.</p>
+  <p>İdeal sponsorlar: meditasyon/mindfulness uygulamaları, kişisel gelişim kitapları,
+  wellness ürünleri, tasavvuf/felsefe yayınevleri, ruh sağlığı platformları, eğitim uygulamaları.</p>
   <p><b>Custom integration options:</b> single Shorts mention, dedicated Short, description link,
   community post, or seasonal series partnership.</p>
 </div>
 
 <div style="margin-top: 40px; padding-top: 20px; border-top: 2px solid #cc4400; font-size: 11px; color: #888;">
-  Generated automatically · {datetime.now().strftime('%Y-%m-%d %H:%M')} · TrendCatcher Media Kit
+  Generated automatically · {datetime.now().strftime('%Y-%m-%d %H:%M')} · Akasha Media Kit
 </div>
 </body></html>"""
     Path(args.cikti).write_text(html, encoding="utf-8")

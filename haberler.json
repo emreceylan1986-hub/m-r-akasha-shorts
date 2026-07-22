@@ -1,19 +1,30 @@
 {
-  "uretim_zamani": "2026-07-22T11:47:12.901650+00:00",
+  "uretim_zamani": "2026-07-22T17:20:00.614492+00:00",
   "haberler": [
     {
-      "baslik": "İçindeki o bitmek bilmeyen 'yetersizlik' hissi: Egonun en büyük yalanı",
-      "url": "https://en.wikipedia.org/wiki/Ego_(religion)",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "baslik": "İçindeki çocuk, görmezden geldiğin ilk sesindir",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0%C3%A7_%C3%A7ocuk",
+      "ozet": "Ona kulak ver",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kendini cezalandırmaktan vazgeçtiğinde hayatında başlayacak ilk mucize",
-      "url": "https://en.wikipedia.org/wiki/Forgiveness",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "baslik": "Sabır, tohumun toprakta beklediği o sessiz güçtür",
+      "url": "https://tr.wikipedia.org/wiki/Sab%C4%B1r",
+      "ozet": "Acele etmeden büyü",
+      "kaynak": "evergreen",
+      "skor": 900,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Affetmek, taşıdığın yükü yere bırakmaktır",
+      "url": "https://tr.wikipedia.org/wiki/Af",
+      "ozet": "Kendin için bırak",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

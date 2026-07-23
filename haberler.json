@@ -1,30 +1,27 @@
 {
-  "uretim_zamani": "2026-07-23T19:18:12.485974+00:00",
+  "uretim_zamani": "2026-07-23T21:04:34.052027+00:00",
   "haberler": [
     {
-      "baslik": "Ego, olduğun şey değil, olduğunu sandığın şeydir",
-      "url": "https://tr.wikipedia.org/wiki/Ego",
-      "ozet": "Maskenin ötesine geç",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Tao Te Jing Bölüm 11: Hayatını kolaylaştıran şey sahip oldukların değil, boşluklarındır",
+      "url": "https://en.wikipedia.org/wiki/Spoke",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Korku, geçmediğin kapının ardındaki hayalettir",
-      "url": "https://tr.wikipedia.org/wiki/Korku",
-      "ozet": "Üstüne yürüdüğünde kaybolur",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Zihninin sürekli en kötüyü hayal etmesi aslında antik bir Stoacı zırhtır",
+      "url": "https://en.wikipedia.org/wiki/Premeditatio_malorum",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Şimdiki an, sahip olduğun tek gerçek zamandır",
-      "url": "https://tr.wikipedia.org/wiki/%C5%9Eimdiki_an",
-      "ozet": "Geçmiş ve gelecek zihindedir",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Seni kızdıran insanlara duyduğun o öfke, aslında kendi bastırılmış potansiyelindir",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(mitoloji)",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

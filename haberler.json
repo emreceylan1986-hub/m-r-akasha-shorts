@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-07-23T11:50:42.846890+00:00",
+  "uretim_zamani": "2026-07-23T17:22:50.981312+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşluğun neden en değerli şey olduğunu keşfet",
-      "url": "https://en.wikipedia.org/wiki/Spokes_of_a_wheel",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Su gibi yaşamak: Mücadele etmeyi bıraktığında neden her şey yoluna girer?",
-      "url": "https://en.wikipedia.org/wiki/Water_metaphor_in_Daoism",
+      "baslik": "Sufi bilgeliğinde 'Fakr' makamı: Zihnen hafiflemek seni neden yenilmez kılar?",
+      "url": "https://en.wikipedia.org/wiki/Faqr",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihnindeki direnç: Taoist felsefeye göre hayatı zorlaştıran görünmez bağlar",
-      "url": "https://en.wikipedia.org/wiki/Zhuangzi_(book)",
+      "baslik": "Stoacı felsefede 'Amor Fati': Hayatın getirdiklerine direnmeyi bıraktığın an başlayan dönüşüm",
+      "url": "https://en.wikipedia.org/wiki/Amor_fati",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

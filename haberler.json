@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-07-22T21:08:23.035008+00:00",
+  "uretim_zamani": "2026-07-23T11:50:42.846890+00:00",
   "haberler": [
     {
-      "baslik": "Kutsal öfkenin ötesi: Mevlana'ya göre seni kıranların ruhsal görevi",
-      "url": "https://tr.wikipedia.org/wiki/Mesnevi",
+      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşluğun neden en değerli şey olduğunu keşfet",
+      "url": "https://en.wikipedia.org/wiki/Spokes_of_a_wheel",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Su gibi yaşamak: Mücadele etmeyi bıraktığında neden her şey yoluna girer?",
+      "url": "https://en.wikipedia.org/wiki/Water_metaphor_in_Daoism",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihnindeki o amansız yargıç kim? Ego ve içsel projeksiyonun sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Yansıtma",
+      "baslik": "Zihnindeki direnç: Taoist felsefeye göre hayatı zorlaştıran görünmez bağlar",
+      "url": "https://en.wikipedia.org/wiki/Zhuangzi_(book)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

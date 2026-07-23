@@ -1,19 +1,30 @@
 {
-  "uretim_zamani": "2026-07-23T17:22:50.981312+00:00",
+  "uretim_zamani": "2026-07-23T19:18:12.485974+00:00",
   "haberler": [
     {
-      "baslik": "Sufi bilgeliğinde 'Fakr' makamı: Zihnen hafiflemek seni neden yenilmez kılar?",
-      "url": "https://en.wikipedia.org/wiki/Faqr",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "baslik": "Ego, olduğun şey değil, olduğunu sandığın şeydir",
+      "url": "https://tr.wikipedia.org/wiki/Ego",
+      "ozet": "Maskenin ötesine geç",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Stoacı felsefede 'Amor Fati': Hayatın getirdiklerine direnmeyi bıraktığın an başlayan dönüşüm",
-      "url": "https://en.wikipedia.org/wiki/Amor_fati",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "baslik": "Korku, geçmediğin kapının ardındaki hayalettir",
+      "url": "https://tr.wikipedia.org/wiki/Korku",
+      "ozet": "Üstüne yürüdüğünde kaybolur",
+      "kaynak": "evergreen",
+      "skor": 900,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Şimdiki an, sahip olduğun tek gerçek zamandır",
+      "url": "https://tr.wikipedia.org/wiki/%C5%9Eimdiki_an",
+      "ozet": "Geçmiş ve gelecek zihindedir",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

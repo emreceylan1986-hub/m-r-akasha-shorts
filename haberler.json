@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-23T21:04:34.052027+00:00",
+  "uretim_zamani": "2026-07-24T17:38:33.220750+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 11: Hayatını kolaylaştıran şey sahip oldukların değil, boşluklarındır",
-      "url": "https://en.wikipedia.org/wiki/Spoke",
+      "baslik": "Rüyalarda görülen labyrintler ve ruhun çıkış yolu arayışı",
+      "url": "https://tr.wikipedia.org/wiki/Labirent",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihninin sürekli en kötüyü hayal etmesi aslında antik bir Stoacı zırhtır",
-      "url": "https://en.wikipedia.org/wiki/Premeditatio_malorum",
+      "baslik": "Uyanırken yaşanan o ani düşme hissinin ruhsal karşılığı",
+      "url": "https://tr.wikipedia.org/wiki/Refleks",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Seni kızdıran insanlara duyduğun o öfke, aslında kendi bastırılmış potansiyelindir",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(mitoloji)",
+      "baslik": "Rüyadaki yüzsüz kalabalıklar ve zihninin yarattığı yabancılar",
+      "url": "https://tr.wikipedia.org/wiki/Y%C3%BCz_tan%C4%B1ma",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

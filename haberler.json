@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-23T21:04:34.052027+00:00",
+  "uretim_zamani": "2026-07-24T11:42:03.461477+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 11: Hayatını kolaylaştıran şey sahip oldukların değil, boşluklarındır",
-      "url": "https://en.wikipedia.org/wiki/Spoke",
+      "baslik": "Rüyalarında sürekli kaçtığın o gölge aslında kim?",
+      "url": "https://tr.wikipedia.org/wiki/Kolektif_bilin%C3%a7d%c4%b1%c5%9f%c4%b1",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Zihninin sürekli en kötüyü hayal etmesi aslında antik bir Stoacı zırhtır",
-      "url": "https://en.wikipedia.org/wiki/Premeditatio_malorum",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Seni kızdıran insanlara duyduğun o öfke, aslında kendi bastırılmış potansiyelindir",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(mitoloji)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

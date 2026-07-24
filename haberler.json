@@ -1,12 +1,11 @@
 {
-  "uretim_zamani": "2026-07-24T19:04:35.028020+00:00",
+  "uretim_zamani": "2026-07-24T19:24:39.741209+00:00",
   "haberler": [
     {
-      "baslik": "Demeter'in yası: kayıp, ruhun kışıdır ve her kışın bir baharı vardır",
-      "url": "https://tr.wikipedia.org/wiki/Demeter",
-      "ozet": "Yunan mitolojisinde hasat tanrıçası Demeter, kızı Persephone yeraltına indiğinde yas tutar ve dünya kışa gömülür; kavuştuklarında bahar gelir. Mit, kayıp-yas-yeniden doğuş döngüsünü anlatır: kaybettiğinde solmak da, kavuştuğunda yeşermek de insanın doğasıdır.",
-      "kaynak": "manuel",
-      "skor": 950,
+      "baslik": "Bilinçdışının gece gönderdiği simgeler ve ruhun unutulmuş dili",
+      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%%9f%C4%B1",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

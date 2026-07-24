@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-07-24T11:42:03.461477+00:00",
+  "uretim_zamani": "2026-07-24T17:38:33.220750+00:00",
   "haberler": [
     {
-      "baslik": "Rüyalarında sürekli kaçtığın o gölge aslında kim?",
-      "url": "https://tr.wikipedia.org/wiki/Kolektif_bilin%C3%a7d%c4%b1%c5%9f%c4%b1",
+      "baslik": "Rüyalarda görülen labyrintler ve ruhun çıkış yolu arayışı",
+      "url": "https://tr.wikipedia.org/wiki/Labirent",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Uyanırken yaşanan o ani düşme hissinin ruhsal karşılığı",
+      "url": "https://tr.wikipedia.org/wiki/Refleks",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyadaki yüzsüz kalabalıklar ve zihninin yarattığı yabancılar",
+      "url": "https://tr.wikipedia.org/wiki/Y%C3%BCz_tan%C4%B1ma",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-07-25T11:10:02.264892+00:00",
+  "uretim_zamani": "2026-07-25T16:56:55.400987+00:00",
   "haberler": [
     {
-      "baslik": "Boğaz çakran tıkalı olduğunda bedeninin verdiği 3 sessiz tepki",
-      "url": "https://en.wikipedia.org/wiki/Vishuddha",
+      "baslik": "Sakral çakra tıkandığında hayatı neden bir görev gibi yaşarsın?",
+      "url": "https://en.wikipedia.org/wiki/Svadhishthana",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sürekli yorgun hissetmenin arkasındaki solar pleksus enerji sızıntısı",
-      "url": "https://en.wikipedia.org/wiki/Manipura",
+      "baslik": "Sessizce yorulan ruhun feryadı: Üçüncü göz çakrası ve zihinsel sis",
+      "url": "https://en.wikipedia.org/wiki/Ajna",
       "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kök çakranın güvensizlik hissiyle bedende yarattığı o kronik kasılma",
-      "url": "https://en.wikipedia.org/wiki/Muladhara",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

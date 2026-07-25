@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-07-25T16:56:55.400987+00:00",
+  "uretim_zamani": "2026-07-25T19:06:13.736396+00:00",
   "haberler": [
     {
-      "baslik": "Sakral çakra tıkandığında hayatı neden bir görev gibi yaşarsın?",
-      "url": "https://en.wikipedia.org/wiki/Svadhishthana",
+      "baslik": "Kök çakran kapalıysa hayatı sürekli bir tehdit gibi algılarsın",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sessizce yorulan ruhun feryadı: Üçüncü göz çakrası ve zihinsel sis",
-      "url": "https://en.wikipedia.org/wiki/Ajna",
+      "baslik": "Mucizeler Kursu — Ders 1: 'Gördüğüm hiçbir şey gerçek değil' ne anlama gelir?",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mevlana'nın dediği o 'görünmez bağ': Kalp çakrasının sessiz dili",
+      "url": "https://tr.wikipedia.org/wiki/Celaleddin-i_Rumi",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

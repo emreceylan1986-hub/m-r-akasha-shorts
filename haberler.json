@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-07-24T21:03:54.415672+00:00",
+  "uretim_zamani": "2026-07-25T11:10:02.264892+00:00",
   "haberler": [
     {
-      "baslik": "Rüyalarda tekrar eden o aynı sokak — ruhun çözülmemiş düğümü",
-      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya",
+      "baslik": "Boğaz çakran tıkalı olduğunda bedeninin verdiği 3 sessiz tepki",
+      "url": "https://en.wikipedia.org/wiki/Vishuddha",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sürekli yorgun hissetmenin arkasındaki solar pleksus enerji sızıntısı",
+      "url": "https://en.wikipedia.org/wiki/Manipura",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kök çakranın güvensizlik hissiyle bedende yarattığı o kronik kasılma",
+      "url": "https://en.wikipedia.org/wiki/Muladhara",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

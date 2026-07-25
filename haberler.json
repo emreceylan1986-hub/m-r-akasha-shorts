@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-24T17:38:33.220750+00:00",
+  "uretim_zamani": "2026-07-24T21:03:54.415672+00:00",
   "haberler": [
     {
-      "baslik": "Rüyalarda görülen labyrintler ve ruhun çıkış yolu arayışı",
-      "url": "https://tr.wikipedia.org/wiki/Labirent",
+      "baslik": "Rüyalarda tekrar eden o aynı sokak — ruhun çözülmemiş düğümü",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Uyanırken yaşanan o ani düşme hissinin ruhsal karşılığı",
-      "url": "https://tr.wikipedia.org/wiki/Refleks",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rüyadaki yüzsüz kalabalıklar ve zihninin yarattığı yabancılar",
-      "url": "https://tr.wikipedia.org/wiki/Y%C3%BCz_tan%C4%B1ma",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

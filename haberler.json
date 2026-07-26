@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-07-26T11:19:24.673415+00:00",
+  "uretim_zamani": "2026-07-26T17:00:43.520912+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing — Bölüm 11: Hayatındaki boşluk neden aslında en değerli varlığındır?",
-      "url": "https://en.wikipedia.org/wiki/Daodejing",
+      "baslik": "Seni hep aynı insanlara çeken o görünmez çekim: Repetisyon Kompülsiyonu",
+      "url": "https://tr.wikipedia.org/wiki/Yineleme_zorlant%C4%B1s%C4%B1",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sürekli meşgul olma ihtiyacının arkasındaki kaçış: Aktif fobi nedir?",
+      "url": "https://tr.wikipedia.org/wiki/Anksiyete_bozuklu%C4%9Fu",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

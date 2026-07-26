@@ -1,23 +1,23 @@
 # 📊 Aydınlanmanın Doruk Noktası — Haftalık Rapor
-_2026-07-19T22:46+00:00_
+_2026-07-26T22:55+00:00_
 
 ## Özet
-- **Abone:** 29 (+12 bu hafta)
-- **Toplam view:** 13,512 (+7,524 bu hafta)
-- **Toplam video:** 82
-- **Son 7 gün:** 28 video, 5,424 izl, ort 193/video
-- **<50 izl video sayısı:** 7/28 (kalite_temizleyici aday)
+- **Abone:** 33 (+4 bu hafta)
+- **Toplam view:** 19,003 (+5,491 bu hafta)
+- **Toplam video:** 110
+- **Son 7 gün:** 28 video, 4,595 izl, ort 164/video
+- **<50 izl video sayısı:** 9/28 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **865v** · 6👍 · 1💬 — Carl Jung, bin dokuz yüz on altı yılında, bilincin en derin gücünün sessiz bir niyet olduğ
-- **849v** · 5👍 · 2💬 — dostoyevski ve insanın acıya tutunma arzusu üzerine bir çözümleme
-- **441v** · 3👍 · 1💬 — benjamin franklin etkisi ve insan ilişkilerindeki ters psikoloji
+- **1,044v** · 2👍 · 1💬 — sürekli ertelemenin ardındaki ruhsal boşluk özlemi ve wuji
+- **468v** · 3👍 · 3💬 — Demeter'in Yası: Ruhun Kışı ve İçsel Dönüşüm
+- **435v** · 6👍 · 0💬 — carl jung felsefesinde rüyada tekrarlanan sokak ve ruhun düğümü
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 0💬 — lao tzu felsefesinde zihni özgürleştiren boşluğun gücü
-- **2v** · 0👍 · 0💬 — epiktetos felsefesinde zihni yoran yargılardan kurtulma sanatı
-- **13v** · 1👍 · 0💬 — lao tzu felsefesinde ilişkileri ayakta tutan görünmez boşluk
+- **4v** · 0👍 · 1💬 — ibn arabi felsefesinde tevafuk ve karsilasilan insanlarin sirri
+- **9v** · 2👍 · 1💬 — Demeter'in Hikâyesi: Yaşam, Ölüm ve Yeniden Doğuş | Yunan Mitolojisi ve Jung
+- **20v** · 0👍 · 1💬 — carl jung felsefesinde eşzamanlılık ve hayatın gizli işaretleri
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **29 abone / 193 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **33 abone / 164 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı

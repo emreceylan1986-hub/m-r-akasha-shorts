@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-07-26T17:00:43.520912+00:00",
+  "uretim_zamani": "2026-07-26T19:09:42.755642+00:00",
   "haberler": [
     {
-      "baslik": "Seni hep aynı insanlara çeken o görünmez çekim: Repetisyon Kompülsiyonu",
-      "url": "https://tr.wikipedia.org/wiki/Yineleme_zorlant%C4%B1s%C4%B1",
+      "baslik": "Kaderin fısıltısı: Hayatındaki garip tesadüfler aslında ne söylüyor?",
+      "url": "https://en.wikipedia.org/wiki/Coincidence",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sürekli meşgul olma ihtiyacının arkasındaki kaçış: Aktif fobi nedir?",
-      "url": "https://tr.wikipedia.org/wiki/Anksiyete_bozuklu%C4%9Fu",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-07-26T19:09:42.755642+00:00",
+  "uretim_zamani": "2026-07-26T20:57:34.442422+00:00",
   "haberler": [
     {
-      "baslik": "Kaderin fısıltısı: Hayatındaki garip tesadüfler aslında ne söylüyor?",
-      "url": "https://en.wikipedia.org/wiki/Coincidence",
+      "baslik": "Sufi bilgeliğinde 'Tevafuk' sırrı: Hayatındaki hiçbir karşılaşma rastlantı değildir",
+      "url": "https://en.wikipedia.org/wiki/Sufism",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

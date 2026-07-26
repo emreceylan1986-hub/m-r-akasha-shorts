@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-25T20:52:54.127664+00:00",
+  "uretim_zamani": "2026-07-26T11:19:24.673415+00:00",
   "haberler": [
     {
-      "baslik": "Kalp çakran kapalıysa hayatı sadece bir savaş gibi yaşarsın",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Tao Te Jing — Bölüm 11: Hayatındaki boşluk neden aslında en değerli varlığındır?",
+      "url": "https://en.wikipedia.org/wiki/Daodejing",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu 1. Ders: Gördüğün hiçbir şeyin gerçek anlamı yoktur",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mevlânâ'ya göre seni yaralayan şey, ışığın içeri girdiği yerdir",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

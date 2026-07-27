@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-27T12:55:56.822939+00:00",
+  "uretim_zamani": "2026-07-27T17:42:40.916613+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre zihnini yöneten gizli ses: İçindeki eleştirmen kim?",
-      "url": "https://en.wikipedia.org/wiki/Inner_critic",
+      "baslik": "Jung'a göre 'Persona' masken ruhunu nasıl yavaşça tüketiyor?",
+      "url": "https://tr.wikipedia.org/wiki/Persona",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kişilik tiplerinde içe dönüklüğün gücü: Kalabalıkta yalnız hissetmenin sırrı",
-      "url": "https://tr.wikipedia.org/wiki/%C4%B0%C3%A7e_d%C3%B6n%C3%BCkl%C3%BCk",
+      "baslik": "Tao Te Jing'in 2. Bölümü: Karşıtların savaşı senin zihninde nasıl biter?",
+      "url": "https://tr.wikipedia.org/wiki/Dualizm",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung ve maskelerin ötesindeki gerçek sen: Persona yanılgısı",
-      "url": "https://en.wikipedia.org/wiki/Persona_(psychology)",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye kendi anlamımı verdim'",
+      "url": "https://tr.wikipedia.org/wiki/Solipsizm",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

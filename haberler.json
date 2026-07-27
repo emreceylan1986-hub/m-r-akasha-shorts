@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-07-27T19:28:21.698067+00:00",
+  "uretim_zamani": "2026-07-27T21:12:43.621478+00:00",
   "haberler": [
     {
-      "baslik": "Zihninin 'gölge' tarafı sana neden rüyalarında saldırıyor?",
-      "url": "https://en.wikipedia.org/wiki/Shadow_(psychology)",
+      "baslik": "Carl Jung'a göre 'Bireyleşme' yolculuğunda maskelerin düşüşü",
+      "url": "https://tr.wikipedia.org/wiki/Bireyleşme",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Bireyleşme süreci: Kendin olmaktan korktuğun an ruhunun çöküşüdür",
-      "url": "https://en.wikipedia.org/wiki/Individuation",
+      "baslik": "Carl Jung perspektifinde rüyaların karanlık odasındaki 'Gölge'",
+      "url": "https://tr.wikipedia.org/wiki/Gölge",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

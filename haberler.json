@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-07-26T20:57:34.442422+00:00",
+  "uretim_zamani": "2026-07-27T12:55:56.822939+00:00",
   "haberler": [
     {
-      "baslik": "Sufi bilgeliğinde 'Tevafuk' sırrı: Hayatındaki hiçbir karşılaşma rastlantı değildir",
-      "url": "https://en.wikipedia.org/wiki/Sufism",
+      "baslik": "Carl Jung'a göre zihnini yöneten gizli ses: İçindeki eleştirmen kim?",
+      "url": "https://en.wikipedia.org/wiki/Inner_critic",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kişilik tiplerinde içe dönüklüğün gücü: Kalabalıkta yalnız hissetmenin sırrı",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0%C3%A7e_d%C3%B6n%C3%BCkl%C3%BCk",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Carl Jung ve maskelerin ötesindeki gerçek sen: Persona yanılgısı",
+      "url": "https://en.wikipedia.org/wiki/Persona_(psychology)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

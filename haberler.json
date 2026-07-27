@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-07-27T17:42:40.916613+00:00",
+  "uretim_zamani": "2026-07-27T19:28:21.698067+00:00",
   "haberler": [
     {
-      "baslik": "Jung'a göre 'Persona' masken ruhunu nasıl yavaşça tüketiyor?",
-      "url": "https://tr.wikipedia.org/wiki/Persona",
+      "baslik": "Zihninin 'gölge' tarafı sana neden rüyalarında saldırıyor?",
+      "url": "https://en.wikipedia.org/wiki/Shadow_(psychology)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing'in 2. Bölümü: Karşıtların savaşı senin zihninde nasıl biter?",
-      "url": "https://tr.wikipedia.org/wiki/Dualizm",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye kendi anlamımı verdim'",
-      "url": "https://tr.wikipedia.org/wiki/Solipsizm",
+      "baslik": "Bireyleşme süreci: Kendin olmaktan korktuğun an ruhunun çöküşüdür",
+      "url": "https://en.wikipedia.org/wiki/Individuation",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

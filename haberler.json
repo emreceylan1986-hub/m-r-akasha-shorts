@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-28T19:23:08.482318+00:00",
+  "uretim_zamani": "2026-07-28T21:07:36.248758+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana'dan 'Gönül aynası' dersi: Dışarıda gördüğün kusur aslında neyin yansımasıdır?",
-      "url": "https://tr.wikipedia.org/wiki/Cel%C3%A2ledd%C3%Aen-i_R%C3%Bbm%C3%AE",
+      "baslik": "İbn Arabi'ye göre karşına çıkan herkes senin gizli bir aynandır",
+      "url": "https://tr.wikipedia.org/wiki/Muhyiddin_%C4%B0bn_%C3%81rab%C3%",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi bilgeliğinde 'Nefis terbiyesi' — sürekli daha fazlasını isteyen o aç kurt nasıl evcilleşir?",
-      "url": "https://tr.wikipedia.org/wiki/Nefis",
+      "baslik": "Hacı Bektaş Veli felsefesinde 'incinsen de incitme' sözünün derin manası",
+      "url": "https://tr.wikipedia.org/wiki/Hac%C4%B1_Bekta%C5%9f_Veli",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'nin 'Aşkın aşık ederi' sözü: Kalp neden mantığın bittiği yerde başlar?",
-      "url": "https://tr.wikipedia.org/wiki/A%C5%9Fk",
+      "baslik": "Niyazi Mısri'ye göre dindarlık sandığın şey aslında hangi kaçıştır?",
+      "url": "https://tr.wikipedia.org/wiki/Niyazi_M%C4%B1sr%C3%AE",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

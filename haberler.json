@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-28T17:27:22.731173+00:00",
+  "uretim_zamani": "2026-07-28T19:23:08.482318+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'ye göre dervişlik gönül yapmaktır — yıkmak ne anlama gelir?",
-      "url": "https://tr.wikipedia.org/wiki/Derviş",
+      "baslik": "Mevlana'dan 'Gönül aynası' dersi: Dışarıda gördüğün kusur aslında neyin yansımasıdır?",
+      "url": "https://tr.wikipedia.org/wiki/Cel%C3%A2ledd%C3%Aen-i_R%C3%Bbm%C3%AE",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mevlana'nın ney sesi insanı neden ağlatır? İçimizdeki o gurbet hissi",
-      "url": "https://tr.wikipedia.org/wiki/Ney",
+      "baslik": "Sufi bilgeliğinde 'Nefis terbiyesi' — sürekli daha fazlasını isteyen o aç kurt nasıl evcilleşir?",
+      "url": "https://tr.wikipedia.org/wiki/Nefis",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi bilgeliğinde 'kırık kalp' neden en saf ışığı alır?",
-      "url": "https://tr.wikipedia.org/wiki/Kalp",
+      "baslik": "Yunus Emre'nin 'Aşkın aşık ederi' sözü: Kalp neden mantığın bittiği yerde başlar?",
+      "url": "https://tr.wikipedia.org/wiki/A%C5%9Fk",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-07-27T21:12:43.621478+00:00",
+  "uretim_zamani": "2026-07-28T11:58:19.430410+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre 'Bireyleşme' yolculuğunda maskelerin düşüşü",
-      "url": "https://tr.wikipedia.org/wiki/Bireyleşme",
+      "baslik": "Yunus Emre’nin 'Ete kemiğe büründüm' sözündeki gizli kuantum boyutu",
+      "url": "https://tr.wikipedia.org/wiki/Vahdet-i_V%C3%BCcud",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung perspektifinde rüyaların karanlık odasındaki 'Gölge'",
-      "url": "https://tr.wikipedia.org/wiki/Gölge",
+      "baslik": "Mevlana'nın bahsettiği 'Gönül Aynası' neden sürekli tozlanır?",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf_sosyolojisi",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

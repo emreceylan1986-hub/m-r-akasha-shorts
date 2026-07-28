@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-07-28T11:58:19.430410+00:00",
+  "uretim_zamani": "2026-07-28T17:27:22.731173+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre’nin 'Ete kemiğe büründüm' sözündeki gizli kuantum boyutu",
-      "url": "https://tr.wikipedia.org/wiki/Vahdet-i_V%C3%BCcud",
+      "baslik": "Yunus Emre'ye göre dervişlik gönül yapmaktır — yıkmak ne anlama gelir?",
+      "url": "https://tr.wikipedia.org/wiki/Derviş",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mevlana'nın bahsettiği 'Gönül Aynası' neden sürekli tozlanır?",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf_sosyolojisi",
+      "baslik": "Mevlana'nın ney sesi insanı neden ağlatır? İçimizdeki o gurbet hissi",
+      "url": "https://tr.wikipedia.org/wiki/Ney",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi bilgeliğinde 'kırık kalp' neden en saf ışığı alır?",
+      "url": "https://tr.wikipedia.org/wiki/Kalp",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

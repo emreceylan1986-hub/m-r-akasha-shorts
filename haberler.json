@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-07-29T19:15:41.401994+00:00",
+  "uretim_zamani": "2026-07-29T20:56:04.082573+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu'na göre affetmek geçmişi değil geleceği serbest bırakmaktır",
-      "url": "https://tr.wikipedia.org/wiki/%C4%B0lkel_kabileler",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu perspektifinden egonun haklı çıkma arzusu",
-      "url": "https://tr.wikipedia.org/wiki/Psikolojik_diren%C3%A7",
+      "baslik": "Mucizeler Kursu felsefesinde zihni esir alan özel ilişkilerin tuzağı",
+      "url": "https://tr.wikipedia.org/wiki/Yaradan",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu öğretisinde korku ve sevgi arasındaki tek gerçek seçim",
-      "url": "https://tr.wikipedia.org/wiki/Korku_(duygu)",
+      "baslik": "Mucizeler Kursu ögretisinde geçmişin hayaletini bugüne taşımak",
+      "url": "https://tr.wikipedia.org/wiki/Ge%C3%A7mi%C5%9F",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

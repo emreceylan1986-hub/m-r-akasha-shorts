@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-28T21:07:36.248758+00:00",
+  "uretim_zamani": "2026-07-29T17:15:43.086439+00:00",
   "haberler": [
     {
-      "baslik": "İbn Arabi'ye göre karşına çıkan herkes senin gizli bir aynandır",
-      "url": "https://tr.wikipedia.org/wiki/Muhyiddin_%C4%B0bn_%C3%81rab%C3%",
+      "baslik": "Mucizeler Kursu Ders 45: Tanrı zihnimi sadece huzur yaratmak için yarattı",
+      "url": "https://tr.wikipedia.org/wiki/Huzur",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Hacı Bektaş Veli felsefesinde 'incinsen de incitme' sözünün derin manası",
-      "url": "https://tr.wikipedia.org/wiki/Hac%C4%B1_Bekta%C5%9f_Veli",
+      "baslik": "Mucizeler Kursu Ders 105: Barış ve huzur içinde olmamı engelleyen tek şey kendi düşüncelerimdir",
+      "url": "https://tr.wikipedia.org/wiki/D%C3%BC%C5%9F%C3%BCnce",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Niyazi Mısri'ye göre dindarlık sandığın şey aslında hangi kaçıştır?",
-      "url": "https://tr.wikipedia.org/wiki/Niyazi_M%C4%B1sr%C3%AE",
+      "baslik": "Mucizeler Kursu Ders 121: Affediş, zihnimdeki tüm yanılsamaları çözer",
+      "url": "https://tr.wikipedia.org/wiki/Yanılsama",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

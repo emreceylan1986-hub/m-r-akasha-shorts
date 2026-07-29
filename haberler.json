@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-29T17:15:43.086439+00:00",
+  "uretim_zamani": "2026-07-29T19:15:41.401994+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 45: Tanrı zihnimi sadece huzur yaratmak için yarattı",
-      "url": "https://tr.wikipedia.org/wiki/Huzur",
+      "baslik": "Mucizeler Kursu'na göre affetmek geçmişi değil geleceği serbest bırakmaktır",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0lkel_kabileler",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 105: Barış ve huzur içinde olmamı engelleyen tek şey kendi düşüncelerimdir",
-      "url": "https://tr.wikipedia.org/wiki/D%C3%BC%C5%9F%C3%BCnce",
+      "baslik": "Mucizeler Kursu perspektifinden egonun haklı çıkma arzusu",
+      "url": "https://tr.wikipedia.org/wiki/Psikolojik_diren%C3%A7",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 121: Affediş, zihnimdeki tüm yanılsamaları çözer",
-      "url": "https://tr.wikipedia.org/wiki/Yanılsama",
+      "baslik": "Mucizeler Kursu öğretisinde korku ve sevgi arasındaki tek gerçek seçim",
+      "url": "https://tr.wikipedia.org/wiki/Korku_(duygu)",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

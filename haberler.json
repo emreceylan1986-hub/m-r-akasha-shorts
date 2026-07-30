@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-07-30T19:26:07.113971+00:00",
+  "uretim_zamani": "2026-07-30T21:10:17.905164+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Perspektifi: Geçmişin hayaletleriyle bugünü esir almak",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Mucizeler Kursu Ders 45: Düşündüğüm hiçbir şey gerçek değil — zihni sıfırlama",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
-      "skor": 987,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu Perspektifi: Korkunun ötesindeki sevgi sesini duymak",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

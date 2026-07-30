@@ -1,27 +1,30 @@
 {
-  "uretim_zamani": "2026-07-30T11:52:21.983185+00:00",
+  "uretim_zamani": "2026-07-30T17:28:59.004543+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Ching 11. Bölüm: Var olanın işe yaraması, yok olanın özündendir",
-      "url": "https://tr.wikipedia.org/wiki/Lao_Tzu",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "baslik": "Nefesin, zihnini şimdiye demirleyen çapadır",
+      "url": "https://tr.wikipedia.org/wiki/Meditasyon",
+      "ozet": "Üç derin nefes yeter",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Ching 16. Bölüm: Zihni mutlak bir sükûnete ulaştırmak",
-      "url": "https://tr.wikipedia.org/wiki/Lao_Tzu",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "baslik": "Ego, olduğun şey değil, olduğunu sandığın şeydir",
+      "url": "https://tr.wikipedia.org/wiki/Ego",
+      "ozet": "Maskenin ötesine geç",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Ching 22. Bölüm: Eğilen bükülmeyen, esneyen kırılmayan ruh",
-      "url": "https://tr.wikipedia.org/wiki/Lao_Tzu",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "baslik": "Yalnızlık ile yalnız olmak aynı şey değildir",
+      "url": "https://tr.wikipedia.org/wiki/Yaln%C4%B1zl%C4%B1k",
+      "ozet": "Kendinle huzur kur",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-07-29T20:56:04.082573+00:00",
+  "uretim_zamani": "2026-07-30T11:52:21.983185+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu felsefesinde zihni esir alan özel ilişkilerin tuzağı",
-      "url": "https://tr.wikipedia.org/wiki/Yaradan",
+      "baslik": "Tao Te Ching 11. Bölüm: Var olanın işe yaraması, yok olanın özündendir",
+      "url": "https://tr.wikipedia.org/wiki/Lao_Tzu",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Ching 16. Bölüm: Zihni mutlak bir sükûnete ulaştırmak",
+      "url": "https://tr.wikipedia.org/wiki/Lao_Tzu",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu ögretisinde geçmişin hayaletini bugüne taşımak",
-      "url": "https://tr.wikipedia.org/wiki/Ge%C3%A7mi%C5%9F",
+      "baslik": "Tao Te Ching 22. Bölüm: Eğilen bükülmeyen, esneyen kırılmayan ruh",
+      "url": "https://tr.wikipedia.org/wiki/Lao_Tzu",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

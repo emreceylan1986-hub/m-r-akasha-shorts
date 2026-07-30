@@ -1,30 +1,19 @@
 {
-  "uretim_zamani": "2026-07-30T17:28:59.004543+00:00",
+  "uretim_zamani": "2026-07-30T19:26:07.113971+00:00",
   "haberler": [
     {
-      "baslik": "Nefesin, zihnini şimdiye demirleyen çapadır",
-      "url": "https://tr.wikipedia.org/wiki/Meditasyon",
-      "ozet": "Üç derin nefes yeter",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Mucizeler Kursu Perspektifi: Geçmişin hayaletleriyle bugünü esir almak",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ego, olduğun şey değil, olduğunu sandığın şeydir",
-      "url": "https://tr.wikipedia.org/wiki/Ego",
-      "ozet": "Maskenin ötesine geç",
-      "kaynak": "evergreen",
-      "skor": 900,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yalnızlık ile yalnız olmak aynı şey değildir",
-      "url": "https://tr.wikipedia.org/wiki/Yaln%C4%B1zl%C4%B1k",
-      "ozet": "Kendinle huzur kur",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Mucizeler Kursu Perspektifi: Korkunun ötesindeki sevgi sesini duymak",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

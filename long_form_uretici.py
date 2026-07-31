@@ -121,16 +121,48 @@ def konu_kaydet(konu: str):
 
 
 # ── SENARYO ──────────────────────────────────────────────────────────────────
+def _bolum_normalize(b, i: int) -> dict:
+    """Gemini alan adlarında kaprisli olabiliyor (31 Tem run 30626216760:
+    KeyError 'metin'). Eş anlamlıları tek şemaya indir; string gelirse sar."""
+    if isinstance(b, str):
+        return {"ad": f"Bölüm {i}", "metin": b, "tablo_arama": ""}
+    metin = next((b[k] for k in ("metin", "text", "anlatim", "anlatım", "icerik",
+                                 "içerik", "content", "paragraf", "narration") if b.get(k)), "")
+    arama = next((b[k] for k in ("tablo_arama", "arama", "search", "painting_search",
+                                 "wikimedia_search", "gorsel_arama") if b.get(k)), "")
+    ad = next((b[k] for k in ("ad", "baslik", "başlık", "name", "title") if b.get(k)), f"Bölüm {i}")
+    return {"ad": str(ad)[:40], "metin": str(metin), "tablo_arama": str(arama)}
+
+
 def senaryo_uret(konu: str, kisa: bool) -> dict:
     bolum, kelime = (2, 130) if kisa else (10, 1050)
-    ham = bridge.gemini_metin_uret(
-        prompt=f"Konu: {konu}\n\nŞimdi JSON'u üret.",
-        sistem_promptu=SENARYO_SISTEM.replace("{bolum_sayisi}", str(bolum)).replace("{hedef_kelime}", str(kelime)),
-        sicaklik=0.8, max_token=8192)
-    ham = re.sub(r"^```(json)?|```$", "", ham.strip(), flags=re.M).strip()
-    s = json.loads(ham)
-    assert s.get("bolumler") and s.get("baslik"), "senaryo eksik alan"
-    return s
+    son_hata = None
+    for deneme in range(3):
+        ham = bridge.gemini_metin_uret(
+            prompt=f"Konu: {konu}\n\nŞimdi JSON'u üret." + (
+                "\nDİKKAT: her bölüm objesi TAM OLARAK şu alanları taşımalı: "
+                "ad, metin, tablo_arama. Her bölümün metni EN AZ 100 kelime olmalı; "
+                "hiçbir bölümü boş bırakma." if deneme else ""),
+            sistem_promptu=SENARYO_SISTEM.replace("{bolum_sayisi}", str(bolum)).replace("{hedef_kelime}", str(kelime)),
+            sicaklik=0.8, max_token=8192)
+        ham = re.sub(r"^```(json)?|```$", "", ham.strip(), flags=re.M).strip()
+        try:
+            s = json.loads(ham)
+            s["bolumler"] = [_bolum_normalize(b, i)
+                             for i, b in enumerate(s.get("bolumler") or [], 1)]
+            # tolerans: 1-2 boş bölüm varsa düş, kalan yeterliyse kabul (tam ret israf)
+            s["bolumler"] = [b for b in s["bolumler"] if b["metin"].strip()]
+            toplam_kelime = sum(len(b["metin"].split()) for b in s["bolumler"])
+            alt_sinir = 60 if kisa else 700
+            assert s.get("baslik") and len(s["bolumler"]) >= (2 if kisa else 6), \
+                f"bölüm yetersiz: {len(s['bolumler'])}"
+            assert toplam_kelime >= alt_sinir, f"kısa kaldı: {toplam_kelime}<{alt_sinir} kelime"
+            return s
+        except Exception as h:
+            son_hata = h
+            log(f"  senaryo şema hatası (deneme {deneme+1}/3): {str(h)[:100]}")
+            log(f"  ham ilk 200: {ham[:200]!r}")
+    raise RuntimeError(f"Senaryo 3 denemede şemaya oturmadı: {son_hata}")
 
 
 # ── WIKIMEDIA TABLO ──────────────────────────────────────────────────────────

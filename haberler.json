@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-07-31T12:00:01.646386+00:00",
+  "uretim_zamani": "2026-07-31T17:30:00.126159+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli tanıdık bir evi yabancı görmek: Jung'un 'Anima' uyarısı",
-      "url": "https://en.wikipedia.org/wiki/Anima_and_animus",
+      "baslik": "Uyku ile uyanıklık arasındaki eşikte duyulan o gizemli seslerin nörolojik kökeni",
+      "url": "https://tr.wikipedia.org/wiki/Hipnagoji",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rüyalarında sürekli kovalanan insanın uyanıkken kaçtığı o tek gerçek",
-      "url": "https://en.wikipedia.org/wiki/Archetype",
+      "baslik": "Beynimizin tanıdık yüzleri ve nesneleri tehdit olarak algıladığı garip algı yanılması",
+      "url": "https://tr.wikipedia.org/wiki/Capgras_sendromu",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Zihnin geçmişteki anıları sanki yeni yaşanıyormuş gibi kusursuz kaydetme yanılgısı",
+      "url": "https://tr.wikipedia.org/wiki/Otobiyografik_bellek",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

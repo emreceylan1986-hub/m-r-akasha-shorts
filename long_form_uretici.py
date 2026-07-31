@@ -210,10 +210,46 @@ def tablo_indir(sorgu: str, hedef: Path) -> dict | None:
 
 # ── TTS + RENDER ─────────────────────────────────────────────────────────────
 def tts_uret(metin: str, mp3: Path):
+    """edge-tts Emel — YEDEK yol (Leda başarısızsa)."""
     async def _u():
         await edge_tts_modul.Communicate(metin, SES, rate="-5%").save(str(mp3))
     import edge_tts as edge_tts_modul
     asyncio.run(_u())
+
+
+def tts_bolumlu_leda(bolumler: list, is_kok: Path, ses_mp3: Path):
+    """31 Tem: SES TUTARLILIĞI — Shorts'un ana sesi Gemini TTS Leda; long-form
+    Emel'de kalmıştı (Emre fark etti). Bölüm bölüm Leda + concat. Herhangi bir
+    bölüm 3 denemede de düşerse TAMAMI Emel'e döner (karışık ses ASLA).
+    Dönüş: gerçek bölüm süreleri listesi | None (Emel'e düş)."""
+    import gemini_tts
+    b_dizin = is_kok / "tts_bolum"; b_dizin.mkdir(exist_ok=True)
+    sureler, parcalar = [], []
+    for i, b in enumerate(bolumler, 1):
+        p = b_dizin / f"b{i:02d}.mp3"
+        sure = gemini_tts.seslendir(b["metin"], p)
+        if not sure:
+            log(f"  Leda bölüm {i} başarısız → tamamı Emel'e düşüyor")
+            return None
+        sureler.append(sure); parcalar.append(p)
+        log(f"  Leda {i}/{len(bolumler)} ({sure:.1f}sn)")
+        time.sleep(2)  # TTS rate-limit nezaketi
+    # bölümler arası 0.5sn nefes + concat (tek tip codec: hepsi gemini_tts mp3'ü)
+    sessiz = b_dizin / "sessiz.mp3"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi",
+                    "-i", "anullsrc=r=24000:cl=mono", "-t", "0.5",
+                    "-c:a", "libmp3lame", "-b:a", "128k", str(sessiz)], check=True)
+    liste = b_dizin / "liste.txt"
+    satirlar = []
+    for j, p in enumerate(parcalar):
+        satirlar.append(f"file '{p.name}'")
+        if j < len(parcalar) - 1:
+            satirlar.append(f"file '{sessiz.name}'")
+    liste.write_text("\n".join(satirlar))
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
+                    "-i", str(liste), "-c:a", "libmp3lame", "-b:a", "160k", str(ses_mp3)], check=True)
+    # nefes payları render segmentlerine eklenir (son bölüm hariç +0.5)
+    return [s + (0.5 if i < len(sureler) - 1 else 0) for i, s in enumerate(sureler)]
 
 
 def sure_al(medya: Path) -> float:
@@ -222,14 +258,17 @@ def sure_al(medya: Path) -> float:
          "-of", "default=noprint_wrappers=1:nokey=1", str(medya)]).decode().strip())
 
 
-def render(bolumler: list, gorseller: list, ses: Path, final: Path, is_kok: Path):
+def render(bolumler: list, gorseller: list, ses: Path, final: Path, is_kok: Path,
+           gercek_sureler: list | None = None):
     toplam_sure = sure_al(ses)
-    kelimeler = [len(b["metin"].split()) for b in bolumler]
-    toplam_k = sum(kelimeler)
+    if gercek_sureler:  # Leda yolu: bölüm süreleri kesin → görsel-anlatım tam senkron
+        oranli = [toplam_sure * s / sum(gercek_sureler) for s in gercek_sureler]
+    else:  # Emel yolu: kelime oranı tahmini
+        kelimeler = [len(b["metin"].split()) for b in bolumler]
+        oranli = [toplam_sure * k / sum(kelimeler) for k in kelimeler]
     klip_dizin = is_kok / "klipler"; klip_dizin.mkdir(exist_ok=True)
     parcalar = []
-    for i, (g, k) in enumerate(zip(gorseller, kelimeler), 1):
-        seg = toplam_sure * k / toplam_k
+    for i, (g, seg) in enumerate(zip(gorseller, oranli), 1):
         still = klip_dizin / f"still_{i:02d}.png"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(g), "-filter_complex",
                         "[0]scale=1920:1080:force_original_aspect_ratio=increase,gblur=sigma=25,crop=1920:1080[bg];"
@@ -362,7 +401,7 @@ def main():
     try:
         son = json.loads((PANEL / "long_form_son.json").read_text(encoding="utf-8"))
         gecen = (datetime.now() - datetime.strptime(son.get("tarih","2000-01-01"), "%Y-%m-%d")).days
-        if gecen < 6 and not args.kuru:
+        if gecen < 6 and not args.kuru and not args.konu:  # zorlanan konu = bilinçli istek
             log(f"Bu hafta üretilmiş ({gecen} gün önce) — çık."); return
     except Exception:
         pass
@@ -394,14 +433,17 @@ def main():
             log(f"  {i}: {k['dosya'][:50]}")
         gorseller.append(hedef); kunyeler.append(k)
 
-    log("3) TTS (Emel)...")
+    log("3) TTS (Leda — Shorts ile aynı ses; yedek: Emel)...")
     ses = is_kok / "ses.mp3"
-    tts_uret("\n\n".join(b["metin"] for b in bolumler), ses)
+    gercek_sureler = tts_bolumlu_leda(bolumler, is_kok, ses)
+    if gercek_sureler is None:
+        log("  Emel yedeğine düşüldü")
+        tts_uret("\n\n".join(b["metin"] for b in bolumler), ses)
     log(f"  ✓ {sure_al(ses):.0f} sn")
 
     log("4) Render...")
     final = is_kok / "final.mp4"
-    seg_sureler = render(bolumler, gorseller, ses, final, is_kok)
+    seg_sureler = render(bolumler, gorseller, ses, final, is_kok, gercek_sureler)
 
     log("5) Kapak...")
     kapak = is_kok / "kapak.jpg"

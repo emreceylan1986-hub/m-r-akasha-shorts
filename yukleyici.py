@@ -147,6 +147,16 @@ def _metadata_dogrula(veri: dict) -> dict:
         veri["title"] = veri["title"][:97] + "..."
     if "#Shorts" not in veri["description"]:
         veri["description"] = veri["description"].rstrip() + "\n\n#Shorts"
+    # 31 Tem: SHORTS→LONG-FORM KÖPRÜSÜ — günlük ~1K Shorts izleyicisini long-form'a
+    # taşıyan tek dağıtım kanalı (long-form korpus analizi: 4 video, 13 izlenme —
+    # sorun kalite değil KEŞFEDİLEMEME). long_form_son.json'u long_form_uretici yazar.
+    try:
+        _lf = json.loads((PANEL_KOK / "long_form_son.json").read_text(encoding="utf-8"))
+        if _lf.get("video_id"):
+            veri["description"] = (veri["description"].rstrip() +
+                f"\n\n🎬 {_lf.get('etiket','Uzun video')}: https://youtu.be/{_lf['video_id']}")
+    except Exception:
+        pass  # köprü dosyası yoksa sessiz devam
     # 20 Haz: CTA + Playlist sonek (abone toplama + iç trafik)
     # NOT: @mindgaps handle Emre Studio'da kesinleşince doğrula; playlist ID'leri
     # kanal açılıp ilk playlist'ler oluşunca eklenecek (şimdilik sadece subscribe).

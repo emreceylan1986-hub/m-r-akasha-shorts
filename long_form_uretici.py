@@ -326,6 +326,14 @@ def main():
     args = p.parse_args()
 
     log("=== AKASHA LONG-FORM BAŞLA ===")
+    # Hafta koruması: yedek cron çift üretmesin
+    try:
+        son = json.loads((PANEL / "long_form_son.json").read_text(encoding="utf-8"))
+        gecen = (datetime.now() - datetime.strptime(son.get("tarih","2000-01-01"), "%Y-%m-%d")).days
+        if gecen < 6 and not args.kuru:
+            log(f"Bu hafta üretilmiş ({gecen} gün önce) — çık."); return
+    except Exception:
+        pass
     konu = konu_sec(args.konu)
     log(f"Konu: {konu}")
     is_kok = CIKTI_KOK / datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -373,6 +381,9 @@ def main():
     log("6) Upload...")
     vid = yukle(final, kapak, senaryo, seg_sureler, kunyeler)
     konu_kaydet(konu)
+    (PANEL / "long_form_son.json").write_text(json.dumps(
+        {"video_id": vid, "etiket": f"Uzun video — {senaryo['baslik'][:50]}",
+         "tarih": datetime.now().strftime("%Y-%m-%d")}, ensure_ascii=False), encoding="utf-8")
     log(f"🎉 https://youtu.be/{vid}")
 
 

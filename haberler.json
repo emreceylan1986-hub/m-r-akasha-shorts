@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-07-31T19:23:52.460065+00:00",
+  "uretim_zamani": "2026-07-31T21:03:44.481308+00:00",
   "haberler": [
     {
-      "baslik": "Rüyalarda beliren o yabancı yüz aslında senin hangi parçandır?",
-      "url": "https://tr.wikipedia.org/wiki/Arketipler",
+      "baslik": "Zihnin aşırı yüklenmesinde unutkanlık denilen koruma kalkanı",
+      "url": "https://tr.wikipedia.org/wiki/Unutma",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kronik yorgunluğun ardındaki o bitmeyen mental kaçış",
+      "url": "https://tr.wikipedia.org/wiki/Kronik_yorgunluk_sendromu",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Gecenin en derin saatinde görülen simgeler ruhun hangi çağrısıdır?",
-      "url": "https://tr.wikipedia.org/wiki/Sembol",
+      "baslik": "Odaklanma kaybının arkasındaki zihinsel dağınıklık tuzağı",
+      "url": "https://tr.wikipedia.org/wiki/Dikkat_eksikliği_ve_hiperaktivite_bozukluğu",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

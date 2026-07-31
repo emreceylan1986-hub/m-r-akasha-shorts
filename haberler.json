@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-07-30T21:10:17.905164+00:00",
+  "uretim_zamani": "2026-07-31T19:23:52.460065+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 45: Düşündüğüm hiçbir şey gerçek değil — zihni sıfırlama",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Rüyalarda beliren o yabancı yüz aslında senin hangi parçandır?",
+      "url": "https://tr.wikipedia.org/wiki/Arketipler",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gecenin en derin saatinde görülen simgeler ruhun hangi çağrısıdır?",
+      "url": "https://tr.wikipedia.org/wiki/Sembol",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

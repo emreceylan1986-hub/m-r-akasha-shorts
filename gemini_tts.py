@@ -82,7 +82,17 @@ def seslendir(metin: str, mp3_yolu: Path, ses: str = SES) -> float | None:
         except Exception as h:
             son_hata = h
             import time
-            time.sleep(min(2 ** (deneme + 1), 15))
+            metin_h = str(h)
+            if "429" in metin_h or "RESOURCE_EXHAUSTED" in metin_h:
+                # 31 Tem dersi: free-tier TTS = 10 istek/gün/anahtar. Önce başka
+                # anahtara geç (bridge rotasyonu); yoksa API'nin önerdiği süre bekle.
+                if bridge._sonraki_anahtara_gec():
+                    continue
+                import re as _re
+                m = _re.search(r"retry in (\d+)", metin_h)
+                time.sleep(min(int(m.group(1)) + 5 if m else 60, 90))
+            else:
+                time.sleep(min(2 ** (deneme + 1), 15))
     print(f"[gemini_tts] başarısız ({son_hata}) → edge-tts'e düşülecek", flush=True)
     return None
 

@@ -224,16 +224,24 @@ def tts_bolumlu_leda(bolumler: list, is_kok: Path, ses_mp3: Path):
     Dönüş: gerçek bölüm süreleri listesi | None (Emel'e düş)."""
     import gemini_tts
     b_dizin = is_kok / "tts_bolum"; b_dizin.mkdir(exist_ok=True)
+    # 1 Ağu: free-tier TTS = 10 istek/gün → bölüm başına çağrı sürdürülemez
+    # (31 Tem: 10 bölümlük İkarus kotayı yedi, 6. bölümde 429). Bölümleri 2'şerli
+    # grupla → 10 bölüm = 5 çağrı; grup süresi kelime oranıyla alt bölümlere dağıtılır.
+    gruplar = [bolumler[i:i+2] for i in range(0, len(bolumler), 2)]
     sureler, parcalar = [], []
-    for i, b in enumerate(bolumler, 1):
-        p = b_dizin / f"b{i:02d}.mp3"
-        sure = gemini_tts.seslendir(b["metin"], p)
+    for gi, grup in enumerate(gruplar, 1):
+        p = b_dizin / f"g{gi:02d}.mp3"
+        metin = "\n\n".join(b["metin"] for b in grup)
+        sure = gemini_tts.seslendir(metin, p)
         if not sure:
-            log(f"  Leda bölüm {i} başarısız → tamamı Emel'e düşüyor")
+            log(f"  Leda grup {gi} başarısız → tamamı Emel'e düşüyor")
             return None
-        sureler.append(sure); parcalar.append(p)
-        log(f"  Leda {i}/{len(bolumler)} ({sure:.1f}sn)")
-        time.sleep(2)  # TTS rate-limit nezaketi
+        parcalar.append(p)
+        kel = [len(b["metin"].split()) for b in grup]
+        for k in kel:  # grup süresini kelime oranıyla bölümlere dağıt
+            sureler.append(sure * k / sum(kel))
+        log(f"  Leda grup {gi}/{len(gruplar)} ({sure:.1f}sn, {len(grup)} bölüm)")
+        time.sleep(8)  # TTS dakikalık limit nezaketi
     # bölümler arası 0.5sn nefes + concat (tek tip codec: hepsi gemini_tts mp3'ü)
     sessiz = b_dizin / "sessiz.mp3"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi",
@@ -248,8 +256,9 @@ def tts_bolumlu_leda(bolumler: list, is_kok: Path, ses_mp3: Path):
     liste.write_text("\n".join(satirlar))
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
                     "-i", str(liste), "-c:a", "libmp3lame", "-b:a", "160k", str(ses_mp3)], check=True)
-    # nefes payları render segmentlerine eklenir (son bölüm hariç +0.5)
-    return [s + (0.5 if i < len(sureler) - 1 else 0) for i, s in enumerate(sureler)]
+    # nefes payı gruplar arasına girdi → son bölümü hariç her GRUP-SONU bölümüne +0.5
+    grup_son_idx = {sum(len(g) for g in gruplar[:k+1]) - 1 for k in range(len(gruplar) - 1)}
+    return [s + (0.5 if i in grup_son_idx else 0) for i, s in enumerate(sureler)]
 
 
 def sure_al(medya: Path) -> float:

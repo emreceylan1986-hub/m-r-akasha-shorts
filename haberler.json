@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-07-31T17:30:00.126159+00:00",
+  "uretim_zamani": "2026-07-31T19:23:52.460065+00:00",
   "haberler": [
     {
-      "baslik": "Uyku ile uyanıklık arasındaki eşikte duyulan o gizemli seslerin nörolojik kökeni",
-      "url": "https://tr.wikipedia.org/wiki/Hipnagoji",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Beynimizin tanıdık yüzleri ve nesneleri tehdit olarak algıladığı garip algı yanılması",
-      "url": "https://tr.wikipedia.org/wiki/Capgras_sendromu",
+      "baslik": "Rüyalarda beliren o yabancı yüz aslında senin hangi parçandır?",
+      "url": "https://tr.wikipedia.org/wiki/Arketipler",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihnin geçmişteki anıları sanki yeni yaşanıyormuş gibi kusursuz kaydetme yanılgısı",
-      "url": "https://tr.wikipedia.org/wiki/Otobiyografik_bellek",
+      "baslik": "Gecenin en derin saatinde görülen simgeler ruhun hangi çağrısıdır?",
+      "url": "https://tr.wikipedia.org/wiki/Sembol",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

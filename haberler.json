@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-07-30T21:10:17.905164+00:00",
+  "uretim_zamani": "2026-07-31T12:00:01.646386+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 45: Düşündüğüm hiçbir şey gerçek değil — zihni sıfırlama",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Rüyanda sürekli tanıdık bir evi yabancı görmek: Jung'un 'Anima' uyarısı",
+      "url": "https://en.wikipedia.org/wiki/Anima_and_animus",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyalarında sürekli kovalanan insanın uyanıkken kaçtığı o tek gerçek",
+      "url": "https://en.wikipedia.org/wiki/Archetype",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

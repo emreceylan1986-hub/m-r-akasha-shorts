@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-08-01T11:16:40.439247+00:00",
+  "uretim_zamani": "2026-08-01T16:59:06.150103+00:00",
   "haberler": [
     {
-      "baslik": "Üçüncü Göz Çakrası Tıkanıklığı: Kararsızlığın ve Sürekli Akıl Danışmanın Arkasındaki Enerji Boşluğu",
-      "url": "https://tr.wikipedia.org/wiki/Ajna",
+      "baslik": "Sahasrara tıkanıklığı: Zihninin sürekli bir anlam ve ait olma savaşı vermesinin nedeni",
+      "url": "https://tr.wikipedia.org/wiki/Sahasrara",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Solar Pleksus Çakrası ve Hayır Diyememek: Kendi Güç Merkezini Başkalarına Devrettiğinde Bedeninde Ne Olur?",
-      "url": "https://tr.wikipedia.org/wiki/Manipura",
+      "baslik": "Tao Te Jing — Bölüm 11: Hayatındaki karmaşanın sebebi hayatındaki boşlukları doldurma çabandır",
+      "url": "https://tr.wikipedia.org/wiki/D%C3%BCnya%27n%C4%B1n_merkezi",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu — Ders 12: Zihninin ürettiği korku senaryolarından tek bir kararla sıyrılmak",
+      "url": "https://tr.wikipedia.org/wiki/Zihin",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

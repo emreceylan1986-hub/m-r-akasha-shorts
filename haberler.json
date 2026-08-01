@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-01T16:59:06.150103+00:00",
+  "uretim_zamani": "2026-08-01T19:06:49.164071+00:00",
   "haberler": [
     {
-      "baslik": "Sahasrara tıkanıklığı: Zihninin sürekli bir anlam ve ait olma savaşı vermesinin nedeni",
-      "url": "https://tr.wikipedia.org/wiki/Sahasrara",
+      "baslik": "Anahata Çakrası ve kalbindeki o görünmez duvarın gerçek sebebi",
+      "url": "https://en.wikipedia.org/wiki/Anahata",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing — Bölüm 11: Hayatındaki karmaşanın sebebi hayatındaki boşlukları doldurma çabandır",
-      "url": "https://tr.wikipedia.org/wiki/D%C3%BCnya%27n%C4%B1n_merkezi",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu — Ders 12: Zihninin ürettiği korku senaryolarından tek bir kararla sıyrılmak",
-      "url": "https://tr.wikipedia.org/wiki/Zihin",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

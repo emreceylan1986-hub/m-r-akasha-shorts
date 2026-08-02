@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-08-01T20:52:17.394166+00:00",
+  "uretim_zamani": "2026-08-02T11:15:56.241953+00:00",
   "haberler": [
     {
-      "baslik": "Manipura Çakrası Tıkanıklığı: Kararsızlıkların ve Başkalarını Memnun Etme Çabasının Gizli Kaynağı",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu Ders 46: Zihnindeki Savunma Duvarları Seni Gerçek Gücünden Nasıl Mahrum Bırakıyor?",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 11: Zihnindeki Sürekli Düşünme İhtiyacını Durduran 'Boş Kabın' Bilgeliği",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Hayatında sürekli aynı insan tipiyle karşılaşmanın arkasındaki kuantum çekim",
+      "url": "https://en.wikipedia.org/wiki/Law_of_attraction",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-08-02T11:15:56.241953+00:00",
+  "uretim_zamani": "2026-08-02T16:57:58.410994+00:00",
   "haberler": [
     {
-      "baslik": "Hayatında sürekli aynı insan tipiyle karşılaşmanın arkasındaki kuantum çekim",
-      "url": "https://en.wikipedia.org/wiki/Law_of_attraction",
+      "baslik": "Tam o kişiyi düşünürken gelen mesaj: Kuantum dolanıklık ve zihin bağı",
+      "url": "https://tr.wikipedia.org/wiki/Kuantum_dolan%C4%b1kl%C4%b1k",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Hayatındaki 'anlamlı rastlantılar' aslında ruhunun sana fısıldama şeklidir",
+      "url": "https://en.wikipedia.org/wiki/Meaning_(existential)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-08-02T16:57:58.410994+00:00",
+  "uretim_zamani": "2026-08-02T19:09:00.291964+00:00",
   "haberler": [
     {
-      "baslik": "Tam o kişiyi düşünürken gelen mesaj: Kuantum dolanıklık ve zihin bağı",
-      "url": "https://tr.wikipedia.org/wiki/Kuantum_dolan%C4%b1kl%C4%b1k",
+      "baslik": "Sufi bilgeliğinde 'Hızır Dokunuşu': Yoluna çıkan o yabancı aslında kim?",
+      "url": "https://en.wikipedia.org/wiki/Khidr",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Hayatındaki 'anlamlı rastlantılar' aslında ruhunun sana fısıldama şeklidir",
-      "url": "https://en.wikipedia.org/wiki/Meaning_(existential)",
+      "baslik": "Sürekli aynı saatleri görmek bir tesadüf mü yoksa zihninin uyanış çağrısı mı?",
+      "url": "https://en.wikipedia.org/wiki/Numerology",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Stoacı filozof Epiktetos'a göre zihninin seni hapsettiği o hayali zincir",
+      "url": "https://en.wikipedia.org/wiki/Epictetus",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

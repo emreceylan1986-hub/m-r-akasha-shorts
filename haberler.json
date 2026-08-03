@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-03T12:55:20.740660+00:00",
+  "uretim_zamani": "2026-08-03T17:51:33.964213+00:00",
   "haberler": [
     {
-      "baslik": "Dostoyevski felsefesi: Raskolnikov'un içsel çelişkisi senin hangi vicdan azabını gizliyor?",
-      "url": "https://tr.wikipedia.org/wiki/Rodion_Raskolnikov",
+      "baslik": "Mucizeler Kursu Ders 1: Gördüğün hiçbir şeyin gerçekte bir anlamı yok",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Boğaz çakrası akışı: Kendini doğru ifade edemediğinde bedeninde biriken sessiz çığlık",
-      "url": "https://tr.wikipedia.org/wiki/Vishuddha",
+      "baslik": "Carl Jung'a göre 'Persona' masken ruhunu nasıl yavaşça zehirler?",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sinkronistik bağlar: Hayatındaki o ani karşılaşmalar gerçekten sadece bir tesadüf mü?",
-      "url": "https://tr.wikipedia.org/wiki/E%C5%9F_zamanl%C4%b1l%c4%b1k",
+      "baslik": "Tao Te Jing Bölüm 1: Yol, dile getirilebiliyorsa gerçek yol değildir",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

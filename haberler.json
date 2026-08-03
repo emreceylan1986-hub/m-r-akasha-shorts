@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-08-03T19:37:10.869172+00:00",
+  "uretim_zamani": "2026-08-03T21:01:50.288723+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 46: Zihnindeki o öfkeli ses aslında kime ait?",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşlukları neden hemen doldurmaya çalışıyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşlukları neden sürekli bir şeylerle doldurmak istiyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/Bo%C5%9Fluk",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung’a göre 'Entegrasyon': Bastırdığın o karanlık yönün sana hangi gücü feda ettirdi?",
-      "url": "https://tr.wikipedia.org/wiki/Carl_Jung",
+      "baslik": "Sufi bilgeliğinde 'Kabz ve Bast' hali: Ruhunun daralması aslında sana ne fısıldıyor?",
+      "url": "https://tr.wikipedia.org/wiki/Ruh",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

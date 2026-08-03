@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-08-03T17:51:33.964213+00:00",
+  "uretim_zamani": "2026-08-03T19:37:10.869172+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 1: Gördüğün hiçbir şeyin gerçekte bir anlamı yok",
+      "baslik": "Mucizeler Kursu Ders 46: Zihnindeki o öfkeli ses aslında kime ait?",
       "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,16 +10,16 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung'a göre 'Persona' masken ruhunu nasıl yavaşça zehirler?",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşlukları neden hemen doldurmaya çalışıyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 1: Yol, dile getirilebiliyorsa gerçek yol değildir",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Carl Jung’a göre 'Entegrasyon': Bastırdığın o karanlık yönün sana hangi gücü feda ettirdi?",
+      "url": "https://tr.wikipedia.org/wiki/Carl_Jung",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-02T20:55:21.970877+00:00",
+  "uretim_zamani": "2026-08-03T12:55:20.740660+00:00",
   "haberler": [
     {
-      "baslik": "Niyazi-i Mısrî'ye göre 'Derman arardım derdime': Acın aslında senin rehberindir",
-      "url": "https://en.wikipedia.org/wiki/Niyazi-i_Misri",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşlukları neden bir kayıp olarak görüyorsun?",
-      "url": "https://en.wikipedia.org/wiki/Dao_de_jing",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sıradan bir günün akışını bozan o küçük engeller aslında seni neyden koruyor?",
-      "url": "https://en.wikipedia.org/wiki/Serendipity",
+      "baslik": "Dostoyevski felsefesi: Raskolnikov'un içsel çelişkisi senin hangi vicdan azabını gizliyor?",
+      "url": "https://tr.wikipedia.org/wiki/Rodion_Raskolnikov",
       "kaynak": "gemini-fallback",
       "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Boğaz çakrası akışı: Kendini doğru ifade edemediğinde bedeninde biriken sessiz çığlık",
+      "url": "https://tr.wikipedia.org/wiki/Vishuddha",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sinkronistik bağlar: Hayatındaki o ani karşılaşmalar gerçekten sadece bir tesadüf mü?",
+      "url": "https://tr.wikipedia.org/wiki/E%C5%9F_zamanl%C4%b1l%c4%b1k",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-08-03T21:01:50.288723+00:00",
+  "uretim_zamani": "2026-08-04T12:03:35.140614+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşlukları neden sürekli bir şeylerle doldurmak istiyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/Bo%C5%9Fluk",
+      "baslik": "Mevlana'ya göre 'Dışarıda aradığın sen misin?' — Aynadaki yabancı",
+      "url": "https://tr.wikipedia.org/wiki/Ayna",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre felsefesinde 'Gönül yapmak' — Kalp Kırmanın Gizli Bedeli",
+      "url": "https://tr.wikipedia.org/wiki/Gönül",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi bilgeliğinde 'Kabz ve Bast' hali: Ruhunun daralması aslında sana ne fısıldıyor?",
-      "url": "https://tr.wikipedia.org/wiki/Ruh",
+      "baslik": "Sufi bilgeliğinde 'Gam denizinde derman' — Acıyı Dönüştüren O Sessiz An",
+      "url": "https://tr.wikipedia.org/wiki/Istırap",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

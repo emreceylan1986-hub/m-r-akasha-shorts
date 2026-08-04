@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-04T19:36:49.040389+00:00",
+  "uretim_zamani": "2026-08-04T21:13:31.310219+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin 'Ölmeden önce ölmek' sırrı: Zihnindeki sahte kimlikten nasıl özgürleşirsin?",
-      "url": "https://tr.wikipedia.org/wiki/Fena_fi%27llah",
+      "baslik": "İbn Arabi'ye göre hayatta karşılaştığın her yüz aslında senin hangi halinin aynası?",
+      "url": "https://tr.wikipedia.org/wiki/Muhyiddin_%C4%b0bn_%C3%81rab%C3%AE",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Attar'ın Mantıku't-Tayr eserinde Simurg'u ararken kendi içine yapılan o uzun yolculuk",
+      "url": "https://tr.wikipedia.org/wiki/Ferid%C3%in-i_Attar",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sadi Şirazi'nin Gülistan bahçesinde insanı olgunlaştıran o sessiz sabır dersi",
+      "url": "https://tr.wikipedia.org/wiki/Sadi-%C5%irazi",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

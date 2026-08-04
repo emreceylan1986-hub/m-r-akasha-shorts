@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-04T12:03:35.140614+00:00",
+  "uretim_zamani": "2026-08-04T17:48:27.286655+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana'ya göre 'Dışarıda aradığın sen misin?' — Aynadaki yabancı",
-      "url": "https://tr.wikipedia.org/wiki/Ayna",
+      "baslik": "Mevlana felsefesinde 'Hamuş' olmak: Zihnindeki gürültüyü susturmanın gücü",
+      "url": "https://tr.wikipedia.org/wiki/Ham%C3%BB%C5%9F",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre felsefesinde 'Gönül yapmak' — Kalp Kırmanın Gizli Bedeli",
-      "url": "https://tr.wikipedia.org/wiki/Gönül",
+      "baslik": "Yunus Emre'nin 'Ölmeden önce ölmek' sırrı: Korkularını nasıl geride bırakırsın?",
+      "url": "https://tr.wikipedia.org/wiki/%C3%96lmeden_%C3%B6nce_%C3%B6lmek",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi bilgeliğinde 'Gam denizinde derman' — Acıyı Dönüştüren O Sessiz An",
-      "url": "https://tr.wikipedia.org/wiki/Istırap",
+      "baslik": "Sufi bilgeliğinde 'Kabz' ve 'Bast' halleri: İçsel daralmanın gizli sebebi",
+      "url": "https://tr.wikipedia.org/wiki/Kabz",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

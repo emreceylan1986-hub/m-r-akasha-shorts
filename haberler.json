@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-04T17:48:27.286655+00:00",
+  "uretim_zamani": "2026-08-04T19:36:49.040389+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana felsefesinde 'Hamuş' olmak: Zihnindeki gürültüyü susturmanın gücü",
-      "url": "https://tr.wikipedia.org/wiki/Ham%C3%BB%C5%9F",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'nin 'Ölmeden önce ölmek' sırrı: Korkularını nasıl geride bırakırsın?",
-      "url": "https://tr.wikipedia.org/wiki/%C3%96lmeden_%C3%B6nce_%C3%B6lmek",
+      "baslik": "Yunus Emre'nin 'Ölmeden önce ölmek' sırrı: Zihnindeki sahte kimlikten nasıl özgürleşirsin?",
+      "url": "https://tr.wikipedia.org/wiki/Fena_fi%27llah",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sufi bilgeliğinde 'Kabz' ve 'Bast' halleri: İçsel daralmanın gizli sebebi",
-      "url": "https://tr.wikipedia.org/wiki/Kabz",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

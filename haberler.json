@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-08-05T17:31:56.651751+00:00",
+  "uretim_zamani": "2026-08-05T19:28:54.388909+00:00",
   "haberler": [
     {
-      "baslik": "Zihninin yarattığı o sahte suçluluk duygusu: Egonun en büyük kalkanı",
-      "url": "https://en.wikipedia.org/wiki/Guilt_(emotion)",
+      "baslik": "Stoacıların 'Amor Fati' felsefesi: Hayatına çıkan engelleri birer yakıta dönüştürmek",
+      "url": "https://tr.wikipedia.org/wiki/Amor_fati",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kendi zihnini bir hapishaneye dönüştürdüğünü fark ettiğin o an",
-      "url": "https://tr.wikipedia.org/wiki/Zihin_felsefesi",
+      "baslik": "Yunus Emre'nin 'Beni bende demen, bende değilim' sözündeki o derin kimliksizlik makamı",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf_terimleri",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Dostoyevski'nin Yeraltından Notlar'da bahsettiği o 'kendi kendini sabote eden' gururlu ruh",
+      "url": "https://tr.wikipedia.org/wiki/Yeralt%C4%B1ndan_Notlar",
+      "kaynak": "gemini-fallback",
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

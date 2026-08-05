@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-08-05T12:00:15.210885+00:00",
+  "uretim_zamani": "2026-08-05T17:31:56.651751+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 1: Gördüğün hiçbir şeyin gerçek olmadığını fark ettiğin an",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu felsefesinde 'kurban' rolü ve kendi zindanını yaratma illüzyonu",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Zihninin yarattığı o sahte suçluluk duygusu: Egonun en büyük kalkanı",
+      "url": "https://en.wikipedia.org/wiki/Guilt_(emotion)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu'na göre egonun en büyük silahı: Haklı çıkma arzusu",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Kendi zihnini bir hapishaneye dönüştürdüğünü fark ettiğin o an",
+      "url": "https://tr.wikipedia.org/wiki/Zihin_felsefesi",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

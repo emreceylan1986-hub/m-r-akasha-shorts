@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-05T19:28:54.388909+00:00",
+  "uretim_zamani": "2026-08-05T21:07:47.541771+00:00",
   "haberler": [
     {
-      "baslik": "Stoacıların 'Amor Fati' felsefesi: Hayatına çıkan engelleri birer yakıta dönüştürmek",
-      "url": "https://tr.wikipedia.org/wiki/Amor_fati",
+      "baslik": "Ruhun karanlık gecesi: Hayatındaki her şeyin çöktüğü o dönemin gerçek anlamı",
+      "url": "https://tr.wikipedia.org/wiki/Ruhun_karanl%C4%B1k_gecesi",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'nin 'Beni bende demen, bende değilim' sözündeki o derin kimliksizlik makamı",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf_terimleri",
+      "baslik": "Karmik borç nedir? Hayatında sürekli ödemek zorunda hissettiğin o bedel",
+      "url": "https://tr.wikipedia.org/wiki/Karma",
       "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Dostoyevski'nin Yeraltından Notlar'da bahsettiği o 'kendi kendini sabote eden' gururlu ruh",
-      "url": "https://tr.wikipedia.org/wiki/Yeralt%C4%B1ndan_Notlar",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

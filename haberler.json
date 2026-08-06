@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-08-05T21:07:47.541771+00:00",
+  "uretim_zamani": "2026-08-06T12:03:48.633102+00:00",
   "haberler": [
     {
-      "baslik": "Ruhun karanlık gecesi: Hayatındaki her şeyin çöktüğü o dönemin gerçek anlamı",
-      "url": "https://tr.wikipedia.org/wiki/Ruhun_karanl%C4%B1k_gecesi",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Karmik borç nedir? Hayatında sürekli ödemek zorunda hissettiğin o bedel",
-      "url": "https://tr.wikipedia.org/wiki/Karma",
+      "baslik": "Tao Te Ching Bölüm 11: Hayatını şekillendiren o görünmez boşluk",
+      "url": "https://en.wikipedia.org/wiki/Yin_and_yang",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

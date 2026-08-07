@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-08-06T23:58:09.627560+00:00",
+  "uretim_zamani": "2026-08-07T10:50:56.967310+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing'in 8. Bölümü: Su Gibi Olmak Neden En Büyük Gücündür?",
-      "url": "https://tr.wikipedia.org/wiki/D%C3%BC%C5%9f%C3%BCk_yo%C4%9Funluklu_direni%C5%9F",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 22: Eğilen Şey Nasıl Ayakta Kalır?",
-      "url": "https://tr.wikipedia.org/wiki/Esneklik_(fizik)",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Zihnindeki Sürekli Çabalama İsteğini Durdurmak: Wu Wei ile Akışa Bırakmak",
-      "url": "https://tr.wikipedia.org/wiki/Eylemsizlik",
+      "baslik": "Sufi bilgeliğinde kalbin gözü: Akıl bittiğinde başlayan o görüş",
+      "url": "https://tr.wikipedia.org/wiki/Basiret",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

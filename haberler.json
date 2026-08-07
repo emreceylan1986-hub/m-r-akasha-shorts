@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-08-07T14:12:23.307929+00:00",
+  "uretim_zamani": "2026-08-07T16:52:20.175735+00:00",
   "haberler": [
     {
-      "baslik": "Rüyandaki 'Bilge Yaşlı' sana ne fısıldıyor? Kendi mitolojini keşfet",
-      "url": "https://en.wikipedia.org/wiki/Wise_old_man_and_wise_old_woman",
+      "baslik": "Rüyandaki o karanlık labirent aslında ruhunun hangi odasını gizliyor?",
+      "url": "https://en.wikipedia.org/wiki/Unconscious_mind",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 11: Zihnindeki boş alanların yaratıcı gücü",
+      "url": "https://en.wikipedia.org/wiki/Taoism",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

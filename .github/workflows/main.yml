@@ -5,7 +5,10 @@ on:
     # 4 Tem: Emre → 4 video/gün (SEDA kapalı; hepsi bu ana pipeline'da).
     # 1 ÖĞLEN + 3 AKŞAM: TR 13/19/21/23 = 10/16/18/20 UTC.
     # Kota: frugal AÇIK + denetim ayrık → video başı ~5 çağrı, 4 video ~20 (40 kotanın yarısı).
-    - cron: "0 10,16,18,20 * * *"
+    # 7 Ağu: hedef 4 video ama 7 cron saati — GitHub schedule gecikmeleri ve
+    # kesintilerde kaçan slot sonraki saatte telafi edilir. Hedef dolunca
+    # yukleyici._gunluk_tavan_kontrolu zarifçe durdurur (fazla basım YOK).
+    - cron: "0 10,13,16,18,20,21,22 * * *"
   workflow_dispatch:
     inputs:
       gizlilik:

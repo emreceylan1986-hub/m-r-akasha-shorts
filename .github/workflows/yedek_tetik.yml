@@ -1,3 +1,11 @@
+# ═══ 7 AĞU 2026 — DEVRE DIŞI ═══
+# Bu motor kurulduğundan beri HİÇ kurtarma yapmadı: `gh workflow run` komutu
+# checkout olmadığı için "not a git repository" ile ölüyordu ve hata `|| true`
+# ile yutulup run "başarılı" görünüyordu (sessiz arıza). Düzeltilse bile
+# GITHUB_TOKEN ile tetiklenen olaylar yeni run BAŞLATAMAZ (GitHub özyineleme
+# koruması) — PAT gerekirdi.
+# YERİNE: main.yml'e hedeften fazla cron saati + yukleyici'de günlük hedef
+# kapısı kondu. Kaçan slot sonraki saatte telafi olur, fazla basım olmaz.
 name: Yedek Tetik (kaçan saatleri kurtar)
 
 # GitHub Actions schedule saatleri bazen yoğunlukta atlatıyor.
@@ -6,8 +14,6 @@ name: Yedek Tetik (kaçan saatleri kurtar)
 # Eğer son 1 saat içinde başarılı bir run yoksa → ana pipeline'ı tetikler.
 
 on:
-  schedule:
-    - cron: "*/30 10-23 * * *"  # 12-23 UTC arası her 30 dk
   workflow_dispatch:
 
 permissions:

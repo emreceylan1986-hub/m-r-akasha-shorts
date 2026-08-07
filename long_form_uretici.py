@@ -442,6 +442,7 @@ def main():
             log(f"  {i}: {k['dosya'][:50]}")
         gorseller.append(hedef); kunyeler.append(k)
 
+    (is_kok / "kunyeler.json").write_text(json.dumps(kunyeler, ensure_ascii=False), encoding="utf-8")
     log("3) TTS (Leda — Shorts ile aynı ses; yedek: Emel)...")
     ses = is_kok / "ses.mp3"
     gercek_sureler = tts_bolumlu_leda(bolumler, is_kok, ses)

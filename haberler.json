@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-07T18:53:02.358976+00:00",
+  "uretim_zamani": "2026-08-07T20:38:31.595002+00:00",
   "haberler": [
     {
-      "baslik": "Sufi bilgeliğinde 'Yakin' mertebesi: Şüphelerinden arınmış bir zihin nasıl inşa edilir?",
-      "url": "https://tr.wikipedia.org/wiki/Yakin",
+      "baslik": "Rüyanda sürekli aynı sınava girdiğini görmek ne anlama geliyor?",
+      "url": "https://en.wikipedia.org/wiki/Recurring_dream",
       "kaynak": "gemini-fallback",
       "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Dostoyevski'nin Karamazov Kardeşler'deki 'Büyük Engizisyoncu' tespiti: Özgürlükten neden korkuyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/B%c3%bcy%c3%bck_Engizisyoncu",
+      "baslik": "Mevlana’ya göre seni yaralayan her şey, ışığın içeri girdiği yerdir",
+      "url": "https://en.wikipedia.org/wiki/Rumi",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Svadhisthana çakrası ve yaratıcılık: Hayatındaki neşeyi ve akışı bloke eden suçluluk duygusu",
-      "url": "https://tr.wikipedia.org/wiki/Svadhisthana",
+      "baslik": "Dostoyevski'nin 'Öteki' romanı: Kendine karşı beslediğin gizli nefret",
+      "url": "https://en.wikipedia.org/wiki/The_Double_(Dostoevsky_novel)",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-08-07T16:52:20.175735+00:00",
+  "uretim_zamani": "2026-08-07T18:53:02.358976+00:00",
   "haberler": [
     {
-      "baslik": "Rüyandaki o karanlık labirent aslında ruhunun hangi odasını gizliyor?",
-      "url": "https://en.wikipedia.org/wiki/Unconscious_mind",
+      "baslik": "Sufi bilgeliğinde 'Yakin' mertebesi: Şüphelerinden arınmış bir zihin nasıl inşa edilir?",
+      "url": "https://tr.wikipedia.org/wiki/Yakin",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 11: Zihnindeki boş alanların yaratıcı gücü",
-      "url": "https://en.wikipedia.org/wiki/Taoism",
+      "baslik": "Dostoyevski'nin Karamazov Kardeşler'deki 'Büyük Engizisyoncu' tespiti: Özgürlükten neden korkuyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/B%c3%bcy%c3%bck_Engizisyoncu",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Svadhisthana çakrası ve yaratıcılık: Hayatındaki neşeyi ve akışı bloke eden suçluluk duygusu",
+      "url": "https://tr.wikipedia.org/wiki/Svadhisthana",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

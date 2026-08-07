@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-07T21:36:43.086093+00:00",
+  "uretim_zamani": "2026-08-07T22:32:26.962221+00:00",
   "haberler": [
     {
-      "baslik": "Zihnin gizli sineması ve gece projeksiyonlarının gerçek dili",
-      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_analizi",
+      "baslik": "Sufi bilgeliğinde 'Hatif': İçindeki o fısıltı kime ait?",
+      "url": "https://tr.wikipedia.org/wiki/Hatif",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kolektif bilinçaltındaki 'Gölge' rüyalarında nasıl maskeleniyor?",
+      "url": "https://tr.wikipedia.org/wiki/Analitik_psikoloji",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

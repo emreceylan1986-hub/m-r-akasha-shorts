@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-07T20:38:31.595002+00:00",
+  "uretim_zamani": "2026-08-07T21:36:43.086093+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli aynı sınava girdiğini görmek ne anlama geliyor?",
-      "url": "https://en.wikipedia.org/wiki/Recurring_dream",
+      "baslik": "Zihnin gizli sineması ve gece projeksiyonlarının gerçek dili",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_analizi",
       "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mevlana’ya göre seni yaralayan her şey, ışığın içeri girdiği yerdir",
-      "url": "https://en.wikipedia.org/wiki/Rumi",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Dostoyevski'nin 'Öteki' romanı: Kendine karşı beslediğin gizli nefret",
-      "url": "https://en.wikipedia.org/wiki/The_Double_(Dostoevsky_novel)",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

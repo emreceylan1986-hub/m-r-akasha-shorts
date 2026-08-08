@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-08-08T10:29:54.626547+00:00",
+  "uretim_zamani": "2026-08-08T13:43:36.569243+00:00",
   "haberler": [
     {
-      "baslik": "Ajna çakran tıkalıysa sürekli aynı senaryoyu yaşarsın",
-      "url": "https://tr.wikipedia.org/wiki/%C3%9C%C3%A7%C3%BCnc%C3%BC_g%C3%B6z",
+      "baslik": "Sahasrara ve kozmik bağ: Kendini bu dünyada neden yapayalnız ve köksüz hissediyorsun?",
+      "url": "https://en.wikipedia.org/wiki/Sahasrara",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu — Ders 2: Gördüğün her şeye kendi geçmişini yansıtıyorsun",
-      "url": "https://tr.wikipedia.org/wiki/Projeksiyon_(psikoloji)",
+      "baslik": "Frekansın aynası: Hayatına sürekli aynı manipülatif insanları çekmenin enerjik sebebi nedir?",
+      "url": "https://en.wikipedia.org/wiki/Vibration",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 991,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Beden akorunu bozmak: Sürekli tetikte beklemenin sinir sisteminde yarattığı o gizli yük",
+      "url": "https://en.wikipedia.org/wiki/Somatic_experiencing",
+      "kaynak": "gemini-fallback",
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-08T20:26:34.033761+00:00",
+  "uretim_zamani": "2026-08-08T21:27:46.343179+00:00",
   "haberler": [
     {
-      "baslik": "Muladhara çakranın aşırı aktifleşmesi ve sürekli güvende hissetme kaygısı",
-      "url": "https://tr.wikipedia.org/wiki/Muladhara",
+      "baslik": "Bedenin Enerji Merkezleri Blokajları Nasıl Fısıldar?",
+      "url": "https://tr.wikipedia.org/wiki/Enerji",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 992,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Titreşim Seviyen Düştüğünde Dış Dünyanın Sana Aynalama Yöntemi",
+      "url": "https://tr.wikipedia.org/wiki/Titre%C5%9Fim",
+      "kaynak": "gemini-fallback",
+      "skor": 991,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Güneş Sinirağı Çakrası ve Kendi İçindeki Gücü Yeniden Uyandırma Vakti",
+      "url": "https://tr.wikipedia.org/wiki/Solar_Plexus",
+      "kaynak": "gemini-fallback",
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

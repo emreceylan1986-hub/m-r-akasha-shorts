@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-08T21:27:46.343179+00:00",
+  "uretim_zamani": "2026-08-08T22:26:21.784559+00:00",
   "haberler": [
     {
-      "baslik": "Bedenin Enerji Merkezleri Blokajları Nasıl Fısıldar?",
-      "url": "https://tr.wikipedia.org/wiki/Enerji",
+      "baslik": "Manipura çakrasının sırrı ve iradenin ateşini korumak",
+      "url": "https://tr.wikipedia.org/wiki/Solar_plexus_çakrası",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titreşim Seviyen Düştüğünde Dış Dünyanın Sana Aynalama Yöntemi",
-      "url": "https://tr.wikipedia.org/wiki/Titre%C5%9Fim",
+      "baslik": "Anahata çakrasının kapıları açıldığında hissedilen içsel hafiflik",
+      "url": "https://tr.wikipedia.org/wiki/Kalp_çakrası",
       "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Güneş Sinirağı Çakrası ve Kendi İçindeki Gücü Yeniden Uyandırma Vakti",
-      "url": "https://tr.wikipedia.org/wiki/Solar_Plexus",
+      "baslik": "Ajna çakrasının berraklığı ile zihindeki sis perdesini aralamak",
+      "url": "https://tr.wikipedia.org/wiki/Üçüncü_göz",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

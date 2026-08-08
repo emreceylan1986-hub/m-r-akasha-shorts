@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-08T18:34:11.847802+00:00",
+  "uretim_zamani": "2026-08-08T20:26:34.033761+00:00",
   "haberler": [
     {
-      "baslik": "Dostoyevski'nin Karamazov Kardeşler'indeki 'Büyük Engizisyoncu': Egondan vazgeçmek neden bu kadar korkutucu?",
-      "url": "https://en.wikipedia.org/wiki/The_Grand_Inquisitor",
+      "baslik": "Muladhara çakranın aşırı aktifleşmesi ve sürekli güvende hissetme kaygısı",
+      "url": "https://tr.wikipedia.org/wiki/Muladhara",
       "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Prana akışının kesilmesi: Kronik yorgunluğun ardındaki duygusal kaçaklar",
-      "url": "https://en.wikipedia.org/wiki/Prana",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'nin 'Ölür ise ten ölür, canlar ölesi değil' felsefesiyle geçici beden algısından sıyrılmak",
-      "url": "https://en.wikipedia.org/wiki/Yunus_Emre",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

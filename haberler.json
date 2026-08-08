@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-08T16:30:19.950005+00:00",
+  "uretim_zamani": "2026-08-08T18:34:11.847802+00:00",
   "haberler": [
     {
-      "baslik": "Muladhara Çakrası ve Hayatındaki Sürekli Tetikte Olma Hali",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Dostoyevski'nin Karamazov Kardeşler'indeki 'Büyük Engizisyoncu': Egondan vazgeçmek neden bu kadar korkutucu?",
+      "url": "https://en.wikipedia.org/wiki/The_Grand_Inquisitor",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Vishuddha Çakrasının Tıkanması ve Söyleyemediğin Kelimelerin Boğazındaki Düğümü",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Prana akışının kesilmesi: Kronik yorgunluğun ardındaki duygusal kaçaklar",
+      "url": "https://en.wikipedia.org/wiki/Prana",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan Yol ve Zihnin Sessizliği",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Yunus Emre'nin 'Ölür ise ten ölür, canlar ölesi değil' felsefesiyle geçici beden algısından sıyrılmak",
+      "url": "https://en.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

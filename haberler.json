@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-08T13:43:36.569243+00:00",
+  "uretim_zamani": "2026-08-08T16:30:19.950005+00:00",
   "haberler": [
     {
-      "baslik": "Sahasrara ve kozmik bağ: Kendini bu dünyada neden yapayalnız ve köksüz hissediyorsun?",
-      "url": "https://en.wikipedia.org/wiki/Sahasrara",
+      "baslik": "Muladhara Çakrası ve Hayatındaki Sürekli Tetikte Olma Hali",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Frekansın aynası: Hayatına sürekli aynı manipülatif insanları çekmenin enerjik sebebi nedir?",
-      "url": "https://en.wikipedia.org/wiki/Vibration",
+      "baslik": "Vishuddha Çakrasının Tıkanması ve Söyleyemediğin Kelimelerin Boğazındaki Düğümü",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Beden akorunu bozmak: Sürekli tetikte beklemenin sinir sisteminde yarattığı o gizli yük",
-      "url": "https://en.wikipedia.org/wiki/Somatic_experiencing",
+      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan Yol ve Zihnin Sessizliği",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

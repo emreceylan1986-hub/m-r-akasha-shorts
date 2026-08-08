@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-08-07T22:32:26.962221+00:00",
+  "uretim_zamani": "2026-08-08T10:29:54.626547+00:00",
   "haberler": [
     {
-      "baslik": "Sufi bilgeliğinde 'Hatif': İçindeki o fısıltı kime ait?",
-      "url": "https://tr.wikipedia.org/wiki/Hatif",
+      "baslik": "Ajna çakran tıkalıysa sürekli aynı senaryoyu yaşarsın",
+      "url": "https://tr.wikipedia.org/wiki/%C3%9C%C3%A7%C3%BCnc%C3%BC_g%C3%B6z",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kolektif bilinçaltındaki 'Gölge' rüyalarında nasıl maskeleniyor?",
-      "url": "https://tr.wikipedia.org/wiki/Analitik_psikoloji",
+      "baslik": "Mucizeler Kursu — Ders 2: Gördüğün her şeye kendi geçmişini yansıtıyorsun",
+      "url": "https://tr.wikipedia.org/wiki/Projeksiyon_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

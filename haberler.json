@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-09T18:36:49.921558+00:00",
+  "uretim_zamani": "2026-08-09T20:28:54.841822+00:00",
   "haberler": [
     {
-      "baslik": "Sokrates'in 'Daimon'u: İçindeki o fısıltı aslında kimin sesi?",
-      "url": "https://tr.wikipedia.org/wiki/Daimon",
+      "baslik": "Egonun en büyük illüzyonu: Haklı olma arzusu ve ruhsal esaret",
+      "url": "https://tr.wikipedia.org/wiki/Egoizm",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Zihnindeki o dırdırcı ses kime ait? Gözlemci bilincin uyanışı",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0%C3%A7sel_konu%C5%9Fma",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Neden hep aynı insan tipiyle sınanıyorsun? Karmik döngünün sırrı",
+      "url": "https://en.wikipedia.org/wiki/Samsara",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-08-07T22:32:26.962221+00:00",
+  "uretim_zamani": "2026-08-09T10:31:55.190591+00:00",
   "haberler": [
     {
-      "baslik": "Sufi bilgeliğinde 'Hatif': İçindeki o fısıltı kime ait?",
-      "url": "https://tr.wikipedia.org/wiki/Hatif",
+      "baslik": "Zihninin en dip köşesinde kaybolan o eski dostu neden aynı anda düşündün?",
+      "url": "https://en.wikipedia.org/wiki/Telepathy",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kolektif bilinçaltındaki 'Gölge' rüyalarında nasıl maskeleniyor?",
-      "url": "https://tr.wikipedia.org/wiki/Analitik_psikoloji",
+      "baslik": "Hayatındaki o büyük krizlerin arkasındaki kusursuz zamanlama",
+      "url": "https://en.wikipedia.org/wiki/Destiny",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Aynı rüyayı defalarca görmenin arkasındaki kolektif işaretler",
+      "url": "https://en.wikipedia.org/wiki/Dream",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

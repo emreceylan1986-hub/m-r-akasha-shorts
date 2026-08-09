@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-09T21:29:23.576209+00:00",
+  "uretim_zamani": "2026-08-09T22:28:23.596339+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre sinkronisite ve hayatındaki şaşırtıcı tesadüflerin gerçek dili",
-      "url": "https://tr.wikipedia.org/wiki/Eşzamanlılık",
+      "baslik": "William James'e göre neşeli hissetmek için neden gülümsemelisin",
+      "url": "https://tr.wikipedia.org/wiki/William_James",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Marcus Aurelius'un Günlükler'inde kontrol edemediğin dış dünyanın sessiz kabulü",
-      "url": "https://tr.wikipedia.org/wiki/Stoacılık",
+      "baslik": "Platon'un Mağara Alegorisi ve senin gerçeği algılama biçimin",
+      "url": "https://tr.wikipedia.org/wiki/Ma%c4%9fara_Alegorisi",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung felsefesinde eşzamanlılık ve evrenin seninle kurduğu o gizli cümleler",
-      "url": "https://tr.wikipedia.org/wiki/Eşzamanlılık",
+      "baslik": "Arthur Schopenhauer'a göre yalnızlık ruhun asaleti midir",
+      "url": "https://tr.wikipedia.org/wiki/Arthur_Schopenhauer",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

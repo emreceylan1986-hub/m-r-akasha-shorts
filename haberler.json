@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-09T16:32:03.090656+00:00",
+  "uretim_zamani": "2026-08-09T18:36:49.921558+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye tüm anlamı ben verdim' gerçeği",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Sokrates'in 'Daimon'u: İçindeki o fısıltı aslında kimin sesi?",
+      "url": "https://tr.wikipedia.org/wiki/Daimon",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sufi felsefesinde tevafuk: Karşına çıkan zor insanların gizli görevi",
-      "url": "https://tr.wikipedia.org/wiki/Tevafuk",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 1: Tanımlanamayan yol ve zihnin sessizliği",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -8,7 +8,9 @@ Demeter videosunun (CFjcA6bYtuc, 24 Tem) kanıtlanmış akışının otomasyonu:
   → Emel TTS → blur-pad + Ken Burns render (1920x1080) → PIL kapak
   → YouTube upload (bölüm zaman damgaları + tablo künyeleri).
 
-Müzik BİLEREK yok — 20 Tem Jamendo Content-ID dersi (sf3WFM8aflU bloğu).
+Müzik: 9 Ağu'dan itibaren VAR — mistik/yavaş, -26dB, ticari-uygun (ccnc=false)
+lisans süzgecinden geçmiş. 20 Tem Content-ID dersi (sf3WFM8aflU bloğu) artık
+kod içi lisans kontrolü + kara listeyle karşılanıyor; bulunamazsa müziksiz çıkar.
 
 Kullanım:
     python3 long_form_uretici.py                # rotasyondan konu
@@ -268,7 +270,7 @@ def sure_al(medya: Path) -> float:
 
 
 def render(bolumler: list, gorseller: list, ses: Path, final: Path, is_kok: Path,
-           gercek_sureler: list | None = None):
+           gercek_sureler: list | None = None, muzik: Path | None = None):
     toplam_sure = sure_al(ses)
     if gercek_sureler:  # Leda yolu: bölüm süreleri kesin → görsel-anlatım tam senkron
         oranli = [toplam_sure * s / sum(gercek_sureler) for s in gercek_sureler]
@@ -297,9 +299,23 @@ def render(bolumler: list, gorseller: list, ses: Path, final: Path, is_kok: Path
     birlesik = is_kok / "birlesik.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
                     "-i", str(liste), "-c", "copy", str(birlesik)], check=True)
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(birlesik), "-i", str(ses),
-                    "-af", f"afade=t=out:st={max(0, toplam_sure-2):.1f}:d=2",
-                    "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", str(final)], check=True)
+    if muzik and Path(muzik).exists():
+        # 9 Ağu: mistik arka plan müziği. Anlatımın ÇOK altında (-26dB — Akasha'nın
+        # sakin tonu için Shorts'takinden de kısık), döngülü, sonda 4sn fade.
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error",
+                        "-i", str(birlesik), "-i", str(ses), "-i", str(muzik),
+                        "-filter_complex",
+                        f"[2:a]volume=-26dB,aloop=loop=-1:size=2e+09,"
+                        f"afade=t=out:st={max(0, toplam_sure-4):.1f}:d=4[bg];"
+                        f"[1:a]afade=t=out:st={max(0, toplam_sure-2):.1f}:d=2[an];"
+                        f"[an][bg]amix=inputs=2:duration=first:dropout_transition=0[a]",
+                        "-map", "0:v", "-map", "[a]",
+                        "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+                        "-shortest", str(final)], check=True)
+    else:
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(birlesik), "-i", str(ses),
+                        "-af", f"afade=t=out:st={max(0, toplam_sure-2):.1f}:d=2",
+                        "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", str(final)], check=True)
     return [s for _, s in parcalar]
 
 
@@ -451,9 +467,27 @@ def main():
         tts_uret("\n\n".join(b["metin"] for b in bolumler), ses)
     log(f"  ✓ {sure_al(ses):.0f} sn")
 
-    log("4) Render...")
+    log("4) Arka plan müzik (mistik, ticari-uygun)...")
+    muzik_yolu = is_kok / "bgm.mp3"
+    muzik_var = False
+    try:
+        import montajci as _mj, random as _rnd
+        _key = _mj._jamendo_anahtarini_oku()
+        if _key:
+            for _arama in _rnd.sample(_mj.MISTIK_ARAMALAR, len(_mj.MISTIK_ARAMALAR))[:4]:
+                if _mj.jamendo_muzik_indir(_arama, muzik_yolu, _key):
+                    muzik_var = True
+                    log(f"  ✓ müzik: '{_arama}'")
+                    break
+        if not muzik_var:
+            log("  müzik bulunamadı — müziksiz devam (video yine çıkar)")
+    except Exception as h:
+        log(f"  müzik atlandı: {str(h)[:80]}")
+
+    log("5) Render...")
     final = is_kok / "final.mp4"
-    seg_sureler = render(bolumler, gorseller, ses, final, is_kok, gercek_sureler)
+    seg_sureler = render(bolumler, gorseller, ses, final, is_kok, gercek_sureler,
+                         muzik_yolu if muzik_var else None)
 
     log("5) Kapak...")
     kapak = is_kok / "kapak.jpg"

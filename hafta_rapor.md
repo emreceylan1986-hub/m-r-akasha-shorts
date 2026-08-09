@@ -1,23 +1,23 @@
 # 📊 Aydınlanmanın Doruk Noktası — Haftalık Rapor
-_2026-07-26T22:55+00:00_
+_2026-08-09T22:24+00:00_
 
 ## Özet
-- **Abone:** 33 (+4 bu hafta)
-- **Toplam view:** 19,003 (+5,491 bu hafta)
-- **Toplam video:** 110
-- **Son 7 gün:** 28 video, 4,595 izl, ort 164/video
-- **<50 izl video sayısı:** 9/28 (kalite_temizleyici aday)
+- **Abone:** 40 (+7 bu hafta)
+- **Toplam view:** 27,445 (+8,442 bu hafta)
+- **Toplam video:** 163
+- **Son 7 gün:** 26 video, 4,649 izl, ort 178/video
+- **<50 izl video sayısı:** 13/26 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **1,044v** · 2👍 · 1💬 — sürekli ertelemenin ardındaki ruhsal boşluk özlemi ve wuji
-- **468v** · 3👍 · 3💬 — Demeter'in Yası: Ruhun Kışı ve İçsel Dönüşüm
-- **435v** · 6👍 · 0💬 — carl jung felsefesinde rüyada tekrarlanan sokak ve ruhun düğümü
+- **1,156v** · 18👍 · 3💬 — mevlananin hamuş felsefesi ve zihindeki gurultuyu susturmanin gucu
+- **775v** · 5👍 · 4💬 — lao tzu felsefesinde suyun yolu ve yumuşak gücün bükülmezliği
+- **636v** · 12👍 · 1💬 — lao tzu felsefesinde ruhsal boşluğun görünmeyen kutsal değeri
 
 ## 🪦 Alt 3 (son 7 gün)
-- **4v** · 0👍 · 1💬 — ibn arabi felsefesinde tevafuk ve karsilasilan insanlarin sirri
-- **9v** · 2👍 · 1💬 — Demeter'in Hikâyesi: Yaşam, Ölüm ve Yeniden Doğuş | Yunan Mitolojisi ve Jung
-- **20v** · 0👍 · 1💬 — carl jung felsefesinde eşzamanlılık ve hayatın gizli işaretleri
+- **0v** · 0👍 · 1💬 — Narkissos ve Ekho: Kendine Hayranlığın ve Yankının Yalnızlığı
+- **9v** · 1👍 · 1💬 — ibn arabi felsefesinde dış aynalar ve ruhun yansıması
+- **12v** · 1👍 · 1💬 — mucizeler kursu ve zihni özgürleştiren anlamsızlık eşiği
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **33 abone / 164 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **40 abone / 178 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı

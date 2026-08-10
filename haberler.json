@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-10T20:39:23.134540+00:00",
+  "uretim_zamani": "2026-08-10T21:39:04.717533+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana'nın misafirhane benzetmesi: İçindeki acı ve öfke duygularını neden kapıda karşılamalısın?",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%ee",
+      "baslik": "Sufi bilgeliğinde 'Fikr-i Mevti' ve egonun sahte telaşından kurtulmak",
+      "url": "https://tr.wikipedia.org/wiki/Tefekk%C3%BCr",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tasavvufta 'Seyr-i Süluk': İçindeki karanlık dehlizlerden geçerek uyanışa ulaşmak",
+      "url": "https://tr.wikipedia.org/wiki/Seyr-i_S%C3%BCluk",
+      "kaynak": "gemini-fallback",
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

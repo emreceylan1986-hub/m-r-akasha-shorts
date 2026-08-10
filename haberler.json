@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-10T14:19:19.137807+00:00",
+  "uretim_zamani": "2026-08-10T16:52:07.630940+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing'in 8. bölümü: Su gibi olmak ne demek?",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "baslik": "Carl Jung'a göre başkalarında en çok nefret ettiğin şey aslında senin 'Gölge'ndir",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(arkeotip)",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 1: Tanımladığın her şey, tanımladığın an gerçekliğini kaybeder",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 1: 'Hiçbir şeyin anlamı yok' — gerçek anlamı",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm hiçbir şeye kendi yüklediğim anlam dışında bir anlam vermedim'",
       "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre 700 yıl önce ego'yu nasıl tarif etti?",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

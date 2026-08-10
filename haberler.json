@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-08-10T21:39:04.717533+00:00",
+  "uretim_zamani": "2026-08-10T22:35:03.703037+00:00",
   "haberler": [
     {
-      "baslik": "Sufi bilgeliğinde 'Fikr-i Mevti' ve egonun sahte telaşından kurtulmak",
-      "url": "https://tr.wikipedia.org/wiki/Tefekk%C3%BCr",
+      "baslik": "Yunus Emre'nin 'Beni bende demen, bende değilim' sözündeki gizli fena makamı",
+      "url": "https://tr.wikipedia.org/wiki/Fenafillah",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tasavvufta 'Seyr-i Süluk': İçindeki karanlık dehlizlerden geçerek uyanışa ulaşmak",
-      "url": "https://tr.wikipedia.org/wiki/Seyr-i_S%C3%BCluk",
+      "baslik": "Nefesindeki o gizli duraklama anı: Prana ve zihnin sessizlik eşiği",
+      "url": "https://tr.wikipedia.org/wiki/Prana",
+      "kaynak": "gemini-fallback",
+      "skor": 989,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mevlana'nın Şems ile karşılaşması: Bilgiyi yakıp aşkın ateşine teslim olmak",
+      "url": "https://tr.wikipedia.org/wiki/%C5%9Eems-i_Tebrizi",
       "kaynak": "gemini-fallback",
       "skor": 988,
       "yas_saat": 0,

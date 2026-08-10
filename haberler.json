@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-09T22:28:23.596339+00:00",
+  "uretim_zamani": "2026-08-10T11:05:59.347954+00:00",
   "haberler": [
     {
-      "baslik": "William James'e göre neşeli hissetmek için neden gülümsemelisin",
-      "url": "https://tr.wikipedia.org/wiki/William_James",
+      "baslik": "Carl Jung'a göre 'Gölge'nin rüyanda belirdiği o an ve yüzleşme cesareti",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(arkeotip)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Platon'un Mağara Alegorisi ve senin gerçeği algılama biçimin",
-      "url": "https://tr.wikipedia.org/wiki/Ma%c4%9fara_Alegorisi",
+      "baslik": "Sufi bilgeliğinde 'Fenâ': Sahte benliğin yok oluşunda gizlenen gerçek özgürlük",
+      "url": "https://tr.wikipedia.org/wiki/Fena",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Arthur Schopenhauer'a göre yalnızlık ruhun asaleti midir",
-      "url": "https://tr.wikipedia.org/wiki/Arthur_Schopenhauer",
+      "baslik": "Tao Te Jing Bölüm 2: Karşıtların dansı ve zihnindeki iyi-kötü savaşını bitirmek",
+      "url": "https://tr.wikipedia.org/wiki/Denge_(felsefe)",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

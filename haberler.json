@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-10T11:05:59.347954+00:00",
+  "uretim_zamani": "2026-08-10T14:19:19.137807+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre 'Gölge'nin rüyanda belirdiği o an ve yüzleşme cesareti",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(arkeotip)",
+      "baslik": "Tao Te Jing'in 8. bölümü: Su gibi olmak ne demek?",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi bilgeliğinde 'Fenâ': Sahte benliğin yok oluşunda gizlenen gerçek özgürlük",
-      "url": "https://tr.wikipedia.org/wiki/Fena",
+      "baslik": "Mucizeler Kursu Ders 1: 'Hiçbir şeyin anlamı yok' — gerçek anlamı",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 2: Karşıtların dansı ve zihnindeki iyi-kötü savaşını bitirmek",
-      "url": "https://tr.wikipedia.org/wiki/Denge_(felsefe)",
+      "baslik": "Yunus Emre 700 yıl önce ego'yu nasıl tarif etti?",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

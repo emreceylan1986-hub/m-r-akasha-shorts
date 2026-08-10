@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-10T18:54:07.296154+00:00",
+  "uretim_zamani": "2026-08-10T20:39:23.134540+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre 'Persona' masken ruhunu nasıl boğuyor?",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Mevlana'nın misafirhane benzetmesi: İçindeki acı ve öfke duygularını neden kapıda karşılamalısın?",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%ee",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu Ders 2: Zihnine öğrettiğin o sahte korkulardan kurtul",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

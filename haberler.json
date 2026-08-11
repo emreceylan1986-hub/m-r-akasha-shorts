@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-11T20:40:32.663125+00:00",
+  "uretim_zamani": "2026-08-11T21:43:18.143499+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'nın 'Suret' Tuzağı: İnsanları Neden Oldukları Gibi Göremiyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/F%C3%AEhi_M%C3%A2_F%C3%AEh",
+      "baslik": "Tasavvufta 'Şükür' kelimesinin yüzeysel temenniden öte derin teslimiyet hali",
+      "url": "https://tr.wikipedia.org/wiki/%C5%9E%C3%fck%C3%fcr",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'nin 'Gurbet' Sırrı: İçindeki O Dinmeyen Sürgün Hissi Nereden Geliyor?",
-      "url": "https://tr.wikipedia.org/wiki/Risalet%C3%BC%27n-Nushiyye",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

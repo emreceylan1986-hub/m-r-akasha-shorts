@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-11T21:43:18.143499+00:00",
+  "uretim_zamani": "2026-08-11T22:38:55.172315+00:00",
   "haberler": [
     {
-      "baslik": "Tasavvufta 'Şükür' kelimesinin yüzeysel temenniden öte derin teslimiyet hali",
-      "url": "https://tr.wikipedia.org/wiki/%C5%9E%C3%fck%C3%fcr",
+      "baslik": "Mevlânâ'nın Şems'i kaybettiğinde fark ettiği 'büyük boşluk' senin de kurtuluşun olabilir",
+      "url": "https://tr.wikipedia.org/wiki/%C5%9Eems-i_Tebr%C3%AEz%C3%AE",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre'nin 'Bir ben vardır bende, benden içeri' dizesindeki o ikinci kişi aslında kim?",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf_metafizi%C4%9Fi",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-08-11T14:18:45.918417+00:00",
+  "uretim_zamani": "2026-08-11T16:55:56.798273+00:00",
   "haberler": [
     {
-      "baslik": "Mevlâna’ya göre başkasında gördüğün kusur aslında senin hicabındır",
-      "url": "https://tr.wikipedia.org/wiki/Hicab",
+      "baslik": "Mevlânâ'ya göre 'gönül evinin' yıkılması neden senin en büyük şansındır?",
+      "url": "https://tr.wikipedia.org/wiki/Harâbât",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Feriha-i ıstırap: Tasavvufta acının sessizce genişlettiği o geniş kalp",
-      "url": "https://tr.wikipedia.org/wiki/Kalp_(tasavvuf)",
+      "baslik": "Yunus Emre'nin 'Beni bende demen' sözündeki gizli psikolojik özgürlük",
+      "url": "https://tr.wikipedia.org/wiki/Fenâfilşâh",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,

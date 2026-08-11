@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-08-11T16:55:56.798273+00:00",
+  "uretim_zamani": "2026-08-11T18:58:44.143435+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre 'gönül evinin' yıkılması neden senin en büyük şansındır?",
-      "url": "https://tr.wikipedia.org/wiki/Harâbât",
+      "baslik": "Mevlânâ'nın 'Ayna' Sırrı: Başkasında Seni Rahatsız Eden Şey Aslında Nedir?",
+      "url": "https://en.wikipedia.org/wiki/Mirrors_in_Sufism",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'nin 'Beni bende demen' sözündeki gizli psikolojik özgürlük",
-      "url": "https://tr.wikipedia.org/wiki/Fenâfilşâh",
+      "baslik": "Yunus Emre'nin 'Beni Bende Demen' Sırrı: İçindeki O Yabancı Kim?",
+      "url": "https://en.wikipedia.org/wiki/Sufi_psychology",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

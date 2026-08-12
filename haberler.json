@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-08-12T18:58:31.087677+00:00",
+  "uretim_zamani": "2026-08-12T20:40:25.566965+00:00",
   "haberler": [
     {
-      "baslik": "Sufi felsefesinde 'seyr-i süluk' ve hayatının en zor döneminin gizli amacı",
-      "url": "https://en.wikipedia.org/wiki/Suluk",
+      "baslik": "Kararsızlık anlarında ruhun donması: Stoacıların 'Apatheia' eşiği",
+      "url": "https://tr.wikipedia.org/wiki/Apatheia",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Seni sürekli kurtarıcı olmaya zorlayan o gizli suçluluk: 'Yansıtmalı Özdeşim'",
+      "url": "https://tr.wikipedia.org/wiki/Yans%C4%B1tmal%C4%B1_%C3%B6zde%C5%9fim",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

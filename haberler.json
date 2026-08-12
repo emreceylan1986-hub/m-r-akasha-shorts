@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-08-12T20:40:25.566965+00:00",
+  "uretim_zamani": "2026-08-12T21:42:47.941164+00:00",
   "haberler": [
     {
-      "baslik": "Kararsızlık anlarında ruhun donması: Stoacıların 'Apatheia' eşiği",
-      "url": "https://tr.wikipedia.org/wiki/Apatheia",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye benim verdiğim anlam dışında bir anlam vermedim'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 1: Tanımlanamayan yol ve zihnin kelimelerle savaşı",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Seni sürekli kurtarıcı olmaya zorlayan o gizli suçluluk: 'Yansıtmalı Özdeşim'",
-      "url": "https://tr.wikipedia.org/wiki/Yans%C4%B1tmal%C4%B1_%C3%B6zde%C5%9fim",
+      "baslik": "Sufi bilgeliğinde 'Fakr' makamı: Hiçbir şeye sahip olmadan her şeye sahip olmak",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

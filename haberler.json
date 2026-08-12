@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-12T21:42:47.941164+00:00",
+  "uretim_zamani": "2026-08-12T22:37:30.577601+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye benim verdiğim anlam dışında bir anlam vermedim'",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 1: Tanımlanamayan yol ve zihnin kelimelerle savaşı",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "İçindeki 'Gözlemci' kim? Zihnin gürültüsünü izleyen o sessiz güç",
+      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sufi bilgeliğinde 'Fakr' makamı: Hiçbir şeye sahip olmadan her şeye sahip olmak",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

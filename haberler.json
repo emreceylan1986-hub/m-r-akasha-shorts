@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-12T16:55:39.899342+00:00",
+  "uretim_zamani": "2026-08-12T18:58:31.087677+00:00",
   "haberler": [
     {
-      "baslik": "Zihnindeki o 'yetersizlik' fısıltısı kime ait? Egonun en eski tuzağı",
-      "url": "https://en.wikipedia.org/wiki/Inner_peace",
+      "baslik": "Sufi felsefesinde 'seyr-i süluk' ve hayatının en zor döneminin gizli amacı",
+      "url": "https://en.wikipedia.org/wiki/Suluk",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Geçmişin yükünü taşımayı bıraktığında, geleceğin nasıl kendiliğinden şifalanır?",
-      "url": "https://en.wikipedia.org/wiki/Spiritual_enlightenment",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Seni en çok öfkelendiren insan, aslında senin hangi yarana ayna tutuyor?",
-      "url": "https://en.wikipedia.org/wiki/Mirroring_(psychology)",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

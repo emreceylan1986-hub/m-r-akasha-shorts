@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-12T10:58:51.898654+00:00",
+  "uretim_zamani": "2026-08-12T14:19:50.944833+00:00",
   "haberler": [
     {
-      "baslik": "Zihninin yarattığı o görünmez hapishane: Teşvik edilmiş suçluluk hissi",
-      "url": "https://tr.wikipedia.org/wiki/Vicdan_azab%C4%B1",
+      "baslik": "Zihninin yarattığı en büyük illüzyon: Haklı çıkma arzusu",
+      "url": "https://tr.wikipedia.org/wiki/Bili%C5%9Fsel_çelişki",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "İçindeki o bitmek bilmeyen 'yetersizlik' hissi aslında kime ait?",
-      "url": "https://tr.wikipedia.org/wiki/%C3%9Cstbenlik",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

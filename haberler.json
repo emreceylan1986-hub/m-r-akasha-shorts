@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-08-13T16:54:49.559504+00:00",
+  "uretim_zamani": "2026-08-13T19:00:00.063956+00:00",
   "haberler": [
     {
-      "baslik": "İbn Sînâ'nın 'Asılı Adam' deneyi: Her şeyi kaybettiğinde geriye kalan sen kimsin?",
-      "url": "https://tr.wikipedia.org/wiki/%C4%B0bn-i_Sina",
+      "baslik": "Fark edilmeyen uykusuzluk: Zihninin sürekli tetikte olma nedeni",
+      "url": "https://tr.wikipedia.org/wiki/Hipervijilans",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "İçindeki şifacı: Kalbinin ürettiği elektromanyetik alanın gücü",
+      "url": "https://en.wikipedia.org/wiki/HeartMath_Institute",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-08-13T19:00:00.063956+00:00",
+  "uretim_zamani": "2026-08-13T20:39:41.593697+00:00",
   "haberler": [
     {
-      "baslik": "Fark edilmeyen uykusuzluk: Zihninin sürekli tetikte olma nedeni",
-      "url": "https://tr.wikipedia.org/wiki/Hipervijilans",
+      "baslik": "Tao Te Jing'in 22. bölümü: Eğilen insan neden kırılmaz?",
+      "url": "https://tr.wikipedia.org/wiki/Daoizm",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi felsefesinde 'sefer der vatan': Kendi içine yürümek ne anlama gelir?",
+      "url": "https://tr.wikipedia.org/wiki/Nefis_tezkiyesi",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "İçindeki şifacı: Kalbinin ürettiği elektromanyetik alanın gücü",
-      "url": "https://en.wikipedia.org/wiki/HeartMath_Institute",
+      "baslik": "Yunus Emre'nin 'Beni bende demen bende değilim' dizesindeki kayıp benlik",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf_edebiyat%C4%B1",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

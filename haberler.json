@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-08-13T14:21:45.024574+00:00",
+  "uretim_zamani": "2026-08-13T16:54:49.559504+00:00",
   "haberler": [
     {
-      "baslik": "Sürekli haklı çıkmaya çalışıyorsan: Ego'nun görünmez hayatta kalma savaşı",
-      "url": "https://tr.wikipedia.org/wiki/Ego_(psikoloji)",
+      "baslik": "İbn Sînâ'nın 'Asılı Adam' deneyi: Her şeyi kaybettiğinde geriye kalan sen kimsin?",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0bn-i_Sina",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

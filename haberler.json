@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-13T20:39:41.593697+00:00",
+  "uretim_zamani": "2026-08-13T21:42:17.405240+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing'in 22. bölümü: Eğilen insan neden kırılmaz?",
-      "url": "https://tr.wikipedia.org/wiki/Daoizm",
+      "baslik": "Tao Te Jing Bölüm 9: Aşırı doluluk neden ruhsal bir tükeniş getirir?",
+      "url": "https://tr.wikipedia.org/wiki/Denge",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi felsefesinde 'sefer der vatan': Kendi içine yürümek ne anlama gelir?",
-      "url": "https://tr.wikipedia.org/wiki/Nefis_tezkiyesi",
+      "baslik": "Stoacı 'Amor Fati' felsefesi: Başına gelen her şeyi kendi kaderinin yakıtı yapmak",
+      "url": "https://tr.wikipedia.org/wiki/Kadercilik",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'nin 'Beni bende demen bende değilim' dizesindeki kayıp benlik",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf_edebiyat%C4%B1",
+      "baslik": "Kalp çakrasındaki 'Anahata' fısıltısı: Kendini affetmediğinde neden sürekli yorgun hissedersin?",
+      "url": "https://tr.wikipedia.org/wiki/%C5%9Eefkat",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

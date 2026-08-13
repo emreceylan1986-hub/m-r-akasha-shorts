@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-13T21:42:17.405240+00:00",
+  "uretim_zamani": "2026-08-13T22:39:39.018778+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 9: Aşırı doluluk neden ruhsal bir tükeniş getirir?",
-      "url": "https://tr.wikipedia.org/wiki/Denge",
+      "baslik": "Feridüddin Attar'ın Simurg felsefesi: Aradığın kurtarıcının senin aynan olması",
+      "url": "https://tr.wikipedia.org/wiki/Mant%C4%B1ku%27t-Tayr",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Stoacı 'Amor Fati' felsefesi: Başına gelen her şeyi kendi kaderinin yakıtı yapmak",
-      "url": "https://tr.wikipedia.org/wiki/Kadercilik",
+      "baslik": "İbn Arabi'nin hayal alemi: Yaşadığın hayat aslında uykuda gördüğün bir rüyaysa?",
+      "url": "https://tr.wikipedia.org/wiki/Muhyiddin_İbn_Arabî",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kalp çakrasındaki 'Anahata' fısıltısı: Kendini affetmediğinde neden sürekli yorgun hissedersin?",
-      "url": "https://tr.wikipedia.org/wiki/%C5%9Eefkat",
+      "baslik": "Gaston Bachelard felsefesinde mekanın şiirselliği: Evin, ruhunun dışarı taşan sınırlarıdır",
+      "url": "https://tr.wikipedia.org/wiki/Gaston_Bachelard",
       "kaynak": "gemini-fallback",
       "skor": 995,
       "yas_saat": 0,

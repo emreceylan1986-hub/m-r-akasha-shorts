@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-14T14:15:19.004891+00:00",
+  "uretim_zamani": "2026-08-14T16:50:32.876404+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli aynı eski evi görüyorsan, ruhun sana bu mesajı fısıldıyor",
-      "url": "https://en.wikipedia.org/wiki/Analytical_psychology",
+      "baslik": "Rüyanda sürekli sınava girdiğini görmek: Bilinçdışının yetersizlik uyarısı",
+      "url": "https://tr.wikipedia.org/wiki/Anksiyete",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'nin 'Ete kemiğe büründüm' sözünün arkasındaki derin kuantum gerçekliği",
-      "url": "https://en.wikipedia.org/wiki/Mysticism",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

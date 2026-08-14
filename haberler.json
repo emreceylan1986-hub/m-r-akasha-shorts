@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-08-14T16:50:32.876404+00:00",
+  "uretim_zamani": "2026-08-14T18:50:52.460816+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli sınava girdiğini görmek: Bilinçdışının yetersizlik uyarısı",
-      "url": "https://tr.wikipedia.org/wiki/Anksiyete",
+      "baslik": "Rüyada yüksekten düşmek ve kontrolü kaybetme korkun",
+      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%B1%C5%9F%C4%B1",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

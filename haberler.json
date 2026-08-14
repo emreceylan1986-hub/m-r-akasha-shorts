@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-14T21:22:41.755270+00:00",
+  "uretim_zamani": "2026-08-14T22:20:04.303624+00:00",
   "haberler": [
     {
-      "baslik": "Bilinçdışının dili: Rüyalarda tekrarlayan aynı mekan neyi fısıldar?",
-      "url": "https://tr.wikipedia.org/wiki/Kolektif_bilin%C3%A7alt%C4%B1",
+      "baslik": "Seneca'nın mektuplarında anlattığı gelecek korkusunu durdurma yöntemi",
+      "url": "https://tr.wikipedia.org/wiki/Lucius_Annaeus_Seneca",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Alfred Adler felsefesinde geçmişin bugünü esir alma yanılgısı",
+      "url": "https://tr.wikipedia.org/wiki/Alfred_Adler",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

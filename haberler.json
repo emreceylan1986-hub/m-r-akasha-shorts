@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-13T22:39:39.018778+00:00",
+  "uretim_zamani": "2026-08-14T10:57:02.867840+00:00",
   "haberler": [
     {
-      "baslik": "Feridüddin Attar'ın Simurg felsefesi: Aradığın kurtarıcının senin aynan olması",
-      "url": "https://tr.wikipedia.org/wiki/Mant%C4%B1ku%27t-Tayr",
+      "baslik": "Rüyandaki o tanıdık ev aslında senin inşa ettiğin ruhsal labirentindir",
+      "url": "https://en.wikipedia.org/wiki/Dream_interpretation",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "İbn Arabi'nin hayal alemi: Yaşadığın hayat aslında uykuda gördüğün bir rüyaysa?",
-      "url": "https://tr.wikipedia.org/wiki/Muhyiddin_İbn_Arabî",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gaston Bachelard felsefesinde mekanın şiirselliği: Evin, ruhunun dışarı taşan sınırlarıdır",
-      "url": "https://tr.wikipedia.org/wiki/Gaston_Bachelard",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

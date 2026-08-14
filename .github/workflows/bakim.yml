@@ -1,0 +1,55 @@
+name: Bakım — kazara private kalan videoları aç
+
+# 14 Ağu 2026: f1qMcE2Wr5c 3 gün private takılı kaldı. Cosmos'ta bu onarıcı
+# 11 Ağu'dan beri günlük; Akasha'da yoktu (burada bilinçli private videolar var).
+# onarim_public.py'deki DOKUNMA listesi o iki İkarus kopyasını korur.
+# 08 UTC: ilk upload slotundan (10 UTC) ÖNCE — kota çakışması olmasın.
+# Kota: boştayken ~2 birim; onarım gerekirse videos.update 50 birim/video.
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+    inputs:
+      kuru:
+        description: "kuru = sadece raporla, değiştirme"
+        required: false
+        default: "hayir"
+        type: choice
+        options:
+          - hayir
+          - evet
+
+permissions:
+  contents: read
+
+jobs:
+  bakim:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Bağımlılıklar
+        run: pip install -q google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
+
+      - name: Kimlik dosyaları
+        env:
+          TOKEN_JSON: ${{ secrets.TOKEN_JSON }}
+          CLIENT_SECRET_JSON: ${{ secrets.CLIENT_SECRET_JSON }}
+        run: |
+          printf '%s' "$TOKEN_JSON" > token.json
+          printf '%s' "$CLIENT_SECRET_JSON" > client_secret.json
+          python -c "import json; json.load(open('token.json')); json.load(open('client_secret.json')); print('secrets OK')"
+
+      - name: Onarım çalıştır
+        run: |
+          if [ "${{ github.event.inputs.kuru }}" = "evet" ]; then
+            python onarim_public.py --kuru
+          else
+            python onarim_public.py
+          fi

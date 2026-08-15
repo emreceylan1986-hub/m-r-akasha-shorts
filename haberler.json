@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-08-14T22:20:04.303624+00:00",
+  "uretim_zamani": "2026-08-15T10:19:52.708829+00:00",
   "haberler": [
     {
-      "baslik": "Seneca'nın mektuplarında anlattığı gelecek korkusunu durdurma yöntemi",
-      "url": "https://tr.wikipedia.org/wiki/Lucius_Annaeus_Seneca",
+      "baslik": "Anahata Çakrası ve Kalbinin Etrafına Ördüğün Görünmez Duvar",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Vishuddha Çakrası ve Boğazındaki O Düğümün Gerçek Nedeni",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Alfred Adler felsefesinde geçmişin bugünü esir alma yanılgısı",
-      "url": "https://tr.wikipedia.org/wiki/Alfred_Adler",
+      "baslik": "Tao Te Jing Bölüm 1: Tanımlayamadığın O Boşluk Aslında Yolun Kendisidir",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-15T10:19:52.708829+00:00",
+  "uretim_zamani": "2026-08-15T13:27:49.775541+00:00",
   "haberler": [
     {
-      "baslik": "Anahata Çakrası ve Kalbinin Etrafına Ördüğün Görünmez Duvar",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "Boğaz çakran kapalıysa hayatın böyle görünür: Söyleyemediğin her kelimenin bedeninde bıraktığı o ağır yük",
+      "url": "https://tr.wikipedia.org/wiki/Bo%C4%9Faz_%C3%A7akras%C4%B1",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Vishuddha Çakrası ve Boğazındaki O Düğümün Gerçek Nedeni",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 1: Tanımlayamadığın O Boşluk Aslında Yolun Kendisidir",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

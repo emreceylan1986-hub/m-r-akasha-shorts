@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-15T18:25:19.738853+00:00",
+  "uretim_zamani": "2026-08-15T20:19:23.021816+00:00",
   "haberler": [
     {
-      "baslik": "Svadhisthana çakrası ve hayatındaki neşeyi çalan suçluluk duygusu",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Boğazındaki o düğüm aslında söyleyemediğin hangi gerçeği saklıyor?",
+      "url": "https://en.wikipedia.org/wiki/Throat_chakra",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan yol ve zihnin sessizlik ihtiyacı",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu — Ders 2: 'Gördüğüm her şeye benim verdiğim anlam dışında bir anlam yüklemedim'",
-      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

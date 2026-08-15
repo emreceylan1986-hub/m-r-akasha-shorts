@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-15T21:18:54.785416+00:00",
+  "uretim_zamani": "2026-08-15T22:19:38.985913+00:00",
   "haberler": [
     {
-      "baslik": "Sürekli başkalarını kurtarma arzusu: İçindeki 'Kurtarıcı Şeması' ve kendi acından kaçışın",
-      "url": "https://tr.wikipedia.org/wiki/Şema_terapisi",
+      "baslik": "Kök çakra tıkandığında dünyada güvende hissedememenin gizli sebebi",
+      "url": "tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Manipura çakrası ve başkalarına 'hayır' diyememenin yarattığı enerji kaçağı",
+      "url": "tr.wikipedia.org/wiki/%C3%87akra",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Taç çakra açıldığında evrenle hissedilen o derin ve sessiz birlik",
+      "url": "tr.wikipedia.org/wiki/%C3%87akra",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

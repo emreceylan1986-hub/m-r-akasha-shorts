@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-16T16:21:05.243502+00:00",
+  "uretim_zamani": "2026-08-16T18:24:38.361403+00:00",
   "haberler": [
     {
-      "baslik": "Gördüğün anlamlı sayılar ve tekrarlayan işaretler zihninin sana oynadığı oyun mu?",
-      "url": "https://tr.wikipedia.org/wiki/Anlaml%C4%B1_tesad%C3%fcf",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye tüm anlamını ben verdim'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 2. Bölüm: Zıtlıkların dansı ve zihnindeki kıyas savaşı",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Hayatında sürekli aynı insanları çekmenin arkasındaki gizli yasa",
-      "url": "https://tr.wikipedia.org/wiki/Yans%C4%B1tma_(psikoloji)",
+      "baslik": "Hayatındaki o garip tesadüf: Sinkronisite seninle nasıl konuşuyor?",
+      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamans%C4%B1nl%C4%B1k",
       "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "İçindeki eleştirmeni susturmanın yolu: Zihinsel seslerin kökenine inmek",
-      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7alt%C4%B1",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

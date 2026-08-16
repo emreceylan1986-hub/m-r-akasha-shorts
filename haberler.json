@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-15T22:19:38.985913+00:00",
+  "uretim_zamani": "2026-08-16T10:20:10.575643+00:00",
   "haberler": [
     {
-      "baslik": "Kök çakra tıkandığında dünyada güvende hissedememenin gizli sebebi",
-      "url": "tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Sokrates'in 'Daimonion'u: Seni felaketlerden koruyan o sessiz fısıltı",
+      "url": "https://tr.wikipedia.org/wiki/Sokrates",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Manipura çakrası ve başkalarına 'hayır' diyememenin yarattığı enerji kaçağı",
-      "url": "tr.wikipedia.org/wiki/%C3%87akra",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Taç çakra açıldığında evrenle hissedilen o derin ve sessiz birlik",
-      "url": "tr.wikipedia.org/wiki/%C3%87akra",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

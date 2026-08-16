@@ -1,16 +1,8 @@
 {
-  "uretim_zamani": "2026-08-16T20:18:56.910095+00:00",
+  "uretim_zamani": "2026-08-16T21:17:25.902646+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu - Ders 2: 'Gördüğüm her şeye, benim için taşıdığı tüm anlamı ben verdim'",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Seni sürekli bulmak isteyen o sayı: Eşzamanlılık ve evrenin seninle konuşma dili",
+      "baslik": "Sokakta sürekli aynı sayıları görmek bir tesadüf mü? Eşzamanlılığın gizli dili",
       "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -18,7 +10,7 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing - Bölüm 1: Tanımlanabilen yol, gerçek yol değildir",
+      "baslik": "Tao Te Jing Bölüm 1: Tanımlayabildiğin yol, gerçek yol değildir",
       "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 998,

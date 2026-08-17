@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-17T16:24:04.139734+00:00",
+  "uretim_zamani": "2026-08-17T18:35:39.894173+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing — Bölüm 1: Söylenebilen yol, gerçek yol değildir",
-      "url": "https://en.wikipedia.org/wiki/Tao",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye, benim için sahip olduğu tüm anlamı ben verdim'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Dostoyevski'nin Karamazov Kardeşler'deki büyük tespiti: İnsan kendi yarattığı cehennemden neden kaçamaz?",
-      "url": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
-      "kaynak": "gemini-fallback",
-      "skor": 989,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kuantum çekim yasası ve 'Akashic' alan: Evren senin kelimelerine değil, yaydığın sessiz frekansa yanıt verir",
-      "url": "https://en.wikipedia.org/wiki/Akashic_records",
-      "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

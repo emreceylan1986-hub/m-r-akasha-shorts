@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-17T18:35:39.894173+00:00",
+  "uretim_zamani": "2026-08-17T20:23:25.637325+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye, benim için sahip olduğu tüm anlamı ben verdim'",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Neden Sana En Çok Zarar Veren İnsanlara Çekilirsin? Adrenalin ve Bağlanma Tuzağı",
+      "url": "https://tr.wikipedia.org/wiki/Ba%C4%9Flanma_kuram%C4%b1",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi Bilgeliğinde 'Ölmeden Önce Ölmek' Aslında Zihinsel Bir Özgürleşmedir",
+      "url": "https://tr.wikipedia.org/wiki/Fena_(tasavvuf)",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sürekli Başkalarını Kurtarmaya Çalışmanın Arkasındaki Gizli Ego İhtiyacı",
+      "url": "https://tr.wikipedia.org/wiki/%C3%96z_sayg%C4%B1",
+      "kaynak": "gemini-fallback",
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

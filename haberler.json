@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-08-16T22:18:12.914759+00:00",
+  "uretim_zamani": "2026-08-17T10:30:15.237648+00:00",
   "haberler": [
     {
-      "baslik": "Sürekli aynı saatleri ve sayıları görmek: Evren seninle hangi dilde konuşuyor?",
-      "url": "https://tr.wikipedia.org/wiki/Numeroloji",
+      "baslik": "İçindeki 'Ebedi Çocuk': Neden Büyümekten Korkuyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/Puer_aeternus",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-17T20:23:25.637325+00:00",
+  "uretim_zamani": "2026-08-17T21:24:12.633277+00:00",
   "haberler": [
     {
-      "baslik": "Neden Sana En Çok Zarar Veren İnsanlara Çekilirsin? Adrenalin ve Bağlanma Tuzağı",
-      "url": "https://tr.wikipedia.org/wiki/Ba%C4%9Flanma_kuram%C4%b1",
+      "baslik": "Kuantum gözlemci etkisi: İnançların fiziksel gerçekliği nasıl şekillendirir?",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6zlemci_etkisi_(fizik)",
       "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sufi Bilgeliğinde 'Ölmeden Önce Ölmek' Aslında Zihinsel Bir Özgürleşmedir",
-      "url": "https://tr.wikipedia.org/wiki/Fena_(tasavvuf)",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sürekli Başkalarını Kurtarmaya Çalışmanın Arkasındaki Gizli Ego İhtiyacı",
-      "url": "https://tr.wikipedia.org/wiki/%C3%96z_sayg%C4%B1",
-      "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

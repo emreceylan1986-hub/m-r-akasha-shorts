@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-17T10:30:15.237648+00:00",
+  "uretim_zamani": "2026-08-17T13:37:29.236994+00:00",
   "haberler": [
     {
-      "baslik": "İçindeki 'Ebedi Çocuk': Neden Büyümekten Korkuyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/Puer_aeternus",
+      "baslik": "Tao Te Jing — Bölüm 2: Dünyada herkes güzeli güzel olarak bilince çirkinlik doğar",
+      "url": "https://tr.wikipedia.org/wiki/Taoizm",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Carl Jung'a göre 'Persona': Topluma sunduğun yüzün seni nasıl yavaşça yok ediyor?",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu — Ders 2: 'Gördüğüm hiçbir şeyin önemi yok' — zihnini serbest bırakmanın ilk adımı",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

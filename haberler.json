@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-17T21:24:12.633277+00:00",
+  "uretim_zamani": "2026-08-17T22:22:39.691245+00:00",
   "haberler": [
     {
-      "baslik": "Kuantum gözlemci etkisi: İnançların fiziksel gerçekliği nasıl şekillendirir?",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6zlemci_etkisi_(fizik)",
+      "baslik": "Carl Jung ve 'Enantiodromia': Bastırdığın Her Duygu Neden Eninde Sonunda Zıttına Dönüşür?",
+      "url": "https://en.wikipedia.org/wiki/Enantiodromia",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 989,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kuantum Çekim ve 'Akashic' Alan: Hayatındaki Rastlantıların Arkasındaki Görünmez Matris",
+      "url": "https://tr.wikipedia.org/wiki/Aka%C5%9Fik_kay%C4%B1tlar",
+      "kaynak": "gemini-fallback",
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

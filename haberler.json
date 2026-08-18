@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-18T10:25:41.768122+00:00",
+  "uretim_zamani": "2026-08-18T13:40:47.142187+00:00",
   "haberler": [
     {
-      "baslik": "Sufi Bilgeliğinde 'Kabz' ve 'Bast' Hali: İçsel Daralmanın Gizli Hediyesi",
-      "url": "https://tr.wikipedia.org/wiki/H%C3%A2l",
+      "baslik": "Sufizmde 'Kalp Gözü' neden kapanır? İçsel körlüğün psikolojisi",
+      "url": "https://tr.wikipedia.org/wiki/Kalp_g%C3%B6z%C3%BC",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Niyâzî-i Mısrî felsefesi: Derman arardım derdime, derdim bana derman imiş",
+      "url": "https://en.wikipedia.org/wiki/Niyazi_Misri",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tasavvufta 'Nefs-i Emmare' aşaması: İçindeki o vahşi dürtüyle nasıl barışırsın?",
+      "url": "https://en.wikipedia.org/wiki/Nafs",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

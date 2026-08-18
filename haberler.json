@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-08-18T18:35:12.236971+00:00",
+  "uretim_zamani": "2026-08-18T20:20:28.863094+00:00",
   "haberler": [
     {
-      "baslik": "İbn Tufeyl’in 'Hayy bin Yakzan' felsefesi: Toplum olmadan kendini bulabilir misin?",
-      "url": "https://tr.wikipedia.org/wiki/Hayy_bin_Yakzan",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sufizmde 'Hafâ' mertebesi: İçindeki en gizli fısıltıyı duyuyor musun?",
-      "url": "https://tr.wikipedia.org/wiki/Letaif",
+      "baslik": "Yunus Emre'nin 'Ölmeden önce ölmek' sırrı: Zihnindeki sahte seni nasıl özgür bırakırsın?",
+      "url": "https://tr.wikipedia.org/wiki/Fena-fillah",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

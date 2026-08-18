@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-08-18T20:20:28.863094+00:00",
+  "uretim_zamani": "2026-08-18T21:21:07.549124+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin 'Ölmeden önce ölmek' sırrı: Zihnindeki sahte seni nasıl özgür bırakırsın?",
-      "url": "https://tr.wikipedia.org/wiki/Fena-fillah",
+      "baslik": "Mevlana’nın 'Gözyaşı' Sırrı: Ruhunun Kuraklığını Bitirecek Olan Islaklık",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6zyas%C4%B1",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre’nin 'Miskinlik' Dediği Hal: Zihnindeki Savaşı Bitiren O Boşluk",
+      "url": "https://tr.wikipedia.org/wiki/Miskin",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi Bilgeliğinde 'Tecelli' Yasası: Hayatındaki İnsanlar Seni Nasıl Var Ediyor?",
+      "url": "https://tr.wikipedia.org/wiki/Tecelli",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

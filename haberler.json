@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-18T13:40:47.142187+00:00",
+  "uretim_zamani": "2026-08-18T16:27:59.681912+00:00",
   "haberler": [
     {
-      "baslik": "Sufizmde 'Kalp Gözü' neden kapanır? İçsel körlüğün psikolojisi",
-      "url": "https://tr.wikipedia.org/wiki/Kalp_g%C3%B6z%C3%BC",
+      "baslik": "Yunus Emre’nin 'Ete kemiğe büründüm' sözünün ardındaki kuantum gerçeklik",
+      "url": "https://tr.wikipedia.org/wiki/Ete_kemi%C4%9Fe_b%C3%BCr%C3%BCnd%C3%BCm_Yunus_diye_g%C3%B6r%C3%BCnd%C3%BCm",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Niyâzî-i Mısrî felsefesi: Derman arardım derdime, derdim bana derman imiş",
-      "url": "https://en.wikipedia.org/wiki/Niyazi_Misri",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tasavvufta 'Nefs-i Emmare' aşaması: İçindeki o vahşi dürtüyle nasıl barışırsın?",
-      "url": "https://en.wikipedia.org/wiki/Nafs",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

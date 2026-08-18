@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-18T16:27:59.681912+00:00",
+  "uretim_zamani": "2026-08-18T18:35:12.236971+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre’nin 'Ete kemiğe büründüm' sözünün ardındaki kuantum gerçeklik",
-      "url": "https://tr.wikipedia.org/wiki/Ete_kemi%C4%9Fe_b%C3%BCr%C3%BCnd%C3%BCm_Yunus_diye_g%C3%B6r%C3%BCnd%C3%BCm",
+      "baslik": "İbn Tufeyl’in 'Hayy bin Yakzan' felsefesi: Toplum olmadan kendini bulabilir misin?",
+      "url": "https://tr.wikipedia.org/wiki/Hayy_bin_Yakzan",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufizmde 'Hafâ' mertebesi: İçindeki en gizli fısıltıyı duyuyor musun?",
+      "url": "https://tr.wikipedia.org/wiki/Letaif",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

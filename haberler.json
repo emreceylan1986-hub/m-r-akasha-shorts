@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-19T18:31:22.393973+00:00",
+  "uretim_zamani": "2026-08-19T20:23:39.754254+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye benim için sahip olduğu tüm anlamı ben verdim'",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Zihnindeki o amansız suçluluk hissi aslında kime ait? Mucizeler Kursu'nun ego tespiti",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Zihnindeki o amansız yargıç aslında kime ait? — Carl Jung ve 'Animus' esareti",
+      "url": "https://tr.wikipedia.org/wiki/Animus_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Seni inciten insanları affetmek zorunda değilsin; Mucizeler Kursu'na göre 'gerçek' affediş nedir?",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Sürekli bir şeyler kanıtlama çabası: Tasavvufta 'Riya' ve sahte benliğin ölümü",
+      "url": "https://tr.wikipedia.org/wiki/Riya",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Neden hep aynı insanları hayatına çekiyorsun? — Kuantum dolanıklığı ve rezonans",
+      "url": "https://tr.wikipedia.org/wiki/Kuantum_dolan%C4%B1kl%C4%B1%C4%9F%C4%B1",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

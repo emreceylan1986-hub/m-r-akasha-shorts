@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-19T16:28:37.331975+00:00",
+  "uretim_zamani": "2026-08-19T18:31:22.393973+00:00",
   "haberler": [
     {
-      "baslik": "Zihnindeki o amansız ses aslında kimin? İçsel yargıcın kökeni",
-      "url": "https://tr.wikipedia.org/wiki/S%C3%BCperego",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye benim için sahip olduğu tüm anlamı ben verdim'",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Zihnindeki o amansız suçluluk hissi aslında kime ait? Mucizeler Kursu'nun ego tespiti",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Seni inciten insanları affetmek zorunda değilsin; Mucizeler Kursu'na göre 'gerçek' affediş nedir?",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

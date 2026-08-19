@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-08-19T21:23:25.816901+00:00",
+  "uretim_zamani": "2026-08-19T22:21:34.365581+00:00",
   "haberler": [
     {
-      "baslik": "Egonun en sinsi tuzağı: Haklı çıkma arzusunun arkasındaki derin yalnızlık",
-      "url": "https://en.wikipedia.org/wiki/Egoism",
+      "baslik": "Yunus Emre'nin 'Mürşid' öğretisi: Ruhunu aydınlatacak o içsel rehberi nasıl bulursun?",
+      "url": "https://tr.wikipedia.org/wiki/M%C3%BCr%C5%9Fid",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

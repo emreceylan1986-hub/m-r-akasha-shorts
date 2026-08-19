@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-18T22:20:01.643911+00:00",
+  "uretim_zamani": "2026-08-19T10:25:45.397018+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin 'Ölen hayvan imiş, aşıklar ölmez' sözündeki kuantum gerçeği",
-      "url": "https://tr.wikipedia.org/wiki/Bek%C3%A2",
+      "baslik": "Sufi felsefesinde 'Fakr' makamı: Hiçliğe bürünerek her şeye sahip olmak",
+      "url": "https://tr.wikipedia.org/wiki/Fakr",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sema'daki 'Yere Eğilme' sırrı: Toprakla bir olmak ve kibri ayaklar altına almak",
+      "url": "https://tr.wikipedia.org/wiki/Sema_(tasavvuf)",
+      "kaynak": "gemini-fallback",
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-20T18:35:26.878813+00:00",
+  "uretim_zamani": "2026-08-20T20:25:08.541505+00:00",
   "haberler": [
     {
-      "baslik": "Kuantum gözlemci etkisi: Sen bakış açını değiştirdiğinde baktığın dünya nasıl dönüşür?",
-      "url": "https://en.wikipedia.org/wiki/Observer_effect_(physics)",
+      "baslik": "Sufi felsefesinde 'Heva': Sürekli yeni bir şey istemenin ruhsal kökeni",
+      "url": "https://tr.wikipedia.org/wiki/Heva",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Fîhi Mâ Fîh felsefesi: İçinde hissettiğin o gurbet hissinin gerçek nedeni",
+      "url": "https://tr.wikipedia.org/wiki/Fihi_Ma_Fih",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

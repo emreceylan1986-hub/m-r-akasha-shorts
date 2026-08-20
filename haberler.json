@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-20T13:44:12.648671+00:00",
+  "uretim_zamani": "2026-08-20T16:31:50.398270+00:00",
   "haberler": [
     {
-      "baslik": "Zihninin sürekli konuşmasının sebebi: Kadim 'Wu-Wei' eksikliği",
-      "url": "https://en.wikipedia.org/wiki/Wu_wei",
+      "baslik": "Lao Tzu'ya göre hayatla savaşmayı bıraktığında neden her şey kendiliğinden çözülür?",
+      "url": "https://tr.wikipedia.org/wiki/Yin_ve_yang",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Zihnindeki boşluk neden sandığından daha değerlidir? — Kabın içindeki görünmez güç",
+      "url": "https://tr.wikipedia.org/wiki/De_(Taoizm)",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-19T22:21:34.365581+00:00",
+  "uretim_zamani": "2026-08-20T10:27:38.948314+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin 'Mürşid' öğretisi: Ruhunu aydınlatacak o içsel rehberi nasıl bulursun?",
-      "url": "https://tr.wikipedia.org/wiki/M%C3%BCr%C5%9Fid",
+      "baslik": "Sufi felsefesinde 'sefer der vatan': Kendi içine yaptığın o zorunlu hicret",
+      "url": "https://tr.wikipedia.org/wiki/Hicret",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi felsefesinde 'hürriyet': Dünyevi arzuların kölesi olmaktan kurtulmak",
+      "url": "https://tr.wikipedia.org/wiki/H%C3%BCrriyet",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Nefes farkındalığı ve Prana: Hayat enerjini sadece nefes alarak nasıl dengelersin?",
+      "url": "https://tr.wikipedia.org/wiki/Nefes",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

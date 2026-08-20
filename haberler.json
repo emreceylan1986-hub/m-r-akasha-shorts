@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-20T16:31:50.398270+00:00",
+  "uretim_zamani": "2026-08-20T18:35:26.878813+00:00",
   "haberler": [
     {
-      "baslik": "Lao Tzu'ya göre hayatla savaşmayı bıraktığında neden her şey kendiliğinden çözülür?",
-      "url": "https://tr.wikipedia.org/wiki/Yin_ve_yang",
+      "baslik": "Kuantum gözlemci etkisi: Sen bakış açını değiştirdiğinde baktığın dünya nasıl dönüşür?",
+      "url": "https://en.wikipedia.org/wiki/Observer_effect_(physics)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Zihnindeki boşluk neden sandığından daha değerlidir? — Kabın içindeki görünmez güç",
-      "url": "https://tr.wikipedia.org/wiki/De_(Taoizm)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

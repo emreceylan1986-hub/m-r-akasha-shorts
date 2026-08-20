@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-20T21:25:09.902292+00:00",
+  "uretim_zamani": "2026-08-20T22:24:00.389972+00:00",
   "haberler": [
     {
-      "baslik": "Sufi felsefesinde 'Halvet der Encümen': Kalabalığın içinde kendi sessizliğini korumak",
-      "url": "https://en.wikipedia.org/wiki/Naqshbandiyah",
+      "baslik": "Sufi felsefesinde 'Hırka' sırrı: Sahip olduğun her şey seni mi yönetiyor?",
+      "url": "https://tr.wikipedia.org/wiki/Z%C3%BChd",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Marcus Aurelius'a göre 'Zihinsel Kale': Dış dünyayı durduramadığında nereye sığınırsın?",
+      "url": "https://tr.wikipedia.org/wiki/Kendime_D%C3%BC%C5%9F%C3%BCnceler",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing'in 22. bölümü: Eğilen insan neden kırılmaz?",
+      "url": "https://tr.wikipedia.org/wiki/De",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

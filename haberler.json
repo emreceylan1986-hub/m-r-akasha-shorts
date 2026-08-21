@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-20T22:24:00.389972+00:00",
+  "uretim_zamani": "2026-08-21T10:27:20.128078+00:00",
   "haberler": [
     {
-      "baslik": "Sufi felsefesinde 'Hırka' sırrı: Sahip olduğun her şey seni mi yönetiyor?",
-      "url": "https://tr.wikipedia.org/wiki/Z%C3%BChd",
+      "baslik": "Rüyalarında sürekli kaybettiğin o anahtar aslında hangi duygunu kilitliyor?",
+      "url": "https://tr.wikipedia.org/wiki/Sembolizm",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Marcus Aurelius'a göre 'Zihinsel Kale': Dış dünyayı durduramadığında nereye sığınırsın?",
-      "url": "https://tr.wikipedia.org/wiki/Kendime_D%C3%BC%C5%9F%C3%BCnceler",
+      "baslik": "Kabuslar aslında ruhunun acil durum çağrılarıdır: Onları dinlemeyi biliyor musun?",
+      "url": "https://tr.wikipedia.org/wiki/Kabus",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing'in 22. bölümü: Eğilen insan neden kırılmaz?",
-      "url": "https://tr.wikipedia.org/wiki/De",
+      "baslik": "Sufi rüya tabirlerinde 'yakaza' hali: Uyanıkken uyumak, uyurken uyanmak ne demek?",
+      "url": "https://en.wikipedia.org/wiki/Ghazali",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

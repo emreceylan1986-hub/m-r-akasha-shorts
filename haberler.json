@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-21T10:27:20.128078+00:00",
+  "uretim_zamani": "2026-08-21T13:42:39.390139+00:00",
   "haberler": [
     {
-      "baslik": "Rüyalarında sürekli kaybettiğin o anahtar aslında hangi duygunu kilitliyor?",
-      "url": "https://tr.wikipedia.org/wiki/Sembolizm",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye, benim için sahip olduğu tüm anlamı ben verdim'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kabuslar aslında ruhunun acil durum çağrılarıdır: Onları dinlemeyi biliyor musun?",
-      "url": "https://tr.wikipedia.org/wiki/Kabus",
+      "baslik": "Rüyanda sürekli geç kalıyorsan: Bilinçdışının 'kaçırılan hayat' uyarısı",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_tabiri",
       "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi rüya tabirlerinde 'yakaza' hali: Uyanıkken uyumak, uyurken uyanmak ne demek?",
-      "url": "https://en.wikipedia.org/wiki/Ghazali",
+      "baslik": "Rüyandaki o vahşi hayvandan neden kaçmaman gerekir? Jung'un 'Anima' cevabı",
+      "url": "https://tr.wikipedia.org/wiki/Anima_ve_animus",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

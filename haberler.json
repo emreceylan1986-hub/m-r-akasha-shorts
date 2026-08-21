@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-21T18:33:13.731855+00:00",
+  "uretim_zamani": "2026-08-21T20:22:46.608567+00:00",
   "haberler": [
     {
-      "baslik": "Neden uykuda uyanıyorsun? Astral beden ve eterik enerjinin gece döngüsü",
-      "url": "https://tr.wikipedia.org/wiki/Eterik_beden",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye, benim için taşıdığı tüm anlamı ben verdim'",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyanda sürekli geç kaldığını görüyorsan: Ruhunun kaçırdığı o büyük uyanış",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_tabiri",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing — Bölüm 1: Tanımlayabildiğin yol, gerçek yol değildir",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-21T16:30:32.659477+00:00",
+  "uretim_zamani": "2026-08-21T18:33:13.731855+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli takip edildiğini görüyorsan: Jung'un kaçtığın gölge yorumu",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(arke_tip)",
+      "baslik": "Neden uykuda uyanıyorsun? Astral beden ve eterik enerjinin gece döngüsü",
+      "url": "https://tr.wikipedia.org/wiki/Eterik_beden",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'nin 'Beni bende demen' sırrı: Bilincin ötesindeki gerçek sen",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf_felsefesi",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

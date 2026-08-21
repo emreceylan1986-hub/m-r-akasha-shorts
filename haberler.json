@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-08-21T13:42:39.390139+00:00",
+  "uretim_zamani": "2026-08-21T16:30:32.659477+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye, benim için sahip olduğu tüm anlamı ben verdim'",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Rüyanda sürekli takip edildiğini görüyorsan: Jung'un kaçtığın gölge yorumu",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(arke_tip)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rüyanda sürekli geç kalıyorsan: Bilinçdışının 'kaçırılan hayat' uyarısı",
-      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_tabiri",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rüyandaki o vahşi hayvandan neden kaçmaman gerekir? Jung'un 'Anima' cevabı",
-      "url": "https://tr.wikipedia.org/wiki/Anima_ve_animus",
+      "baslik": "Yunus Emre'nin 'Beni bende demen' sırrı: Bilincin ötesindeki gerçek sen",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf_felsefesi",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

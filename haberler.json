@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-08-22T20:19:40.285624+00:00",
+  "uretim_zamani": "2026-08-22T21:18:59.084807+00:00",
   "haberler": [
     {
-      "baslik": "Ajna çakran tıkalıysa zihnin sürekli en kötü senaryoyu yazar",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "Ajna çakran tıkalıysa zihninin içindeki o sürekli şüpheci ses susmaz",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing 1. Bölüm: İsimsiz olan, göğün ve yerin başlangıcıdır",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Cing",
+      "baslik": "Mucizeler Kursu 2. Ders: Zihnine öğrettiğin geçmişi serbest bırakmanın gücü",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 1. Bölüm: İsimlendiremediğin o boşluk senin en derin gerçeğindir",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

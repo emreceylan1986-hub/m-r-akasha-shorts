@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-22T18:25:53.913838+00:00",
+  "uretim_zamani": "2026-08-22T20:19:40.285624+00:00",
   "haberler": [
     {
-      "baslik": "Dostoyevski'nin 'Öteki' romanı: Kendinden kaçtıkça karşına çıkan o yabancı kim?",
-      "url": "https://tr.wikipedia.org/wiki/%C3%96teki_(roman)",
+      "baslik": "Ajna çakran tıkalıysa zihnin sürekli en kötü senaryoyu yazar",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 1. Bölüm: İsimsiz olan, göğün ve yerin başlangıcıdır",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Cing",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

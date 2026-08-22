@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-08-22T10:20:39.597508+00:00",
+  "uretim_zamani": "2026-08-22T13:34:30.584655+00:00",
   "haberler": [
     {
-      "baslik": "Sufi felsefesinde 'Letaif': Bedenindeki gizli enerji merkezlerinin dili",
-      "url": "https://en.wikipedia.org/wiki/Lataif-e-sitta",
+      "baslik": "Muladhara çakran tıkalıysa dünya sana neden tekinsiz görünür?",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing — Bölüm 1: İsimlendirilemeyen, her şeyin başlangıcıdır",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

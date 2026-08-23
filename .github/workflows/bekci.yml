@@ -1,0 +1,60 @@
+name: Kanal Bekçisi — izlenme regresyonu + yayın saati bandı
+
+# 23 Ağu 2026: iki kanal da çöktü ve GÜNLERCE fark edilmedi (Akasha 16 gün,
+# Cosmos 9 gün). Workflow'lar "success" diyordu çünkü kimse SONUCU ölçmüyordu.
+# Bu bekçi her sabah izlenmeyi ve yayın saatlerini ölçer, sapma varsa issue açar.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"      # 06:00 UTC — ilk yayın slotundan (18 UTC) çok önce
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  bekci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 60      # kırılma penceresindeki commit'leri listeleyebilmek için
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Bağımlılıklar
+        run: pip install -q google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
+
+      - name: Kimlik dosyaları
+        env:
+          TOKEN_JSON: ${{ secrets.TOKEN_JSON }}
+          CLIENT_SECRET_JSON: ${{ secrets.CLIENT_SECRET_JSON }}
+        run: |
+          printf '%s' "$TOKEN_JSON" > token.json
+          printf '%s' "$CLIENT_SECRET_JSON" > client_secret.json
+
+      - name: Bekçi koşusu
+        id: bekci
+        continue-on-error: true
+        run: python kanal_bekcisi.py | tee bekci_rapor.txt
+
+      - name: Raporu iş özetine yaz
+        if: always()
+        run: |
+          echo "### Akasha bekçi raporu" >> $GITHUB_STEP_SUMMARY
+          cat bekci_rapor.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+
+      - name: Alarm varsa issue aç
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f .bekci_alarm ]; then
+            gh issue create \
+              --title "📉 Akasha BEKÇİ ALARMI — $(date -u +'%Y-%m-%d')" \
+              --body-file .bekci_alarm
+          fi

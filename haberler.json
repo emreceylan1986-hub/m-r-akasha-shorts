@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-22T22:18:42.236544+00:00",
+  "uretim_zamani": "2026-08-23T10:21:15.442696+00:00",
   "haberler": [
     {
-      "baslik": "Ajna çakran tıkalıysa zihnin sürekli en kötü senaryoyu yazar",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Mucizeler Kursu — Ders 1: 'Gördüğüm hiçbir şeyin anlamı yok' gerçeği",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 1: Tanımladığın hayat neden gerçek hayatın değildir?",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Yaşadığın o tuhaf tesadüf: Sinkronisite seninle nasıl konuşuyor?",
+      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm hiçbir şey benim sandığım anlamı taşımıyor'",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Tao Te Jing — Bölüm 1: Tanımlayabildiğin yol, gerçek yol değildir",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

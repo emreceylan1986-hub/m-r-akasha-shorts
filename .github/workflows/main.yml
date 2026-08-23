@@ -245,7 +245,7 @@ jobs:
 
           Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
-          İncele: https://studio.youtube.com/ → Mindgaps → Content → en yeni video.
+          İncele: https://studio.youtube.com/ → Akasha → Content → en yeni video.
           Uygunsa Public yap, değilse Tamamen sil. Sorunu çözünce bu issue'yu kapat."
             rm -f .denetim_uyari
           fi

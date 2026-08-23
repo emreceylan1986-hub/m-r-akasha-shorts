@@ -89,9 +89,10 @@ def gorsel_konuyla_eslesir_mi(image_path: Path | str, keyword: str,
     )
 
     try:
-        client = genai.Client(api_key=api_key)
-        resp = client.models.generate_content(
-            model="gemini-3.5-flash",  # 10 Tem: 2.5 emekli
+        # 23 Ağu: tek denemelik ham istemci yerine bridge'in retry + anahtar
+        # rotasyonlu yolu (ilk 429'da kapı sessizce kapanıyordu — bkz vision_ortak.py)
+        from vision_ortak import vision_uret
+        resp = vision_uret(
             contents=[gtypes.Content(role="user", parts=[
                 gtypes.Part.from_bytes(data=image_bytes, mime_type=mime),
                 gtypes.Part.from_text(text=soru),

@@ -64,9 +64,9 @@ def hook_qc(mp4_yolu: Path, baslik: str = "", konu_keyword: str = "") -> tuple[i
             f"Output a single integer 0-10 then a 1-line reason.\n"
             f"Format: '7|Clear octopus shot but dim lighting'"
         )
-        client = genai.Client(api_key=api_key)
-        resp = client.models.generate_content(
-            model="gemini-3.5-flash",  # 10 Tem: 2.5 emekli
+        # 23 Ağu: bridge retry + anahtar rotasyonu (bkz vision_ortak.py)
+        from vision_ortak import vision_uret
+        resp = vision_uret(
             contents=[gtypes.Content(role="user", parts=[
                 gtypes.Part.from_bytes(data=image_bytes, mime_type="image/png"),
                 gtypes.Part.from_text(text=soru),

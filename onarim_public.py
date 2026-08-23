@@ -9,8 +9,15 @@ beri günlük koşuyor; Akasha'da yoktu çünkü burada BİLİNÇLİ private vid
 🔴 DOKUNMA listesi Emre Bey'in kararı — Leda öncesi Emel sesli İkarus kopyaları.
    Bu listeden ID silmek = yanlış sesli video yayına çıkar. Silme.
 
+23 Ağu dersi: sabit DOKUNMA listesi yetmiyordu — yukleyici.py hook QC skoru <5
+veya denetim SUPHELI/REDDED olunca gizliliği kendi kararıyla private'a çeviriyor ve
+bunu yuklemeler.json'a "gizlilik": "private" olarak yazıyor. Onarıcı bu kaydı okumadığı
+için kalite kapısının reddettiği videoyu ertesi gün public yapıyordu (kapı etkisiz).
+Artık kayıtta gizlilik=private olan her video KASITLI sayılır ve açılmaz; sadece
+kayıtta public/unlisted yazıp canlıda private KALMIŞ olanlar (gerçek kaza) açılır.
+
 Cosmos'un onarim_public.py'sinden ayrılan yanlar:
-  - DOKUNMA korkuluğu var (Cosmos'ta yok, orada bilinçli private yok)
+  - DOKUNMA korkuluğu var (Cosmos'ta sabit liste yok, orada sadece kayıt-tabanlı kapı)
   - Q/A başlık onarımı YOK (o Mindgaps/İngilizce kaynaklı bir sorundu)
 GitHub Actions'ta çalışır — Mac'te googleapis DNS engelli. Idempotent.
 """
@@ -32,6 +39,24 @@ DOKUNMA = {
 PENCERE_GUN = 14  # eski arşivi yanlışlıkla yayınlamayı önleyen korkuluk
 
 
+def kasitli_private_idler(items) -> set:
+    """yukleyici.py'nin BİLEREK private yüklediği videolar (hook QC <5 / denetim RED).
+
+    Kayıttaki "gizlilik" alanı, override'lardan SONRAKİ karardır: public yazıyorsa
+    yayın isteniyordu (canlıda private kaldıysa kaza), private yazıyorsa kalite
+    kapısı reddetmiştir — açmak kapıyı etkisiz kılar."""
+    out = set()
+    for k in items:
+        if str(k.get("gizlilik", "")).lower() == "private":
+            vid = k.get("video_id") or ""
+            if not vid and k.get("watch_url"):
+                m = re.search(r"(?:youtu\.be/|v=)([\w-]{11})", k["watch_url"])
+                vid = m.group(1) if m else ""
+            if vid:
+                out.add(vid)
+    return out
+
+
 def yt_client():
     info = json.loads(Path("token.json").read_text())
     cs_raw = json.loads(Path("client_secret.json").read_text())
@@ -49,10 +74,11 @@ def yt_client():
     return build("youtube", "v3", credentials=creds, cache_discovery=False)
 
 
-def son_pencere_idleri() -> list:
-    """yuklemeler.json'dan son PENCERE_GUN günün video id'leri (DOKUNMA hariç)."""
+def son_pencere_idleri() -> tuple:
+    """yuklemeler.json'dan son PENCERE_GUN günün id'leri + korunacaklar kümesi."""
     d = json.loads(Path("yuklemeler.json").read_text())
     items = d if isinstance(d, list) else d.get("yuklemeler", [])
+    korunan = DOKUNMA | kasitli_private_idler(items)
     esik = (datetime.datetime.now() - datetime.timedelta(days=PENCERE_GUN)).strftime("%Y-%m-%d")
     out = []
     for k in items:
@@ -60,24 +86,24 @@ def son_pencere_idleri() -> list:
         if not vid and k.get("watch_url"):
             m = re.search(r"(?:youtu\.be/|v=)([\w-]{11})", k["watch_url"])
             vid = m.group(1) if m else ""
-        if vid and vid not in DOKUNMA and str(k.get("zaman", ""))[:10] >= esik:
+        if vid and vid not in korunan and str(k.get("zaman", ""))[:10] >= esik:
             out.append(vid)
-    return out
+    return out, korunan
 
 
 def main():
     kuru = "--kuru" in sys.argv
     yt = yt_client()
-    vids = son_pencere_idleri()
+    vids, korunan = son_pencere_idleri()
     print(f"son {PENCERE_GUN} günde {len(vids)} video taranıyor "
-          f"(dokunma listesi: {len(DOKUNMA)} video korunuyor)")
+          f"(korunan: {len(DOKUNMA)} dokunma + {len(korunan) - len(DOKUNMA)} kasıtlı private)")
     acilan = 0
     for i in range(0, len(vids), 50):
         grup = vids[i:i + 50]
         resp = yt.videos().list(part="status,snippet", id=",".join(grup)).execute()
         for item in resp.get("items", []):
             vid = item["id"]
-            if vid in DOKUNMA:  # ikinci kapı — liste her iki katmanda da uygulanır
+            if vid in korunan:  # ikinci kapı — koruma her iki katmanda da uygulanır
                 continue
             if item["status"]["privacyStatus"] != "private":
                 continue

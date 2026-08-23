@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-23T13:30:37.242045+00:00",
+  "uretim_zamani": "2026-08-23T14:08:40.863022+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 1: Yol, anlatılamayan o şeydir",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Neden hep aynı tip insanları hayatına çekiyorsun? Frekans rezonansı",
+      "url": "https://en.wikipedia.org/wiki/Resonance",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sana çarpan o tesadüf aslında ruhunun seninle konuşma şeklidir",
-      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
+      "baslik": "Ruhun pusulası 'Sezgi' ile zihnin kurduğu 'Korku' arasındaki ince fark",
+      "url": "https://en.wikipedia.org/wiki/Intuition",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sufizmde 'Hâtif' sesi: Kulakların duymadığı o gizli fısıltı",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

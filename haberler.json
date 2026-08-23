@@ -1,16 +1,16 @@
 {
-  "uretim_zamani": "2026-08-23T10:21:15.442696+00:00",
+  "uretim_zamani": "2026-08-23T13:30:37.242045+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu — Ders 1: 'Gördüğüm hiçbir şeyin anlamı yok' gerçeği",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Tao Te Jing Bölüm 1: Yol, anlatılamayan o şeydir",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yaşadığın o tuhaf tesadüf: Sinkronisite seninle nasıl konuşuyor?",
+      "baslik": "Sana çarpan o tesadüf aslında ruhunun seninle konuşma şeklidir",
       "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -18,8 +18,8 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing — Bölüm 1: Tanımlayabildiğin yol, gerçek yol değildir",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Sufizmde 'Hâtif' sesi: Kulakların duymadığı o gizli fısıltı",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

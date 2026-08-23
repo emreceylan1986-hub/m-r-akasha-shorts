@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-23T14:08:40.863022+00:00",
+  "uretim_zamani": "2026-08-23T17:11:25.006461+00:00",
   "haberler": [
     {
-      "baslik": "Neden hep aynı tip insanları hayatına çekiyorsun? Frekans rezonansı",
-      "url": "https://en.wikipedia.org/wiki/Resonance",
+      "baslik": "Sürekli aynı sayıları ve sembolleri görmek bir tesadüf mü, yoksa uyanış çağrısı mı?",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0lahi_takdir",
       "kaynak": "gemini-fallback",
-      "skor": 991,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ruhun pusulası 'Sezgi' ile zihnin kurduğu 'Korku' arasındaki ince fark",
-      "url": "https://en.wikipedia.org/wiki/Intuition",
-      "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,23 +1,23 @@
 # 📊 Aydınlanmanın Doruk Noktası — Haftalık Rapor
-_2026-08-16T22:15+00:00_
+_2026-08-23T22:16+00:00_
 
 ## Özet
-- **Abone:** 42 (+2 bu hafta)
-- **Toplam view:** 29,098 (+1,653 bu hafta)
-- **Toplam video:** 192
-- **Son 7 gün:** 29 video, 1,332 izl, ort 45/video
-- **<50 izl video sayısı:** 23/29 (kalite_temizleyici aday)
+- **Abone:** 46 (+4 bu hafta)
+- **Toplam view:** 30,646 (+1,548 bu hafta)
+- **Toplam video:** 221
+- **Son 7 gün:** 29 video, 1,397 izl, ort 48/video
+- **<50 izl video sayısı:** 22/29 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **433v** · 4👍 · 1💬 — carl jung felsefesinde başkasına duyulan öfke ve gölge projeksiyonu
-- **101v** · 3👍 · 3💬 — carl jung felsefesinde rüyada düşmek ve kontrolü bırakma ihtiyacı
-- **89v** · 1👍 · 1💬 — carl jung felsefesinde rüyadaki ev ve ruhun gizli odaları
+- **349v** · 7👍 · 1💬 — dostoyevski felsefesinde öteki ve insanın kendi gölgesiyle yüzleşmesi
+- **196v** · 0👍 · 1💬 — sahasrara tıkanıklığı ve ruhun hissettiği o derin anlamsızlık boşluğu
+- **123v** · 3👍 · 6💬 — mucizeler kursu felsefesinde olaylara yüklediğimiz anlamların esareti
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 1💬 — Orpheus ve Eurydike: Geriye Bakmanın Bedeli ve Ruhun Karanlığı
-- **4v** · 0👍 · 1💬 — gördüğün her şeye bendeki anlamını sen verdin
-- **5v** · 0👍 · 1💬 — sigmund freud felsefesinde haklı çıkma çabası ve egonun savunma savaşı
+- **0v** · 0👍 · 1💬 — Sisifos'un Sırrı: Anlamsız Görünen Emeğin Gizli Anlamı
+- **3v** · 0👍 · 1💬 — lao tzu felsefesinde akıntıya teslim olmak ve wu wei sanatı
+- **4v** · 0👍 · 1💬 — rezonans yasası ve hayatına hep aynı insanların girmesinin nedeni
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **42 abone / 45 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **46 abone / 48 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı

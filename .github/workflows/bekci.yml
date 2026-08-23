@@ -54,7 +54,16 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -f .bekci_alarm ]; then
-            gh issue create \
-              --title "📉 Akasha BEKÇİ ALARMI — $(date -u +'%Y-%m-%d')" \
-              --body-file .bekci_alarm
+            # Alarm günlerce sürebilir; her sabah yeni issue açmak bekçiyi
+            # susturulası gürültüye çevirir. Açık alarm varsa YORUM düşülür.
+            ACIK=$(gh issue list --state open --search "📉 Akasha BEKÇİ ALARMI in:title" \
+                   --json number -q '.[0].number')
+            if [ -n "$ACIK" ]; then
+              gh issue comment "$ACIK" --body-file .bekci_alarm
+              echo "açık alarm #$ACIK güncellendi (yeni issue açılmadı)"
+            else
+              gh issue create \
+                --title "📉 Akasha BEKÇİ ALARMI — $(date -u +'%Y-%m-%d')" \
+                --body-file .bekci_alarm
+            fi
           fi

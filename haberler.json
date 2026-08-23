@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-23T19:13:17.363086+00:00",
+  "uretim_zamani": "2026-08-23T20:09:20.149795+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana'nın dilinden 'Hamdım, piştim, yandım' sözünün gerçek manası",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2na_Cel%C3%A2ledd%C3%BEn-i_R%C3%BBm%C3%AE",
+      "baslik": "Mucizeler Kursu Ders 1: 'Gördüğüm hiçbir şey gerçek değil' ne anlama geliyor?",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing'in 8. bölümü: Su gibi yaşamak neden en büyük güçtür?",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sürekli karşına çıkan o sayılar tesadüf mü? Eşzamanlılığın gizli dili",
+      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

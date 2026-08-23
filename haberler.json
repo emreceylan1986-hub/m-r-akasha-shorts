@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-08-23T21:10:12.370070+00:00",
+  "uretim_zamani": "2026-08-23T22:09:40.222372+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana'nın misafirhane şiiri: İçine gelen her duyguyu nasıl ağırlarsın?",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2na_Cel%C3%A2ledd%C3%BAn-i_R%C3%BBl%C3%A2",
+      "baslik": "Mucizeler Kursu Ders 1: 'Gördüğün hiçbir şey senin sandığın anlama gelmiyor'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufizmde Tevafuk Sırrı: Karşına çıkan o insan tesadüf mü yoksa aynan mı?",
+      "url": "https://tr.wikipedia.org/wiki/Tevafuk",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 1: Yolun adı konulabiliyorsa, o gerçek yol değildir",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

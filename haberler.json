@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-24T20:16:31.774713+00:00",
+  "uretim_zamani": "2026-08-24T21:18:13.875284+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 1: 'Gördüğüm hiçbir şeyin anlamı yok' gerçeği",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Persona: Başkaları için giydiğin maske ruhunu nasıl tüketiyor?",
+      "baslik": "Carl Jung felsefesinde 'Persona' maskesi ve arkasındaki yabancı",
       "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Bireyleşme: Carl Jung'a göre kendi kendinin anne babası olmak",
-      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

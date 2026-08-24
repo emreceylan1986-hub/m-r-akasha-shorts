@@ -153,23 +153,38 @@ def main() -> int:
         # yalnız yeterli örneği olan saatler sıralamaya girsin
         sirali = sorted(((h, st.median(l), len(l)) for h, l in saat.items() if len(l) >= 4),
                         key=lambda x: -x[1])
+        # 24 Ağu FIX: alarm YAPILANDIRILMIŞ hedef saatlere göre verilir. Eskiden
+        # her gün yeniden hesaplanan "en iyi 4 saat"e bakıyordu; o liste artık
+        # kullanılmayan eski saatleri (00, 15 UTC) da içerdiği için program DOĞRU
+        # olduğu hâlde alarm sonsuza kadar çalıyordu. Susturulan bekçi = olmayan bekçi.
+        from hedef_saatler import HEDEF_SAATLER
+        hedef = {f"{h:02d}" for h in HEDEF_SAATLER}
         if sirali:
-            iyi = {h for h, _, _ in sirali[:EN_IYI_BANT_SAYISI]}
             rapor.append("ölçülmüş en iyi saatler (UTC): "
                          + ", ".join(f"{h}→{m:.0f}(n{n})" for h, m, n in sirali[:EN_IYI_BANT_SAYISI]))
-            son7 = [v for v in vid if v["gizli"] == "public" and v["sn"] <= 180 and yas(v) <= 7]
-            if len(son7) >= 8:
-                oran = sum(1 for v in son7 if v["pub"][11:13] in iyi) / len(son7)
-                dagilim = {}
-                for v in son7:
-                    dagilim[v["pub"][11:13]] = dagilim.get(v["pub"][11:13], 0) + 1
-                rapor.append(f"son 7 günün yayın saatleri: "
-                             + ", ".join(f"{h}:{n}" for h, n in sorted(dagilim.items()))
-                             + f" → prime bantta %{oran * 100:.0f}")
-                if oran < BANT_ESIGI:
-                    alarmlar.append(f"🕐 YAYINLARIN %{(1 - oran) * 100:.0f}'İ KÖTÜ SAAT BANDINDA "
-                                    "— cron'a hedeften ÖNCE telafi slotu eklenmiş olabilir "
-                                    "(7 Ağu Akasha tuzağı)")
+        rapor.append(f"yapılandırılmış hedef saatler: {sorted(hedef)}")
+        son7 = [v for v in vid if v["gizli"] == "public" and v["sn"] <= 180 and yas(v) <= 7]
+        if len(son7) >= 8:
+            # (a) PROGRAMA UYUM — yayınlar hedef saatlere düşüyor mu? (asıl alarm)
+            oran = sum(1 for v in son7 if v["pub"][11:13] in hedef) / len(son7)
+            dagilim = {}
+            for v in son7:
+                dagilim[v["pub"][11:13]] = dagilim.get(v["pub"][11:13], 0) + 1
+            rapor.append("son 7 günün yayın saatleri: "
+                         + ", ".join(f"{h}:{n}" for h, n in sorted(dagilim.items()))
+                         + f" → hedef saatlerde %{oran * 100:.0f}")
+            if oran < BANT_ESIGI:
+                alarmlar.append(f"🕐 YAYINLARIN %{(1 - oran) * 100:.0f}'İ HEDEF SAAT DIŞINDA "
+                                "— cron'a hedeften ÖNCE telafi slotu eklenmiş olabilir "
+                                "(7 Ağu Akasha tuzağı) ya da hedef_saatler.py cron ile uyumsuz")
+            # (b) YAPILANDIRMA BAYAT MI — sadece BİLGİ, alarm değil (ölçüm gürültülü)
+            if sirali:
+                en_iyi = {h for h, _, _ in sirali[:EN_IYI_BANT_SAYISI]}
+                disarida = en_iyi - hedef
+                if disarida:
+                    rapor.append(f"ℹ️ ölçümde iyi görünüp hedefte OLMAYAN saatler: "
+                                 f"{sorted(disarida)} — hedef_saatler.py gözden geçirilebilir "
+                                 f"(00-02 UTC bilerek dışarıda: günlük sayaç UTC'de sıfırlanıyor)")
     except Exception as h:
         rapor.append(f"saat bandı ölçülemedi: {str(h)[:110]}")
 

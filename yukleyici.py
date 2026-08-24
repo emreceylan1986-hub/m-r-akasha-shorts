@@ -579,57 +579,17 @@ def main() -> int:
 
 
 
-# Akasha ölçümü 23 Ağu: 20→114 · 21→98 · 19→94 · 17→70 (medyan izlenme, n≥6)
-HEDEF_SAATLER = (17, 19, 20, 21)
-
-
 def _gunluk_tavan_kontrolu(tavan: int = 4) -> None:
-    """HEDEF SAAT KAPISI — 23 Ağu 2026'da yeniden yazıldı.
-
-    ESKİ TASARIMIN TUZAĞI (iki kanalı da vurdu, kanıtlı):
-      main.yml'de hedeften FAZLA cron saati vardı ve kapı sadece "bugün kaç video
-      yayınlandı" diye bakıyordu. Sonuç: günün ERKEN slotları tavanı doldurunca
-      ÖLÇÜLMÜŞ EN İYİ AKŞAM SLOTLARI HİÇ ATEŞLENMİYORDU.
-      · Akasha 7 Ağu: cron'a 13 UTC telafi slotu eklendi → yayınlar 10/13/16/18'e
-        kaydı, 20-21 UTC tamamen kayboldu. Prime bantta yayın %49 → %25.
-        Günlük izlenme 1.012 → 164. Sebep 16 gün boyunca fark edilmedi.
-      · Cosmos 23 Ağu ölçümü: en iyi saat 23 UTC (medyan 599) ama tavan 19-22'de
-        dolduğu için son 7 günde 23 UTC'de TEK video yok.
-
-    YENİ KURAL:
-      HEDEF_SAATLER = kanalın ölçülmüş en iyi saatleri. Bir koşu ancak
-        (a) hedef saatteyse, ya da
-        (b) TELAFİ saatinde AMA gün programın gerisindeyse
-      yayın yapar. Böylece telafi slotu, kendisinden SONRAKİ hedef saatin
-      kontenjanını ASLA yiyemez. Tavan da korunur (hedef saat sayısı = günlük hedef).
-    """
+    """Slot kararı ortak `slot_kapisi` modülünden gelir (tek kaynak).
+    Workflow zaten ilk adımda aynı kapıyı çalıştırıyor; bu ikinci kapı,
+    elle tetik / kod hatası gibi yollardan gelen fazla basımı da keser."""
     import sys as _sys
-    from datetime import datetime as _dt, timezone as _tz
-    try:
-        kayitlar = json.loads(YUKLEME_LOGU.read_text(encoding="utf-8"))
-    except Exception:
-        return  # log okunamıyorsa upload'u engelleme
-    simdi = _dt.now(_tz.utc)
-    bugun = simdi.strftime("%Y-%m-%d")
-    sayi = sum(1 for k in kayitlar
-               if str(k.get("zaman", k.get("tarih", "")))[:10] == bugun)
-    hedef = HEDEF_SAATLER
-    if sayi >= len(hedef):
-        print(f"⛔ GÜNLÜK HEDEF DOLDU: bugün {sayi} yayın var (hedef {len(hedef)}). "
-              f"Yığın basım koruması — upload atlandı.", flush=True)
+    from hedef_saatler import HEDEF_SAATLER
+    from slot_kapisi import slot_karari
+    acik, mesaj = slot_karari(HEDEF_SAATLER)
+    print(mesaj, flush=True)
+    if not acik:
         _sys.exit(0)
-    if simdi.hour in hedef:
-        print(f"[slot] {simdi.hour:02d} UTC HEDEF saat — yayın açık ({sayi}/{len(hedef)})", flush=True)
-        return
-    gecmis_hedef = sum(1 for h in hedef if h < simdi.hour)
-    if sayi < gecmis_hedef:
-        print(f"[slot] {simdi.hour:02d} UTC telafi — gün geride ({sayi} yayın, "
-              f"{gecmis_hedef} hedef saat geçti) → yayın açık", flush=True)
-        return
-    print(f"⏭️ {simdi.hour:02d} UTC telafi slotu ATLANDI: gün programında "
-          f"({sayi} yayın / {gecmis_hedef} geçmiş hedef saat). Sıradaki hedef saat "
-          f"{[h for h in hedef if h > simdi.hour] or 'yok'} korunuyor.", flush=True)
-    _sys.exit(0)
 
 
 if __name__ == "__main__":

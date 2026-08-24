@@ -555,16 +555,40 @@ def pexels_video_indir(keyword: str, hedef: Path, api_key: str) -> dict:
     import random
     random.shuffle(videolar)
 
-    en_iyi_dosya = None
-    en_iyi_video = None
+    # 24 Ağu FIX — "en yüksek çözünürlüğü al" kuralı pipeline'ı öldürüyordu.
+    # Çıktı zaten 1080×1920; Pexels 4K (2160×3840) rendition sunduğunda o indiriliyor,
+    # sonra ffmpeg onu küçültmek için dakikalarca uğraşıyordu. Ölçülen vaka
+    # (Akasha run 23 Ağu 20:08): 4K klip → normalize 4+5+6 dk, xfade 5,5 dk,
+    # 762 MB ara dosya, altyazı gömme sırasında 35 dk timeout → koşu İPTAL, slot kayıp.
+    # Yeni kural: 1080×1920'yi KARŞILAYAN EN KÜÇÜK rendition; yoksa eldeki en büyüğü.
+    HEDEF_YUKSEKLIK = 1920
+    AZAMI_YUKSEKLIK = 2560   # üstü ffmpeg'i dakikalarca meşgul ediyor
+
+    def _rendition(v):
+        portre = [f for f in v.get("video_files", [])
+                  if f.get("width", 0) < f.get("height", 0)]   # portrait emniyet
+        if not portre:
+            return None
+        yeterli = [f for f in portre if f.get("height", 0) >= HEDEF_YUKSEKLIK]
+        return (min(yeterli, key=lambda f: f.get("height", 0)) if yeterli
+                else max(portre, key=lambda f: f.get("height", 0)))
+
+    en_iyi_dosya = en_iyi_video = None
+    yedek_dosya = yedek_video = None
     for v in videolar:
-        for f in v.get("video_files", []):
-            if f.get("width", 0) < f.get("height", 0):  # portrait emniyet
-                if en_iyi_dosya is None or (f.get("height", 0) > en_iyi_dosya.get("height", 0)):
-                    en_iyi_dosya = f
-                    en_iyi_video = v
-        if en_iyi_dosya:
+        secim = _rendition(v)
+        if not secim:
+            continue
+        if secim.get("height", 0) <= AZAMI_YUKSEKLIK:
+            en_iyi_dosya, en_iyi_video = secim, v
             break
+        # Sadece devasa rendition sunan video → yedeğe al, önce başka video dene
+        if yedek_dosya is None:
+            yedek_dosya, yedek_video = secim, v
+    if en_iyi_dosya is None and yedek_dosya is not None:
+        print(f"  [montajcı] uygun boyutta klip yok → {yedek_dosya.get('width')}×"
+              f"{yedek_dosya.get('height')} ile devam (render yavaş olabilir)", flush=True)
+        en_iyi_dosya, en_iyi_video = yedek_dosya, yedek_video
 
     if not en_iyi_dosya:
         raise RuntimeError(f"'{keyword}' için portrait dosyası yok.")

@@ -32,7 +32,31 @@ permissions:
   issues: write     # fail durumunda otomatik issue (mail bildirimi tetikler)
 
 jobs:
+  # 24 Ağu: SLOT KAPISI EN BAŞA ALINDI. Eskiden kapı yukleyici'nin içindeydi;
+  # pipeline önce senaryo+TTS+montaj yapıp EN SONDA "hedef dolu" deyip çıkıyordu.
+  # Ölçülen israf: atlanan koşu başına 4,5-6 dk + boşa Gemini/TTS kotası; 23 Ağu'da
+  # bir koşu 4K klip yüzünden 35 dk timeout'a çarpıp iptal oldu. Artık slot kapalıysa
+  # ağır job HİÇ BAŞLAMAZ (~15 sn, bağımlılık/secret bile kurulmaz).
+  slot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      acik: ${{ steps.kapi.outputs.acik }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: kapi
+        run: |
+          if python3 slot_kapisi.py; then
+            echo "acik=1" >> $GITHUB_OUTPUT
+          else
+            echo "acik=0" >> $GITHUB_OUTPUT
+          fi
+
   shorts-pipeline:
+    needs: slot
+    # Elle tetikte (workflow_dispatch) kapı yine de yukleyici içinde çalışır;
+    # burada sadece zamanlanmış koşular için erken çıkış yapılıyor.
+    if: needs.slot.outputs.acik == '1' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 35
     env:

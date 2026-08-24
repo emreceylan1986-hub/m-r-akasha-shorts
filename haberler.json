@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-24T17:21:13.017002+00:00",
+  "uretim_zamani": "2026-08-24T17:31:28.843852+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre başkalarında katlanamadığın o özellik aslında kendi sürgündeki parçandır",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(psikoloji)",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye, benim için taşıdığı tüm anlamı ben verdim'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu 2. Ders: Zihnine her gün fısıldaman gereken o özgürleştirici cümle",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Carl Jung'a göre 'Persona': Başkaları için giydiğin maske ruhunu nasıl tüketiyor?",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi bilgeliğinde 'Ölmeden önce ölmek': Egonun can çekişirken çıkardığı o son gürültü",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
+      "baslik": "Tao Te Jing Bölüm 1: Tanımlanamayan yol ve zihnin kelimelerden özgürleşmesi",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

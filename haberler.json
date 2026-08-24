@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-24T19:21:10.945512+00:00",
+  "uretim_zamani": "2026-08-24T20:16:31.774713+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 1: 'Gördüğüm hiçbir şey gerçek değil' ne anlama geliyor?",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Mucizeler Kursu Ders 1: 'Gördüğüm hiçbir şeyin anlamı yok' gerçeği",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 1: Tanımlayabildiğin yol, gerçek yol değildir",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Persona: Başkaları için giydiğin maske ruhunu nasıl tüketiyor?",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung'a göre 'Persona': Masken senin gerçek yüzünü ne zaman yuttu?",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Bireyleşme: Carl Jung'a göre kendi kendinin anne babası olmak",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

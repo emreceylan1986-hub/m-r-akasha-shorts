@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-08-24T17:31:28.843852+00:00",
+  "uretim_zamani": "2026-08-24T19:21:10.945512+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye, benim için taşıdığı tüm anlamı ben verdim'",
+      "baslik": "Mucizeler Kursu Ders 1: 'Gördüğüm hiçbir şey gerçek değil' ne anlama geliyor?",
       "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,16 +10,16 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung'a göre 'Persona': Başkaları için giydiğin maske ruhunu nasıl tüketiyor?",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Tao Te Jing Bölüm 1: Tanımlayabildiğin yol, gerçek yol değildir",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 1: Tanımlanamayan yol ve zihnin kelimelerden özgürleşmesi",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Carl Jung'a göre 'Persona': Masken senin gerçek yüzünü ne zaman yuttu?",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

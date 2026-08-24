@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-23T22:09:40.222372+00:00",
+  "uretim_zamani": "2026-08-24T17:21:13.017002+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 1: 'Gördüğün hiçbir şey senin sandığın anlama gelmiyor'",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Carl Jung'a göre başkalarında katlanamadığın o özellik aslında kendi sürgündeki parçandır",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufizmde Tevafuk Sırrı: Karşına çıkan o insan tesadüf mü yoksa aynan mı?",
-      "url": "https://tr.wikipedia.org/wiki/Tevafuk",
+      "baslik": "Mucizeler Kursu 2. Ders: Zihnine her gün fısıldaman gereken o özgürleştirici cümle",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 1: Yolun adı konulabiliyorsa, o gerçek yol değildir",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Sufi bilgeliğinde 'Ölmeden önce ölmek': Egonun can çekişirken çıkardığı o son gürültü",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

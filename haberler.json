@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-08-25T19:21:54.289706+00:00",
+  "uretim_zamani": "2026-08-25T20:15:12.133137+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana’nın ‘Şems’i kaybetme’ sırrı: Hayatındaki en büyük boşluk aslında senin uyanışındır",
-      "url": "https://tr.wikipedia.org/wiki/Şems-i_Tebrizî",
+      "baslik": "Mevlana'ya göre 'Hamuştum, piştim, yandım' sözünün ruhsal karşılığı nedir?",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2na_Cel%C3%A2ledd%C3%A2n-i_R%C3%AEm%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre’nin ‘Taptuk Emre kapısında 40 yıl’ felsefesi: İçindeki eğri odunları ne zaman düzelteceksin?",
-      "url": "https://tr.wikipedia.org/wiki/Taptuk_Emre",
+      "baslik": "Yunus Emre'nin 'Beni bende bende demen ben bende değilem' dizesindeki benlik yankısı",
+      "url": "https://tr.wikipedia.org/wiki/Ris%C3%A2let%C3%BC%27n-Nushiyye",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,

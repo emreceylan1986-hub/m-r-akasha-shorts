@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-08-25T17:24:18.047575+00:00",
+  "uretim_zamani": "2026-08-25T19:21:54.289706+00:00",
   "haberler": [
     {
-      "baslik": "Mevlâna'ya göre 'Hamuş' olmak: Sessizliğin içindeki o büyük konuşma",
-      "url": "https://tr.wikipedia.org/wiki/Celaleddin_Rumi",
+      "baslik": "Mevlana’nın ‘Şems’i kaybetme’ sırrı: Hayatındaki en büyük boşluk aslında senin uyanışındır",
+      "url": "https://tr.wikipedia.org/wiki/Şems-i_Tebrizî",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Şems-i Tebrizi'nin 'Gönlü Genişletme' kuralı: Düzenim bozulur diye korktuğun anlar",
-      "url": "https://tr.wikipedia.org/wiki/%C5%E9ems-i_Tebrizi",
+      "baslik": "Yunus Emre’nin ‘Taptuk Emre kapısında 40 yıl’ felsefesi: İçindeki eğri odunları ne zaman düzelteceksin?",
+      "url": "https://tr.wikipedia.org/wiki/Taptuk_Emre",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,

@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-08-25T20:15:12.133137+00:00",
+  "uretim_zamani": "2026-08-25T21:16:03.042494+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana'ya göre 'Hamuştum, piştim, yandım' sözünün ruhsal karşılığı nedir?",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2na_Cel%C3%A2ledd%C3%A2n-i_R%C3%AEm%C3%AE",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'nin 'Beni bende bende demen ben bende değilem' dizesindeki benlik yankısı",
-      "url": "https://tr.wikipedia.org/wiki/Ris%C3%A2let%C3%BC%27n-Nushiyye",
+      "baslik": "Sufi felsefesinde 'Hamuş' olmak ve kelimelerin bittiği yerdeki derin huzur",
+      "url": "https://tr.wikipedia.org/wiki/Sessizlik",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,

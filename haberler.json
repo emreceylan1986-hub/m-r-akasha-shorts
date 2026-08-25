@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-08-24T21:18:13.875284+00:00",
+  "uretim_zamani": "2026-08-25T17:24:18.047575+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung felsefesinde 'Persona' maskesi ve arkasındaki yabancı",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Mevlâna'ya göre 'Hamuş' olmak: Sessizliğin içindeki o büyük konuşma",
+      "url": "https://tr.wikipedia.org/wiki/Celaleddin_Rumi",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Şems-i Tebrizi'nin 'Gönlü Genişletme' kuralı: Düzenim bozulur diye korktuğun anlar",
+      "url": "https://tr.wikipedia.org/wiki/%C5%E9ems-i_Tebrizi",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,

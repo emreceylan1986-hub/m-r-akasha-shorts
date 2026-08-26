@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-25T21:16:03.042494+00:00",
+  "uretim_zamani": "2026-08-26T18:47:32.680957+00:00",
   "haberler": [
     {
-      "baslik": "Sufi felsefesinde 'Hamuş' olmak ve kelimelerin bittiği yerdeki derin huzur",
-      "url": "https://tr.wikipedia.org/wiki/Sessizlik",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye benim için sahip olduğu tüm anlamı ben verdim'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mevlana felsefesinde yaralanma anı: 'Işık senin içine o yaradan sızar'",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Stoacı bilge Epiktetos'a göre: Seni üzen şeyler olaylar değil, onlar hakkındaki yargılarındır",
+      "url": "https://tr.wikipedia.org/wiki/Epiktetos",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

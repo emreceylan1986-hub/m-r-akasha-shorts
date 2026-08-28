@@ -48,14 +48,26 @@ def slot_karari(hedef_saatler, simdi=None) -> tuple:
                        f"(hedef {len(hedef_saatler)}). Yığın basım koruması.")
     if simdi.hour in hedef_saatler:
         return True, f"[slot] {simdi.hour:02d} UTC HEDEF saat — yayın açık ({sayi}/{len(hedef_saatler)})"
+    # 🔴 28 Ağu — GÜNÜ ASLA KAYBETME. GitHub'ın zamanlayıcısı 26 Ağu'da çöktü
+    # (6 koşu/gün → 1) ve kalan tek koşu 02:00-04:12 UTC gibi hedef DIŞI saatlere
+    # düştü. Kapı onları da atlayınca 27-28 Ağu'da iki kanalda SIFIR video çıktı.
+    # Kötü saatte yayın, hiç yayınlamamaktan iyidir.
+    if sayi == 0:
+        return True, (f"[slot] {simdi.hour:02d} UTC hedef saat değil AMA bugün hiç yayın "
+                      f"yok → günü kaybetmemek için yayın açık")
     gecmis = sum(1 for h in hedef_saatler if h < simdi.hour)
     if sayi < gecmis:
         return True, (f"[slot] {simdi.hour:02d} UTC telafi — gün geride "
                       f"({sayi} yayın, {gecmis} hedef saat geçti) → yayın açık")
     kalan = [h for h in hedef_saatler if h > simdi.hour]
+    # Günün hedef saatleri bitti ama hedef dolmadıysa son şans verilir; bekleyecek
+    # hedef saat kalmadığı için burada bir kontenjan çalma riski YOK.
+    if not kalan:
+        return True, (f"[slot] {simdi.hour:02d} UTC — günün hedef saatleri bitti, hedef "
+                      f"dolmadı ({sayi}/{len(hedef_saatler)}) → son şans yayını açık")
     return False, (f"⏭️ {simdi.hour:02d} UTC telafi slotu ATLANDI: gün programında "
                    f"({sayi} yayın / {gecmis} geçmiş hedef saat). "
-                   f"Sıradaki hedef saat {kalan or 'yok'} korunuyor.")
+                   f"Sıradaki hedef saat {kalan} korunuyor.")
 
 
 def main() -> int:

@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-08-26T21:25:35.679872+00:00",
+  "uretim_zamani": "2026-08-28T17:47:53.498238+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye benim için sahip olduğu tüm anlamı ben verdim'",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu'na göre egonun en büyük tuzağı: 'Ara ama bulma' yanılsaması",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Zihninin yarattığı o suçluluk duygusu aslında egonun hayatta kalma kalkanıdır",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Sufi bilgeliğinde 'Kabir Azabı' sembolizmi: Zihnindeki pişmanlık hapishanesi",
+      "url": "https://tr.wikipedia.org/wiki/Kabir",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

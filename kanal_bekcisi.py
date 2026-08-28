@@ -188,6 +188,36 @@ def main() -> int:
     except Exception as h:
         rapor.append(f"saat bandı ölçülemedi: {str(h)[:110]}")
 
+    # ── 3) GÜNLÜK YAYIN ADEDİ (28 Ağu: GitHub cron çöküşü 2 gün boyunca 0 video
+    #        yayınlattı ve bunu kimse görmedi — izlenme alarmı 7 günlük ortalamaya
+    #        baktığı için geç kalıyordu. Adet, izlenmeden ÖNCE bozulur.)
+    try:
+        from hedef_saatler import HEDEF_SAATLER as _HS
+        hedef_adet = len(_HS)
+        vid = vid if "vid" in dir() else _videolar(yt)
+        simdi = dt.datetime.now(dt.timezone.utc)
+        gunluk = {}
+        for v in vid:
+            if v["sn"] <= 180:
+                g = v["pub"][:10]
+                gunluk[g] = gunluk.get(g, 0) + 1
+        son = [(simdi.date() - dt.timedelta(days=i)).isoformat() for i in range(1, 8)]
+        adetler = [(g, gunluk.get(g, 0)) for g in reversed(son)]
+        rapor.append("son 7 günün yayın adedi (hedef {}/gün): ".format(hedef_adet)
+                     + " · ".join(f"{g[5:]}:{n}" for g, n in adetler))
+        eksik = [(g, n) for g, n in adetler if n < hedef_adet]
+        toplam_eksik = sum(hedef_adet - n for _, n in eksik)
+        if eksik:
+            bos = [g for g, n in eksik if n == 0]
+            if bos:
+                alarmlar.append(f"🎬 {len(bos)} GÜN HİÇ YAYIN YOK ({', '.join(b[5:] for b in bos)}) "
+                                f"— tetik zinciri kopuk (GitHub cron + Mac tetikleyici ikisi de)")
+            elif toplam_eksik >= hedef_adet:
+                alarmlar.append(f"🎬 SON 7 GÜNDE {toplam_eksik} VİDEO EKSİK "
+                                f"(hedef {hedef_adet}/gün)")
+    except Exception as h:
+        rapor.append(f"günlük adet ölçülemedi: {str(h)[:110]}")
+
     print("\n".join(rapor))
     if alarmlar:
         print("\nALARM:")

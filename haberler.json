@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-29T00:47:33.543204+00:00",
+  "uretim_zamani": "2026-08-29T19:33:25.687965+00:00",
   "haberler": [
     {
-      "baslik": "Muladhara dengesizliği: Hayatında neden sürekli bir yere geç kalıyor gibi hissediyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/M%C3%BCladhara",
+      "baslik": "Sahasrara çakrasındaki tıkanıklık ve ait olamama hissinin derin kökeni",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 1: Yolun kendisini aramayı bıraktığında ne başlar?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi felsefesinde kalbin tasfiyesi: İçindeki o ağır yükü kime taşıtıyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

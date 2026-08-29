@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-29T19:33:25.687965+00:00",
+  "uretim_zamani": "2026-08-29T22:05:04.713779+00:00",
   "haberler": [
     {
-      "baslik": "Sahasrara çakrasındaki tıkanıklık ve ait olamama hissinin derin kökeni",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Bedenin dili: Omuzlarında taşıdığın o kronik ağırlık hangi bastırılmış sorumluluğun yükü?",
+      "url": "https://tr.wikipedia.org/wiki/Somatizasyon",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 1: Yolun kendisini aramayı bıraktığında ne başlar?",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Bedenindeki hücresel hafıza: Çocuklukta aldığın yaralar bugün kaslarında nasıl kilitli kalıyor?",
+      "url": "https://en.wikipedia.org/wiki/Body_memory",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi felsefesinde kalbin tasfiyesi: İçindeki o ağır yükü kime taşıtıyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
+      "baslik": "Boğaz çakrasının dilsizliği: Hayır diyemediğin her an kendi enerjinden nasıl çalıyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/Vi%C5%9Fuddha",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

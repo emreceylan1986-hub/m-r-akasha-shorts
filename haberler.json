@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-08-30T21:10:56.408396+00:00",
+  "uretim_zamani": "2026-08-30T21:12:58.984278+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 3: Zihnimdeki yargıların hayatımı nasıl kararttığını fark ettim",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Sinkronisite: Hayatının kilit anlarında gördüğün o garip tesadüfler ne anlama geliyor?",
+      "url": "tr.wikipedia.org/wiki/Eşzamanlılık",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 1: Tanımlamaya çalıştığın her aşk neden yarım kalır?",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sufi felsefesinde tecelli sırrı: Karşına çıkan o insan tesadüf mü yoksa senin yansıman mı?",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
+      "baslik": "Tao Te Jing Bölüm 16: Zihnin boşluğunda kalabilmek ve sessizliğin köküne inmek",
+      "url": "tr.wikipedia.org/wiki/Tao_Te_Jing",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

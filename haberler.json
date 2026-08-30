@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-30T19:32:57.792576+00:00",
+  "uretim_zamani": "2026-08-30T21:10:56.408396+00:00",
   "haberler": [
     {
-      "baslik": "Sufi felsefesinde 'Vakıf' sırrı: Hayatındaki tesadüfler aslında birer mühür mü?",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
+      "baslik": "Mucizeler Kursu Ders 3: Zihnimdeki yargıların hayatımı nasıl kararttığını fark ettim",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 1: Tanımlamaya çalıştığın her aşk neden yarım kalır?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sürekli aynı saatleri görmek bir tesadüf mü? Eşzamanlılığın gizli geometrisi",
-      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
+      "baslik": "Sufi felsefesinde tecelli sırrı: Karşına çıkan o insan tesadüf mü yoksa senin yansıman mı?",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 11: Boşluğun gücü ve hayatındaki o tarif edilemez eksiklik hissi",
-      "url": "https://tr.wikipedia.org/wiki/Taoizm",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

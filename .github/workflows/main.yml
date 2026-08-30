@@ -260,6 +260,20 @@ jobs:
             rm -f .basarili_yayin
           fi
 
+      # 30 Ağu: Leda 503 alınca video SESSİZCE Emel sesiyle çıkıyordu (son 8 koşunun
+      # 3'ünde oldu, kimse fark etmedi). Artık yedek sese düşüldüyse issue açılır.
+      - name: Ses yedeğe düştüyse uyar (Leda → Emel)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f .ses_yedege_dustu ]; then
+            gh issue create \
+              --title "🔊 Akasha YEDEK SESLE yayınlandı — run #${{ github.run_number }}" \
+              --body-file .ses_yedege_dustu
+            rm -f .ses_yedege_dustu
+          fi
+
       - name: Denetim uyarısı (şüpheli/redded içerik → issue + mail)
         if: always()
         env:

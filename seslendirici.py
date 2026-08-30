@@ -34,6 +34,23 @@ HIZ = "-14%"       # Sakin/derin spiritüel ton — Emre "B" örneğini seçti (
 PERDE = "-4Hz"     # Hafif kalın/sıcak → daha az dijital, daha doğal
 SES_SEVIYESI = "+0%"
 
+# 🔒 SES KİLİDİ (30 Ağu 2026 — Emre: "eski sesi devam ettir bozma")
+# Akasha'nın ONAYLI sesi: Gemini TTS **Leda**. edge-tts Emel yalnızca acil yedektir
+# (1 Ağu'da Emel sesli İkarus kopyaları bu yüzden gizlendi). Yedeğe düşülürse
+# gemini_tts.py bayrak yazar, workflow issue açar — sessiz düşüş YOK.
+SES_KILIDI = {"ses": "tr-TR-EmelNeural", "hiz": "-14%", "perde": "-4Hz", "seviye": "+0%"}
+
+
+def _ses_kilidini_dogrula() -> None:
+    simdiki = {"ses": SES, "hiz": HIZ, "perde": PERDE, "seviye": SES_SEVIYESI}
+    if simdiki != SES_KILIDI:
+        fark = {k: (SES_KILIDI[k], simdiki[k]) for k in SES_KILIDI if SES_KILIDI[k] != simdiki[k]}
+        raise SystemExit("🔒 SES KİLİDİ TUTMADI — yayın durduruldu.\n"
+                         f"   onaylı → şimdiki: {fark}\n"
+                         "   Ses değişikliği Emre onayı ister.")
+    print(f"[seslendirici] 🔒 ses kilidi OK — yedek {SES} · hız {HIZ} · perde {PERDE} "
+          f"(ana ses Leda)", flush=True)
+
 # FAZ 8: Çarşamba (haftada 1) → dialog formatı dene
 DIALOG_GUN = -1  # 9 Tem KAPALI: dialog iki-sesli edge-tts'e zorluyor, Leda kalitesini düşürüyordu
 
@@ -626,6 +643,7 @@ def main() -> int:
         ass_yolu = CIKTI_KLASORU / f"altyazi_{damga}.ass"
         txt_yolu.write_text(final_metin, encoding="utf-8")
 
+        _ses_kilidini_dogrula()
         print(f"[seslendirici] edge-tts ile ses + ASS altyazı üretiliyor ({SES})...")
         seslendir(final_metin, mp3_yolu, ass_yolu)
 

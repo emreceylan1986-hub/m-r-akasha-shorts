@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-30T17:10:50.998218+00:00",
+  "uretim_zamani": "2026-08-30T17:12:56.951123+00:00",
   "haberler": [
     {
-      "baslik": "Sufi felsefesinde 'Aşk Belası': Ruhun olgunlaşmak için acıyı davet etmesi",
-      "url": "https://tr.wikipedia.org/wiki/Aşk",
+      "baslik": "Mucizeler Kursu Ders 3: Zihninle geçmişi bugüne taşımayı nasıl bırakırsın?",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşlukların aslında en değerli şey olması",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi felsefesinde tevafuk: Hayatındaki hiçbir karşılaşma tesadüf değilse?",
+      "url": "https://tr.wikipedia.org/wiki/Tevafuk",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-29T22:05:04.713779+00:00",
+  "uretim_zamani": "2026-08-30T17:10:50.998218+00:00",
   "haberler": [
     {
-      "baslik": "Bedenin dili: Omuzlarında taşıdığın o kronik ağırlık hangi bastırılmış sorumluluğun yükü?",
-      "url": "https://tr.wikipedia.org/wiki/Somatizasyon",
+      "baslik": "Sufi felsefesinde 'Aşk Belası': Ruhun olgunlaşmak için acıyı davet etmesi",
+      "url": "https://tr.wikipedia.org/wiki/Aşk",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Bedenindeki hücresel hafıza: Çocuklukta aldığın yaralar bugün kaslarında nasıl kilitli kalıyor?",
-      "url": "https://en.wikipedia.org/wiki/Body_memory",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Boğaz çakrasının dilsizliği: Hayır diyemediğin her an kendi enerjinden nasıl çalıyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/Vi%C5%9Fuddha",
-      "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

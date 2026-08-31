@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-31T19:12:21.071586+00:00",
+  "uretim_zamani": "2026-08-31T20:10:54.601659+00:00",
   "haberler": [
     {
-      "baslik": "Persona'nın esareti: Başkaları için giydiğin maske seni ne zaman zehirlemeye başladı?",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Sanki her şey bir oyun gibi hissettiren o an: Depersonalizasyon ve Ruhsal Uyanış",
+      "url": "https://tr.wikipedia.org/wiki/Depersonalizasyon",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu Ders 5: 'Asla düşündüğüm nedenden dolayı öfkeli değilim'",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan yol ve arzuların ötesindeki hakikat",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

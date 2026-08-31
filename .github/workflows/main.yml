@@ -27,6 +27,18 @@ on:
           - unlisted
           - private
 
+# 🔒 31 Ağu — MÜKERRER YAYIN KİLİDİ.
+# Üç tetik yolu var (GitHub cron + Mac launchd :10 + Hetzner :12). Üçü de "bugün kaç
+# video çıktı" diye bakıp eksikse tetikliyor — ama BİRBİRLERİNİ GÖRMÜYORLAR: iki tetik
+# 2 dk arayla ateşlendiğinde ikisi de aynı eksik sayısını okuyup ikisi de yayın yapıyordu.
+# Kanıt: 30 Ağu Cosmos 19:14 + 19:15 (iki ayrı video), 23:12+23:13+23:17 → günde 4 yerine 6.
+# Slot kapısı bunu YAKALAYAMAZ: iki koşu da kapıyı, ilki henüz yayınlamadan geçiyor (yarış).
+# Çözüm sunucu tarafında: aynı anda tek koşu. İkinci koşu sıraya girer, birincisi bitip
+# yuklemeler.json'ı güncelledikten sonra başlar ve slot kapısında zarifçe durur.
+concurrency:
+  group: yayin-hatti
+  cancel-in-progress: false
+
 permissions:
   contents: write   # yuklemeler.json + haberler.json commit
   issues: write     # fail durumunda otomatik issue (mail bildirimi tetikler)

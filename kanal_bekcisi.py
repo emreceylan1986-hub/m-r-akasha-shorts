@@ -205,6 +205,16 @@ def main() -> int:
         adetler = [(g, gunluk.get(g, 0)) for g in reversed(son)]
         rapor.append("son 7 günün yayın adedi (hedef {}/gün): ".format(hedef_adet)
                      + " · ".join(f"{g[5:]}:{n}" for g, n in adetler))
+        # 31 Ağu: bekçi SADECE eksiğe bakıyordu; 30 Ağu'da Cosmos 6, Akasha 5 video
+        # yayınladı (üç tetik yolu yarıştı) ve hiçbir alarm çalmadı. Fazla basım,
+        # eksikten DAHA tehlikeli: 2 Tem'de yığın basım TrendCatcher'ın feed
+        # dağıtımını kalıcı öldürmüştü. Artık iki yön de denetleniyor.
+        fazla = [(g, n) for g, n in adetler if n > hedef_adet]
+        if fazla:
+            alarmlar.append("📛 HEDEFTEN FAZLA YAYIN: "
+                            + ", ".join(f"{g[5:]}→{n} (hedef {hedef_adet})" for g, n in fazla)
+                            + " — tetikleyiciler yarışıyor olabilir (concurrency kilidi + "
+                              "aktif-koşu kapısı kontrol et)")
         eksik = [(g, n) for g, n in adetler if n < hedef_adet]
         toplam_eksik = sum(hedef_adet - n for _, n in eksik)
         if eksik:

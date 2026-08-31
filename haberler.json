@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-31T17:12:55.403527+00:00",
+  "uretim_zamani": "2026-08-31T19:12:21.071586+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 4: 'Zihnimden geçen düşünceler hiçbir şey ifade etmiyor'",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Persona'nın esareti: Başkaları için giydiğin maske seni ne zaman zehirlemeye başladı?",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung'a göre 'Persona' masken ruhunu nasıl yavaş yavaş zehirler?",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Mucizeler Kursu Ders 5: 'Asla düşündüğüm nedenden dolayı öfkeli değilim'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi bilgeliğinde 'Fena' makamı: Benliğini kaybetmeden kendini bulamazsın",
-      "url": "https://tr.wikipedia.org/wiki/Fena_fillah",
+      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan yol ve arzuların ötesindeki hakikat",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

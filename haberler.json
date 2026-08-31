@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-31T20:10:54.601659+00:00",
+  "uretim_zamani": "2026-08-31T21:10:59.853456+00:00",
   "haberler": [
     {
-      "baslik": "Sanki her şey bir oyun gibi hissettiren o an: Depersonalizasyon ve Ruhsal Uyanış",
-      "url": "https://tr.wikipedia.org/wiki/Depersonalizasyon",
+      "baslik": "Mucizeler Kursu Ders 5: 'Asla Düşündüğüm Sebeple Kızgın Değilim'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Carl Jung ve Bireyleşme: Kendi Karanlığına İnmeden Kim Olduğunu Bulamazsın",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 1: Yol, Anlatılabiliyorsa Gerçek Yol Değildir",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-09-01T19:41:26.703861+00:00",
+  "uretim_zamani": "2026-09-01T21:11:06.718098+00:00",
   "haberler": [
     {
-      "baslik": "Aristoteles'in 'Akrasia' kavramı: Bildiğimiz halde neden yanlış olanı seçeriz?",
-      "url": "https://tr.wikipedia.org/wiki/Akrasia",
+      "baslik": "Mevlânâ'nın 'Gözyaşı' Sırrı: Ruhunun Kurak Topraklarını Sulamak",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre'nin 'Beni Bende Demen' Sözündeki O Derin Boşluk",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

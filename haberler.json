@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-01T00:51:27.775256+00:00",
+  "uretim_zamani": "2026-09-01T19:11:03.764754+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin Bahsettiği 'Sırat-ı Müstakim' Aslında Senin Zihnindir",
-      "url": "https://tr.wikipedia.org/wiki/S%C4%B1rat-i_M%C3%BCstakim",
+      "baslik": "Mevlana’nın gözyaşı felsefesi: Ruhunun yağmuru neden şimdi yağıyor?",
+      "url": "https://tr.wikipedia.org/wiki/Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre’nin 'Beni bende demen' sırrı: İçindeki o yabancı kim?",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi Bilgeliğinde 'Fena' Makamı: Egondan Kurtulunca Geriye Ne Kalır?",
-      "url": "https://tr.wikipedia.org/wiki/Fena_fi-Allah",
+      "baslik": "Mucizeler Kursu Ders 6: Neden asla düşündüğün nedenden dolayı kızgın değilsin?",
+      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mevlânâ'ya Göre 'Misafirhane' Olarak Beden ve Davetsiz Duyguların Sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Mesnevi_(eser)",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-09-01T19:11:03.764754+00:00",
+  "uretim_zamani": "2026-09-01T19:41:26.703861+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana’nın gözyaşı felsefesi: Ruhunun yağmuru neden şimdi yağıyor?",
-      "url": "https://tr.wikipedia.org/wiki/Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre’nin 'Beni bende demen' sırrı: İçindeki o yabancı kim?",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu Ders 6: Neden asla düşündüğün nedenden dolayı kızgın değilsin?",
-      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Aristoteles'in 'Akrasia' kavramı: Bildiğimiz halde neden yanlış olanı seçeriz?",
+      "url": "https://tr.wikipedia.org/wiki/Akrasia",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

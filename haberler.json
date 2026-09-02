@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-09-02T17:11:02.895495+00:00",
+  "uretim_zamani": "2026-09-02T19:11:03.474088+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu 6. Ders: Nedenini bilmediğin o huzursuzluğun tek kaynağı",
+      "baslik": "Mucizeler Kursu Ders 7: 'Sadece geçmişi görüyorum' — zihninin şimdiyi kaçırma nedeni",
       "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,16 +10,16 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mevlâna'nın 'Aynı dili konuşanlar değil, aynı duyguyu paylaşanlar anlaşır' sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Celaleddin-i_Rumi",
+      "baslik": "Sufi felsefesinde 'Kabz' hali: Ruhunun hissettiği o nedensiz daralmanın sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kalp çakranın kapalı olduğunu gösteren o 'kimseye güvenememe' hissi",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Stoacıların 'Amor Fati' ilkesi: Başına gelen her şeyi sevebilmenin gücü",
+      "url": "https://tr.wikipedia.org/wiki/Stoac%C4%B1l%C4%B1k",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

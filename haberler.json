@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-02T19:11:03.474088+00:00",
+  "uretim_zamani": "2026-09-02T19:32:55.846729+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 7: 'Sadece geçmişi görüyorum' — zihninin şimdiyi kaçırma nedeni",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Carl Jung ve Kırmızı Kitap: Ruhun derinliklerindeki o karanlık odaya girmek",
+      "url": "https://tr.wikipedia.org/wiki/K%C4%B1rm%C4%B1z%C4%B1_Kitap",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sufi felsefesinde 'Kabz' hali: Ruhunun hissettiği o nedensiz daralmanın sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Stoacıların 'Amor Fati' ilkesi: Başına gelen her şeyi sevebilmenin gücü",
-      "url": "https://tr.wikipedia.org/wiki/Stoac%C4%B1l%C4%B1k",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

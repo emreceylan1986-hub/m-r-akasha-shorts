@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-01T21:11:06.718098+00:00",
+  "uretim_zamani": "2026-09-02T17:11:02.895495+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'nın 'Gözyaşı' Sırrı: Ruhunun Kurak Topraklarını Sulamak",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
+      "baslik": "Mucizeler Kursu 6. Ders: Nedenini bilmediğin o huzursuzluğun tek kaynağı",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'nin 'Beni Bende Demen' Sözündeki O Derin Boşluk",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Mevlâna'nın 'Aynı dili konuşanlar değil, aynı duyguyu paylaşanlar anlaşır' sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Celaleddin-i_Rumi",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kalp çakranın kapalı olduğunu gösteren o 'kimseye güvenememe' hissi",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

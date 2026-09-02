@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-02T19:32:55.846729+00:00",
+  "uretim_zamani": "2026-09-02T21:13:00.026512+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung ve Kırmızı Kitap: Ruhun derinliklerindeki o karanlık odaya girmek",
-      "url": "https://tr.wikipedia.org/wiki/K%C4%B1rm%C4%B1z%C4%B1_Kitap",
+      "baslik": "Mucizeler Kursu Sekizinci Ders: Gerçekte neyi gördüğünü sanıyorsun?",
+      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu Dokuzuncu Ders: Savunduğun inançlar seni koruyor mu yoksa hapsediyor mu?",
+      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 12. Bölüm: Zihni kör eden o sürekli uyaran gürültüsü",
+      "url": "tr.wikipedia.org/wiki/Tao_Te_Jing",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

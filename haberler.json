@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-09-03T17:11:05.694558+00:00",
+  "uretim_zamani": "2026-09-03T19:11:20.171730+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing — Bölüm 1: Yolunu kaybettiğinde aslında nereye varırsın?",
+      "baslik": "Tao Te Jing Bölüm 2: Zıttı Olmadan Var Olamayanların Sırrı",
       "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,16 +10,16 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihninin sürekli gelecekte olmasının nedeni: Kaygı ve kontrol illüzyonu",
-      "url": "https://tr.wikipedia.org/wiki/Meditasyon",
+      "baslik": "Yunus Emre’nin 'Bir Ben Vardır Benden İçeri' Dediği O Gizli Sığınak",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mevlana'nın gizli şifa formülü: Ruhun yaralarından sızan o ışık",
-      "url": "https://tr.wikipedia.org/wiki/Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
+      "baslik": "Sufi Felsefesinde 'Nefs-i Levvame' ve Seni İçten İçe Kemiren O Pişmanlık",
+      "url": "https://tr.wikipedia.org/wiki/Nefis",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

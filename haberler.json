@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-09-03T19:11:20.171730+00:00",
+  "uretim_zamani": "2026-09-03T19:29:56.921856+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 2: Zıttı Olmadan Var Olamayanların Sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre’nin 'Bir Ben Vardır Benden İçeri' Dediği O Gizli Sığınak",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Sufi öğretisinde 'Cemâl' ve 'Celâl' dengesi: Hayatının altüst olması belki de ilahi bir temizliktir",
+      "url": "https://tr.wikipedia.org/wiki/Cem%C3%A2l",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi Felsefesinde 'Nefs-i Levvame' ve Seni İçten İçe Kemiren O Pişmanlık",
-      "url": "https://tr.wikipedia.org/wiki/Nefis",
+      "baslik": "Sürekli bir şeyleri kontrol etmeye çalışırken ruhunun enerjisini nasıl tükettiğini fark ettin mi?",
+      "url": "https://tr.wikipedia.org/wiki/Tevekk%C3%bcl",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

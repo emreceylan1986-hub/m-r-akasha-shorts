@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-09-02T21:13:00.026512+00:00",
+  "uretim_zamani": "2026-09-03T17:11:05.694558+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Sekizinci Ders: Gerçekte neyi gördüğünü sanıyorsun?",
-      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Tao Te Jing — Bölüm 1: Yolunu kaybettiğinde aslında nereye varırsın?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Dokuzuncu Ders: Savunduğun inançlar seni koruyor mu yoksa hapsediyor mu?",
-      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Zihninin sürekli gelecekte olmasının nedeni: Kaygı ve kontrol illüzyonu",
+      "url": "https://tr.wikipedia.org/wiki/Meditasyon",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing 12. Bölüm: Zihni kör eden o sürekli uyaran gürültüsü",
-      "url": "tr.wikipedia.org/wiki/Tao_Te_Jing",
+      "baslik": "Mevlana'nın gizli şifa formülü: Ruhun yaralarından sızan o ışık",
+      "url": "https://tr.wikipedia.org/wiki/Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

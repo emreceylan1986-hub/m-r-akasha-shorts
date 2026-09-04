@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-04T19:18:01.145012+00:00",
+  "uretim_zamani": "2026-09-04T21:11:02.613439+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli dişinin kırıldığını görüyorsan: Jung'un güç kaybı uyarısı",
-      "url": "https://tr.wikipedia.org/wiki/Kollektif_bilin%C3%A7d%C4%B1%C5%9F%C4%B1",
+      "baslik": "Rüyanda sürekli tanıdık bir evi aramak: Jung'un 'Bireyleşme' cevabı",
+      "url": "https://tr.wikipedia.org/wiki/Carl_Jung",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyanda yüksekten düşerken uyanmak: Anima ve kontrolü bırakma korkun",
+      "url": "https://tr.wikipedia.org/wiki/Arketip",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyanda sürekli toplu taşıma aracını kaçırmak: Bilinçdışının 'kaçırılan hayat' uyarısı",
+      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%B1%C5%9F%C4%B1",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

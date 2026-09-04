@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-09-03T21:12:15.912227+00:00",
+  "uretim_zamani": "2026-09-04T17:11:16.876895+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 8: Su gibi yaşamak neden en büyük güçtür?",
-      "url": "https://tr.wikipedia.org/wiki/Taoizim",
+      "baslik": "Rüyanda sürekli sınava girdiğini görüyorsan: Jung’un 'Persona' uyarısı",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihnindeki o amansız savaşı bitirmenin yolu: Wu Wei felsefesi",
-      "url": "https://tr.wikipedia.org/wiki/Wu_wei",
+      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan o güce teslim olmak",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşluğun aslında en değerli şey olması",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "baslik": "Yunus Emre’nin 'Bir ben vardır bende' dediği o gizemli derinlik",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

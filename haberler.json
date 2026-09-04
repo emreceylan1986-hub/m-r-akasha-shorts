@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-04T17:11:16.876895+00:00",
+  "uretim_zamani": "2026-09-04T19:10:56.388759+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli sınava girdiğini görüyorsan: Jung’un 'Persona' uyarısı",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Rüyanda sürekli kaçtığını görmek: Jung'cu perspektiften bastırdığın o güç",
+      "url": "https://en.wikipedia.org/wiki/Jungian_dream_interpretation",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan o güce teslim olmak",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Rüyanda yüksekten düşmek: Bilinçaltının teslimiyet çağrısı ve ego direnci",
+      "url": "https://en.wikipedia.org/wiki/Falling_(sensation)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre’nin 'Bir ben vardır bende' dediği o gizemli derinlik",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Kabuslar aslında birer hediye mi? Bilinçdışının seninle iletişim kurma çabası",
+      "url": "https://en.wikipedia.org/wiki/Nightmare",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

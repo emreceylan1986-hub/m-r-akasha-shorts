@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-04T19:10:56.388759+00:00",
+  "uretim_zamani": "2026-09-04T19:18:01.145012+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli kaçtığını görmek: Jung'cu perspektiften bastırdığın o güç",
-      "url": "https://en.wikipedia.org/wiki/Jungian_dream_interpretation",
+      "baslik": "Rüyanda sürekli dişinin kırıldığını görüyorsan: Jung'un güç kaybı uyarısı",
+      "url": "https://tr.wikipedia.org/wiki/Kollektif_bilin%C3%A7d%C4%B1%C5%9F%C4%B1",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rüyanda yüksekten düşmek: Bilinçaltının teslimiyet çağrısı ve ego direnci",
-      "url": "https://en.wikipedia.org/wiki/Falling_(sensation)",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kabuslar aslında birer hediye mi? Bilinçdışının seninle iletişim kurma çabası",
-      "url": "https://en.wikipedia.org/wiki/Nightmare",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

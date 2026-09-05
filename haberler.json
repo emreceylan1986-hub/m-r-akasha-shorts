@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-04T21:11:02.613439+00:00",
+  "uretim_zamani": "2026-09-05T17:14:43.319776+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli tanıdık bir evi aramak: Jung'un 'Bireyleşme' cevabı",
-      "url": "https://tr.wikipedia.org/wiki/Carl_Jung",
+      "baslik": "Boğaz çakrandaki tıkanıklık: Kendini ifade edemediğinde bedenin nasıl kilitlenir?",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rüyanda yüksekten düşerken uyanmak: Anima ve kontrolü bırakma korkun",
-      "url": "https://tr.wikipedia.org/wiki/Arketip",
+      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan akış ve zihnin kelimelerle savaşı",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rüyanda sürekli toplu taşıma aracını kaçırmak: Bilinçdışının 'kaçırılan hayat' uyarısı",
-      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%B1%C5%9F%C4%B1",
+      "baslik": "Sariçakra ve sürekli onaylanma ihtiyacı: Kendi gücünü başkalarına neden teslim ediyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

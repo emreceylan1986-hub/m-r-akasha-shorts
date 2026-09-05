@@ -31,6 +31,24 @@ def _bugunku_sayi(simdi: datetime) -> int:
                if str(k.get("zaman", k.get("tarih", "")))[:10] == bugun)
 
 
+def _bugunku_saatler(simdi: datetime) -> set:
+    """Bugün YAYIN YAPILMIŞ saatler (UTC). 5 Eyl: sayı doğruydu ama DAĞILIM bozuktu."""
+    try:
+        kayitlar = json.loads(YUKLEME_LOGU.read_text(encoding="utf-8"))
+    except Exception:
+        return set()
+    bugun = simdi.strftime("%Y-%m-%d")
+    out = set()
+    for k in kayitlar:
+        z = str(k.get("zaman", k.get("tarih", "")))
+        if z[:10] == bugun and len(z) >= 13:
+            try:
+                out.add(int(z[11:13]))
+            except ValueError:
+                pass
+    return out
+
+
 def slot_karari(hedef_saatler, simdi=None) -> tuple:
     """(acik: bool, mesaj: str) döndürür. Kural:
        · bugünkü yayın >= hedef saat sayısı        → KAPALI (yığın basım koruması)
@@ -46,8 +64,21 @@ def slot_karari(hedef_saatler, simdi=None) -> tuple:
     if sayi >= len(hedef_saatler):
         return False, (f"⛔ GÜNLÜK HEDEF DOLDU: bugün {sayi} yayın var "
                        f"(hedef {len(hedef_saatler)}). Yığın basım koruması.")
-    if simdi.hour in hedef_saatler:
+    # 🔴 5 Eyl — AYNI SAATE ÇİFT BASIM. Adet doğruydu (4/gün) ama DAĞILIM bozuktu:
+    # Akasha son 7 günde saat 19'a **10**, saat 20'ye **1** video bastı. Sebep: geç
+    # ateşlenen bir koşu 19:2x'te ikinci videoyu basıyor, 20:10'da tetikleyici
+    # "3 yayın / 3 hedef saat geçti → eksik yok" diyor ve 20:00 slotu HİÇ kullanılmıyor.
+    # Dakikalar arayla çıkan iki Shorts birbirinin gösterimini yiyor.
+    # Kural: hedef saat ZATEN kullanıldıysa o saat telafi saati gibi davranır.
+    if simdi.hour in hedef_saatler and simdi.hour not in _bugunku_saatler(simdi):
         return True, f"[slot] {simdi.hour:02d} UTC HEDEF saat — yayın açık ({sayi}/{len(hedef_saatler)})"
+    if simdi.hour in hedef_saatler:
+        kalan_bos = [h for h in hedef_saatler
+                     if h > simdi.hour and h not in _bugunku_saatler(simdi)]
+        if kalan_bos and sayi >= sum(1 for h in hedef_saatler if h <= simdi.hour):
+            return False, (f"⏭️ {simdi.hour:02d} UTC ATLANDI: bu saatte zaten yayın var, "
+                           f"gün programında ({sayi} yayın). Boş hedef saatler {kalan_bos} "
+                           f"korunuyor — aynı saate çift basım yok.")
     # 🔴 28 Ağu — GÜNÜ ASLA KAYBETME. GitHub'ın zamanlayıcısı 26 Ağu'da çöktü
     # (6 koşu/gün → 1) ve kalan tek koşu 02:00-04:12 UTC gibi hedef DIŞI saatlere
     # düştü. Kapı onları da atlayınca 27-28 Ağu'da iki kanalda SIFIR video çıktı.

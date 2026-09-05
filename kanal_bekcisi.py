@@ -209,6 +209,26 @@ def main() -> int:
         # yayınladı (üç tetik yolu yarıştı) ve hiçbir alarm çalmadı. Fazla basım,
         # eksikten DAHA tehlikeli: 2 Tem'de yığın basım TrendCatcher'ın feed
         # dağıtımını kalıcı öldürmüştü. Artık iki yön de denetleniyor.
+        # 5 Eyl: adet doğru ama DAĞILIM bozuk olabilir. Akasha son 7 günde saat 19'a
+        # 10, saat 20'ye 1 video basmıştı — bekçi bunu görmüyordu çünkü sadece
+        # günlük TOPLAMA bakıyordu. Kullanılmayan hedef saat = kayıp prime slot.
+        try:
+            kullanim = {h: 0 for h in _HS}
+            for v in vid:
+                if v["sn"] <= 180 and 1 <= (simdi - dt.datetime.fromisoformat(
+                        v["pub"].replace("Z", "+00:00"))).days <= 7:
+                    h = int(v["pub"][11:13])
+                    if h in kullanim:
+                        kullanim[h] += 1
+            rapor.append("hedef saat kullanımı (son 7 gün): "
+                         + " · ".join(f"{h:02d}→{n}" for h, n in sorted(kullanim.items())))
+            aclar = [h for h, n in kullanim.items() if n <= 1]
+            if aclar and max(kullanim.values() or [0]) >= 5:
+                alarmlar.append(f"⏰ HEDEF SAAT AÇ KALIYOR: {aclar} saatlerine 7 günde en fazla "
+                                f"1 video düştü, başka saat {max(kullanim.values())} aldı — "
+                                "aynı saate çift basım olabilir (slot_kapisi kontrol et)")
+        except Exception:
+            pass
         fazla = [(g, n) for g, n in adetler if n > hedef_adet]
         if fazla:
             alarmlar.append("📛 HEDEFTEN FAZLA YAYIN: "

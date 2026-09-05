@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-09-05T17:14:43.319776+00:00",
+  "uretim_zamani": "2026-09-05T19:11:00.176646+00:00",
   "haberler": [
     {
-      "baslik": "Boğaz çakrandaki tıkanıklık: Kendini ifade edemediğinde bedenin nasıl kilitlenir?",
+      "baslik": "Sakral çakra kilitlendiğinde neden sürekli suçluluk hissedersin?",
       "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,18 +10,10 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan akış ve zihnin kelimelerle savaşı",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Kalp çakrasının zırhı: Sevgiye kapalıyken neden hep sırtın ağrır?",
+      "url": "https://tr.wikipedia.org/wiki/Enerji_tıbbı",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sariçakra ve sürekli onaylanma ihtiyacı: Kendi gücünü başkalarına neden teslim ediyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

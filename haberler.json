@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-09-05T20:08:48.390963+00:00",
+  "uretim_zamani": "2026-09-05T21:11:10.938682+00:00",
   "haberler": [
     {
-      "baslik": "Kalp çakran kapalıysa hayatın böyle görünür: Sürekli birilerini kurtarma arzusu",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "Manipülasyon sanatı: İnsanların sana nasıl sınır çizemediğini fark et",
+      "url": "https://tr.wikipedia.org/wiki/Psikolojik_manip%C3%Blasyon",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Dokuzuncu Ders: 'Bu odada gördüğüm hiçbir şeyi olduğu gibi görmüyorum'",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Bilişsel çelişki: Kendi inandığın yalanlarla yüzleşme vakti",
+      "url": "https://tr.wikipedia.org/wiki/Bili%C5%9Fsel_tutars%C4%B1zl%C4%B1k",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Üçüncü göz çakrası tıkandığında zihnin sana bu oyunu oynar: Aşırı analiz felci",
-      "url": "https://tr.wikipedia.org/wiki/Ajna",
+      "baslik": "Duygusal tükenmişlik sendromu: İçindeki ateşi kim söndürdü?",
+      "url": "https://tr.wikipedia.org/wiki/T%C3%BCkenmi%C5%9Flik_sendromu",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

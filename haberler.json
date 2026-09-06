@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-09-06T19:14:13.933858+00:00",
+  "uretim_zamani": "2026-09-06T20:10:52.314601+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana felsefesinde kaderin tevafuku ve tesadüf sandığın mucizeler",
-      "url": "https://tr.wikipedia.org/wiki/Cel%C3%A2ledd%C3%A2n_R%C3%BBm%C3%AE",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu — Ders 9: Anlamlı tesadüfler zihnin hangi perdesini araler?",
-      "url": "https://tr.wikipedia.org/wiki/Hristiyan_metafizi%C4%9Fi",
+      "baslik": "Mevlana'nın arayış sırrı: 'Neyi arıyorsan, sen o'sun'",
+      "url": "https://tr.wikipedia.org/wiki/Cel%c3%a2ledd%c3%aen-i_R%c3%bbm%c3%ee",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

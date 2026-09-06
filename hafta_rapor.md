@@ -1,23 +1,23 @@
 # 📊 Aydınlanmanın Doruk Noktası — Haftalık Rapor
-_2026-08-31T00:09+00:00_
+_2026-09-06T23:25+00:00_
 
 ## Özet
-- **Abone:** 47 (+1 bu hafta)
-- **Toplam view:** 32,186 (+1,540 bu hafta)
-- **Toplam video:** 239
-- **Son 7 gün:** 20 video, 1,859 izl, ort 92/video
-- **<50 izl video sayısı:** 11/20 (kalite_temizleyici aday)
+- **Abone:** 55 (+8 bu hafta)
+- **Toplam view:** 33,394 (+1,208 bu hafta)
+- **Toplam video:** 266
+- **Son 7 gün:** 28 video, 3,358 izl, ort 119/video
+- **<50 izl video sayısı:** 13/28 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **496v** · 5👍 · 1💬 — sufi felsefesinde kabir azabı ve zihnin karanlık duvarları
-- **278v** · 4👍 · 1💬 — tasavvuf felsefesinde kaderin vakti ve gecikmenin ilahi sirri
-- **262v** · 1👍 · 1💬 — carl jung felsefesinde bedensel agrilar ve ruhun gizli yukleri
+- **1,013v** · 5👍 · 1💬 — sufi öğretisinde celal ve cemal ile hayatın ilahi temizliği
+- **292v** · 3👍 · 1💬 — carl jung rüyalarda kaçmanın anlamı ve gölgenin gücü
+- **234v** · 2👍 · 1💬 — carl jung rüyada diş dökülmesi ve kaybedilen gücün sembolizmi
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 1💬 — Psykhe ve Eros: Ruhun Aşk Sınavları ve Karanlıktan Uyanış
-- **1v** · 0👍 · 1💬 — mucizeler kursu üçüncü dersi ve yargının yarattığı zihinsel perdeler
-- **1v** · 0👍 · 0💬 — mucizeler kursu ikinci dersi ve zihne verilen anlamların gücü
+- **0v** · 0👍 · 1💬 — carl jung ve eşzamanlılık ilkesinin ardındaki gizemli kuantum bağı
+- **0v** · 0👍 · 0💬 — mesnevi öğretisinde gözyaşının sırrı ve ruhun gizli bahçesi
+- **11v** · 0👍 · 1💬 — yunus emre ve sırat köprüsü, insanın kendi zihnindeki ince yolculuk
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **47 abone / 92 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **55 abone / 119 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı

@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-09-06T17:11:02.260535+00:00",
+  "uretim_zamani": "2026-09-06T19:14:13.933858+00:00",
   "haberler": [
     {
-      "baslik": "Seneca'ya Göre Zamanı Doğru Kullanmak: Neden Sürekli Bir Şeyleri Kaçırıyormuş Gibi Hissediyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/De_Brevitate_Vitae",
+      "baslik": "Mevlana felsefesinde kaderin tevafuku ve tesadüf sandığın mucizeler",
+      "url": "https://tr.wikipedia.org/wiki/Cel%C3%A2ledd%C3%A2n_R%C3%BBm%C3%AE",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu — Ders 9: Anlamlı tesadüfler zihnin hangi perdesini araler?",
+      "url": "https://tr.wikipedia.org/wiki/Hristiyan_metafizi%C4%9Fi",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

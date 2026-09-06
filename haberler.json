@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-09-05T21:11:10.938682+00:00",
+  "uretim_zamani": "2026-09-06T17:11:02.260535+00:00",
   "haberler": [
     {
-      "baslik": "Manipülasyon sanatı: İnsanların sana nasıl sınır çizemediğini fark et",
-      "url": "https://tr.wikipedia.org/wiki/Psikolojik_manip%C3%Blasyon",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Bilişsel çelişki: Kendi inandığın yalanlarla yüzleşme vakti",
-      "url": "https://tr.wikipedia.org/wiki/Bili%C5%9Fsel_tutars%C4%B1zl%C4%B1k",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Duygusal tükenmişlik sendromu: İçindeki ateşi kim söndürdü?",
-      "url": "https://tr.wikipedia.org/wiki/T%C3%BCkenmi%C5%9Flik_sendromu",
+      "baslik": "Seneca'ya Göre Zamanı Doğru Kullanmak: Neden Sürekli Bir Şeyleri Kaçırıyormuş Gibi Hissediyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/De_Brevitate_Vitae",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

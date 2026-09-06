@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-09-06T20:10:52.314601+00:00",
+  "uretim_zamani": "2026-09-06T21:10:56.703208+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana'nın arayış sırrı: 'Neyi arıyorsan, sen o'sun'",
-      "url": "https://tr.wikipedia.org/wiki/Cel%c3%a2ledd%c3%aen-i_R%c3%bbm%c3%ee",
+      "baslik": "Kuantum Çekim: Düşündüğün anların hemen ardından gerçekleşen o anlamlı tesadüfler",
+      "url": "https://tr.wikipedia.org/wiki/Kuantum_dola%C5%9F%C4%B1kl%C4%B1k",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Anlamlı Tesadüfler: Evrenin seninle konuşurken kullandığı o sessiz dil",
+      "url": "https://tr.wikipedia.org/wiki/Anlam",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

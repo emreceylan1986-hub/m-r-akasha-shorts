@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-07T19:11:03.648369+00:00",
+  "uretim_zamani": "2026-09-07T20:12:01.434282+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre başkalarında en çok nefret ettiğin şey senin 'Gölge'ndir",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(arkeotip)",
+      "baslik": "Carl Jung'a göre başkalarını kurtarma arzun aslında kendi yaralı çocuğunun çığlığıdır",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sürekli mükemmel görünmeye çalışıyorsan: Jung'un 'Persona' tuzağına düşmüş olabilirsin",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(arkeotip)",
+      "baslik": "Tao Te Jing Bölüm 3: Zihnini boşaltıp karnını doyurmanın mistik dengesi",
+      "url": "https://tr.wikipedia.org/wiki/Taoizm",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi bilgeliğinde 'Fena' makamı: Kendi varlığını unuttuğunda bulduğun o sonsuz özgürlük",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

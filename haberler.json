@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-09-07T17:11:59.009901+00:00",
+  "uretim_zamani": "2026-09-07T19:11:03.648369+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing — Bölüm 1: Yol'u anlatmak neden imkansızdır?",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "baslik": "Carl Jung'a göre başkalarında en çok nefret ettiğin şey senin 'Gölge'ndir",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(arkeotip)",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sürekli mükemmel görünmeye çalışıyorsan: Jung'un 'Persona' tuzağına düşmüş olabilirsin",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(arkeotip)",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre 700 yıl önce ego'yu nasıl tarif etti?",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kalp çakran kapalıysa hayatın böyle görünür",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

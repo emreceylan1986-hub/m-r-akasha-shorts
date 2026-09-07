@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-06T21:10:56.703208+00:00",
+  "uretim_zamani": "2026-09-07T17:11:59.009901+00:00",
   "haberler": [
     {
-      "baslik": "Kuantum Çekim: Düşündüğün anların hemen ardından gerçekleşen o anlamlı tesadüfler",
-      "url": "https://tr.wikipedia.org/wiki/Kuantum_dola%C5%9F%C4%B1kl%C4%B1k",
+      "baslik": "Tao Te Jing — Bölüm 1: Yol'u anlatmak neden imkansızdır?",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Anlamlı Tesadüfler: Evrenin seninle konuşurken kullandığı o sessiz dil",
-      "url": "https://tr.wikipedia.org/wiki/Anlam",
+      "baslik": "Yunus Emre 700 yıl önce ego'yu nasıl tarif etti?",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kalp çakran kapalıysa hayatın böyle görünür",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

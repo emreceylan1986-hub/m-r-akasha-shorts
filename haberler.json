@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-07T20:12:01.434282+00:00",
+  "uretim_zamani": "2026-09-07T20:19:08.015459+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre başkalarını kurtarma arzun aslında kendi yaralı çocuğunun çığlığıdır",
-      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "baslik": "Ruhun karanlık dehlizi: 'Nigredo' aşamasından geçtiğini nasıl anlarsın?",
+      "url": "https://tr.wikipedia.org/wiki/Simya",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 3: Zihnini boşaltıp karnını doyurmanın mistik dengesi",
-      "url": "https://tr.wikipedia.org/wiki/Taoizm",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sufi bilgeliğinde 'Fena' makamı: Kendi varlığını unuttuğunda bulduğun o sonsuz özgürlük",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

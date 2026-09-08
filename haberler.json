@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-08T20:11:51.741840+00:00",
+  "uretim_zamani": "2026-09-08T21:11:15.470413+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana’ya göre 'gönül darlığı' bir ceza değil, ruhunun genişleme sancısıdır",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
+      "baslik": "Yunus Emre felsefesinde 'Ben bir karıncayım' demenin psikolojik özgürlüğü",
+      "url": "https://tr.wikipedia.org/wiki/Al%C3%A7ak_g%C3%B6n%C3%BCll%C3%BCl%C3%BCk",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 3: Zihnini boşaltıp içindeki boşluğun gücüne güvenmek",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Sufi bilgeliğinde 'Hizmet' sırrı: Başkasına şifa olurken kendi yaranı sarmak",
+      "url": "https://tr.wikipedia.org/wiki/Altruizm",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre’nin 'Bir ben vardır bende' dediği o gizli gözlemci kim?",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Farkında olmadan 'Adrenalin' bağımlısı mısın yoksa gerçekten seviyor musun?",
+      "url": "https://tr.wikipedia.org/wiki/Adrenalin",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

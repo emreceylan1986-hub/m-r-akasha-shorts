@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-07T20:19:08.015459+00:00",
+  "uretim_zamani": "2026-09-08T17:11:42.726238+00:00",
   "haberler": [
     {
-      "baslik": "Ruhun karanlık dehlizi: 'Nigredo' aşamasından geçtiğini nasıl anlarsın?",
-      "url": "https://tr.wikipedia.org/wiki/Simya",
+      "baslik": "Mevlânâ’nın 'Aramakla bulunmaz ama bulanlar arayanlardır' sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre’ye göre 'Ete kemiğe bürünmek' ve ruhun asıl sıla özlemi",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi felsefesinde 'Sefer der vatan': Kendi içine hicret etmenin vakti geldi mi?",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

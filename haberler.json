@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-09-09T19:13:22.547483+00:00",
+  "uretim_zamani": "2026-09-09T20:11:19.418373+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Dokuzuncu Ders: 'Hiçbir şeyi şu an gördüğüm haliyle görmüyorum'",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 3: Zihni boşaltmanın ve içsel doyumun sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sufi bilgeliğinde 'Fena' makamı: Kendi varlığını unuttuğunda bulduğun o büyük güç",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
+      "baslik": "Zihnindeki o bitmeyen mahkeme: Kendini sürekli yargılamaktan nasıl özgürleşirsin?",
+      "url": "https://tr.wikipedia.org/wiki/A%25C5%259Fk%25C4%25B1n_benlik",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-08T21:11:15.470413+00:00",
+  "uretim_zamani": "2026-09-09T17:12:20.354420+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre felsefesinde 'Ben bir karıncayım' demenin psikolojik özgürlüğü",
-      "url": "https://tr.wikipedia.org/wiki/Al%C3%A7ak_g%C3%B6n%C3%BCll%C3%BCl%C3%BCk",
+      "baslik": "Mucizeler Kursu Dokuzuncu Ders: 'Hiçbir şeyi şu an olduğu haliyle görmüyorum'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi bilgeliğinde 'Hizmet' sırrı: Başkasına şifa olurken kendi yaranı sarmak",
-      "url": "https://tr.wikipedia.org/wiki/Altruizm",
+      "baslik": "Tao Te Jing 9. Bölüm: 'Bardağı ağzına kadar doldurursan dökülür'",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Farkında olmadan 'Adrenalin' bağımlısı mısın yoksa gerçekten seviyor musun?",
-      "url": "https://tr.wikipedia.org/wiki/Adrenalin",
+      "baslik": "Sufizmde Kabz ve Best Hali: Ruhunun birdenbire daralmasının gizli sebebi",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

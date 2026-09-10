@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-09-10T17:11:52.709940+00:00",
+  "uretim_zamani": "2026-09-10T19:11:15.558237+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 3: Zihni boşaltıp karnı doyurmanın kadim sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Taoizm",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 4: Boşluğun gücü ve hayatın bitmeyen kaynağı",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "baslik": "Taoist 'Pu' felsefesi: İşlenmemiş bir kütük gibi sade kalmanın gücü",
+      "url": "https://en.wikipedia.org/wiki/Pu_(Taoism)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 5: Evrenin tarafsızlığı ve içindeki körüğün sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Zhuangzi'nin 'Boş Tekne' metaforu: Sana çarpan insanlara öfkelenmeyi nasıl bırakırsın?",
+      "url": "https://tr.wikipedia.org/wiki/Zhuang_Zhou",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

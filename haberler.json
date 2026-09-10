@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-09-10T19:11:15.558237+00:00",
+  "uretim_zamani": "2026-09-10T20:11:03.770304+00:00",
   "haberler": [
     {
-      "baslik": "Taoist 'Pu' felsefesi: İşlenmemiş bir kütük gibi sade kalmanın gücü",
-      "url": "https://en.wikipedia.org/wiki/Pu_(Taoism)",
+      "baslik": "Zihnindeki direnç bittiğinde hayatın nasıl kendiliğinden düzene girer?",
+      "url": "https://tr.wikipedia.org/wiki/Diyojen",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Zhuangzi'nin 'Boş Tekne' metaforu: Sana çarpan insanlara öfkelenmeyi nasıl bırakırsın?",
-      "url": "https://tr.wikipedia.org/wiki/Zhuang_Zhou",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

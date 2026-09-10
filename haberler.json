@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-09T21:11:02.696484+00:00",
+  "uretim_zamani": "2026-09-10T17:11:52.709940+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Dokuzuncu Ders: 'Düşüncelerim gerçek dışı şeyleri temsil eder'",
-      "url": "https://tr.wikipedia.org/wiki/Zihin_kontrol%C3%BC",
+      "baslik": "Tao Te Jing Bölüm 3: Zihni boşaltıp karnı doyurmanın kadim sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Taoizm",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 4: Boşluğun gücü ve hayatın bitmeyen kaynağı",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 5: Evrenin tarafsızlığı ve içindeki körüğün sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-09-10T20:11:03.770304+00:00",
+  "uretim_zamani": "2026-09-10T21:11:20.336711+00:00",
   "haberler": [
     {
-      "baslik": "Zihnindeki direnç bittiğinde hayatın nasıl kendiliğinden düzene girer?",
-      "url": "https://tr.wikipedia.org/wiki/Diyojen",
+      "baslik": "Lao Tzu felsefesinde 'Zhan Zhuang': Hiçbir şey yapmamanın iyileştirici gücü",
+      "url": "https://tr.wikipedia.org/wiki/Qi_gong",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Taoist bilgelikte 'Pu' kavramı: Beklentisiz olmanın getirdiği içsel hafiflik",
+      "url": "https://tr.wikipedia.org/wiki/Felsefe",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

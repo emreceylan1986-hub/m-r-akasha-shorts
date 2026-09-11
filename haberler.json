@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-09-10T21:11:20.336711+00:00",
+  "uretim_zamani": "2026-09-11T17:11:02.355269+00:00",
   "haberler": [
     {
-      "baslik": "Lao Tzu felsefesinde 'Zhan Zhuang': Hiçbir şey yapmamanın iyileştirici gücü",
-      "url": "https://tr.wikipedia.org/wiki/Qi_gong",
+      "baslik": "Yunus Emre'nin 'Bir ben vardır bende benden içeri' dizesindeki o gizli gözlemci",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre_se%C3%A7kisinin_felsefi_boyutu",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Taoist bilgelikte 'Pu' kavramı: Beklentisiz olmanın getirdiği içsel hafiflik",
-      "url": "https://tr.wikipedia.org/wiki/Felsefe",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

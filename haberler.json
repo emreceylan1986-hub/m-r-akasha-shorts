@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-11T20:11:01.264541+00:00",
+  "uretim_zamani": "2026-09-11T21:11:06.504682+00:00",
   "haberler": [
     {
-      "baslik": "Rüyalarında neden sürekli eski evini görüyorsun? Jung’un regresyon cevabı",
-      "url": "https://tr.wikipedia.org/wiki/Analitik_psikoloji",
+      "baslik": "Rüyanda suyun altına dalıp nefes alabiliyorsan: Duygusal derinliğinin gücü",
+      "url": "https://tr.wikipedia.org/wiki/Karakter_geli%C5%9Fimi",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing — Bölüm 9: Aşırı doldurulmuş bir kap neden kolayca taşar?",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Cing",
+      "baslik": "Mucizeler Kursu — Ders 9: 'Bu odada gördüğüm hiçbir şeyi anlamıyorum'",
+      "url": "https://tr.wikipedia.org/wiki/Zihin_kuramı",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu — Ders 9: 'Hiçbir şeyi şu an olduğu haliyle görmüyorum'",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Yunus Emre'ye göre 'Ölmeden önce ölmek': Egonun gönüllü tasfiyesi",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf_tarihi",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

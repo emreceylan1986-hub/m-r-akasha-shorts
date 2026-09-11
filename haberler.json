@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-11T17:11:02.355269+00:00",
+  "uretim_zamani": "2026-09-11T19:11:06.620368+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin 'Bir ben vardır bende benden içeri' dizesindeki o gizli gözlemci",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre_se%C3%A7kisinin_felsefi_boyutu",
+      "baslik": "Rüyanda sürekli sınanıyorsan: Jung'un 'Kahramanın Yolculuğu' arketipi ne diyor?",
+      "url": "https://tr.wikipedia.org/wiki/Kahraman%c4%b1n_Sonsuz_Yolculu%c4%9fu",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyanda kendini uçarken ama aniden düşerken görüyorsan: Kontrol illüzyonu",
+      "url": "https://tr.wikipedia.org/wiki/L%c3%bcside_r%c3%bcya",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyanda sürekli saate bakıp geç kaldığını görüyorsan: Kronos baskısı ve ruhsal zaman",
+      "url": "https://tr.wikipedia.org/wiki/Zaman_alg%c4%b1s%c4%b1",
+      "kaynak": "gemini-fallback",
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

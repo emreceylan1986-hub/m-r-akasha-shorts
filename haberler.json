@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-11T19:11:06.620368+00:00",
+  "uretim_zamani": "2026-09-11T20:11:01.264541+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli sınanıyorsan: Jung'un 'Kahramanın Yolculuğu' arketipi ne diyor?",
-      "url": "https://tr.wikipedia.org/wiki/Kahraman%c4%b1n_Sonsuz_Yolculu%c4%9fu",
+      "baslik": "Rüyalarında neden sürekli eski evini görüyorsun? Jung’un regresyon cevabı",
+      "url": "https://tr.wikipedia.org/wiki/Analitik_psikoloji",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rüyanda kendini uçarken ama aniden düşerken görüyorsan: Kontrol illüzyonu",
-      "url": "https://tr.wikipedia.org/wiki/L%c3%bcside_r%c3%bcya",
+      "baslik": "Tao Te Jing — Bölüm 9: Aşırı doldurulmuş bir kap neden kolayca taşar?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Cing",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rüyanda sürekli saate bakıp geç kaldığını görüyorsan: Kronos baskısı ve ruhsal zaman",
-      "url": "https://tr.wikipedia.org/wiki/Zaman_alg%c4%b1s%c4%b1",
+      "baslik": "Mucizeler Kursu — Ders 9: 'Hiçbir şeyi şu an olduğu haliyle görmüyorum'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

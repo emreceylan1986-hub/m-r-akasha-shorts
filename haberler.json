@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-09-12T17:10:59.280078+00:00",
+  "uretim_zamani": "2026-09-12T19:11:06.479986+00:00",
   "haberler": [
     {
-      "baslik": "Epifiz bezinin kireçlenmesi ve sezgilerinin sesini neden duyamadığın gerçeği",
-      "url": "https://tr.wikipedia.org/wiki/Epifiz_bezi",
+      "baslik": "Kök çakranın tıkanması ve hayatında hiçbir yere ait hissedememe sancısı",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Üçüncü göz çakrası ve zihnindeki o sürekli erteleme hastalığının gizli bağı",
+      "url": "https://tr.wikipedia.org/wiki/Ajna",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing — Bölüm 9: Aşırı doldurulan kabın dökülmesi ve tükenmişlik sendromun",
+      "url": "https://tr.wikipedia.org/wiki/Taoizm",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-12T20:11:00.957768+00:00",
+  "uretim_zamani": "2026-09-12T21:05:39.642053+00:00",
   "haberler": [
     {
-      "baslik": "Üçüncü Göz Çakrası kapandığında zihnin sürekli aynı senaryoları yazar",
-      "url": "https://tr.wikipedia.org/wiki/Ajna",
+      "baslik": "Somatik empati: Başkalarının negatif enerjisini kendi bedeninde fiziksel ağrı olarak taşıyanlardan mısın?",
+      "url": "https://tr.wikipedia.org/wiki/Empati",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu Dokuzuncu Ders: 'Geçmişi görüyorum çünkü zihnim orada hapis'",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Solar Pleksus Çakrası ve başkalarının onayına bağımlı hissetmenin görünmez bağı",
-      "url": "https://tr.wikipedia.org/wiki/Manipura",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

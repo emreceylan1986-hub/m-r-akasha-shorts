@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-11T21:11:06.504682+00:00",
+  "uretim_zamani": "2026-09-12T17:10:59.280078+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda suyun altına dalıp nefes alabiliyorsan: Duygusal derinliğinin gücü",
-      "url": "https://tr.wikipedia.org/wiki/Karakter_geli%C5%9Fimi",
+      "baslik": "Epifiz bezinin kireçlenmesi ve sezgilerinin sesini neden duyamadığın gerçeği",
+      "url": "https://tr.wikipedia.org/wiki/Epifiz_bezi",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu — Ders 9: 'Bu odada gördüğüm hiçbir şeyi anlamıyorum'",
-      "url": "https://tr.wikipedia.org/wiki/Zihin_kuramı",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'ye göre 'Ölmeden önce ölmek': Egonun gönüllü tasfiyesi",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf_tarihi",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

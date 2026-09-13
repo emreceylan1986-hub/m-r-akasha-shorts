@@ -1,23 +1,23 @@
 # 📊 Aydınlanmanın Doruk Noktası — Haftalık Rapor
-_2026-09-06T23:25+00:00_
+_2026-09-13T23:51+00:00_
 
 ## Özet
-- **Abone:** 55 (+8 bu hafta)
-- **Toplam view:** 33,394 (+1,208 bu hafta)
-- **Toplam video:** 266
-- **Son 7 gün:** 28 video, 3,358 izl, ort 119/video
-- **<50 izl video sayısı:** 13/28 (kalite_temizleyici aday)
+- **Abone:** 59 (+4 bu hafta)
+- **Toplam view:** 40,260 (+6,866 bu hafta)
+- **Toplam video:** 297
+- **Son 7 gün:** 30 video, 3,139 izl, ort 104/video
+- **<50 izl video sayısı:** 14/30 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **1,013v** · 5👍 · 1💬 — sufi öğretisinde celal ve cemal ile hayatın ilahi temizliği
-- **292v** · 3👍 · 1💬 — carl jung rüyalarda kaçmanın anlamı ve gölgenin gücü
-- **234v** · 2👍 · 1💬 — carl jung rüyada diş dökülmesi ve kaybedilen gücün sembolizmi
+- **1,128v** · 7👍 · 1💬 — mevlana ve ruhun genişlemeden önce yaşadığı o daralma sancısı
+- **186v** · 2👍 · 1💬 — carl jung nigredo kavramı ve ruhun en karanlık gecesinden doğan altın
+- **168v** · 2👍 · 1💬 — üçüncü göz çakrasının tıkanması ve zihnin sürekli ürettiği korku senaryoları
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 1💬 — carl jung ve eşzamanlılık ilkesinin ardındaki gizemli kuantum bağı
-- **0v** · 0👍 · 0💬 — mesnevi öğretisinde gözyaşının sırrı ve ruhun gizli bahçesi
-- **11v** · 0👍 · 1💬 — yunus emre ve sırat köprüsü, insanın kendi zihnindeki ince yolculuk
+- **2v** · 1👍 · 1💬 — sufi öğretisinde gece yarısı uyanmanın ardındaki derin çağrı
+- **2v** · 0👍 · 1💬 — Prometheus: Ateşi Çalmanın ve İnsan Olmanın Kadim Bedeli
+- **2v** · 0👍 · 0💬 — epifiz bezinin kireçlenmesi ve körelen sezgilerin ardındaki gerçek
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **55 abone / 119 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **59 abone / 104 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı

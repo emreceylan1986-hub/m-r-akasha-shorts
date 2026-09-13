@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-12T21:05:39.642053+00:00",
+  "uretim_zamani": "2026-09-13T17:11:35.947442+00:00",
   "haberler": [
     {
-      "baslik": "Somatik empati: Başkalarının negatif enerjisini kendi bedeninde fiziksel ağrı olarak taşıyanlardan mısın?",
-      "url": "https://tr.wikipedia.org/wiki/Empati",
+      "baslik": "Sufizmde 'Hızır Dokunuşu': Yolunu kaybettiğin an karşına çıkan rehberler",
+      "url": "https://tr.wikipedia.org/wiki/H%C4%B1z%C4%B1r",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Neden tam o insanı düşündüğün an telefonun çalar?",
+      "url": "https://tr.wikipedia.org/wiki/Telepati",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kutsal Geometri ve yaşamındaki kusursuz eşzamanlılık zinciri",
+      "url": "https://tr.wikipedia.org/wiki/Kutsal_geometri",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

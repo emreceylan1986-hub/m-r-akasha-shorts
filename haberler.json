@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-13T17:11:35.947442+00:00",
+  "uretim_zamani": "2026-09-13T19:02:58.384461+00:00",
   "haberler": [
     {
-      "baslik": "Sufizmde 'Hızır Dokunuşu': Yolunu kaybettiğin an karşına çıkan rehberler",
-      "url": "https://tr.wikipedia.org/wiki/H%C4%B1z%C4%B1r",
+      "baslik": "Sufizmde kabz ve bast halleri: İçindeki o boğucu daralmanın arkasındaki kutsal genişleme",
+      "url": "https://tr.wikipedia.org/wiki/Kabz_ve_bast",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Neden tam o insanı düşündüğün an telefonun çalar?",
-      "url": "https://tr.wikipedia.org/wiki/Telepati",
+      "baslik": "Sokratik ironi ve bilmeme bilgeliği: Zihninin her şeyi bilme hırsından kurtulduğun o an",
+      "url": "https://tr.wikipedia.org/wiki/Sokratik_y%C3%B6ntem",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kutsal Geometri ve yaşamındaki kusursuz eşzamanlılık zinciri",
-      "url": "https://tr.wikipedia.org/wiki/Kutsal_geometri",
+      "baslik": "Spinoza'nın 'Deus sive Natura' felsefesi: Evrenle arandaki o görünmez, gizli bütünlük",
+      "url": "https://tr.wikipedia.org/wiki/Baruch_Spinoza",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

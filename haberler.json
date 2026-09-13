@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-09-13T19:02:58.384461+00:00",
+  "uretim_zamani": "2026-09-13T20:10:57.833735+00:00",
   "haberler": [
     {
-      "baslik": "Sufizmde kabz ve bast halleri: İçindeki o boğucu daralmanın arkasındaki kutsal genişleme",
-      "url": "https://tr.wikipedia.org/wiki/Kabz_ve_bast",
+      "baslik": "Seni sürekli aynı saatte uyandıran o gizemli çağrı: Sufi öğretisinde Seher vaktinin sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Tehecc%C3%BCd",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sürekli karşına çıkan o sayılar ne anlatıyor? İbnü'l-Arabî'ye göre eşzamanlılık ve ilahi hitap",
+      "url": "https://tr.wikipedia.org/wiki/Muhyiddin_%C4%B0bn%C3%BC%27l-Arab%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sokratik ironi ve bilmeme bilgeliği: Zihninin her şeyi bilme hırsından kurtulduğun o an",
-      "url": "https://tr.wikipedia.org/wiki/Sokratik_y%C3%B6ntem",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Spinoza'nın 'Deus sive Natura' felsefesi: Evrenle arandaki o görünmez, gizli bütünlük",
-      "url": "https://tr.wikipedia.org/wiki/Baruch_Spinoza",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-09-14T20:11:03.658383+00:00",
+  "uretim_zamani": "2026-09-14T21:11:32.166080+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung bireyleşme süreci ve insanın kendi karanlığıyla yüzleşme cesareti",
-      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "baslik": "Carl Jung arketipleri ve içindeki o sessiz kahramanın uyanış çağrısı",
+      "url": "tr.wikipedia.org/wiki/Arketip",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Carl Jung bireyleşme süreci: Kalabalıklar içinde kendi özüne yabancılaşmak",
+      "url": "tr.wikipedia.org/wiki/Bireyleşme",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

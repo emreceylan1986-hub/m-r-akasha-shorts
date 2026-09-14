@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-09-14T17:11:21.567686+00:00",
+  "uretim_zamani": "2026-09-14T19:14:06.691101+00:00",
   "haberler": [
     {
-      "baslik": "Sürekli meşgul olma ihtiyacın aslında hangi içsel boşluğu perdeliyor?",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(psikoloji)",
+      "baslik": "Mucizeler Kursu Doksanıncı Ders: 'Mutluluğum ve huzurum birdir' ne demek?",
+      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Kırkıncı Bölüm: Geri dönmek ve akışın köküne varmak",
+      "url": "tr.wikipedia.org/wiki/Tao_Te_Jing",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing — Bölüm 3: Zihni boşaltıp karnı doyurmanın sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Taoizm",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Carl Jung ve 'Persona' esareti: Masken seni koruyor mu yoksa yok mu ediyor?",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

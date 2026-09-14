@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-09-14T19:14:06.691101+00:00",
+  "uretim_zamani": "2026-09-14T20:11:03.658383+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Doksanıncı Ders: 'Mutluluğum ve huzurum birdir' ne demek?",
-      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Carl Jung bireyleşme süreci ve insanın kendi karanlığıyla yüzleşme cesareti",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Kırkıncı Bölüm: Geri dönmek ve akışın köküne varmak",
-      "url": "tr.wikipedia.org/wiki/Tao_Te_Jing",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

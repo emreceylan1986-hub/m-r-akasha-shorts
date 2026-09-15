@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-09-14T21:11:32.166080+00:00",
+  "uretim_zamani": "2026-09-15T17:11:45.091551+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung arketipleri ve içindeki o sessiz kahramanın uyanış çağrısı",
-      "url": "tr.wikipedia.org/wiki/Arketip",
+      "baslik": "Mevlana'ya göre 'ney'in feryadı: İçindeki o boşluğun gerçek sebebi",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2na_Cel%C3%A2ledd%C3%in-i_Rum%C3%ae",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung bireyleşme süreci: Kalabalıklar içinde kendi özüne yabancılaşmak",
-      "url": "tr.wikipedia.org/wiki/Bireyleşme",
+      "baslik": "Sufi bilgeliğinde 'huruç' ve dünyanın gürültüsünden içe kaçış",
+      "url": "https://tr.wikipedia.org/wiki/Sufizm",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

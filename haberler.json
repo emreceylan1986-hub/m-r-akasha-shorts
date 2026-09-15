@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-09-15T17:11:45.091551+00:00",
+  "uretim_zamani": "2026-09-15T19:11:13.198525+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana'ya göre 'ney'in feryadı: İçindeki o boşluğun gerçek sebebi",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2na_Cel%C3%A2ledd%C3%in-i_Rum%C3%ae",
+      "baslik": "Mevlânâ’nın bahsettiği o 'görünmez bağlar': Hayatındaki insanlar aslında kim?",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi bilgeliğinde 'huruç' ve dünyanın gürültüsünden içe kaçış",
-      "url": "https://tr.wikipedia.org/wiki/Sufizm",
+      "baslik": "Yunus Emre’ye göre 'ölmeden önce ölmek' aslında neyi serbest bırakmaktır?",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,

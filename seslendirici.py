@@ -413,7 +413,32 @@ def _karaoke_ass(cues: list[tuple[int, int, str]], grup: int = 3) -> str:
                 f"{_ass_zaman(bit/10000.0)},Pop,,0,0,0,,{metin_ass}"
             )
             baslangic = bit
+    # 15 Eyl: CB'de üst üste binen altyazının aynısı burada da mümkündü — aynı
+    # _karaoke_ass. Çakışma kırpıcı buraya da taşındı (cosmos commit 07d29c5).
+    satirlar = _cakismalari_kirp(satirlar)
     return bas + "\n".join(satirlar) + "\n"
+
+
+def _cakismalari_kirp(satirlar: list[str]) -> list[str]:
+    """Ardışık Dialogue satırlarının zamanlarını çakışmayacak şekilde kırp.
+    Bir satır bir sonrakinin başlangıcını geçemez; en az 0,25 sn ekranda kalır."""
+    def _sn(t: str) -> float:
+        h, d, sn = t.split(":")
+        return int(h) * 3600 + int(d) * 60 + float(sn)
+
+    def _ass(x: float) -> str:
+        x = max(x, 0.0)
+        h = int(x // 3600); d = int((x % 3600) // 60); sn = x - h * 3600 - d * 60
+        return f"{h}:{d:02d}:{sn:05.2f}"
+
+    ayrik = []
+    for l in satirlar:
+        p = l.split(",", 4)
+        ayrik.append([p[0], _sn(p[1]), _sn(p[2]), p[3], p[4]])
+    for i in range(len(ayrik) - 1):
+        if ayrik[i][2] > ayrik[i + 1][1]:
+            ayrik[i][2] = max(ayrik[i + 1][1], ayrik[i][1] + 0.25)
+    return [f"{a[0]},{_ass(a[1])},{_ass(a[2])},{a[3]},{a[4]}" for a in ayrik]
 
 
 def _dialog_mu(metin: str) -> bool:

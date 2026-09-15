@@ -617,10 +617,10 @@ def klip_kirp_normalize(kaynak: Path, hedef: Path, sure_sn: float) -> None:
     filtre = (
         f"scale={HEDEF_GENISLIK}:{HEDEF_YUKSEKLIK}:force_original_aspect_ratio=increase,"
         f"crop={HEDEF_GENISLIK}:{HEDEF_YUKSEKLIK},"
-        f"zoompan=z='min(zoom+0.0007,1.15)':d=1:"
-        f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-        f"s={HEDEF_GENISLIK}x{HEDEF_YUKSEKLIK}:fps=30,"
-        f"setsar=1,"
+        # 15 Eyl: ÇİFT ZOOM kaldırıldı — foto_video_yap'ın Ken Burns'ü üstüne
+        # buradaki zoompan biniyor, kadrajı gereksiz sıkıyordu (CB'deki "ekrana
+        # sığmamış" şikâyetinin sebeplerinden biri). Hareket zaten kaynakta.
+        f"fps=30,setsar=1,"
         f"{CINEMATIC_GRADE}"
     )
     _ffmpeg_calistir(

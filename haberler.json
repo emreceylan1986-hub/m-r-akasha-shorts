@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-16T17:12:22.287096+00:00",
+  "uretim_zamani": "2026-09-16T19:11:14.443360+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şey bana ait olan düşünceleri yansıtır'",
-      "url": "tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu Ders 3: 'Hiçbir şeyin anlamı yok, çünkü gördüğüm her şeye ben anlam yüklüyorum'",
-      "url": "tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Mucizeler Kursu Ders 46: Tanrı'nın huzurunu kendime bir kalkan yapıyorum",
+      "url": "https://tr.wikipedia.org/wiki/Kalkan",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 4: 'Zihnim geçmişin düşünceleriyle dolu, o yüzden şu anı göremiyorum'",
-      "url": "tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Mucizeler Kursu Ders 48: Zihnimin yarattığı savunmaları bugün yıkıyorum",
+      "url": "https://tr.wikipedia.org/wiki/Savunma_mekanizmaları",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu Ders 49: Dış dünyada gördüğüm her şey aslında benim yansımam",
+      "url": "https://tr.wikipedia.org/wiki/Yansıtma_(psikoloji)",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

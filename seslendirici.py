@@ -669,6 +669,19 @@ def main() -> int:
         txt_yolu.write_text(final_metin, encoding="utf-8")
 
         _ses_kilidini_dogrula()
+        # 🔴 16 Eyl — ALTYAZI İMLASI. Altyazılar bu senaryo metninden üretiliyor,
+        # dolayısıyla imla kapısı SESLENDİRMEDEN ÖNCE uygulanmalı ki hem okunan
+        # metin hem ekrandaki yazı düzgün olsun. (Emre: "alt yazılarda ve
+        # açıklamalarda yazım ve imla kurallarına uyulsun.")
+        try:
+            import imla
+            _ham = final_metin
+            final_metin = imla.duzelt(final_metin)
+            if final_metin != _ham:
+                print("[seslendirici] ✍️ imla kapısı senaryoyu düzeltti", flush=True)
+        except Exception as _ih:
+            print(f"[seslendirici] imla kapısı atlandı: {str(_ih)[:70]}", flush=True)
+
         print(f"[seslendirici] edge-tts ile ses + ASS altyazı üretiliyor ({SES})...")
         seslendir(final_metin, mp3_yolu, ass_yolu)
 

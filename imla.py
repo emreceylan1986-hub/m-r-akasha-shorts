@@ -1,0 +1,123 @@
+#!/usr/bin/env python3
+"""
+imla.py — Türkçe yazım/imla kapısı (16 Eyl 2026).
+
+NEDEN VAR: Emre — "akashada imla ve yazım kurallarına dikkat et. alt yazılarda
+ve açıklamalarda yazım ve imla kurallarına uyulsun."
+Ölçüm: son 10 başlığın 10'u da küçük harfle başlıyordu ve özel isimler küçüktü
+("mevlana ve mesnevinin ilk dizeleri", "ibn arabi ve alem i misal",
+"yunus emre ve benliğin sınırları"). Kök sebep yukleyici.py'deki metadata
+promptunda "Emoji yok, BÜYÜK HARF yok" ifadesiydi — ALL CAPS yasağı kastediliyordu
+ama model "hiç büyük harf kullanma" diye uygulayıp özel isimleri de küçülttü.
+
+Prompt düzeltildi, ama prompt tek başına yetmez (14 Ağu dersi: kural promptta
+olmasına rağmen model %83 uymuyordu). Bu modül DETERMİNİSTİK son kapı:
+cümle başını büyütür, bilinen özel isimleri düzeltir, özel isme gelen eki
+kesme işaretiyle ayırır.
+"""
+import re
+
+# Kanalın sık geçen özel adları — doğru yazımlarıyla.
+# Anahtar: sadeleştirilmiş (küçük, şapkasız) hâli · Değer: doğru yazım.
+OZEL_ADLAR = {
+    "mevlana": "Mevlânâ", "mevlâna": "Mevlânâ", "rumi": "Rumi",
+    "mesnevi": "Mesnevi", "şems": "Şems", "sems": "Şems",
+    "yunus emre": "Yunus Emre", "hacı bektaş": "Hacı Bektaş",
+    "ibn arabi": "İbn Arabî", "ibn arabî": "İbn Arabî", "ibnarabi": "İbn Arabî",
+    "gazali": "Gazâlî", "hallac": "Hallâc", "niyazi mısri": "Niyazi Mısrî",
+    "carl jung": "Carl Jung", "jung": "Jung", "freud": "Freud",
+    "sigmund freud": "Sigmund Freud", "dostoyevski": "Dostoyevski",
+    "nietzsche": "Nietzsche", "sokrates": "Sokrates", "platon": "Platon",
+    "aristoteles": "Aristoteles", "epiktetos": "Epiktetos",
+    "marcus aurelius": "Marcus Aurelius", "seneca": "Seneca",
+    "lao tzu": "Lao Tzu", "konfüçyüs": "Konfüçyüs", "buda": "Buda",
+    "mucizeler kursu": "Mucizeler Kursu", "kuran": "Kur'an", "kur'an": "Kur'an",
+    "allah": "Allah", "tanrı": "Tanrı", "mesih": "Mesih",
+    "tasavvuf": "tasavvuf", "sufi": "sufi",
+    "alem i misal": "âlem-i misal", "alem-i misal": "âlem-i misal",
+    "vahdet i vücud": "vahdet-i vücûd", "vahdet-i vücud": "vahdet-i vücûd",
+    "fena fillah": "fenâ fillâh", "insan ı kamil": "insân-ı kâmil",
+    "insan-ı kamil": "insân-ı kâmil", "nefs i emmare": "nefs-i emmâre",
+    "sehnsucht": "Sehnsucht", "anima": "anima", "animus": "animus",
+}
+
+# Özel ada gelen ekler kesme işaretiyle ayrılır: Mesnevinin → Mesnevi'nin
+_EK = (r"(?:n[ıiuü]n|[ıiuü]n|y[ıiuü]|[ıiuü]|[ae]|y[ae]|d[ae]|t[ae]|d[ae]n|t[ae]n|"
+       r"l[ae]|yl[ae]|[ıiuü]m|[ıiuü]z|dir|d[ıi]r|t[ıi]r|nin|nun|nün)")
+
+
+def _uzun_once(sozluk):
+    """Uzun anahtarlar önce eşleşsin ('carl jung' > 'jung')."""
+    return sorted(sozluk.items(), key=lambda x: -len(x[0]))
+
+
+# Özel addan sonra BOŞLUKLA yazılmış ek ("Jung un" → "Jung'un"). "da/de/ta/te"
+# BİLEREK dışarıda: onlar ayrı yazılan bağlaç da olabilir ("Jung da söyler").
+_AYRIK_EK = (r"(?:n[ıiuü]n|[ıiuü]n|s[ıiuü]|y[ıiuü]|y[ae]|[ae]|d[ae]n|t[ae]n|"
+             r"yl[ae]|l[ae]|l[ae]r[ıi]|n[ıi])")
+
+
+def ayrik_ekleri_birlestir(metin: str) -> str:
+    for _sade, dogru in _uzun_once(OZEL_ADLAR):
+        if dogru[0].islower():
+            continue
+        metin = re.sub(rf"\b({re.escape(dogru)})\s+({_AYRIK_EK})\b",
+                       lambda m: f"{m.group(1)}'{m.group(2)}", metin)
+    return metin
+
+
+def ozel_adlari_duzelt(metin: str) -> str:
+    for sade, dogru in _uzun_once(OZEL_ADLAR):
+        # Özel ad + (isteğe bağlı ek) — ek varsa kesme işaretiyle ayrılır
+        kalip = re.compile(rf"\b{re.escape(sade)}({_EK})?\b", re.IGNORECASE)
+
+        def _yaz(m):
+            ek = m.group(1)
+            if not ek:
+                return dogru
+            if dogru[0].islower():          # tasavvuf/sufi gibi cins ad → kesme yok
+                return dogru + ek
+            return f"{dogru}'{ek}"
+        metin = kalip.sub(_yaz, metin)
+    return metin
+
+
+def cumle_basi_buyut(metin: str) -> str:
+    """Metnin ve her cümlenin ilk harfini büyüt (Türkçe i→İ dahil)."""
+    def _buyut(s: str) -> str:
+        return s[:1].replace("i", "İ").upper() + s[1:] if s else s
+
+    parcalar = re.split(r"(?<=[.!?…])\s+", metin)
+    return " ".join(_buyut(p.strip()) for p in parcalar if p.strip())
+
+
+def bosluk_ve_noktalama(metin: str) -> str:
+    metin = re.sub(r"\s+([,.;:!?…])", r"\1", metin)     # noktalama öncesi boşluk
+    metin = re.sub(r"([,;:])(?=\S)", r"\1 ", metin)      # sonrası boşluk
+    metin = re.sub(r"[ \t]{2,}", " ", metin)
+    return metin.strip()
+
+
+def duzelt(metin: str, cumle_basi: bool = True) -> str:
+    """Tam imla geçişi. cumle_basi=False → sadece özel ad + noktalama."""
+    if not metin:
+        return metin
+    metin = ozel_adlari_duzelt(metin)
+    metin = ayrik_ekleri_birlestir(metin)
+    metin = bosluk_ve_noktalama(metin)
+    if cumle_basi:
+        metin = cumle_basi_buyut(metin)
+    return metin
+
+
+def tamami_buyuk_mu(metin: str) -> bool:
+    harf = [c for c in metin if c.isalpha()]
+    return bool(harf) and all(c.isupper() for c in harf)
+
+
+if __name__ == "__main__":
+    for t in ["mevlana ve mesnevinin ilk dizelerinde gizlenen o derin ev hasreti",
+              "ibn arabi ve alem i misal rüyaların açıldığı kadim ara alem",
+              "yunus emre ve benliğin sınırlarını aşarak saf öze ulaşma sırrı",
+              "carl jung ve gölgeyi bilince çıkararak bireyleşme yolculuğu"]:
+        print(f"  {t}\n→ {duzelt(t)}\n")

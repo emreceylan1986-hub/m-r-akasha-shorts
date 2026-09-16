@@ -44,11 +44,18 @@ Doruk Noktası (@akashainme) — Türkiye odaklı spiritüel / Jung-vari kanal.
 Schema:
 {
   "title": "60-95 karakter. Ana anahtar kelime ilk 50 karakterde olmalı (SEO).
-            Emoji yok, BÜYÜK HARF yok. YASAK klişe sözcükler: 'şok edici',
+            Emoji yok. TAMAMI BÜYÜK HARF yazma (ALL CAPS yasak) — ama normal
+            Türkçe yazım kuralları GEÇERLİ: cümle büyük harfle başlar, özel
+            adlar (Mevlânâ, Mesnevi, Yunus Emre, İbn Arabî, Carl Jung, Kur'an)
+            büyük harfle yazılır, özel ada gelen ek kesme işaretiyle ayrılır
+            (Mesnevi'nin, Jung'un). Şapkalı harfler korunur (âlem-i misal).
+            YASAK klişe sözcükler: 'şok edici',
             'inanamayacaksın', 'bunu kimse söylemez', 'gerçek perde arkası',
             'aklını başından alacak', 'çılgın', 'inanılmaz'. Başlık sakin,
             edebi, doğrudan olsun.",
-  "description": "200-400 karakter. Yapı:
+  "description": "200-400 karakter. Türkçe yazım/imla kurallarına UY: cümle
+    büyük harfle başlar, özel adlar büyük, özel ada gelen ek kesme işaretiyle
+    ayrılır, noktalama öncesi boşluk yok. Yapı:
     - SATIR 1 (en önemli, ilk 100 karakter): Konunun özünü bir cümlede ver.
       Örnek: 'Carl Jung 1916'da gölge kavramını ortaya attı: en güçlü olduğun
       yer, kabul edemediğin yerdir.'
@@ -390,6 +397,24 @@ def main() -> int:
 
         _adim(3, "Metin paketi içerik denetimine gönderiliyor...")
         veri = metadatayi_denetlet(veri, senaryo)
+
+        # 🔴 16 Eyl — İMLA KAPISI (denetimden SONRA: denetim başlığı revize
+        # edebiliyor, son söz imlanın olmalı). Emre: "alt yazılarda ve
+        # açıklamalarda yazım ve imla kurallarına uyulsun." Ölçüm: son 10
+        # başlığın 10'u küçük harfle başlıyordu, özel adlar küçüktü
+        # ("mevlana ve mesnevinin…"). Kök sebep prompttaki "BÜYÜK HARF yok"
+        # ifadesiydi — ALL CAPS yasağı kastediliyordu, model hepsini küçülttü.
+        # Prompt düzeltildi ama prompt tek başına yetmez (14 Ağu dersi).
+        try:
+            import imla
+            _onceki = veri["title"]
+            veri["title"] = imla.duzelt(veri["title"])
+            veri["description"] = imla.duzelt(veri["description"])
+            if veri["title"] != _onceki:
+                _alt(f"✍️ imla düzeltti: {_onceki[:40]}… → {veri['title'][:40]}…")
+        except Exception as _ih:
+            _alt(f"imla kapısı atlandı: {str(_ih)[:70]}")
+
         _alt(f"Final title: {veri['title']}")
 
         _adim("3b", "Yayın uygunluk denetimi (telif/clickbait/olgusal/politika/marka)...")

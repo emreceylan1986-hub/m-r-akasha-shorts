@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-09-15T21:11:16.102547+00:00",
+  "uretim_zamani": "2026-09-16T17:12:22.287096+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin dilinden: 'Beni bende banâ benden olunanı' bulmak",
-      "url": "tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şey bana ait olan düşünceleri yansıtır'",
+      "url": "tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mevlana felsefesinde 'Hamdım, piştim, yandım' sözünün ardındaki dönüşüm",
-      "url": "tr.wikipedia.org/wiki/Mevl%C3%A2na_Cel%C3%A2ledd%C3%in-i_R%C3%AEm%C3%AE",
+      "baslik": "Mucizeler Kursu Ders 3: 'Hiçbir şeyin anlamı yok, çünkü gördüğüm her şeye ben anlam yüklüyorum'",
+      "url": "tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sufi geleneğinde 'nefsin terbiyesi' ve içsel putları kırma sanatı",
-      "url": "tr.wikipedia.org/wiki/Tasavvuf",
+      "baslik": "Mucizeler Kursu Ders 4: 'Zihnim geçmişin düşünceleriyle dolu, o yüzden şu anı göremiyorum'",
+      "url": "tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -407,6 +407,8 @@ def main() -> int:
         # Prompt düzeltildi ama prompt tek başına yetmez (14 Ağu dersi).
         try:
             import imla
+            if not imla.SAGLIKLI:
+                _alt(f"⚠️ imla kapısı KENDİ TESTİNDEN KALDI, devre dışı: {imla.OZ_TEST_HATALARI[:3]}")
             _onceki = veri["title"]
             veri["title"] = imla.duzelt(veri["title"])
             veri["description"] = imla.duzelt(veri["description"])

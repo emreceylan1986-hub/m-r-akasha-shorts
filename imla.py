@@ -87,27 +87,95 @@ def cumle_basi_buyut(metin: str) -> str:
     def _buyut(s: str) -> str:
         return s[:1].replace("i", "İ").upper() + s[1:] if s else s
 
-    parcalar = re.split(r"(?<=[.!?…])\s+", metin)
-    return " ".join(_buyut(p.strip()) for p in parcalar if p.strip())
+    # 17 Eyl: eskiden tüm metni \s+ ile bölüp " " ile birleştiriyordu → açıklamanın
+    # paragraf yapısı (satır sonları) SİLİNİYORDU. Artık satır satır.
+    def _satir(satir: str) -> str:
+        parcalar = re.split(r"(?<=[.!?…])[ \t]+", satir)
+        return " ".join(_buyut(p.strip()) for p in parcalar if p.strip())
+
+    return "\n".join(_satir(l) if l.strip() else "" for l in metin.split("\n"))
+
+
+# 🔴 17 Eyl — LİNK KIRAN HATA. İlk sürüm iki noktadan sonra boşluk ekliyordu:
+# "https://youtu.be/…" → "https: //youtu.be/…" oldu; açıklamadaki uzun video
+# bağlantısı TIKLANAMAZ hale geldi (16 Eyl'den itibaren Akasha videolarında).
+# Saat (20:15), oran (3:1), ayet (2:255) de aynı şekilde bozulurdu.
+# Çözüm: dokunulmaması gereken parçalar önce MASKELENİR, iş bitince geri konur.
+_KORUNAN = re.compile(
+    r"(?:https?://|www\.)\S+"      # bağlantı
+    r"|\b\d+[:.]\d+\b"            # saat 20:15 · oran 3:1 · ayet 2:255 · 1.5
+    r"|[#@]\w+"                     # etiket, kullanıcı adı
+)
 
 
 def bosluk_ve_noktalama(metin: str) -> str:
-    metin = re.sub(r"\s+([,.;:!?…])", r"\1", metin)     # noktalama öncesi boşluk
-    metin = re.sub(r"([,;:])(?=\S)", r"\1 ", metin)      # sonrası boşluk
+    # [ \t] — \s DEĞİL: satır sonları KORUNUR (açıklama paragraflı)
+    metin = re.sub(r"[ \t]+([,.;:!?…])", r"\1", metin)
+    metin = re.sub(r"([,;:])(?=[^\s\x00])", r"\1 ", metin)
     metin = re.sub(r"[ \t]{2,}", " ", metin)
     return metin.strip()
 
 
-def duzelt(metin: str, cumle_basi: bool = True) -> str:
+def _duzelt_ic(metin: str, cumle_basi: bool = True) -> str:
     """Tam imla geçişi. cumle_basi=False → sadece özel ad + noktalama."""
     if not metin:
         return metin
+    # Maskeleme EN DIŞTA: bağlantı, etiket (#mevlana), saat hiçbir adımdan
+    # etkilenmez. (17 Eyl: özel ad düzeltici "#mevlana"yı "#Mevlânâ" yapıyordu.)
+    saklanan: list[str] = []
+
+    def _maskele(m):
+        saklanan.append(m.group(0))
+        return f"\x00{len(saklanan) - 1}\x00"
+
+    metin = _KORUNAN.sub(_maskele, metin)
     metin = ozel_adlari_duzelt(metin)
     metin = ayrik_ekleri_birlestir(metin)
     metin = bosluk_ve_noktalama(metin)
     if cumle_basi:
         metin = cumle_basi_buyut(metin)
-    return metin
+    return re.sub(r"\x00(\d+)\x00", lambda m: saklanan[int(m.group(1))], metin)
+
+
+# ── ÖZ-TEST — kapı kendini doğrulayamazsa DEVRE DIŞI kalır.
+# 17 Eyl dersi: imla kapısı açıklamadaki bağlantıyı kırdı ve bu bir gün boyunca
+# fark edilmedi. Bozuk bir imla kapısı, hiç imla kapısı olmamasından KÖTÜDÜR.
+# Aşağıdaki durumlardan biri bile bozulursa duzelt() metne HİÇ dokunmaz.
+_OZ_TEST = [
+    ("izle: https://youtu.be/tZiVYGabc123 şimdi", "https://youtu.be/tZiVYGabc123"),
+    ("www.urunya.com adresi", "www.urunya.com"),
+    ("saat 20:15 te", "20:15"),
+    ("bakara 2:255 ayeti", "2:255"),
+    ("#akasha #mevlana", "#akasha #mevlana"),
+    ("birinci satır.\n\nikinci satır", "\n\n"),
+    ("mevlana der ki:susmak", "Mevlânâ der ki: susmak"),
+    ("carl jung un gölgesi", "Carl Jung'un gölgesi"),
+    ("jung da bunu söyler", "Jung da bunu söyler"),
+    ("Bu zaten düzgün.", "Bu zaten düzgün."),
+]
+
+
+def oz_test() -> list[str]:
+    """Başarısız olan durumların listesi (boş = sağlıklı)."""
+    hatalar = []
+    for girdi, beklenen in _OZ_TEST:
+        try:
+            if beklenen not in _duzelt_ic(girdi):
+                hatalar.append(girdi)
+        except Exception as h:
+            hatalar.append(f"{girdi} ({h})")
+    return hatalar
+
+
+OZ_TEST_HATALARI = oz_test()
+SAGLIKLI = not OZ_TEST_HATALARI
+
+
+def duzelt(metin: str, cumle_basi: bool = True) -> str:
+    """Güvenli giriş noktası: öz-test geçmediyse metni OLDUĞU GİBİ döndürür."""
+    if not SAGLIKLI:
+        return metin
+    return _duzelt_ic(metin, cumle_basi)
 
 
 def tamami_buyuk_mu(metin: str) -> bool:

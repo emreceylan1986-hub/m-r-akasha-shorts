@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-09-17T20:11:32.599738+00:00",
+  "uretim_zamani": "2026-09-17T21:10:59.620947+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşluğun aslında en büyük gücün olması",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 22: Eğilebilen insanın kırılmaktan kurtulma sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "baslik": "Sürekli haklı çıkmaya çalışmanın ruhu tüketen yükü: Tao'nun sessiz zafer sırrı",
+      "url": "https://en.wikipedia.org/wiki/De_(Chinese)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Wu-Wei felsefesi: Hayatla savaşmayı bıraktığında her şeyin yoluna girmesi",
-      "url": "https://tr.wikipedia.org/wiki/Taoizm",
+      "baslik": "İçindeki o açıklanamayan eksiklik hissi: Tasavvufta 'Gurbet' ve ruhun sıla hasreti",
+      "url": "https://en.wikipedia.org/wiki/Sufi_metaphysics",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

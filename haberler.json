@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-16T21:12:52.070081+00:00",
+  "uretim_zamani": "2026-09-17T17:11:43.146676+00:00",
   "haberler": [
     {
-      "baslik": "Zihnindeki o bitmek bilmeyen suçluluk hissi aslında kime ait?",
-      "url": "https://tr.wikipedia.org/wiki/Vicdan",
+      "baslik": "Tao Te Jing Bölüm 11: Zihnindeki boşluğun senin en büyük gücün olması",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 12: Dış dünyanın gürültüsünde kendi merkezini koruma sanatı",
+      "url": "https://tr.wikipedia.org/wiki/Taoizm",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 13: Övgü ve yerginin getirdiği o gizli esaretten kurtulmak",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

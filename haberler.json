@@ -1,24 +1,16 @@
 {
-  "uretim_zamani": "2026-09-17T17:11:43.146676+00:00",
+  "uretim_zamani": "2026-09-17T19:11:32.089060+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 11: Zihnindeki boşluğun senin en büyük gücün olması",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 12: Dış dünyanın gürültüsünde kendi merkezini koruma sanatı",
-      "url": "https://tr.wikipedia.org/wiki/Taoizm",
+      "baslik": "Zihninin sürekli savaşmasından yorulduğunda: Wu-Wei ve eylemsizliğin gücü",
+      "url": "https://tr.wikipedia.org/wiki/Wu_wei",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 13: Övgü ve yerginin getirdiği o gizli esaretten kurtulmak",
+      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşlukların aslında en değerli varlığın olması",
       "url": "https://tr.wikipedia.org/wiki/Laozi",
       "kaynak": "gemini-fallback",
       "skor": 998,

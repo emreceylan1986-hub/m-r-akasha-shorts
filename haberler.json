@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-09-18T19:12:07.593761+00:00",
+  "uretim_zamani": "2026-09-18T19:20:13.541410+00:00",
   "haberler": [
     {
-      "baslik": "Sigmund Freud'a göre günlük hayattaki dil sürçmelerinin ardındaki gerçek niyet",
-      "url": "https://tr.wikipedia.org/wiki/Dil_s%c3%bcr%c3%e7mesi",
+      "baslik": "Carl Jung ve rüyalarda kovalanırken arkaya bakamamanın o panik anı",
+      "url": "tr.wikipedia.org/wiki/Carl_Jung",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

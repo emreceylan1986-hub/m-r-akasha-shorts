@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-09-18T19:20:13.541410+00:00",
+  "uretim_zamani": "2026-09-18T20:11:01.226343+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung ve rüyalarda kovalanırken arkaya bakamamanın o panik anı",
-      "url": "tr.wikipedia.org/wiki/Carl_Jung",
+      "baslik": "Karen Horney ve içimizdeki o temel kaygıyla baş etme biçimlerimiz",
+      "url": "https://tr.wikipedia.org/wiki/Karen_Horney",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Erich Fromm'a göre modern insanın kaçmaya çalıştığı o yalnızlık",
+      "url": "https://tr.wikipedia.org/wiki/Erich_Fromm",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

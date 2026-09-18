@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-09-17T21:10:59.620947+00:00",
+  "uretim_zamani": "2026-09-18T17:13:21.899637+00:00",
   "haberler": [
     {
-      "baslik": "Sürekli haklı çıkmaya çalışmanın ruhu tüketen yükü: Tao'nun sessiz zafer sırrı",
-      "url": "https://en.wikipedia.org/wiki/De_(Chinese)",
+      "baslik": "Carl Jung'a göre rüyalarda görülen yabancı yüzler kimin eseri?",
+      "url": "tr.wikipedia.org/wiki/Carl_Jung",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kolektif bilinçaltı nedir? Carl Jung'a göre rüyalardaki ortak mitler",
+      "url": "tr.wikipedia.org/wiki/Kolektif_bilin%C3%A7alt%C4%B1",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "İçindeki o açıklanamayan eksiklik hissi: Tasavvufta 'Gurbet' ve ruhun sıla hasreti",
-      "url": "https://en.wikipedia.org/wiki/Sufi_metaphysics",
+      "baslik": "Carl Jung ve rüyalardaki labirentler: Zihnin hangi çıkmazını simgeler?",
+      "url": "tr.wikipedia.org/wiki/Carl_Jung",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

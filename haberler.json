@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-19T19:02:19.917928+00:00",
+  "uretim_zamani": "2026-09-19T20:11:26.009380+00:00",
   "haberler": [
     {
-      "baslik": "Sakral çakran kapalıysa hayatı bir görev gibi yaşarsın",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "Boğaz çakran kapalıysa hayatın sürekli ertelenmiş bir çığlığa benzer",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Boğaz çakrası tıkandığında bedeninde düğümlenen o kelimeler",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "Tao Te Jing — Bölüm 11: Otuz parmak birleşir tekerleğin göbeğinde",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi bilgeliğinde 'ademiyet' ve insanın kendinde kaybolma sanatı",
+      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

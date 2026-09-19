@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-09-19T20:11:26.009380+00:00",
+  "uretim_zamani": "2026-09-19T21:12:44.872946+00:00",
   "haberler": [
     {
-      "baslik": "Boğaz çakran kapalıysa hayatın sürekli ertelenmiş bir çığlığa benzer",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Kalp çakranın kapalı olduğunu gösteren o görünmez duvar: Almaktan korkmak",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing — Bölüm 11: Otuz parmak birleşir tekerleğin göbeğinde",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sufi bilgeliğinde 'ademiyet' ve insanın kendinde kaybolma sanatı",
-      "url": "https://tr.wikipedia.org/wiki/Tasavvuf",
+      "baslik": "Solar pleksus çakrasının çöküşü: Sürekli onay bekleyen o yorgun savaşçı",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

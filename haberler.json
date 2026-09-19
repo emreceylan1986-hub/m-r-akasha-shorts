@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-09-19T17:11:38.191066+00:00",
+  "uretim_zamani": "2026-09-19T19:02:19.917928+00:00",
   "haberler": [
     {
-      "baslik": "Marcus Aurelius'un sabah aynası: İnsanların kötülüğü neden seni incitemez?",
-      "url": "https://tr.wikipedia.org/wiki/Meditasyonlar",
+      "baslik": "Sakral çakran kapalıysa hayatı bir görev gibi yaşarsın",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Bedeninin sağ tarafındaki kronik ağrılar: Eril enerjinin aşırı yüklenmesi",
-      "url": "https://en.wikipedia.org/wiki/Ida_and_Pingala",
+      "baslik": "Boğaz çakrası tıkandığında bedeninde düğümlenen o kelimeler",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

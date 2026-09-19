@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-09-18T20:11:01.226343+00:00",
+  "uretim_zamani": "2026-09-19T17:11:38.191066+00:00",
   "haberler": [
     {
-      "baslik": "Karen Horney ve içimizdeki o temel kaygıyla baş etme biçimlerimiz",
-      "url": "https://tr.wikipedia.org/wiki/Karen_Horney",
+      "baslik": "Marcus Aurelius'un sabah aynası: İnsanların kötülüğü neden seni incitemez?",
+      "url": "https://tr.wikipedia.org/wiki/Meditasyonlar",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Erich Fromm'a göre modern insanın kaçmaya çalıştığı o yalnızlık",
-      "url": "https://tr.wikipedia.org/wiki/Erich_Fromm",
+      "baslik": "Bedeninin sağ tarafındaki kronik ağrılar: Eril enerjinin aşırı yüklenmesi",
+      "url": "https://en.wikipedia.org/wiki/Ida_and_Pingala",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

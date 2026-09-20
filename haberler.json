@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-20T19:08:16.110325+00:00",
+  "uretim_zamani": "2026-09-20T20:12:57.091951+00:00",
   "haberler": [
     {
-      "baslik": "Aynı anda aynı şeyi düşünmek: Telepatik bağ mı, yoksa kozmik bir kesişme mi?",
-      "url": "https://en.wikipedia.org/wiki/Collective_unconscious",
+      "baslik": "Aklından geçen o ismin seni arama sebebi: Carl Jung ve Eşzamanlılık",
+      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan o yol ve hayatındaki belirsizlik",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi felsefesinde 'Tevafuk': Hayatındaki hiçbir yıkım tesadüf değildi",
+      "url": "https://tr.wikipedia.org/wiki/Tevafuk",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

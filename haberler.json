@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-19T21:12:44.872946+00:00",
+  "uretim_zamani": "2026-09-20T17:12:29.001412+00:00",
   "haberler": [
     {
-      "baslik": "Kalp çakranın kapalı olduğunu gösteren o görünmez duvar: Almaktan korkmak",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "Carl Jung ve sinkronisite: Hayatında sürekli karşına çıkan o sayıların gizli dili",
+      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Solar pleksus çakrasının çöküşü: Sürekli onay bekleyen o yorgun savaşçı",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "Sufi felsefesinde tevafuk: Evrenin seninle konuştuğu o görünmez kesişim noktaları",
+      "url": "https://tr.wikipedia.org/wiki/Tevekk%C3%BCl",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm hiçbir şey göründüğü gibi değil' — zihnin illüzyonunu kırmak",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

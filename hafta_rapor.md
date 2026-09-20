@@ -1,23 +1,23 @@
 # 📊 Aydınlanmanın Doruk Noktası — Haftalık Rapor
-_2026-09-13T23:51+00:00_
+_2026-09-20T23:47+00:00_
 
 ## Özet
-- **Abone:** 59 (+4 bu hafta)
-- **Toplam view:** 40,260 (+6,866 bu hafta)
-- **Toplam video:** 297
-- **Son 7 gün:** 30 video, 3,139 izl, ort 104/video
-- **<50 izl video sayısı:** 14/30 (kalite_temizleyici aday)
+- **Abone:** 62 (+3 bu hafta)
+- **Toplam view:** 44,565 (+4,305 bu hafta)
+- **Toplam video:** 323
+- **Son 7 gün:** 28 video, 3,553 izl, ort 126/video
+- **<50 izl video sayısı:** 15/28 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **1,128v** · 7👍 · 1💬 — mevlana ve ruhun genişlemeden önce yaşadığı o daralma sancısı
-- **186v** · 2👍 · 1💬 — carl jung nigredo kavramı ve ruhun en karanlık gecesinden doğan altın
-- **168v** · 2👍 · 1💬 — üçüncü göz çakrasının tıkanması ve zihnin sürekli ürettiği korku senaryoları
+- **990v** · 5👍 · 1💬 — Carl Jung ve başkasının karanlığını kendi vicdanı sanmak
+- **917v** · 1👍 · 1💬 — Mucizeler Kursu ile Tanrı'nın huzurunu zihne kalkan yapmak
+- **197v** · 3👍 · 4💬 — carl jung ve sürekli meşgul kalarak kendi gölgemizden kaçma çabası
 
 ## 🪦 Alt 3 (son 7 gün)
-- **2v** · 1👍 · 1💬 — sufi öğretisinde gece yarısı uyanmanın ardındaki derin çağrı
-- **2v** · 0👍 · 1💬 — Prometheus: Ateşi Çalmanın ve İnsan Olmanın Kadim Bedeli
-- **2v** · 0👍 · 0💬 — epifiz bezinin kireçlenmesi ve körelen sezgilerin ardındaki gerçek
+- **0v** · 0👍 · 1💬 — Nietzsche ve ebedi dönüş fikriyle hayatın tekrar eden döngüleri
+- **0v** · 0👍 · 0💬 — Carl Jung ve kolektif bilinçdışı ile zihinler arasındaki görünmez ağ
+- **3v** · 0👍 · 0💬 — Karen Horney ve temel kaygıyla baş etmek için kurulan savunma zırhları
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **59 abone / 104 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **62 abone / 126 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı

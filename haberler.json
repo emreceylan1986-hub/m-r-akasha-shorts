@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-09-21T17:12:07.695273+00:00",
+  "uretim_zamani": "2026-09-21T19:12:57.633524+00:00",
   "haberler": [
     {
-      "baslik": "Viktor Frankl ve anlam arayışının insanın acıya katlanma gücü üzerindeki etkisi",
-      "url": "https://tr.wikipedia.org/wiki/Viktor_Frankl",
+      "baslik": "Carl Jung ve 'Enflasyon' kavramı: Başkalarının övgüsüyle şişen egonun kaçınılmaz çöküşü",
+      "url": "https://en.wikipedia.org/wiki/Inflation_(psychology)",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

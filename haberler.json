@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-09-21T19:12:57.633524+00:00",
+  "uretim_zamani": "2026-09-21T20:11:31.361034+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung ve 'Enflasyon' kavramı: Başkalarının övgüsüyle şişen egonun kaçınılmaz çöküşü",
-      "url": "https://en.wikipedia.org/wiki/Inflation_(psychology)",
+      "baslik": "Carl Jung ve maskelerimiz: Persona arkasında kaybolan benlik",
+      "url": "tr.wikipedia.org/wiki/Persona_(psikoloji)",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

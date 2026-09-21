@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-21T20:11:31.361034+00:00",
+  "uretim_zamani": "2026-09-21T21:12:56.809579+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung ve maskelerimiz: Persona arkasında kaybolan benlik",
-      "url": "tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Carl Jung ve 'Persona'nın Çöküşü: Herkesi Memnun Etmeye Çalışırken Kaybettiğin O Maske",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing — Bölüm 1: Kelimelerin Yetmediği O Boşlukta Kendini Bulmak",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Neden Sana En Uzak Gelen İnsanda Aslında Kendi 'Gölge'ni İzliyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(arke_tip)",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

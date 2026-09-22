@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-21T21:12:56.809579+00:00",
+  "uretim_zamani": "2026-09-22T17:12:46.395910+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung ve 'Persona'nın Çöküşü: Herkesi Memnun Etmeye Çalışırken Kaybettiğin O Maske",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Mevlana'ya göre kalbin aynası paslandığında dünya neden karanlık görünür?",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2na_Cel%C3%A2ledd%C3%AEn-i_R%C3%AEm%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing — Bölüm 1: Kelimelerin Yetmediği O Boşlukta Kendini Bulmak",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neden Sana En Uzak Gelen İnsanda Aslında Kendi 'Gölge'ni İzliyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(arke_tip)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

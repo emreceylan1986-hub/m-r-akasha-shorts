@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-22T17:12:46.395910+00:00",
+  "uretim_zamani": "2026-09-22T19:13:52.570556+00:00",
   "haberler": [
     {
-      "baslik": "Mevlana'ya göre kalbin aynası paslandığında dünya neden karanlık görünür?",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2na_Cel%C3%A2ledd%C3%AEn-i_R%C3%AEm%C3%AE",
+      "baslik": "Yunus Emre'nin 'Bir ben vardır benden içeri' sözündeki o gizli ev",
+      "url": "tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mevlânâ'ya göre kalbin kapısı dışarıya değil içeriye açılır",
+      "url": "tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%A2n-i_R%C3%BUm%C3%AE",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufi geleneğinde 'ölmeden önce ölmek' ne anlama gelir?",
+      "url": "tr.wikipedia.org/wiki/Tasavvuf",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

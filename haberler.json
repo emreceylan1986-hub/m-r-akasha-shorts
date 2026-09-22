@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-22T20:11:38.883715+00:00",
+  "uretim_zamani": "2026-09-22T21:11:10.142328+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin 'Ben bende demen' sırrı ile ego ötesi",
-      "url": "https://tr.wikipedia.org/wiki/Risalet%C3%BCn-Nushiyye",
+      "baslik": "Sufi bilgeliğinde kesretten vahdete geçişin sessiz anahtarı",
+      "url": "https://tr.wikipedia.org/wiki/Tevhit",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu öğretisinde korkunun ardındaki hayali duvarlar",
+      "url": "https://tr.wikipedia.org/wiki/Algı",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kök çakra hizalanmasında topraklanmanın zihinsel sükuneti",
+      "url": "https://tr.wikipedia.org/wiki/Topraklama",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

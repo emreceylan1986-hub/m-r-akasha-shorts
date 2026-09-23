@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-22T21:11:10.142328+00:00",
+  "uretim_zamani": "2026-09-23T17:11:43.341213+00:00",
   "haberler": [
     {
-      "baslik": "Sufi bilgeliğinde kesretten vahdete geçişin sessiz anahtarı",
-      "url": "https://tr.wikipedia.org/wiki/Tevhit",
+      "baslik": "Mucizeler Kursu'na göre zihnin ürettiği korku projeksiyonları ve hakiki huzur",
+      "url": "https://tr.wikipedia.org/wiki/Bilişsel_çarpıtma",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu öğretisinde özel ilişkilerin gizli beklentilerinden arınma",
+      "url": "https://tr.wikipedia.org/wiki/Psikolojik_yansıtma",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu perspektifinden geçmişin pişmanlıklarıyla bugünü hapsetmek",
+      "url": "https://tr.wikipedia.org/wiki/Ruminasyon",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu öğretisinde korkunun ardındaki hayali duvarlar",
-      "url": "https://tr.wikipedia.org/wiki/Algı",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kök çakra hizalanmasında topraklanmanın zihinsel sükuneti",
-      "url": "https://tr.wikipedia.org/wiki/Topraklama",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

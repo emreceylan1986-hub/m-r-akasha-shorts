@@ -414,6 +414,18 @@ def yukle(final: Path, kapak: Path, senaryo: dict, seg_sureler: list, kunyeler: 
 
 
 # ── ANA AKIŞ ─────────────────────────────────────────────────────────────────
+# Bölüm aramalarının hiçbiri tutmazsa kullanılacak niş-genel terimler (Akasha:
+# maneviyat / mitoloji / felsefe). Wikimedia'da karşılığı bol olan, lisansı temiz
+# geniş kategoriler — video hiç çıkmamaktansa genel bir tablo ile çıksın.
+YEDEK_TABLO_ARAMALARI = [
+    "symbolist painting",
+    "romantic landscape painting",
+    "medieval illuminated manuscript",
+    "classical mythology painting",
+    "renaissance painting",
+]
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--konu", default=None)
@@ -444,19 +456,45 @@ def main():
 
     log("2) Wikimedia tabloları (lisans kontrollü)...")
     gorsel_dizin = is_kok / "gorseller"; gorsel_dizin.mkdir()
-    gorseller, kunyeler = [], []
+    # 🔴 23 Eyl — TEK TERİM TÜM VİDEOYU ÇÖKERTİYORDU. 20 Eyl koşusu:
+    #   RuntimeError: İlk bölüm için tablo bulunamadı:
+    #   "Ishtar Inanna Mesopotamian goddess painting"
+    # 2. bölümden sonrası için "öncekini tekrar kullan" yedeği vardı ama İLK bölüm
+    # için yoktu; senaryo hazır, 10 bölüm yazılmıştı, ses bile üretilmemişti.
+    # O hafta uzun video HİÇ çıkmadı. Artık: önce hepsi denenir, boşluklar en yakın
+    # dolu görselle doldurulur, hiçbiri tutmazsa niş-genel yedek terimler denenir.
+    ham: list[list] = []
     for i, b in enumerate(bolumler, 1):
         hedef = gorsel_dizin / f"{i:02d}.jpg"
         k = tablo_indir(b["tablo_arama"], hedef)
-        if not k and gorseller:  # bulunamadı → önceki tabloyu tekrar kullan (asla çökme)
-            hedef.write_bytes(gorseller[-1].read_bytes())
-            k = kunyeler[-1]
-            log(f"  {i}: bulunamadı → önceki tablo tekrar")
-        elif not k:
-            raise RuntimeError(f"İlk bölüm için tablo bulunamadı: {b['tablo_arama']}")
-        else:
-            log(f"  {i}: {k['dosya'][:50]}")
-        gorseller.append(hedef); kunyeler.append(k)
+        log(f"  {i}: {k['dosya'][:50]}" if k
+            else f"  {i}: '{b['tablo_arama'][:44]}' bulunamadı")
+        ham.append([hedef, k])
+
+    if not any(k for _, k in ham):
+        log("  ⚠️ hiçbir bölüm tablosu bulunamadı → niş-genel yedek terimler")
+        yedek_hedef = gorsel_dizin / "yedek.jpg"
+        for terim in YEDEK_TABLO_ARAMALARI:
+            k = tablo_indir(terim, yedek_hedef)
+            if k:
+                ham[0][0].write_bytes(yedek_hedef.read_bytes())
+                ham[0][1] = k
+                log(f"  ✓ yedek terim tuttu: {terim}")
+                break
+    if not any(k for _, k in ham):
+        raise RuntimeError("Hiçbir bölüm ve hiçbir yedek terim için tablo bulunamadı")
+
+    for i in range(len(ham)):
+        if ham[i][1] is None:
+            kaynak = next((j for j in range(i - 1, -1, -1) if ham[j][1]), None)
+            if kaynak is None:
+                kaynak = next(j for j in range(i + 1, len(ham)) if ham[j][1])
+            ham[i][0].write_bytes(ham[kaynak][0].read_bytes())
+            ham[i][1] = ham[kaynak][1]
+            log(f"  {i + 1}: boşluk → bölüm {kaynak + 1}'in tablosu kullanıldı")
+
+    gorseller = [h for h, _ in ham]
+    kunyeler = [k for _, k in ham]
 
     (is_kok / "kunyeler.json").write_text(json.dumps(kunyeler, ensure_ascii=False), encoding="utf-8")
     log("3) TTS (Leda — Shorts ile aynı ses; yedek: Emel)...")

@@ -81,8 +81,18 @@ KURALLAR:
   yorumu → izleyiciye dönen kapanış sorusu + tek cümle yumuşak abone daveti.
 - Hikâyeyi SAHNE SAHNE anlat (Demeter videosu formatı): her bölüm görsel bir ana
   oturmalı ki tablo eşleşsin.
-- tablo_arama: ünlü, ESKİ (1900 öncesi ağırlıklı) ressamların bilinen tablolarını
-  hedefle — kamu malı olma ihtimali yüksek olanlar. Fotoğraf/heykel değil, tablo.
+- tablo_arama: 🔴 Wikimedia Commons'ta GERÇEKTEN BULUNAN bir şey ara. 23 Eyl
+  koşusunda 10 aramanın 9'u boş döndü ("Inanna descending to the underworld
+  painting", "gates of hell ancient painting mythological") çünkü sahneyi
+  tarif eden uzun cümleler yazılmıştı. Commons bir ARŞİV, sahne tarifi anlamaz.
+  Kural: 2-4 kelime · ressam adı veya bilinen tablo adı ya da GENİŞ tema.
+  İYİ:  "Bruegel Icarus" · "Waterhouse Persephone" · "Doré Dante engraving"
+        "symbolist painting" · "Ophelia Millais" · "Blake illustration"
+  KÖTÜ: "Inanna descending to the underworld painting" (arşivde yok)
+        "nude figure in darkness classical art painting" (sahne tarifi)
+  Her bölüm FARKLI bir ressam/tema kullansın — 10 bölüm 10 farklı görsel demek.
+  Mit çok nadirse o mite değil, sahnenin DUYGUSUNA uyan bilinen tabloyu ara.
+  Fotoğraf/heykel değil, tablo; 1900 öncesi ağırlıklı (kamu malı).
 - Uydurma yok: mitin bilinen anlatısına sadık kal; Jung yorumunda "Jung'a göre" de.
 - Kapanışta abartısız tek davet: "abone olarak bu yolculuğa eşlik edebilirsin" tonu."""
 
@@ -423,6 +433,13 @@ YEDEK_TABLO_ARAMALARI = [
     "medieval illuminated manuscript",
     "classical mythology painting",
     "renaissance painting",
+    "Gustave Doré engraving",
+    "William Blake illustration",
+    "Caspar David Friedrich",
+    "Waterhouse painting",
+    "baroque chiaroscuro painting",
+    "Turner landscape",
+    "pre-Raphaelite painting",
 ]
 
 
@@ -484,14 +501,35 @@ def main():
     if not any(k for _, k in ham):
         raise RuntimeError("Hiçbir bölüm ve hiçbir yedek terim için tablo bulunamadı")
 
+    # 🔴 23 Eyl 2. onarım: ilk sürüm boşluğu "en yakın dolu görsel" ile dolduruyordu.
+    # Canlı koşuda 10 aramanın 9'u boş döndü → 15 dakikalık video boyunca AYNI KARE
+    # kaldı. Çökmemek yetmez, izlenebilir de olmalı. Artık önce yedek havuzdan
+    # HER BOŞLUK İÇİN FARKLI bir tablo indirilir; havuz tükenirse komşuya düşülür.
+    yedek_sira = 0
     for i in range(len(ham)):
-        if ham[i][1] is None:
-            kaynak = next((j for j in range(i - 1, -1, -1) if ham[j][1]), None)
-            if kaynak is None:
-                kaynak = next(j for j in range(i + 1, len(ham)) if ham[j][1])
-            ham[i][0].write_bytes(ham[kaynak][0].read_bytes())
-            ham[i][1] = ham[kaynak][1]
-            log(f"  {i + 1}: boşluk → bölüm {kaynak + 1}'in tablosu kullanıldı")
+        if ham[i][1] is not None:
+            continue
+        while yedek_sira < len(YEDEK_TABLO_ARAMALARI):
+            terim = YEDEK_TABLO_ARAMALARI[yedek_sira]; yedek_sira += 1
+            k = tablo_indir(terim, ham[i][0])
+            if k:
+                ham[i][1] = k
+                log(f"  {i + 1}: boşluk → yedek tema '{terim}'")
+                break
+        if ham[i][1] is not None:
+            continue
+        kaynak = next((j for j in range(i - 1, -1, -1) if ham[j][1]), None)
+        if kaynak is None:
+            kaynak = next(j for j in range(i + 1, len(ham)) if ham[j][1])
+        ham[i][0].write_bytes(ham[kaynak][0].read_bytes())
+        ham[i][1] = ham[kaynak][1]
+        log(f"  {i + 1}: boşluk → bölüm {kaynak + 1}'in tablosu (yedek havuz bitti)")
+
+    _tekil = len({k.get("dosya") for _, k in ham if k})
+    log(f"  → {_tekil} FARKLI görsel / {len(ham)} bölüm")
+    if _tekil < 3:
+        log(f"  ⚠️ GÖRSEL ÇEŞİTLİLİĞİ DÜŞÜK ({_tekil}) — tablo_arama terimleri "
+            f"Wikimedia'da karşılık bulmuyor olabilir")
 
     gorseller = [h for h, _ in ham]
     kunyeler = [k for _, k in ham]

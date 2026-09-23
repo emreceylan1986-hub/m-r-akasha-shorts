@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-23T17:11:43.341213+00:00",
+  "uretim_zamani": "2026-09-23T19:12:28.043897+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu'na göre zihnin ürettiği korku projeksiyonları ve hakiki huzur",
-      "url": "https://tr.wikipedia.org/wiki/Bilişsel_çarpıtma",
+      "baslik": "Mucizeler Kursu Ders 4: 'Hiçbir gördüğümün anlamı yok' — zihni serbest bırakma",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu öğretisinde özel ilişkilerin gizli beklentilerinden arınma",
-      "url": "https://tr.wikipedia.org/wiki/Psikolojik_yansıtma",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu perspektifinden geçmişin pişmanlıklarıyla bugünü hapsetmek",
-      "url": "https://tr.wikipedia.org/wiki/Ruminasyon",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

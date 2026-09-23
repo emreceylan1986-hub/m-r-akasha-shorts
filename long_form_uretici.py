@@ -246,7 +246,25 @@ def tts_bolumlu_leda(bolumler: list, is_kok: Path, ses_mp3: Path):
         metin = "\n\n".join(b["metin"] for b in grup)
         sure = gemini_tts.seslendir(metin, p)
         if not sure:
-            log(f"  Leda grup {gi} başarısız → tamamı Emel'e düşüyor")
+            # 🔴 23 Eyl: Emel'e düşüş SESSİZDİ. Shorts tarafında bayrak+issue var
+            # (16 Eyl), long-form'da yoktu — video Akasha'nın onaylı sesi Leda
+            # yerine yedek Emel'le çıkıyor ve kimse fark etmiyordu.
+            # Bilinen sebep: free-tier TTS 10 istek/gün. 10 bölüm = 5 çağrı, yani
+            # günde İKİ uzun video koşusu kotayı bitirir (23 Eyl'de tam bu oldu).
+            log(f"  Leda grup {gi}/{len(gruplar)} başarısız → tamamı Emel'e düşüyor")
+            try:
+                (Path(__file__).parent / ".ses_yedege_dustu").write_text(
+                    f"UZUN VIDEO yedek sesle üretildi.\n\n"
+                    f"Leda (Gemini TTS) {gi}. grupta düştü ({len(gruplar)} grubun "
+                    f"{gi-1} tanesi başarılıydı, ses tutarlılığı için hepsi iptal edildi "
+                    f"ve video edge-tts Emel sesiyle üretildi).\n\n"
+                    f"Akasha'nın ONAYLI sesi LEDA'dır; Emel yalnızca acil yedektir.\n"
+                    f"En olası sebep: free-tier TTS günlük kotası (10 istek/gün). "
+                    f"10 bölümlük video = 5 çağrı → günde iki koşu kotayı bitirir.\n"
+                    f"Kota ertesi gün sıfırlanır; video Leda sesiyle yeniden üretilebilir.",
+                    encoding="utf-8")
+            except Exception:
+                pass
             return None
         parcalar.append(p)
         kel = [len(b["metin"].split()) for b in grup]

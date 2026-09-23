@@ -55,6 +55,19 @@ jobs:
           if [ "${{ github.event.inputs.kuru }}" = "true" ]; then EK="$EK --kuru"; fi
           eval python long_form_uretici.py $EK
 
+      # 23 Eyl: Emel'e düşüş sessizdi — artık issue açılıyor (Shorts'taki gibi).
+      - name: Ses yedeğe düştüyse uyar (Leda → Emel)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f .ses_yedege_dustu ]; then
+            gh issue create \
+              --title "🔊 Akasha UZUN VİDEO yedek sesle çıktı — run #${{ github.run_number }}" \
+              --body-file .ses_yedege_dustu
+            rm -f .ses_yedege_dustu
+          fi
+
       - name: State commit (long_form_gecmis.json)
         if: always()
         run: |

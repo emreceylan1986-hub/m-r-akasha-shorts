@@ -97,6 +97,12 @@ KURALLAR:
 - Kapanışta abartısız tek davet: "abone olarak bu yolculuğa eşlik edebilirsin" tonu."""
 
 
+# 23 Eyl: koşunun kalite künyesi — hangi ses, kaç farklı görsel. Yayın sonrası
+# dosyaya yazılır; workflow buna bakarak "eski kusurlu videoyu gizle" kararını
+# İNSANA SORMADAN verebilsin diye. Eşik tutmazsa gizleme YAPILMAZ.
+KALITE: dict = {"ses": "?", "farkli_gorsel": 0, "bolum": 0, "video_id": ""}
+
+
 def log(m):
     print(f"[longform] {m}", flush=True)
 
@@ -427,6 +433,12 @@ def yukle(final: Path, kapak: Path, senaryo: dict, seg_sureler: list, kunyeler: 
         _, yanit = istek.next_chunk()
     vid = yanit["id"]
     log(f"  ✓ video: {vid}")
+    KALITE["video_id"] = vid
+    try:
+        (Path(__file__).parent / ".longform_kalite.json").write_text(
+            json.dumps(KALITE, ensure_ascii=False), encoding="utf-8")
+    except Exception:
+        pass
     try:
         yt.thumbnails().set(videoId=vid, media_body=MediaFileUpload(str(kapak))).execute()
         log("  ✓ kapak")
@@ -545,6 +557,8 @@ def main():
 
     _tekil = len({k.get("dosya") for _, k in ham if k})
     log(f"  → {_tekil} FARKLI görsel / {len(ham)} bölüm")
+    KALITE["farkli_gorsel"] = _tekil
+    KALITE["bolum"] = len(ham)
     if _tekil < 3:
         log(f"  ⚠️ GÖRSEL ÇEŞİTLİLİĞİ DÜŞÜK ({_tekil}) — tablo_arama terimleri "
             f"Wikimedia'da karşılık bulmuyor olabilir")
@@ -556,6 +570,7 @@ def main():
     log("3) TTS (Leda — Shorts ile aynı ses; yedek: Emel)...")
     ses = is_kok / "ses.mp3"
     gercek_sureler = tts_bolumlu_leda(bolumler, is_kok, ses)
+    KALITE["ses"] = "leda" if gercek_sureler is not None else "emel"
     if gercek_sureler is None:
         log("  Emel yedeğine düşüldü")
         tts_uret("\n\n".join(b["metin"] for b in bolumler), ses)

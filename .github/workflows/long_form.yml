@@ -55,6 +55,21 @@ jobs:
           if [ "${{ github.event.inputs.kuru }}" = "true" ]; then EK="$EK --kuru"; fi
           eval python long_form_uretici.py $EK
 
+      # 23 Eyl: yeni video kalite eşiğini geçtiyse (Leda sesi + ≥5 farklı görsel),
+      # yerine geçtiği kusurlu videoları private yapar. Eşik tutmazsa DOKUNMAZ.
+      - name: Kusurlu eski videoları gizle (kalite eşiği geçerse)
+        if: success()
+        run: python kusurlu_gizle.py
+
+      - name: Gizleme listesini işle
+        if: success()
+        run: |
+          git config user.name "akasha-bot"; git config user.email "bot@akasha"
+          git add gizlenecek_videolar.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "🔒 gizleme listesi güncellendi"
+          git pull --rebase origin main >/dev/null 2>&1 || true
+          git push origin main || true
+
       # 23 Eyl: Emel'e düşüş sessizdi — artık issue açılıyor (Shorts'taki gibi).
       - name: Ses yedeğe düştüyse uyar (Leda → Emel)
         if: always()

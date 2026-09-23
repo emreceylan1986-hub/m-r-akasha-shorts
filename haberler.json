@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-23T19:12:28.043897+00:00",
+  "uretim_zamani": "2026-09-23T20:11:32.476319+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 4: 'Hiçbir gördüğümün anlamı yok' — zihni serbest bırakma",
+      "baslik": "Mucizeler Kursu Ders 4: 'Gördüğüm hiçbir şeyin anlamı yok' demenin özgürlüğü",
       "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu ve zihnin haklı çıkmak için ürettiği o görünmez zincirler",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu'na göre korku ve sevgi: Zihninin asıl seçimi nerede?",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

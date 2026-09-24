@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-23T21:11:22.341340+00:00",
+  "uretim_zamani": "2026-09-24T17:19:25.467195+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 45: Tanrı zihnimi kaplayan bu düşüncelerin içindedir",
-      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Mucizeler Kursu Ders 25: 'Zihnimin arkasında huzurdan başka bir şey yok'",
+      "url": "tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 47: Hayatımı yöneten korkunun gerçek sebebi nedir?",
-      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Yunus Emre'nin diliyle 'Ben' davasından vazgeçip öze varma hali",
+      "url": "tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mevlana ve Mesnevi'de ney'in kamışlıktan kopup çıkardığı o hasret nağmesi",
+      "url": "tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%ic",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

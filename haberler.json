@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-09-24T17:19:25.467195+00:00",
+  "uretim_zamani": "2026-09-24T19:11:18.756426+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 25: 'Zihnimin arkasında huzurdan başka bir şey yok'",
-      "url": "tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Tao Te Jing 2. Bölüm: Varlık ile yokluk birbirini var eder",
+      "url": "tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'nin diliyle 'Ben' davasından vazgeçip öze varma hali",
-      "url": "tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Tao Te Jing 9. Bölüm: Dolup taşmaktansa durmayı bilmek",
+      "url": "tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mevlana ve Mesnevi'de ney'in kamışlıktan kopup çıkardığı o hasret nağmesi",
-      "url": "tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%ic",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

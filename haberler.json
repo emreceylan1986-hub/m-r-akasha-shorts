@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-24T20:13:10.563991+00:00",
+  "uretim_zamani": "2026-09-24T21:11:12.764659+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre ve dervişin kalbindeki o sessiz hazine",
-      "url": "tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Tao Te Jing Bölüm 22: Eğilen insan neden asla bükülmez?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Jing",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 33: Başkalarını bilen akıllıdır, kendini bilen aydınlanmıştır",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Jing",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 43: Dünyadaki en yumuşak şey, en sert olanı nasıl yener?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Jing",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

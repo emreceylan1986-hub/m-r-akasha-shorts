@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-09-24T19:11:18.756426+00:00",
+  "uretim_zamani": "2026-09-24T20:13:10.563991+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing 2. Bölüm: Varlık ile yokluk birbirini var eder",
-      "url": "tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing 9. Bölüm: Dolup taşmaktansa durmayı bilmek",
-      "url": "tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Yunus Emre ve dervişin kalbindeki o sessiz hazine",
+      "url": "tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

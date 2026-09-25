@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-25T17:11:29.648106+00:00",
+  "uretim_zamani": "2026-09-25T19:12:41.598554+00:00",
   "haberler": [
     {
-      "baslik": "Kök çakran dengede değilse güvende hissetmek neden imkansızlaşır?",
-      "url": "https://tr.wikipedia.org/wiki/K%C3%B6k_%C3%A7akra",
+      "baslik": "Alfred Adler ve aşağılık kompleksinin hayatı yönlendiren gizli eli",
+      "url": "tr.wikipedia.org/wiki/Alfred_Adler",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Anna Freud ve egoyu korumak için kullanılan savunma mekanizmaları",
+      "url": "tr.wikipedia.org/wiki/Anna_Freud",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Erich Fromm ve sevme sanatının modern insanda unutturuluşu",
+      "url": "tr.wikipedia.org/wiki/Erich_Fromm",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-24T21:11:12.764659+00:00",
+  "uretim_zamani": "2026-09-25T17:11:29.648106+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 22: Eğilen insan neden asla bükülmez?",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Jing",
+      "baslik": "Kök çakran dengede değilse güvende hissetmek neden imkansızlaşır?",
+      "url": "https://tr.wikipedia.org/wiki/K%C3%B6k_%C3%A7akra",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 33: Başkalarını bilen akıllıdır, kendini bilen aydınlanmıştır",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Jing",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 43: Dünyadaki en yumuşak şey, en sert olanı nasıl yener?",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Jing",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

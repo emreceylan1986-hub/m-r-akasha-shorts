@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-25T20:10:53.906883+00:00",
+  "uretim_zamani": "2026-09-25T21:11:05.633554+00:00",
   "haberler": [
     {
-      "baslik": "Rüyalardaki gizli haberci — bilinçaltı geceleri neden konuşur?",
-      "url": "tr.wikipedia.org/wiki/Bilin%C3%A7alt%C4%B1",
+      "baslik": "Sigmund Freud ve savunma mekanizmalarının zihni koruma biçimi",
+      "url": "https://tr.wikipedia.org/wiki/Sigmund_Freud",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Gece yarısı düş görülen o garip semboller — ruhun sana ne fısıldıyor?",
-      "url": "tr.wikipedia.org/wiki/R%C3%BCya",
+      "baslik": "Jean Piaget ve zihinsel gelişim evrelerinin algıyı dönüştürmesi",
+      "url": "https://tr.wikipedia.org/wiki/Jean_Piaget",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Lev Vygotsky ve sosyal öğrenme teorisinin zihne inşa ettiği köprü",
+      "url": "https://tr.wikipedia.org/wiki/Lev_Vygotsky",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

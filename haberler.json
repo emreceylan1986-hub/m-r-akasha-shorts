@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-09-25T21:11:05.633554+00:00",
+  "uretim_zamani": "2026-09-26T17:11:23.846128+00:00",
   "haberler": [
     {
-      "baslik": "Sigmund Freud ve savunma mekanizmalarının zihni koruma biçimi",
-      "url": "https://tr.wikipedia.org/wiki/Sigmund_Freud",
+      "baslik": "Boğaz çakran kapalıysa hayatı hep başkalarının senaryosuna göre oynarsın",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Jean Piaget ve zihinsel gelişim evrelerinin algıyı dönüştürmesi",
-      "url": "https://tr.wikipedia.org/wiki/Jean_Piaget",
+      "baslik": "Sakral çakranın bloke olması: İçindeki yaratıcı çocuğun neşeyle bağını kesmek",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Lev Vygotsky ve sosyal öğrenme teorisinin zihne inşa ettiği köprü",
-      "url": "https://tr.wikipedia.org/wiki/Lev_Vygotsky",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

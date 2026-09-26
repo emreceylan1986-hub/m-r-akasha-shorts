@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-09-26T20:11:35.197998+00:00",
+  "uretim_zamani": "2026-09-26T21:11:16.067446+00:00",
   "haberler": [
     {
-      "baslik": "Kök çakra dengesizliğinde hissedilen o derin güvensizlik",
-      "url": "https://tr.wikipedia.org/wiki/Maslow%27un_ihtiyaçlar_hiyerarşisi",
+      "baslik": "Muladhara sarsıldığında: Neden her an kötü bir şey olacakmış gibi hissediyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/M%C5%ABl%C4%81dh%C4%81ra",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Zihnin gürültüsünü susturan o anlık boşluk hissi",
-      "url": "https://tr.wikipedia.org/wiki/Farkındalık",
+      "baslik": "Sahasrara ve zihinsel gürültü: Evrenle bağın koptuğunda düşüncelerin nasıl bir hapishaneye dönüşür?",
+      "url": "https://tr.wikipedia.org/wiki/Sahasr%C4%81ra",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-09-26T17:11:23.846128+00:00",
+  "uretim_zamani": "2026-09-26T19:12:13.469026+00:00",
   "haberler": [
     {
-      "baslik": "Boğaz çakran kapalıysa hayatı hep başkalarının senaryosuna göre oynarsın",
+      "baslik": "Kalp Çakrası Kapalıyken Neden Her Yakınlaşma Sana Tehdit Gibi Gelir?",
       "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,10 +10,18 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sakral çakranın bloke olması: İçindeki yaratıcı çocuğun neşeyle bağını kesmek",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "Tao Te Jing Bölüm 1: Tanımladığın Her Şey Aslında Gerçekliğini Kaybeder",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu Ders 2: Bu Odada Gördüğüm Hiçbir Şeyin Benim İçin Önemi Yok",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

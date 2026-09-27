@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-09-26T21:11:16.067446+00:00",
+  "uretim_zamani": "2026-09-27T17:12:07.486862+00:00",
   "haberler": [
     {
-      "baslik": "Muladhara sarsıldığında: Neden her an kötü bir şey olacakmış gibi hissediyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/M%C5%ABl%C4%81dh%C4%81ra",
+      "baslik": "Mevlânâ'nın Mesnevi'sinde geçen 'Ney'in o yanık feryadı ne anlatır?",
+      "url": "https://tr.wikipedia.org/wiki/Mesnev%C3%AE",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sahasrara ve zihinsel gürültü: Evrenle bağın koptuğunda düşüncelerin nasıl bir hapishaneye dönüşür?",
-      "url": "https://tr.wikipedia.org/wiki/Sahasr%C4%81ra",
+      "baslik": "Mucizeler Kursu Ders 45: 'Tanrı aklımı yaratan tek varlıktır' — gerçek karşılığı",
+      "url": "https://tr.wikipedia.org/wiki/Hristiyan_mistisizmi",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

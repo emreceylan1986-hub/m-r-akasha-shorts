@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-09-27T20:11:44.254724+00:00",
+  "uretim_zamani": "2026-09-27T21:11:45.717532+00:00",
   "haberler": [
     {
-      "baslik": "Sinkronisite: Yaşadığın o garip tesadüf evrenin sana fısıldadığı gizli mesaj mı?",
-      "url": "tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
+      "baslik": "Kuantum alanında her düşünce neden gerçeği şekillendirir?",
+      "url": "https://tr.wikipedia.org/wiki/Kuantum_mekani%C3%9Fi",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 45: 'Tanrı zihnimi kaplayan düşüncelerdedir' ne anlama gelir?",
-      "url": "tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing 16. Bölüm: Zihni mutlak boşluğa ulaştırmanın ve sükuneti bulmanın yolu",
-      "url": "tr.wikipedia.org/wiki/Tao_Te_Jing",
+      "baslik": "Hermetik felsefenin yedi yasasından 'karşılıklılık' ilkesi",
+      "url": "https://tr.wikipedia.org/wiki/Hermetik_felsefe",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

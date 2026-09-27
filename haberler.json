@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-09-27T17:12:07.486862+00:00",
+  "uretim_zamani": "2026-09-27T19:11:35.435401+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'nın Mesnevi'sinde geçen 'Ney'in o yanık feryadı ne anlatır?",
-      "url": "https://tr.wikipedia.org/wiki/Mesnev%C3%AE",
+      "baslik": "Karşına çıkan o 'tesadüf' aslında ruhunun seninle konuşma şekli olabilir mi?",
+      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu Ders 2: 'Gördüğüm her şeye zihnimdeki anlamı ben verdim'",
+      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 45: 'Tanrı aklımı yaratan tek varlıktır' — gerçek karşılığı",
-      "url": "https://tr.wikipedia.org/wiki/Hristiyan_mistisizmi",
+      "baslik": "Sufi felsefesinde 'Tevafuk': Hayatındaki hiçbir karşılaşma bir hata değildi",
+      "url": "https://tr.wikipedia.org/wiki/Kader",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

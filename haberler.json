@@ -1,19 +1,30 @@
 {
-  "uretim_zamani": "2026-09-27T21:11:45.717532+00:00",
+  "uretim_zamani": "2026-09-28T17:27:50.843876+00:00",
   "haberler": [
     {
-      "baslik": "Kuantum alanında her düşünce neden gerçeği şekillendirir?",
-      "url": "https://tr.wikipedia.org/wiki/Kuantum_mekani%C3%9Fi",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "baslik": "Ego, olduğun şey değil, olduğunu sandığın şeydir",
+      "url": "https://tr.wikipedia.org/wiki/Ego",
+      "ozet": "Maskenin ötesine geç",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Hermetik felsefenin yedi yasasından 'karşılıklılık' ilkesi",
-      "url": "https://tr.wikipedia.org/wiki/Hermetik_felsefe",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "baslik": "Gölge, kabul etmediğin yanlarında saklanır",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(psikoloji)",
+      "ozet": "Jung: karanlığını aydınlat",
+      "kaynak": "evergreen",
+      "skor": 900,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Affetmek, taşıdığın yükü yere bırakmaktır",
+      "url": "https://tr.wikipedia.org/wiki/Af",
+      "ozet": "Kendin için bırak",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

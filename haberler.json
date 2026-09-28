@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-09-28T18:13:03.362586+00:00",
+  "uretim_zamani": "2026-09-28T19:12:24.688031+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre dışarıda aradığın huzurun aslında içindeki sessizlikte saklı olması",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%B3m%C3%AE",
+      "baslik": "Mucizeler Kursu Ders 45: Tanrı zihnimin yarattığı düşünceleri paylaşmaz",
+      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 29. Bölüm: Dünyayı düzeltmeye çalışmanın gizli tehlikesi",
+      "url": "tr.wikipedia.org/wiki/Tao_Te_Jing",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,

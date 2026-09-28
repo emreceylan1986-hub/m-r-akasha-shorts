@@ -1,30 +1,11 @@
 {
-  "uretim_zamani": "2026-09-28T17:27:50.843876+00:00",
+  "uretim_zamani": "2026-09-28T18:13:03.362586+00:00",
   "haberler": [
     {
-      "baslik": "Ego, olduğun şey değil, olduğunu sandığın şeydir",
-      "url": "https://tr.wikipedia.org/wiki/Ego",
-      "ozet": "Maskenin ötesine geç",
-      "kaynak": "evergreen",
-      "skor": 900,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gölge, kabul etmediğin yanlarında saklanır",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(psikoloji)",
-      "ozet": "Jung: karanlığını aydınlat",
-      "kaynak": "evergreen",
-      "skor": 900,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Affetmek, taşıdığın yükü yere bırakmaktır",
-      "url": "https://tr.wikipedia.org/wiki/Af",
-      "ozet": "Kendin için bırak",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Mevlânâ'ya göre dışarıda aradığın huzurun aslında içindeki sessizlikte saklı olması",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%B3m%C3%AE",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-09-28T20:14:23.254255+00:00",
+  "uretim_zamani": "2026-09-28T21:11:50.461610+00:00",
   "haberler": [
     {
-      "baslik": "Anna Freud ve egoyu korumak için geliştirdiğimiz savunma mekanizmaları",
-      "url": "https://tr.wikipedia.org/wiki/Anna_Freud",
+      "baslik": "Kuantum zihin kuramı ve gözlemcinin gerçekliği bizzat yaratma gücü",
+      "url": "https://tr.wikipedia.org/wiki/Kuantum_zihin",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Manipülasyon ve gazlighting sarmalında kendi algından şüphe etme hali",
+      "url": "https://tr.wikipedia.org/wiki/Gazlighting",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Bilişsel çelişki sendromu ve inançlarla gerçekler çarpıştığında zihnin düştüğü tuzak",
+      "url": "https://tr.wikipedia.org/wiki/Bili%C5%9Fsel_uyumsuzluk",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-09-28T21:11:50.461610+00:00",
+  "uretim_zamani": "2026-09-29T17:18:32.632510+00:00",
   "haberler": [
     {
-      "baslik": "Kuantum zihin kuramı ve gözlemcinin gerçekliği bizzat yaratma gücü",
-      "url": "https://tr.wikipedia.org/wiki/Kuantum_zihin",
+      "baslik": "Mevlânâ'ya göre 'Benimle ol' diyen o içteki sesin gerçek sahibi kim?",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%A2n-i_R%C3%AEm%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Manipülasyon ve gazlighting sarmalında kendi algından şüphe etme hali",
-      "url": "https://tr.wikipedia.org/wiki/Gazlighting",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Bilişsel çelişki sendromu ve inançlarla gerçekler çarpıştığında zihnin düştüğü tuzak",
-      "url": "https://tr.wikipedia.org/wiki/Bili%C5%9Fsel_uyumsuzluk",
+      "baslik": "Tao Te Jing 16. Bölüm: Zihnin derin sessizliğine ulaşmanın yolu",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Jing",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

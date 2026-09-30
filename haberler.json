@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-09-30T17:11:08.649890+00:00",
+  "uretim_zamani": "2026-09-30T19:14:34.837267+00:00",
   "haberler": [
     {
-      "baslik": "Zihninin yarattığı o sahte koruyucu: Ego seni neden yalnızlığa mahkum eder?",
-      "url": "https://en.wikipedia.org/wiki/Ego_death",
+      "baslik": "Mucizeler Kursu Ders 1: 'Gördüğüm hiçbir şeyin anlamı yok' gerçeği",
+      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mevlana'ya göre zihnindeki o şüpheci ses aslında kimin sesi?",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

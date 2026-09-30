@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-09-30T19:14:34.837267+00:00",
+  "uretim_zamani": "2026-09-30T20:13:58.069842+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 1: 'Gördüğüm hiçbir şeyin anlamı yok' gerçeği",
-      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Mucizeler Kursu — Ders 42: Tanrı ile paylaşmadığım düşüncelerim gerçek değildir",
+      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mevlana'ya göre zihnindeki o şüpheci ses aslında kimin sesi?",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
+      "baslik": "Tao Te Jing 16. Bölüm: Zihni mutlak boşluğa ulaştırmak ve köke dönmek",
+      "url": "tr.wikipedia.org/wiki/Tao_Te_Jing",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mevlânâ'ya göre sessizlik, kelimelerin ötesinde ruhun konuştuğu o dildir",
+      "url": "tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%Aen-i_R%C3%BBm%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

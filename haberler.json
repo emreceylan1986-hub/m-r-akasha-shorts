@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-01T18:11:14.998167+00:00",
+  "uretim_zamani": "2026-10-01T19:11:19.311961+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing'in 8. bölümü: Su gibi olmak neden senin en büyük gücündür?",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Kramers-Kronig ilişkisi ve hayatındaki duygusal dalgalanmaların görünmez dengesi",
+      "url": "https://tr.wikipedia.org/wiki/Kramers-Kronig_ili%C5%9fkisi",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Taoizm'de Wu-Wei felsefesi: Çabalamayı bıraktığında neden her şey yoluna girer?",
-      "url": "https://tr.wikipedia.org/wiki/Wu_wei",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Lao Tzu'ya göre hayatla savaşmayı bırakıp akışa teslim olmanın 3 gizli işareti",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

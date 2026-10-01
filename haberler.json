@@ -1,8 +1,16 @@
 {
-  "uretim_zamani": "2026-10-01T17:12:00.574737+00:00",
+  "uretim_zamani": "2026-10-01T18:11:14.998167+00:00",
   "haberler": [
     {
-      "baslik": "Zihnindeki direnç hayatını nasıl tıkar? Taocu 'Wu-Wei' felsefesi",
+      "baslik": "Tao Te Jing'in 8. bölümü: Su gibi olmak neden senin en büyük gücündür?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Taoizm'de Wu-Wei felsefesi: Çabalamayı bıraktığında neden her şey yoluna girer?",
       "url": "https://tr.wikipedia.org/wiki/Wu_wei",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -10,8 +18,8 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşluğun aslında en değerli şey olması",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Lao Tzu'ya göre hayatla savaşmayı bırakıp akışa teslim olmanın 3 gizli işareti",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

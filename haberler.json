@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-01T19:11:19.311961+00:00",
+  "uretim_zamani": "2026-10-01T20:11:14.657224+00:00",
   "haberler": [
     {
-      "baslik": "Kramers-Kronig ilişkisi ve hayatındaki duygusal dalgalanmaların görünmez dengesi",
-      "url": "https://tr.wikipedia.org/wiki/Kramers-Kronig_ili%C5%9fkisi",
+      "baslik": "Tao Te Jing 23. Bölüm: Sessizlik içinde var olabilmenin kudreti",
+      "url": "tr.wikipedia.org/wiki/Tao_Te_Jing",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu Ders 42: Tanrı zihnimi korur, başka hiçbir şeyi değil",
+      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre'ye göre dervişlik gönül yapmaktır, yıkmak değil",
+      "url": "tr.wikipedia.org/wiki/Yunus_Emre",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

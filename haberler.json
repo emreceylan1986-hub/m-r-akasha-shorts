@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-30T20:13:58.069842+00:00",
+  "uretim_zamani": "2026-10-01T00:53:24.003560+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu — Ders 42: Tanrı ile paylaşmadığım düşüncelerim gerçek değildir",
-      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing 16. Bölüm: Zihni mutlak boşluğa ulaştırmak ve köke dönmek",
-      "url": "tr.wikipedia.org/wiki/Tao_Te_Jing",
+      "baslik": "Zihnindeki o amansız 'haklı çıkma' savaşı ve Sufi öğretisindeki fena sırrı",
+      "url": "https://en.wikipedia.org/wiki/Fana_(Sufism)",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mevlânâ'ya göre sessizlik, kelimelerin ötesinde ruhun konuştuğu o dildir",
-      "url": "tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%Aen-i_R%C3%BBm%C3%AE",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

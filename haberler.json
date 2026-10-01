@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-01T00:53:24.003560+00:00",
+  "uretim_zamani": "2026-10-01T17:12:00.574737+00:00",
   "haberler": [
     {
-      "baslik": "Zihnindeki o amansız 'haklı çıkma' savaşı ve Sufi öğretisindeki fena sırrı",
-      "url": "https://en.wikipedia.org/wiki/Fana_(Sufism)",
+      "baslik": "Zihnindeki direnç hayatını nasıl tıkar? Taocu 'Wu-Wei' felsefesi",
+      "url": "https://tr.wikipedia.org/wiki/Wu_wei",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 11: Hayatındaki boşluğun aslında en değerli şey olması",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

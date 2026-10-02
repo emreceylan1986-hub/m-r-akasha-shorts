@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-02T19:10:53.518128+00:00",
+  "uretim_zamani": "2026-10-02T20:12:10.514441+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli aynı mekanı görüyorsan: Jung’un kolektif hafıza teorisi",
-      "url": "https://en.wikipedia.org/wiki/Active_imagination",
+      "baslik": "Neden hep aynı insan tipiyle sınanıyorsun? Aynalık prensibi ve ruhsal yansımalar",
+      "url": "https://en.wikipedia.org/wiki/Law_of_attraction_(New_Thought)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Dostoyevski'nin Raskolnikov'u gibi vicdan azabı rüyalarında nasıl şekil bulur?",
+      "url": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+      "kaynak": "gemini-fallback",
+      "skor": 988,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Bilinçaltının en derin katmanı: Rüyalardaki 'Kendilik' (Self) arketipi ile bütünleşmek",
+      "url": "https://en.wikipedia.org/wiki/Self_in_Jungian_psychology",
+      "kaynak": "gemini-fallback",
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -186,15 +186,25 @@ def senaryo_uret(haber: dict) -> str:
 
     # 9 Tem KANIT: uzun video = düşük retention = Shorts feed keser. Cosmos 60-75
     # kelime = %65 ret (model). Akasha da kısa+derin zona çekildi (dialog kapalı).
+    # 🔴 2 Eki ÖLÇÜM (120 olgun video, permütasyon 20.000 tur):
+    #   45 sn'den KISA  n=74  medyan  94 izlenme
+    #   45 sn ve ÜSTÜ   n=46  medyan  42 izlenme     p = 0,0034  ✅ ANLAMLI
+    # Yani uzun video izlenmeyi YARIYA düşürüyor. Prompt zaten "35-45 sn" diyordu
+    # ama 120 videonun 46'sı sınırı aşmıştı — çünkü kod yalnız ÇOK KISA olmayı
+    # kontrol ediyordu, ÇOK UZUN olmayı HİÇ kontrol etmiyordu. Üst sınır eklendi.
+    # 45 sn ≈ 85 kelime (Akasha TTS hızı -%14, ~1,9 kelime/sn).
     if uzun_varyant:
         hedef_kelime = "75-90"   # "biraz uzun" deneme — yine de güvenli bölge
         min_kelime = 65
+        azami_kelime = 95
     elif dialog_varyant:
         hedef_kelime = "70-85"
         min_kelime = 60
+        azami_kelime = 90
     else:
         hedef_kelime = "60-80"   # VARSAYILAN: kısa+derin (35-45sn), Cosmos zonu
         min_kelime = 55
+        azami_kelime = 85
 
     temel_prompt = (
         f"Headline: {haber['baslik']}\n"
@@ -232,6 +242,11 @@ def senaryo_uret(haber: dict) -> str:
         elif son_senaryo and len(son_senaryo.split()) < min_kelime:
             ek = (f"\n\nYOUR PREVIOUS DRAFT WAS TOO SHORT ({len(son_senaryo.split())} words). "
                   f"Rewrite it {hedef_kelime} words by adding one concrete detail to CONTEXT. Keep the same hook.")
+        elif son_senaryo and len(son_senaryo.split()) > azami_kelime:
+            ek = (f"\n\nYOUR PREVIOUS DRAFT WAS TOO LONG ({len(son_senaryo.split())} words, "
+                  f"max {azami_kelime}). Channel data: videos over 45 seconds get HALF the views "
+                  f"(p=0.0034). Rewrite it to {hedef_kelime} words — cut the weakest sentence, "
+                  f"keep the hook and the closing line. Depth stays, filler goes.")
         else:
             # Hook zayıf — yeni hook iste
             ek = (f"\n\nYOUR PREVIOUS HOOK WAS WEAK. The first sentence must be MAX 8 words, "
@@ -248,6 +263,21 @@ def senaryo_uret(haber: dict) -> str:
 
         if len(senaryo.split()) < min_kelime:
             continue  # Yetersiz uzunluk — bir sonraki deneme
+
+        if len(senaryo.split()) > azami_kelime:
+            print(f"[seslendirici] Uzunluk kapısı RED ({len(senaryo.split())} kelime "
+                  f"> {azami_kelime}) — yeniden üretiliyor", flush=True)
+            if deneme < 2:
+                continue
+            # 3 denemede de uzun kaldı: SONDAN cümle at ama kapanış cümlesini KORU
+            # (kapanış CTA'dır; hook zaten ilk cümle, ikisi de dokunulmaz).
+            c = [x for x in re.split(r'(?<=[.!?…])\s+', senaryo) if x.strip()]
+            while len(c) > 3 and len(" ".join(c).split()) > azami_kelime:
+                del c[-2]          # sondan BİR ÖNCEKİ cümleyi at, kapanış kalsın
+            senaryo = " ".join(c)
+            print(f"[seslendirici] → {len(senaryo.split())} kelimeye kırpıldı "
+                  f"(hook ve kapanış korundu)", flush=True)
+            return senaryo
 
         # FAZ 8: Hook predictor
         try:

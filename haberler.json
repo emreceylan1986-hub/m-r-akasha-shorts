@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-10-01T21:11:05.520687+00:00",
+  "uretim_zamani": "2026-10-02T01:10:43.468881+00:00",
   "haberler": [
     {
-      "baslik": "Sufizmde 'Hafâ' makamı: Kendi gürültünden kaçıp sığındığın o derin sessizlik",
-      "url": "https://en.wikipedia.org/wiki/Lataif-as-Suluk",
+      "baslik": "Tao Te Jing Bölüm 1: Tanımlanamayan o gücün akışına teslim olmak",
+      "url": "https://tr.wikipedia.org/wiki/Taoizm",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyandaki o yabancı aslında kim? Jung'un Anima ve Animus arketipleri",
+      "url": "https://tr.wikipedia.org/wiki/Anima_ve_animus",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,

@@ -27,6 +27,44 @@ import imageio_ffmpeg
 import requests
 from mutagen.mp3 import MP3
 
+# 🔴 2 Eki — GEÇİCİ SUNUCU HATASI KOŞUYU ÇÖKERTİYORDU. 1 Eki 17:10 koşusu:
+#   Pexels  → 500 Internal Server Error
+#   Wikimedia → 429 Too Many Requests
+# İkisi de GEÇİCİ hata; zincirde yeniden deneme olmadığı için ikisi aynı anda
+# düşünce "ne Pexels ne Wikimedia bulundu" deyip tüm koşu iptal oldu (exit 4).
+# 429/5xx kalıcı değildir — birkaç saniye bekleyip tekrar denemek çözer.
+_GECICI_KODLAR = (429, 500, 502, 503, 504)
+
+
+def istek_yap(*a, _denemeler: int = 4, **kw):
+    """requests.get + geçici hatalarda artan bekleme (3·6·12·20 sn).
+    Kalıcı hatada (404, 401…) beklemeden döner. Denemeler bitince son yanıtı
+    OLDUĞU GİBİ döndürür — çağıran raise_for_status() ile kendi hatasını üretir,
+    yani mevcut akış değişmez, araya yalnız yeniden denemeler girer."""
+    import time as _t
+    son = None
+    for d in range(_denemeler):
+        try:
+            y = requests.get(*a, **kw)
+            if y.status_code in _GECICI_KODLAR:
+                son = requests.HTTPError(f"{y.status_code} geçici", response=y)
+                if d < _denemeler - 1:
+                    bekle = min(2 ** d * 3, 20)
+                    print(f"  [istek] {y.status_code} geçici — {bekle}sn sonra yeniden "
+                          f"({d + 1}/{_denemeler})", flush=True)
+                    _t.sleep(bekle)
+                    continue
+            return y
+        except requests.RequestException as h:   # ağ kopması da geçicidir
+            son = h
+            if d < _denemeler - 1:
+                bekle = min(2 ** d * 3, 20)
+                print(f"  [istek] ağ hatası ({str(h)[:50]}) — {bekle}sn sonra yeniden "
+                      f"({d + 1}/{_denemeler})", flush=True)
+                _t.sleep(bekle)
+    raise son
+
+
 import bridge
 
 
@@ -222,7 +260,7 @@ def jamendo_muzik_indir(arama: str, hedef_mp3: Path, client_id: str) -> bool:
         sec = _random.choice(havuz)
 
         mp3_url = sec.get("audio") or sec.get("audiodownload")
-        indir = requests.get(mp3_url, stream=True, timeout=INDIRME_ZAMAN_ASIMI)
+        indir = istek_yap(mp3_url, stream=True, timeout=INDIRME_ZAMAN_ASIMI)
         indir.raise_for_status()
         with open(hedef_mp3, "wb") as f_out:
             for parca in indir.iter_content(chunk_size=1 << 15):
@@ -346,7 +384,7 @@ WIKIMEDIA_API = "https://commons.wikimedia.org/w/api.php"
 
 def wikimedia_foto_indir(keyword: str, foto_hedef: Path) -> dict:
     """Wikimedia Commons'tan keyword için en alakalı portrait fotoğrafı indir."""
-    sonuc = requests.get(
+    sonuc = istek_yap(
         WIKIMEDIA_API,
         params={
             "action": "query",
@@ -380,7 +418,7 @@ def wikimedia_foto_indir(keyword: str, foto_hedef: Path) -> dict:
             aday = {"url": ii.get("thumburl") or ii.get("url"), "w": w, "h": h, "title": s.get("title", "")}
     if not aday:
         raise RuntimeError(f"'{keyword}' için Wikimedia portrait foto yok.")
-    indirme = requests.get(
+    indirme = istek_yap(
         aday["url"], stream=True, timeout=INDIRME_ZAMAN_ASIMI,
         headers={"User-Agent": "MR-Studio-Montajci/1.0"},
     )
@@ -539,7 +577,7 @@ def gorsel_kaynak_indir(keyword: str, hedef: Path, sure_sn: float, api_key: str,
 
 
 def pexels_video_indir(keyword: str, hedef: Path, api_key: str) -> dict:
-    yanit = requests.get(
+    yanit = istek_yap(
         PEXELS_ARAMA_URL,
         params={"query": keyword, "orientation": "portrait", "size": "medium", "per_page": 8},
         headers={"Authorization": api_key},
@@ -593,7 +631,7 @@ def pexels_video_indir(keyword: str, hedef: Path, api_key: str) -> dict:
     if not en_iyi_dosya:
         raise RuntimeError(f"'{keyword}' için portrait dosyası yok.")
 
-    indirme = requests.get(en_iyi_dosya["link"], stream=True, timeout=INDIRME_ZAMAN_ASIMI)
+    indirme = istek_yap(en_iyi_dosya["link"], stream=True, timeout=INDIRME_ZAMAN_ASIMI)
     indirme.raise_for_status()
     with open(hedef, "wb") as f:
         for parca in indirme.iter_content(chunk_size=1 << 15):

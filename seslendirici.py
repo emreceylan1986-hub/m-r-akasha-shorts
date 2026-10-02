@@ -271,7 +271,9 @@ def senaryo_uret(haber: dict) -> str:
                 continue
             # 3 denemede de uzun kaldı: SONDAN cümle at ama kapanış cümlesini KORU
             # (kapanış CTA'dır; hook zaten ilk cümle, ikisi de dokunulmaz).
-            c = [x for x in re.split(r'(?<=[.!?…])\s+', senaryo) if x.strip()]
+            import re as _r   # 🔴 modül seviyesinde `re` YOK (yalnız 566'da yerel
+                              # `_re`) — global kullanım NameError verirdi
+            c = [x for x in _r.split(r'(?<=[.!?…])\s+', senaryo) if x.strip()]
             while len(c) > 3 and len(" ".join(c).split()) > azami_kelime:
                 del c[-2]          # sondan BİR ÖNCEKİ cümleyi at, kapanış kalsın
             senaryo = " ".join(c)

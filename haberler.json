@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-10-02T17:11:00.961781+00:00",
+  "uretim_zamani": "2026-10-02T19:10:53.518128+00:00",
   "haberler": [
     {
-      "baslik": "Rüya döngüsünde beliren bilge yaşlı adam: Ruhunun rehber arketipi",
-      "url": "https://en.wikipedia.org/wiki/Wise_Old_Man",
+      "baslik": "Rüyanda sürekli aynı mekanı görüyorsan: Jung’un kolektif hafıza teorisi",
+      "url": "https://en.wikipedia.org/wiki/Active_imagination",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

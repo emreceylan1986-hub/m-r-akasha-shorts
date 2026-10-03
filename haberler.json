@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-10-03T17:11:39.467434+00:00",
+  "uretim_zamani": "2026-10-03T19:10:59.721607+00:00",
   "haberler": [
     {
-      "baslik": "Sufi öğretisinde Kabz ve Bast halleri: Ruhunun daralma ve genişleme döngüsü",
-      "url": "https://en.wikipedia.org/wiki/Kabd",
+      "baslik": "Bedeninin hafızası: Bastırdığın her duygu kaslarında nasıl kilitli kalıyor?",
+      "url": "https://tr.wikipedia.org/wiki/Psikosomatik",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Bedenindeki meridyen tıkanıklıkları: Bastırılmış öfkenin karaciğerindeki izleri",
-      "url": "https://en.wikipedia.org/wiki/Meridian_(Chinese_medicine)",
+      "baslik": "Ego ve beden zırhı: Ruhunu korumak için ördüğün o fiziksel duvarlar",
+      "url": "https://en.wikipedia.org/wiki/Character_armor",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 990,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mevlana'nın bahsettiği 'can': Beden kalıbından taşan o saf enerji nedir?",
+      "url": "https://tr.wikipedia.org/wiki/Rumi",
+      "kaynak": "gemini-fallback",
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

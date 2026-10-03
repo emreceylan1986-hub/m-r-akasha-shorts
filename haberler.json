@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-02T20:12:10.514441+00:00",
+  "uretim_zamani": "2026-10-03T00:47:48.098097+00:00",
   "haberler": [
     {
-      "baslik": "Neden hep aynı insan tipiyle sınanıyorsun? Aynalık prensibi ve ruhsal yansımalar",
-      "url": "https://en.wikipedia.org/wiki/Law_of_attraction_(New_Thought)",
+      "baslik": "Ajna çakran tıkalıysa zihnin sürekli aynı senaryoyu yazar",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Dostoyevski'nin Raskolnikov'u gibi vicdan azabı rüyalarında nasıl şekil bulur?",
-      "url": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+      "baslik": "Manipura çakrası sarsıldığında başkalarının onayına neden hapsolursun?",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Bilinçaltının en derin katmanı: Rüyalardaki 'Kendilik' (Self) arketipi ile bütünleşmek",
-      "url": "https://en.wikipedia.org/wiki/Self_in_Jungian_psychology",
+      "baslik": "Mucizeler Kursu — Ders 1: 'Gördüğüm hiçbir şey hiçbir şey ifade etmiyor'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

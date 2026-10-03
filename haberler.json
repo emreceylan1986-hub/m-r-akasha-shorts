@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-03T19:10:59.721607+00:00",
+  "uretim_zamani": "2026-10-03T20:11:02.681113+00:00",
   "haberler": [
     {
-      "baslik": "Bedeninin hafızası: Bastırdığın her duygu kaslarında nasıl kilitli kalıyor?",
-      "url": "https://tr.wikipedia.org/wiki/Psikosomatik",
+      "baslik": "Sufizmde seyr-i sülûk: Ruhun kendi derinliklerine yaptığı o zorlu hicret",
+      "url": "https://tr.wikipedia.org/wiki/Seyr-i_s%C3%BCl%C3%BBk",
       "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ego ve beden zırhı: Ruhunu korumak için ördüğün o fiziksel duvarlar",
-      "url": "https://en.wikipedia.org/wiki/Character_armor",
-      "kaynak": "gemini-fallback",
-      "skor": 990,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mevlana'nın bahsettiği 'can': Beden kalıbından taşan o saf enerji nedir?",
-      "url": "https://tr.wikipedia.org/wiki/Rumi",
-      "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

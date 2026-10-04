@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-10-04T17:11:01.662566+00:00",
+  "uretim_zamani": "2026-10-04T19:11:05.224957+00:00",
   "haberler": [
     {
-      "baslik": "Seni hep aynı insanlara ve döngülere çeken o 'görünmez' manyetik alan",
-      "url": "https://tr.wikipedia.org/wiki/Al%C4%B1c%C4%B1_alan",
+      "baslik": "Hayatındaki o garip tesadüf aslında neyi fısıldıyor?",
+      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sürekli karşına çıkan o sayılar ve isimler bir tesadüf mü, yoksa zihninin radarımı?",
-      "url": "https://tr.wikipedia.org/wiki/Alg%C4%B1da_se%C3%A7icilik",
+      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan o gücün akışına teslim olmak",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Cing",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu — Ders 1: Gözünle gördüğün hiçbir şeyin gerçek bir anlamı yok",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

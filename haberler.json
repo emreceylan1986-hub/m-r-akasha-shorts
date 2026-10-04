@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-03T20:11:02.681113+00:00",
+  "uretim_zamani": "2026-10-04T17:11:01.662566+00:00",
   "haberler": [
     {
-      "baslik": "Sufizmde seyr-i sülûk: Ruhun kendi derinliklerine yaptığı o zorlu hicret",
-      "url": "https://tr.wikipedia.org/wiki/Seyr-i_s%C3%BCl%C3%BBk",
+      "baslik": "Seni hep aynı insanlara ve döngülere çeken o 'görünmez' manyetik alan",
+      "url": "https://tr.wikipedia.org/wiki/Al%C4%B1c%C4%B1_alan",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sürekli karşına çıkan o sayılar ve isimler bir tesadüf mü, yoksa zihninin radarımı?",
+      "url": "https://tr.wikipedia.org/wiki/Alg%C4%B1da_se%C3%A7icilik",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

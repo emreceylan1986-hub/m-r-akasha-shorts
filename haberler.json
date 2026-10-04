@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-04T19:11:05.224957+00:00",
+  "uretim_zamani": "2026-10-04T20:11:47.151628+00:00",
   "haberler": [
     {
-      "baslik": "Hayatındaki o garip tesadüf aslında neyi fısıldıyor?",
-      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
+      "baslik": "Hayatındaki kilitlerin anahtarı: Akışa teslim olmak güçsüzlük müdür?",
+      "url": "https://tr.wikipedia.org/wiki/Ak%C4%B1%C5%9F_(psikoloji)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan o gücün akışına teslim olmak",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Cing",
+      "baslik": "Seni en çok öfkelendiren insan aslında senin henüz kabul edemediğin parçandır",
+      "url": "https://tr.wikipedia.org/wiki/Ayna_n%C3%B6ronlar",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu — Ders 1: Gözünle gördüğün hiçbir şeyin gerçek bir anlamı yok",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Yarım kalmış hikayelerin zihnindeki ağırlığı: Zeigarnik etkisi ve ruhsal enerji",
+      "url": "https://tr.wikipedia.org/wiki/Zeigarnik_etkisi",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

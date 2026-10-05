@@ -180,7 +180,14 @@ def senaryo_uret(haber: dict) -> str:
     wd = datetime.datetime.utcnow().weekday()  # 0=Mon, 3=Thu
     hour = datetime.datetime.utcnow().hour
     # Uzun varyant: Pazartesi 12 UTC + Perşembe 16 UTC (haftada 2 video deneme)
-    uzun_varyant = (wd == 0 and hour < 14) or (wd == 3 and 14 <= hour < 18)
+    # 🔴 5 Eki KAPATILDI — "biraz uzun deneme" varyantıydı; sonucu artık ELİMİZDE:
+    # 120 olgun video, 45 sn ve üstü medyan 42 izlenme · 45 sn altı 94 (p=0,0034).
+    # Deneme bitti, cevap olumsuz. Perşembe 14-18 bandı Akasha'nın 17:00 hedef
+    # slotuna düşüyordu, yani haftada bir video bilerek zararlı bölgede üretiliyordu.
+    # Geri açmak için: UZUN_VARYANT_ACIK = True (ama önce yeni ölçüm yap).
+    UZUN_VARYANT_ACIK = False
+    uzun_varyant = UZUN_VARYANT_ACIK and (
+        (wd == 0 and hour < 14) or (wd == 3 and 14 <= hour < 18))
     # FAZ 8: Çarşamba (DIALOG_GUN=2) — dialog formatı dene (ikili ses)
     dialog_varyant = (wd == DIALOG_GUN)
 
@@ -192,19 +199,27 @@ def senaryo_uret(haber: dict) -> str:
     # Yani uzun video izlenmeyi YARIYA düşürüyor. Prompt zaten "35-45 sn" diyordu
     # ama 120 videonun 46'sı sınırı aşmıştı — çünkü kod yalnız ÇOK KISA olmayı
     # kontrol ediyordu, ÇOK UZUN olmayı HİÇ kontrol etmiyordu. Üst sınır eklendi.
-    # 45 sn ≈ 85 kelime (Akasha TTS hızı -%14, ~1,9 kelime/sn).
+    # 🔴 5 Eki DÜZELTME — 85 sınırı GEVŞEKMİŞ, kapı hiç tetiklenmedi ama videoların
+    # 4/11'i yine 45 sn'yi aştı (biri 56 sn). Sebep: "~1,9 kelime/sn" TAHMİNDİ.
+    # CANLI ÖLÇÜM (3 video, senaryo kelimesi ↔ yayınlanan süre):
+    #     56 kelime → 39 sn = 1,44 kelime/sn
+    #     68 kelime → 41 sn = 1,66
+    #     71 kelime → 45 sn = 1,58
+    # Gerçek hız ~1,56 (en yavaş 1,44). 85 kelime aslında ~54 sn demekmiş.
+    # 45 sn için güvenli üst sınır: 45 × 1,44 ≈ 65 kelime.
+    # ⚠️ Sınırı bir daha TAHMİNLE koyma — kelime/sn'yi canlı videodan ölç.
     if uzun_varyant:
-        hedef_kelime = "75-90"   # "biraz uzun" deneme — yine de güvenli bölge
-        min_kelime = 65
-        azami_kelime = 95
-    elif dialog_varyant:
-        hedef_kelime = "70-85"
-        min_kelime = 60
-        azami_kelime = 90
-    else:
-        hedef_kelime = "60-80"   # VARSAYILAN: kısa+derin (35-45sn), Cosmos zonu
+        hedef_kelime = "62-72"   # "biraz uzun" deneme — yine de güvenli bölge
         min_kelime = 55
-        azami_kelime = 85
+        azami_kelime = 75
+    elif dialog_varyant:
+        hedef_kelime = "58-68"
+        min_kelime = 52
+        azami_kelime = 72
+    else:
+        hedef_kelime = "52-62"   # VARSAYILAN: kısa+derin (33-43 sn ölçülmüş hızla)
+        min_kelime = 48
+        azami_kelime = 65
 
     temel_prompt = (
         f"Headline: {haber['baslik']}\n"

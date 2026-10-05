@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-10-05T17:12:27.638322+00:00",
+  "uretim_zamani": "2026-10-05T19:12:36.789906+00:00",
   "haberler": [
     {
-      "baslik": "Erik Erikson ve kimlik bunalımının görünmez eşikleri",
-      "url": "https://tr.wikipedia.org/wiki/Erik_Erikson",
+      "baslik": "Carl Jung ve Persona: Aynadaki yüzün gerçekten sana mı ait?",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Stanley Milgram deneyinin ruhlardaki yankısı",
-      "url": "https://tr.wikipedia.org/wiki/Stanley_Milgram",
+      "baslik": "Yunus Emre'nin 'Beni bende demen' dizesindeki o gizli 'Ben'",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu — Ders 2: 'Gördüğüm her şeye benim verdiğim anlam dışında bir anlam yüklemedim'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

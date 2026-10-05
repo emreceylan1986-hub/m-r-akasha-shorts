@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-05T22:11:19.473959+00:00",
+  "uretim_zamani": "2026-10-05T22:58:50.616626+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung ve Enantiodromia: Hayatında aşırıya kaçtığın her şeyin tersine dönme yasası",
-      "url": "https://tr.wikipedia.org/wiki/Enantiodromia",
+      "baslik": "Gestalt kuramına göre bitmemiş işler zihni nasıl esir alır?",
+      "url": "https://tr.wikipedia.org/wiki/Gestalt_terapi",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Prokrustes yatağı sendromu: Zihnin kendi kalıbına uymayanı reddedişi",
+      "url": "https://tr.wikipedia.org/wiki/Prokrustes",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Dunning-Kruger etkisi: Bilgisizliğin verdiği sahte özgüvenin arkasındaki perde",
+      "url": "https://tr.wikipedia.org/wiki/Dunning-Kruger_etkisi",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

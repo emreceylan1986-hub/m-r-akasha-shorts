@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-10-05T22:58:50.616626+00:00",
+  "uretim_zamani": "2026-10-06T17:11:20.001462+00:00",
   "haberler": [
     {
-      "baslik": "Gestalt kuramına göre bitmemiş işler zihni nasıl esir alır?",
-      "url": "https://tr.wikipedia.org/wiki/Gestalt_terapi",
+      "baslik": "Mevlânâ'ya göre 'Pervane' gibi yanmak: Kalbin uyanış sırrı",
+      "url": "tr.wikipedia.org/wiki/Mevlânâ_Celâleddîn-i_Rûmî",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Prokrustes yatağı sendromu: Zihnin kendi kalıbına uymayanı reddedişi",
-      "url": "https://tr.wikipedia.org/wiki/Prokrustes",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Dunning-Kruger etkisi: Bilgisizliğin verdiği sahte özgüvenin arkasındaki perde",
-      "url": "https://tr.wikipedia.org/wiki/Dunning-Kruger_etkisi",
+      "baslik": "Mesnevi'nin ilk beyitlerinde saklı olan: Ayrılığın acısından vuslata",
+      "url": "tr.wikipedia.org/wiki/Mesnevi",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-10-06T17:11:20.001462+00:00",
+  "uretim_zamani": "2026-10-06T19:11:21.784889+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre 'Pervane' gibi yanmak: Kalbin uyanış sırrı",
-      "url": "tr.wikipedia.org/wiki/Mevlânâ_Celâleddîn-i_Rûmî",
+      "baslik": "Aynadaki yabancı: Kendini herkesten sakladığın o gizli oda",
+      "url": "https://tr.wikipedia.org/wiki/Benlik",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mesnevi'nin ilk beyitlerinde saklı olan: Ayrılığın acısından vuslata",
-      "url": "tr.wikipedia.org/wiki/Mesnevi",
+      "baslik": "İçindeki boşluk hissi dışarıdan aldığın alkışlarla dolmuyor",
+      "url": "https://tr.wikipedia.org/wiki/Yalnızlık",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Zamanın akışına direnmeyi bıraktığında hayat kendiliğinden çözülür",
+      "url": "https://tr.wikipedia.org/wiki/Zaman",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

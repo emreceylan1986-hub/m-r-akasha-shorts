@@ -59,12 +59,13 @@ def _videolar(yt, azami=150):
     idler = list(dict.fromkeys(idler))  # sıra korunarak tekilleştir
     out = []
     for i in range(0, len(idler), 50):
-        for v in yt.videos().list(part="snippet,status,contentDetails",
+        for v in yt.videos().list(part="snippet,status,contentDetails,statistics",
                                   id=",".join(idler[i:i + 50])).execute()["items"]:
             m = re.match(r"PT(?:(\d+)M)?(?:(\d+)S)?", v["contentDetails"]["duration"])
             sn = (int(m.group(1) or 0) * 60 + int(m.group(2) or 0)) if m else 0
-            out.append({"id": v["id"], "pub": v["snippet"]["publishedAt"],
-                        "sn": sn, "gizli": v["status"]["privacyStatus"]})
+            out.append({"id": v["id"], "pub": v["snippet"]["publishedAt"], "sn": sn,
+                        "gizli": v["status"]["privacyStatus"],
+                        "izlenme": int(v["statistics"].get("viewCount", 0))})
     return out
 
 
@@ -139,8 +140,10 @@ def main() -> int:
 
     # ── 2) YAYIN SAATİ BANDI
     try:
+        # ⚠️ izlenme Data API viewCount'tan: _izlenmeler() (Analytics, sort=-views,
+        # maxResults=200) listeye girmeyen videoyu .get(id, 0) ile SIFIR sayıyordu —
+        # gerçek izlenmesi olan videolar 0 görünüp saat sıralamasını bozuyordu.
         vid = _videolar(yt)
-        izl = _izlenmeler(ya, [v["id"] for v in vid])
         simdi = dt.datetime.now(dt.timezone.utc)
 
         def yas(v):
@@ -149,7 +152,7 @@ def main() -> int:
         olgun = [v for v in vid if v["gizli"] == "public" and v["sn"] <= 180 and yas(v) >= 3]
         saat = {}
         for v in olgun:
-            saat.setdefault(v["pub"][11:13], []).append(izl.get(v["id"], 0))
+            saat.setdefault(v["pub"][11:13], []).append(v["izlenme"])
         # yalnız yeterli örneği olan saatler sıralamaya girsin
         sirali = sorted(((h, st.median(l), len(l)) for h, l in saat.items() if len(l) >= 4),
                         key=lambda x: -x[1])
@@ -247,6 +250,48 @@ def main() -> int:
                                 f"(hedef {hedef_adet}/gün)")
     except Exception as h:
         rapor.append(f"günlük adet ölçülemedi: {str(h)[:110]}")
+
+    # ── 5) SÜRE BANDI — uzunluk kapısının sabitini VERİYE bağlar (7 Eki)
+    # Taban 48→55 kelime yapıldı: 45+ sn bandı izlenmeyi yarıya düşürüyordu, ama
+    # 30-35 sn bandında ölçüm yoktu (n=2). Veri birikince karar burada kendini düzeltir.
+    try:
+        # ⚠️ _izlenmeler() BURADA KULLANILMAZ: Analytics sort=-views + maxResults=200
+        # az izlenen videoları dışlıyor → her bandın medyanı yukarı şişiyor (45+
+        # bandının 50 videosundan 35'i düşüyordu, sonuç TERS çıkıyordu). Data API
+        # viewCount tam veridir.
+        vids = _videolar(yt, azami=150)
+        simdi = dt.datetime.now(dt.timezone.utc)
+        olgun = []
+        for v in vids:
+            if v["gizli"] != "public" or not (0 < v["sn"] <= 180):
+                continue
+            yas = (simdi - dt.datetime.fromisoformat(v["pub"].replace("Z", "+00:00"))).days
+            if 3 <= yas <= 60:
+                olgun.append((v["sn"], v["izlenme"]))
+        bant = {}
+        for a, b, ad in [(0, 35, "30-35"), (35, 40, "35-40"), (40, 45, "40-45"), (45, 999, "45+")]:
+            g = sorted(i for sn, i in olgun if a <= sn < b)
+            if g:
+                bant[ad] = (len(g), g[len(g) // 2])
+        if bant:
+            rapor.append("süre bandı (n·medyan izlenme): "
+                         + " · ".join(f"{k}={n}·{m}" for k, (n, m) in bant.items()))
+        # a) TABAN yanlış mı: kısa bant anlamlı ölçüde daha iyiyse min_kelime düşsün.
+        kisa, iyi = bant.get("30-35"), bant.get("35-40")
+        if kisa and iyi and kisa[0] >= 5 and kisa[1] >= iyi[1] * 1.5:
+            alarmlar.append(f"📏 KISA BANT DAHA İYİ: 30-35 sn medyan {kisa[1]} (n={kisa[0]}) vs "
+                            f"35-40 sn {iyi[1]} (n={iyi[0]}) — seslendirici.py min_kelime=55 "
+                            f"tabanı veriye ters, düşürmeyi ölç")
+        # b) TAVAN tutuyor mu: kapı 45 sn'yi kesmeli; son 10'da 3+ aşan varsa kaçırıyor.
+        son10 = [sn for _, sn in sorted(((v["pub"], v["sn"]) for v in vids
+                 if v["gizli"] == "public" and 0 < v["sn"] <= 180), reverse=True)[:10]]
+        asan = [sn for sn in son10 if sn > 45]
+        if len(son10) >= 10 and len(asan) >= 3:
+            alarmlar.append(f"📏 UZUNLUK KAPISI KAÇIRIYOR: son 10 videonun {len(asan)}'i 45 sn üstü "
+                            f"({', '.join(str(x) for x in asan)}) — azami_kelime=65 yetmiyor, "
+                            f"kelime/sn'yi yeniden ölç (tahminle düşürme)")
+    except Exception as h:
+        rapor.append(f"süre bandı ölçülemedi: {str(h)[:110]}")
 
     print("\n".join(rapor))
     if alarmlar:

@@ -217,8 +217,12 @@ def senaryo_uret(haber: dict) -> str:
         min_kelime = 52
         azami_kelime = 72
     else:
-        hedef_kelime = "52-62"   # VARSAYILAN: kısa+derin (33-43 sn ölçülmüş hızla)
-        min_kelime = 48
+        # 7 Eki ÖLÇÜMÜ (kanal, 3-50 gün yaşındaki public videolar, medyan izlenme):
+        #     35-40 sn → 99   ·   40-45 sn → 85   ·   45+ sn → 39
+        # Yani ALT sınır da önemli: 48 kelime en hızlı sesle (1,66) 29 sn eder ve
+        # iyi bandın ALTINA düşer. Taban 55'e çekildi → 33-38 sn, hedef 58-64 → 35-43 sn.
+        hedef_kelime = "58-64"   # VARSAYILAN: ölçülen en iyi bant (35-43 sn)
+        min_kelime = 55
         azami_kelime = 65
 
     temel_prompt = (

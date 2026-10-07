@@ -76,6 +76,11 @@ CIKTI_KLASOR = PANEL_KOK / "shorts_ciktilari"
 PEXELS_ARAMA_URL = "https://api.pexels.com/videos/search"
 HEDEF_GENISLIK = 1080
 HEDEF_YUKSEKLIK = 1920
+# 7 Eki: CB'de 15 Eyl'den beri olan kapı Akasha'ya taşındı. Akasha'da yoktu;
+# canlı denemede Wikimedia 706×834'lük bir görsel döndürdü — 1080×1920'a
+# şişince bulanıklaşıyor, zoom 1.35'te iyice dağılıyor.
+ASGARI_GORSEL_GENISLIK = 800
+ASGARI_GORSEL_YUKSEKLIK = 1000
 KLIP_SAYISI = 3          # 5→3: tutarlılık (viral referans tek-özne mantığı)
 ISTEK_ZAMAN_ASIMI = 30
 INDIRME_ZAMAN_ASIMI = 90
@@ -392,7 +397,7 @@ def wikimedia_foto_indir(keyword: str, foto_hedef: Path) -> dict:
             "generator": "search",
             "gsrsearch": f"{keyword} filetype:bitmap",
             "gsrnamespace": "6",
-            "gsrlimit": 8,
+            "gsrlimit": 20,   # 7 Eki: çözünürlük kapısı eklendi, havuz 8 ise hepsi elenebiliyor
             "prop": "imageinfo",
             "iiprop": "url|size|mime",
             "iiurlwidth": "1080",
@@ -402,22 +407,39 @@ def wikimedia_foto_indir(keyword: str, foto_hedef: Path) -> dict:
     )
     sonuc.raise_for_status()
     sayfalar = (sonuc.json().get("query") or {}).get("pages") or {}
-    # en iyi: yüksekliği genişliğinden büyük (portrait), JPG/PNG
+    # 7 Eki — SEÇİM: ALAKA SIRASI ESAS, KALİTE KAPISI SÜZGEÇ.
+    # Anahtar kelimeler Pexels için İNGİLİZCE üretiliyor; aynı kelime Wikimedia'ya
+    # da gidiyor. Ölçüm ("Rumi", 20 sonuç): en alakalı 4 sonuç alakalı ama küçük
+    # (320×495), #5 Mevlânâ'nın türbesi 4032×3024 (alakalı, yatay), ilk DİKEY
+    # büyük sonuç ise Hindistan'daki Rumi Darwaza. "En büyüğü seç" ya da kademeli
+    # seçim alakayı eziyor ve yanlış şehrin kapısını getiriyordu.
+    # Doğrusu: arama sırasında ilerle, kalite kapısını geçen İLK adayı al.
+    # Kapı: dikey ise ASGARI_GORSEL_*, yatay ise h >= HEDEF_YUKSEKLIK (merkez
+    # crop'ta tam çözünürlük kalır; scale+crop zaten dikeye çeviriyor).
     aday = None
-    for s in sayfalar.values():
-        ii = (s.get("imageinfo") or [{}])[0]
-        if not ii:
-            continue
-        mime = ii.get("mime", "")
-        if not mime.startswith("image/"):
+    ilk_alakali = None
+    for s_ in sorted(sayfalar.values(), key=lambda x: x.get("index", 9999)):
+        ii = (s_.get("imageinfo") or [{}])[0]
+        if not ii or not ii.get("mime", "").startswith("image/"):
             continue
         w, h = ii.get("width", 0), ii.get("height", 0)
-        if h <= w:
+        if not w or not h:
             continue
-        if aday is None or h > aday["h"]:
-            aday = {"url": ii.get("thumburl") or ii.get("url"), "w": w, "h": h, "title": s.get("title", "")}
-    if not aday:
-        raise RuntimeError(f"'{keyword}' için Wikimedia portrait foto yok.")
+        kayit = {"url": ii.get("thumburl") or ii.get("url"), "w": w, "h": h,
+                 "title": s_.get("title", "")}
+        ilk_alakali = ilk_alakali or kayit
+        yeterli = (w >= ASGARI_GORSEL_GENISLIK and h >= ASGARI_GORSEL_YUKSEKLIK
+                   if h > w else h >= HEDEF_YUKSEKLIK)
+        if yeterli:
+            aday = kayit
+            break
+    if aday is None:
+        if ilk_alakali is None:
+            raise RuntimeError(f"'{keyword}' için Wikimedia foto yok.")
+        # Kapıyı geçen yok: üretimi DURDURMA, en alakalıyı al ama görünür yaz.
+        aday = ilk_alakali
+        print(f"[montajci] ⚠️ '{keyword}': {aday['w']}×{aday['h']} — çözünürlük kapısının "
+              f"altında, bulanık olabilir (20 adayın hiçbiri geçmedi)")
     indirme = istek_yap(
         aday["url"], stream=True, timeout=INDIRME_ZAMAN_ASIMI,
         headers={"User-Agent": "MR-Studio-Montajci/1.0"},
@@ -439,7 +461,13 @@ def foto_video_yap(foto: Path, hedef: Path, sure_sn: float) -> None:
             "-vf",
             f"scale={HEDEF_GENISLIK*2}:{HEDEF_YUKSEKLIK*2}:force_original_aspect_ratio=increase,"
             f"crop={HEDEF_GENISLIK*2}:{HEDEF_YUKSEKLIK*2},"
-            f"zoompan=z='min(zoom+0.0007,1.20)':d=1:"
+            # 7 Eki KÖK SEBEP: 15 Eyl'de çift zoom kaldırılınca (kadraj düzeltmesi)
+            # Akasha'nın TEK kalan zoomu 0,0007 idi — saniyede %2,1, gözle fark
+            # edilmiyor, foto DONMUŞ görünüyor. CB'de bu 14 Eyl'de 0,0022'ye
+            # çıkarılmıştı ama Akasha'ya taşınmamıştı. Sonuç: 18 Eyl-3 Eki'de
+            # CB +%43, Akasha -%66 izlenme (tutma %55'e ÇIKTIĞI hâlde) — yani
+            # kusur içerikte değil, Shorts akışının hareketsiz kareyi kesmesinde.
+            f"zoompan=z='min(zoom+0.0022,1.35)':d=1:"
             f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"s={HEDEF_GENISLIK}x{HEDEF_YUKSEKLIK}:fps=30,setsar=1,"
             f"{CINEMATIC_GRADE}",

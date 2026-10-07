@@ -280,7 +280,7 @@ def main() -> int:
         kisa, iyi = bant.get("30-35"), bant.get("35-40")
         if kisa and iyi and kisa[0] >= 5 and kisa[1] >= iyi[1] * 1.5:
             alarmlar.append(f"📏 KISA BANT DAHA İYİ: 30-35 sn medyan {kisa[1]} (n={kisa[0]}) vs "
-                            f"35-40 sn {iyi[1]} (n={iyi[0]}) — seslendirici.py min_kelime=55 "
+                            f"35-40 sn {iyi[1]} (n={iyi[0]}) — seslendirici.py min_kelime "
                             f"tabanı veriye ters, düşürmeyi ölç")
         # b) TAVAN tutuyor mu: kapı 45 sn'yi kesmeli; son 10'da 3+ aşan varsa kaçırıyor.
         son10 = [sn for _, sn in sorted(((v["pub"], v["sn"]) for v in vids
@@ -288,7 +288,7 @@ def main() -> int:
         asan = [sn for sn in son10 if sn > 45]
         if len(son10) >= 10 and len(asan) >= 3:
             alarmlar.append(f"📏 UZUNLUK KAPISI KAÇIRIYOR: son 10 videonun {len(asan)}'i 45 sn üstü "
-                            f"({', '.join(str(x) for x in asan)}) — azami_kelime=65 yetmiyor, "
+                            f"({', '.join(str(x) for x in asan)}) — azami_kelime yetmiyor, "
                             f"kelime/sn'yi yeniden ölç (tahminle düşürme)")
     except Exception as h:
         rapor.append(f"süre bandı ölçülemedi: {str(h)[:110]}")

@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-07T17:13:21.417137+00:00",
+  "uretim_zamani": "2026-10-07T19:11:16.328786+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu'na göre suçluluk duygusunun seni geçmişe kilitleyen zinciri",
-      "url": "https://tr.wikipedia.org/wiki/Su%C3%A7luluk",
+      "baslik": "Zihninin yarattığı sahte suçluluk: Neden her ters giden şeyden kendini sorumlu tutuyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/Su%C3%A7luluk_psikolojisi",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu ve yargılamanın seni aslında başkalarından ayırma çabası",
-      "url": "https://tr.wikipedia.org/wiki/Yarg%C4%B1lama",
+      "baslik": "Nefesinin farkına vardığın an: Kaygıyı bedeninden tek bir solukla nasıl tahliye edersin?",
+      "url": "https://tr.wikipedia.org/wiki/Nefes_egzersizi",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu ve zihnin barışını bozan o görünmez içsel savunma duvarı",
-      "url": "https://tr.wikipedia.org/wiki/Savunma_mekanizmalar%C4%B1",
+      "baslik": "Kuantum çekim gücü: Direndiğin her şeyi hayatına nasıl fark etmeden davet ediyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87ekim_yasas%C4%B1",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-06T21:10:57.974090+00:00",
+  "uretim_zamani": "2026-10-07T01:06:17.640082+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre kilitli kapıların açılma vakti: Sabrın gizli dili",
-      "url": "https://tr.wikipedia.org/wiki/Sabır",
+      "baslik": "Mucizeler Kursu Ders 45: Tanrı zihnimi yalnızca huzurla yarattı",
+      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu Ders 46: Tanrı'nın huzuru benim şu anki gerçeğimdir",
+      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu Ders 47: Hayatımı kontrol etme yanılsamasından vazgeçiş",
+      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

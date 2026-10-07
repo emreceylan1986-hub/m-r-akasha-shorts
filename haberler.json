@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-07T01:06:17.640082+00:00",
+  "uretim_zamani": "2026-10-07T17:13:21.417137+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 45: Tanrı zihnimi yalnızca huzurla yarattı",
-      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu Ders 46: Tanrı'nın huzuru benim şu anki gerçeğimdir",
-      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Mucizeler Kursu'na göre suçluluk duygusunun seni geçmişe kilitleyen zinciri",
+      "url": "https://tr.wikipedia.org/wiki/Su%C3%A7luluk",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu Ders 47: Hayatımı kontrol etme yanılsamasından vazgeçiş",
-      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Mucizeler Kursu ve yargılamanın seni aslında başkalarından ayırma çabası",
+      "url": "https://tr.wikipedia.org/wiki/Yarg%C4%B1lama",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu ve zihnin barışını bozan o görünmez içsel savunma duvarı",
+      "url": "https://tr.wikipedia.org/wiki/Savunma_mekanizmalar%C4%B1",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

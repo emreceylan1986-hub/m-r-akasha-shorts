@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-07T19:11:16.328786+00:00",
+  "uretim_zamani": "2026-10-07T20:10:58.517027+00:00",
   "haberler": [
     {
-      "baslik": "Zihninin yarattığı sahte suçluluk: Neden her ters giden şeyden kendini sorumlu tutuyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/Su%C3%A7luluk_psikolojisi",
+      "baslik": "Mucizeler Kursu: 'Hiçbir şeyin anlamı yok' sözü neden en büyük özgürlüktür?",
+      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing Bölüm 16: Zihni boşaltıp derin bir sessizliğe ulaşmanın yolu",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Jing",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Nefesinin farkına vardığın an: Kaygıyı bedeninden tek bir solukla nasıl tahliye edersin?",
-      "url": "https://tr.wikipedia.org/wiki/Nefes_egzersizi",
+      "baslik": "Yunus Emre'ye göre dervişlik: Kulaktan değil, kalpten bilmek",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kuantum çekim gücü: Direndiğin her şeyi hayatına nasıl fark etmeden davet ediyorsun?",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87ekim_yasas%C4%B1",
-      "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

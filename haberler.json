@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-10-07T20:10:58.517027+00:00",
+  "uretim_zamani": "2026-10-07T21:11:04.505498+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu: 'Hiçbir şeyin anlamı yok' sözü neden en büyük özgürlüktür?",
-      "url": "https://tr.wikipedia.org/wiki/Mucizeler_Kursu",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing Bölüm 16: Zihni boşaltıp derin bir sessizliğe ulaşmanın yolu",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Jing",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'ye göre dervişlik: Kulaktan değil, kalpten bilmek",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Neden hep aynı insanlara çekiliyorsun? Adrenalin ve tanıdık acının çekim gücü",
+      "url": "https://tr.wikipedia.org/wiki/Ba%C4%9F%C4%B1ml%C4%B1l%C4%B1k",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ego neden haklı çıkmayı, mutlu olmaya tercih eder?",
+      "url": "https://en.wikipedia.org/wiki/Ego_(psychology)",
+      "kaynak": "gemini-fallback",
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

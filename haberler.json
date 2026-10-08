@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-10-08T01:24:23.554667+00:00",
+  "uretim_zamani": "2026-10-08T17:13:13.810721+00:00",
   "haberler": [
     {
-      "baslik": "Svadhisthana dengesizliği: Hayattan keyif alma suçluluğunun ardındaki enerji kilidi",
-      "url": "https://en.wikipedia.org/wiki/Svadhistana",
+      "baslik": "Yunus Emre'nin 'Beni bende demen, bende değilim' dizesindeki o kayıp öz",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre_Divan%C4%B1",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Dostoyevski'nin 'Budala' karakteri: Aşırı şefkat bir ruhsal ceza mıdır?",
-      "url": "https://en.wikipedia.org/wiki/The_Idiot",
+      "baslik": "Ego sınırların aşıldığında bedeninin verdiği o derin sinyal: Boğaz çakrası tıkanıklığı",
+      "url": "https://tr.wikipedia.org/wiki/Boyun_çakrası",
       "kaynak": "gemini-fallback",
       "skor": 987,
       "yas_saat": 0,

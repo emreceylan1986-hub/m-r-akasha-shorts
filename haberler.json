@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-10-07T21:11:04.505498+00:00",
+  "uretim_zamani": "2026-10-08T01:24:23.554667+00:00",
   "haberler": [
     {
-      "baslik": "Neden hep aynı insanlara çekiliyorsun? Adrenalin ve tanıdık acının çekim gücü",
-      "url": "https://tr.wikipedia.org/wiki/Ba%C4%9F%C4%B1ml%C4%B1l%C4%B1k",
+      "baslik": "Svadhisthana dengesizliği: Hayattan keyif alma suçluluğunun ardındaki enerji kilidi",
+      "url": "https://en.wikipedia.org/wiki/Svadhistana",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ego neden haklı çıkmayı, mutlu olmaya tercih eder?",
-      "url": "https://en.wikipedia.org/wiki/Ego_(psychology)",
+      "baslik": "Dostoyevski'nin 'Budala' karakteri: Aşırı şefkat bir ruhsal ceza mıdır?",
+      "url": "https://en.wikipedia.org/wiki/The_Idiot",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

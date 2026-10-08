@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-08T19:12:58.151338+00:00",
+  "uretim_zamani": "2026-10-08T20:12:56.612326+00:00",
   "haberler": [
     {
-      "baslik": "Wu Wei felsefesi: Hayatla savaşmayı bıraktığında her şey nasıl yoluna girer?",
-      "url": "https://tr.wikipedia.org/wiki/Wu_wei",
+      "baslik": "Yunus Emre'nin 'Beni bende demen' dizesi: İçindeki o yabancı kim?",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Manipura çakran tıkandığında sınır çizmek neden bir savaşa dönüşür?",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

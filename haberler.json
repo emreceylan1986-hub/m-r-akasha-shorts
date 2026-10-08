@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-08T17:13:13.810721+00:00",
+  "uretim_zamani": "2026-10-08T19:12:58.151338+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin 'Beni bende demen, bende değilim' dizesindeki o kayıp öz",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre_Divan%C4%B1",
+      "baslik": "Wu Wei felsefesi: Hayatla savaşmayı bıraktığında her şey nasıl yoluna girer?",
+      "url": "https://tr.wikipedia.org/wiki/Wu_wei",
       "kaynak": "gemini-fallback",
-      "skor": 990,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ego sınırların aşıldığında bedeninin verdiği o derin sinyal: Boğaz çakrası tıkanıklığı",
-      "url": "https://tr.wikipedia.org/wiki/Boyun_çakrası",
-      "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

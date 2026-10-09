@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-08T20:12:56.612326+00:00",
+  "uretim_zamani": "2026-10-09T01:32:15.342345+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin 'Beni bende demen' dizesi: İçindeki o yabancı kim?",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Neden hep aynı tip insanlara aşık olursun? Jung’un projeksiyon teorisi",
+      "url": "https://en.wikipedia.org/wiki/Psychological_projection",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Manipura çakran tıkandığında sınır çizmek neden bir savaşa dönüşür?",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

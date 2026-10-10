@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-10-10T17:10:59.348092+00:00",
+  "uretim_zamani": "2026-10-10T19:11:00.981272+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu — Ders 3: Zihnimdeki karmaşayı bedenim sırtlanmak zorunda değil",
-      "url": "https://tr.wikipedia.org/wiki/Bedenleme_(psikoloji)",
+      "baslik": "Görünmez stresin hücresel hafızası: Bedenin tuttuğu bastırılmış duygular",
+      "url": "https://tr.wikipedia.org/wiki/Somatik_psikoloji",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Manipura çakran tıkalıysa hayatında neden hayır diyemediğini fark edersin",
-      "url": "https://tr.wikipedia.org/wiki/Solar_pleksus",
+      "baslik": "Soren Kierkegaard'a göre varoluşsal kaygı ve insanın kendini bulma cesareti",
+      "url": "https://tr.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Beden feneri: Kronik omuz ağrısı ve aşırı sorumluluk üstlenme eğilimi",
+      "url": "https://tr.wikipedia.org/wiki/Psikosomatik_hastal%C4%B1klar",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

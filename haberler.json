@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-10-10T01:21:34.891972+00:00",
+  "uretim_zamani": "2026-10-10T17:10:59.348092+00:00",
   "haberler": [
     {
-      "baslik": "Muladhara çakran tıkalıysa hayatı sürekli bir tehdit gibi algılarsın",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Mucizeler Kursu — Ders 3: Zihnimdeki karmaşayı bedenim sırtlanmak zorunda değil",
+      "url": "https://tr.wikipedia.org/wiki/Bedenleme_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan yol ve arzunun ötesi",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Cing",
+      "baslik": "Manipura çakran tıkalıysa hayatında neden hayır diyemediğini fark edersin",
+      "url": "https://tr.wikipedia.org/wiki/Solar_pleksus",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Manipura çakrasındaki blokaj: Başkalarını memnun etme hastalığının kökeni",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

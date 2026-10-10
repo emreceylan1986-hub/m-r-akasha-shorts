@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-10-09T20:11:08.561309+00:00",
+  "uretim_zamani": "2026-10-10T01:21:34.891972+00:00",
   "haberler": [
     {
-      "baslik": "Rüyandaki o gölge figür aslında kim? Jung’un 'Kolektif Bilinçdışı' uyarısı",
-      "url": "https://tr.wikipedia.org/wiki/Psikoanaliz",
+      "baslik": "Muladhara çakran tıkalıysa hayatı sürekli bir tehdit gibi algılarsın",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing — Bölüm 1: Tanımlanamayan yol ve arzunun ötesi",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Cing",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Manipura çakrasındaki blokaj: Başkalarını memnun etme hastalığının kökeni",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

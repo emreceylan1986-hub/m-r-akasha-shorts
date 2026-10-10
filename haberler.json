@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-10-10T19:11:00.981272+00:00",
+  "uretim_zamani": "2026-10-10T20:11:06.496679+00:00",
   "haberler": [
     {
-      "baslik": "Görünmez stresin hücresel hafızası: Bedenin tuttuğu bastırılmış duygular",
-      "url": "https://tr.wikipedia.org/wiki/Somatik_psikoloji",
+      "baslik": "Anahata Çakrası Kapalıysa Sevgiyi Neden Bir Tehdit Gibi Hissedersin?",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Soren Kierkegaard'a göre varoluşsal kaygı ve insanın kendini bulma cesareti",
-      "url": "https://tr.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
+      "baslik": "Vishuddha Çakra Tıkanıklığı ve İfade Edilemeyen Duyguların Boğazdaki Düğümü",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Beden feneri: Kronik omuz ağrısı ve aşırı sorumluluk üstlenme eğilimi",
-      "url": "https://tr.wikipedia.org/wiki/Psikosomatik_hastal%C4%B1klar",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-10-10T20:11:06.496679+00:00",
+  "uretim_zamani": "2026-10-11T17:11:00.750778+00:00",
   "haberler": [
     {
-      "baslik": "Anahata Çakrası Kapalıysa Sevgiyi Neden Bir Tehdit Gibi Hissedersin?",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Vishuddha Çakra Tıkanıklığı ve İfade Edilemeyen Duyguların Boğazdaki Düğümü",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "Anatole France'ın bahsettiği tesadüf: Tanrı'nın anonim kalma yöntemi",
+      "url": "https://tr.wikipedia.org/wiki/Anatole_France",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

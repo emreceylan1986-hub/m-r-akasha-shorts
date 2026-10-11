@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-10-11T17:11:00.750778+00:00",
+  "uretim_zamani": "2026-10-11T19:11:21.551446+00:00",
   "haberler": [
     {
-      "baslik": "Anatole France'ın bahsettiği tesadüf: Tanrı'nın anonim kalma yöntemi",
-      "url": "https://tr.wikipedia.org/wiki/Anatole_France",
+      "baslik": "Tao Te Jing Bölüm 1: 'Dile getirilebilen Tao, gerçek Tao değildir'",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kuantum fiziğindeki Dolanıklık Teorisi ve ruhun eşzamanlı bağları",
+      "url": "https://tr.wikipedia.org/wiki/Kuantum_dolan%C4%B1kl%C4%B1k",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sufizmde Hızır ile karşılaşmak: Hayatındaki beklenmedik kırılmaların gizli anlamı",
+      "url": "https://tr.wikipedia.org/wiki/H%C4%B1z%C4%B1r",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

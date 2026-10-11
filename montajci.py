@@ -479,7 +479,16 @@ def foto_video_yap(foto: Path, hedef: Path, sure_sn: float) -> None:
     )
 
 
-def _gorsel_qc_gecer_mi(klip_yolu: Path, keyword: str, baslik: str = "") -> bool:
+# 11 Eki — CB'de 14 Eyl'den beri olan eşik ayrımı Akasha'ya taşındı. Akasha'da
+# eşik sabit 7 idi (CB'den sert): Pexels videosu elenip Wikimedia çizimine
+# düşüyor, o çizim HOOK'a geliyor ve hook QC'si videoyu PRIVATE'a atıyordu.
+# Hook'ta HAREKET alakadan önemli → eşik gevşek; sonraki kliplerde özne sadakati.
+QC_ESIK_HOOK = 4
+QC_ESIK_DIGER = 6
+
+
+def _gorsel_qc_gecer_mi(klip_yolu: Path, keyword: str, baslik: str = "",
+                        esik: int = QC_ESIK_DIGER) -> bool:
     """Klibin ilk karesini Gemini Vision'a sor — konuyla eşleşir mi?"""
     try:
         import gorsel_qc
@@ -495,7 +504,7 @@ def _gorsel_qc_gecer_mi(klip_yolu: Path, keyword: str, baslik: str = "") -> bool
         )
         if not tmp_png.exists():
             return True  # frame çıkmazsa kontrolsüz geç
-        sonuc = gorsel_qc.gorsel_konuyla_eslesir_mi(tmp_png, keyword, baslik, esik_skor=7)
+        sonuc = gorsel_qc.gorsel_konuyla_eslesir_mi(tmp_png, keyword, baslik, esik_skor=esik)
         tmp_png.unlink(missing_ok=True)
         return sonuc
     except Exception as h:
@@ -541,7 +550,7 @@ def gemini_gorsel_uret(keyword: str, hedef_png: Path, baslik: str = "") -> bool:
 
 
 def gorsel_kaynak_indir(keyword: str, hedef: Path, sure_sn: float, api_key: str,
-                         baslik: str = "") -> dict:
+                         baslik: str = "", sira: int = 0) -> dict:
     """
     Önce Pexels video; başarısız olursa Wikimedia foto → Ken Burns video.
     Faz 7: Gemini Vision QC — Pexels klibi konuyla eşleşmiyorsa Wikimedia'ya düş.
@@ -552,7 +561,8 @@ def gorsel_kaynak_indir(keyword: str, hedef: Path, sure_sn: float, api_key: str,
     qc_passed = True
     try:
         pexels_bilgi = pexels_video_indir(keyword, hedef, api_key)
-        if hedef.exists() and not _gorsel_qc_gecer_mi(hedef, keyword, baslik):
+        _esik = QC_ESIK_HOOK if sira == 1 else QC_ESIK_DIGER
+        if hedef.exists() and not _gorsel_qc_gecer_mi(hedef, keyword, baslik, _esik):
             print(f"   ↳ Pexels '{keyword}' konuyla eşleşmedi (QC red) — Wikimedia denenecek")
             # Backup'a kaydet, sonra zorla geri yüklemek için
             backup = hedef.with_suffix(".pexels_backup.mp4")
@@ -880,16 +890,36 @@ def main() -> int:
 
         _adim(4, f"Görsel kaynak (Pexels → Wikimedia fallback) — klip başına {klip_basina:.2f} sn...")
         ham_klipler: list[Path] = []
+        kaynak_foto_mu: list[bool] = []
         for sira, kw in enumerate(keywords, 1):
             ham = GECICI_KLASOR / f"ham_{damga}_{sira}.mp4"
-            bilgi = gorsel_kaynak_indir(kw, ham, klip_basina, api_key)
+            bilgi = gorsel_kaynak_indir(kw, ham, klip_basina, api_key, sira=sira)
             ham_klipler.append(ham)
+            _kaynak = str(bilgi.get("fotograf", ""))
+            kaynak_foto_mu.append(_kaynak.startswith(("Wikimedia:", "AI-Gemini:")))
             _boyut = bilgi.get("boyut", ("?", "?"))
             _alt(
                 f"#{sira} '{kw}' → {_boyut[0]}×{_boyut[1]}, "
                 f"kaynak: {bilgi.get('fotograf','?')} "
                 f"({ham.stat().st_size/1024:.0f} KB)"
             )
+
+        # 🔴 11 Eki — HOOK HAREKETLİ OLMALI. CB'de 14 Eyl'den beri olan bu kurtarma
+        # Akasha'ya taşınmamıştı (zoom hızı gibi — aynı hatanın ikinci tekrarı).
+        # Ölçüm: son 40 videonun 6'sı (%15) hook QC'den düşüp PRIVATE kaldı; CB'de
+        # bu oran %5. Takılma gerekçesi: "static black-and-white illustration with
+        # heavy text overlay lacks visual excitement". Akasha'nın konuları (Jung,
+        # çakra, Lao Tzu) stok videoda karşılık bulmayınca Wikimedia çizimine
+        # düşüyor ve o çizim HOOK'a geliyor. Anlatı en az bozulsun diye TEK TAKAS.
+        if kaynak_foto_mu and kaynak_foto_mu[0]:
+            hareketli = next((i for i, foto in enumerate(kaynak_foto_mu) if not foto), None)
+            if hareketli is not None:
+                ham_klipler[0], ham_klipler[hareketli] = ham_klipler[hareketli], ham_klipler[0]
+                kaynak_foto_mu[0], kaynak_foto_mu[hareketli] = (
+                    kaynak_foto_mu[hareketli], kaynak_foto_mu[0])
+                _alt(f"🔄 hook kurtarma: #1 fotoğraftı → #{hareketli+1} (hareketli) başa alındı")
+            else:
+                _alt("⚠️ tüm klipler fotoğraf — hook hareketsiz (Ken Burns'e kaldı)")
 
         _adim(5, f"Her klip 1080×1920'a kırpılıp normalize ediliyor...")
         normal_klipler: list[Path] = []

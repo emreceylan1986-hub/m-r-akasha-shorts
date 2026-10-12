@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-12T23:11:09.481333+00:00",
+  "uretim_zamani": "2026-10-12T23:18:52.432511+00:00",
   "haberler": [
     {
-      "baslik": "Marcus Aurelius ve Stoa felsefesinde zihni koruma kalkanı",
-      "url": "tr.wikipedia.org/wiki/Marcus_Aurelius",
+      "baslik": "Carl Jung'a göre başkalarında eleştirdiğin o kusur aslında senin gölgen",
+      "url": "https://tr.wikipedia.org/wiki/Psikolojik_yans%C4%B1tma",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Seneca'nın mektuplarında zamanın acımasızlığı ve anın değeri",
-      "url": "tr.wikipedia.org/wiki/Lucius_Annaeus_Seneca",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Epiktetos'un dikotomisi: Kontrol edemediğin şeyler seni nasıl tüketir?",
-      "url": "tr.wikipedia.org/wiki/Epiktetos",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

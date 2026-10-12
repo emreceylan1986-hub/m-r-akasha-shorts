@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-12T00:03:24.715349+00:00",
+  "uretim_zamani": "2026-10-12T17:11:25.973778+00:00",
   "haberler": [
     {
-      "baslik": "Sufizmde marifet kapısı: Kendi zihninin ötesine geçmenin yolu",
-      "url": "https://tr.wikipedia.org/wiki/Marifet",
+      "baslik": "Sen aslında kimsin? — Jung'un Bireyleşme süreci ve sahte benlik",
+      "url": "https://tr.wikipedia.org/wiki/Psikanaliz",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Manipura çakranız kapalıysa: Başkalarını memnun etme tuzağı ve özgüven kaybı",
+      "url": "https://tr.wikipedia.org/wiki/Nefs",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

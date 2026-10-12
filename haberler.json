@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-10-12T18:12:15.858081+00:00",
+  "uretim_zamani": "2026-10-12T19:11:43.588952+00:00",
   "haberler": [
     {
-      "baslik": "Hikikomori Sendromu: Dünyadan elini etegini ceken ruhun sessizsigin siginagi",
-      "url": "https://tr.wikipedia.org/wiki/Hikikomori",
+      "baslik": "Carl Jung ve bireyleşme: Kendi yaralarını iyileştirmemiş bir şifacı",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Stendhal Sendromu: Sanatin karsisinda ruhun asiri yüklenip kendinden gecmesi",
-      "url": "https://tr.wikipedia.org/wiki/Stendhal_sendromu",
+      "baslik": "Anahata çakrasının kapanması: Neden sevilmekten ve yakınlıktan korkuyorsun?",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-10-12T20:11:17.299542+00:00",
+  "uretim_zamani": "2026-10-12T21:11:01.447068+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'un Bireyleşme Süreci: Kendi karanlığınla bütünleşmeden tam olamazsın",
-      "url": "https://tr.wikipedia.org/wiki/Carl_Gustav_Jung",
+      "baslik": "Bedenindeki O Sıkışma Hissi: Alexander Lowen ve Biyonerjetik Hakikat",
+      "url": "https://tr.wikipedia.org/wiki/Biyonerjetik",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing 8. Bölüm: Su gibi olmak ve en alçak yerde durmanın gücü",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Neden Hep Aynı Karakterdeki İnsanları Hayatına Çekersin? Imago Teorisi",
+      "url": "https://tr.wikipedia.org/wiki/Psikoterapi",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Carl Jung ve Enima/Animus: İçindeki öteki yarınla yüzleşme vakti",
-      "url": "https://tr.wikipedia.org/wiki/Anima_ve_animus",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

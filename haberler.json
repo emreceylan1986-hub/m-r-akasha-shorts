@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-10-12T17:11:25.973778+00:00",
+  "uretim_zamani": "2026-10-12T18:12:15.858081+00:00",
   "haberler": [
     {
-      "baslik": "Sen aslında kimsin? — Jung'un Bireyleşme süreci ve sahte benlik",
-      "url": "https://tr.wikipedia.org/wiki/Psikanaliz",
+      "baslik": "Hikikomori Sendromu: Dünyadan elini etegini ceken ruhun sessizsigin siginagi",
+      "url": "https://tr.wikipedia.org/wiki/Hikikomori",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Manipura çakranız kapalıysa: Başkalarını memnun etme tuzağı ve özgüven kaybı",
-      "url": "https://tr.wikipedia.org/wiki/Nefs",
+      "baslik": "Stendhal Sendromu: Sanatin karsisinda ruhun asiri yüklenip kendinden gecmesi",
+      "url": "https://tr.wikipedia.org/wiki/Stendhal_sendromu",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

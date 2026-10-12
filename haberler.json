@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-11T21:11:10.303445+00:00",
+  "uretim_zamani": "2026-10-12T00:03:24.715349+00:00",
   "haberler": [
     {
-      "baslik": "Friedrich Nietzsche ve amorfati: Yaşanan her anı ve yazgıyı kucaklama gücü",
-      "url": "https://tr.wikipedia.org/wiki/Friedrich_Nietzsche",
+      "baslik": "Sufizmde marifet kapısı: Kendi zihninin ötesine geçmenin yolu",
+      "url": "https://tr.wikipedia.org/wiki/Marifet",
       "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Montaigne'in denemeleri ışığında insanın kendi zihniyle baş başa kalma cesareti",
-      "url": "https://tr.wikipedia.org/wiki/Michel_de_Montaigne",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Plotinos ve Bir'e dönüş: Ruhun asıl kaynağıyla yeniden bağ kurma yolculuğu",
-      "url": "https://tr.wikipedia.org/wiki/Plotinos",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

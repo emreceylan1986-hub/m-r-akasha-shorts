@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-10-12T22:11:09.364581+00:00",
+  "uretim_zamani": "2026-10-12T23:11:09.481333+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung ve Bireyleşme: Kendi karanlığından geçmeden özüne ulaşamazsın",
-      "url": "https://tr.wikipedia.org/wiki/Carl_Gustav_Jung",
+      "baslik": "Marcus Aurelius ve Stoa felsefesinde zihni koruma kalkanı",
+      "url": "tr.wikipedia.org/wiki/Marcus_Aurelius",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Seneca'nın mektuplarında zamanın acımasızlığı ve anın değeri",
+      "url": "tr.wikipedia.org/wiki/Lucius_Annaeus_Seneca",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Anahata Çakrası ve Kalp Zırhı: Kalbin kapatıldığında dünya bir yük gibi gelir",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Epiktetos'un dikotomisi: Kontrol edemediğin şeyler seni nasıl tüketir?",
+      "url": "tr.wikipedia.org/wiki/Epiktetos",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

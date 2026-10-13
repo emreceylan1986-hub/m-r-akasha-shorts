@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-10-13T17:13:25.213037+00:00",
+  "uretim_zamani": "2026-10-13T18:16:58.459852+00:00",
   "haberler": [
     {
-      "baslik": "İbn Arabî'ye göre varlığın aynasında gördüğün o yabancı",
-      "url": "tr.wikipedia.org/wiki/%C4%B0bn_Arab%C3%AE",
+      "baslik": "Mevlânâ'ya göre 'Ben' denilen o ağır yükü kapı arkasında bırakma vakti",
+      "url": "tr.wikipedia.org/wiki/Mevlânâ_Celâleddîn-i_Rûmî",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Attâr'ın Mantıku't-Tayr'ında yedi vadide kaybolan kuşlar",
-      "url": "tr.wikipedia.org/wiki/Ferid%C3%Batdin_Att%C3%A2r",
+      "baslik": "Yunus Emre'nin dizesindeki o sır: 'Biri var benden içeri' cümlesi neyi fısıldıyor?",
+      "url": "tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sühreverdî'nin Işınsal Felsefesi ve nurun karanlıkla imtihanı",
-      "url": "tr.wikipedia.org/wiki/Yahya_bin_Habe%C5%9Fi_S%C3%Bchreverd%C3%AE",
+      "baslik": "Tasavvufta 'Nefis terbiyesi': Zihnin sürekli haklı çıkma çabasından kurtuluş",
+      "url": "tr.wikipedia.org/wiki/Tasavvuf",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-13T19:11:03.806862+00:00",
+  "uretim_zamani": "2026-10-13T20:11:10.274122+00:00",
   "haberler": [
     {
-      "baslik": "İbn Arabî'ye göre varlık mertebeleri ve senin bu aynadaki yansıman",
-      "url": "https://tr.wikipedia.org/wiki/İbn_Arabî",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Feridüddin Attâr'ın Mantıku't-Tayr'ında yedi vadi ve nefsin yolculuğu",
-      "url": "https://tr.wikipedia.org/wiki/Feridüddin_Attâr",
+      "baslik": "Buda'nın orta yol öğretisi ve zihinsel aşırılıklardan uyanış",
+      "url": "https://tr.wikipedia.org/wiki/Gautama_Buda",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sühreverdî'nin Işık Felsefesi ve insanın içindeki o kadim meşale",
-      "url": "https://tr.wikipedia.org/wiki/Yahya_bin_Habêşi_Sühreverdî",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

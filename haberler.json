@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-13T20:11:10.274122+00:00",
+  "uretim_zamani": "2026-10-13T21:11:12.712370+00:00",
   "haberler": [
     {
-      "baslik": "Buda'nın orta yol öğretisi ve zihinsel aşırılıklardan uyanış",
-      "url": "https://tr.wikipedia.org/wiki/Gautama_Buda",
+      "baslik": "Aynadaki yabancı: Rıza makamında nefsini seyretmek",
+      "url": "https://tr.wikipedia.org/wiki/R%C4%B1za",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "İçimizdeki sessizlik: Sufi bilgeliğinde sükûtun dili",
+      "url": "https://tr.wikipedia.org/wiki/S%C3%BCk%C3%BBt",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

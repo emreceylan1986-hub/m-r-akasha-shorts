@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-10-13T18:16:58.459852+00:00",
+  "uretim_zamani": "2026-10-13T19:11:03.806862+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre 'Ben' denilen o ağır yükü kapı arkasında bırakma vakti",
-      "url": "tr.wikipedia.org/wiki/Mevlânâ_Celâleddîn-i_Rûmî",
+      "baslik": "İbn Arabî'ye göre varlık mertebeleri ve senin bu aynadaki yansıman",
+      "url": "https://tr.wikipedia.org/wiki/İbn_Arabî",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'nin dizesindeki o sır: 'Biri var benden içeri' cümlesi neyi fısıldıyor?",
-      "url": "tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Feridüddin Attâr'ın Mantıku't-Tayr'ında yedi vadi ve nefsin yolculuğu",
+      "url": "https://tr.wikipedia.org/wiki/Feridüddin_Attâr",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tasavvufta 'Nefis terbiyesi': Zihnin sürekli haklı çıkma çabasından kurtuluş",
-      "url": "tr.wikipedia.org/wiki/Tasavvuf",
+      "baslik": "Sühreverdî'nin Işık Felsefesi ve insanın içindeki o kadim meşale",
+      "url": "https://tr.wikipedia.org/wiki/Yahya_bin_Habêşi_Sühreverdî",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-12T23:18:52.432511+00:00",
+  "uretim_zamani": "2026-10-13T17:13:25.213037+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre başkalarında eleştirdiğin o kusur aslında senin gölgen",
-      "url": "https://tr.wikipedia.org/wiki/Psikolojik_yans%C4%B1tma",
+      "baslik": "İbn Arabî'ye göre varlığın aynasında gördüğün o yabancı",
+      "url": "tr.wikipedia.org/wiki/%C4%B0bn_Arab%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Attâr'ın Mantıku't-Tayr'ında yedi vadide kaybolan kuşlar",
+      "url": "tr.wikipedia.org/wiki/Ferid%C3%Batdin_Att%C3%A2r",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sühreverdî'nin Işınsal Felsefesi ve nurun karanlıkla imtihanı",
+      "url": "tr.wikipedia.org/wiki/Yahya_bin_Habe%C5%9Fi_S%C3%Bchreverd%C3%AE",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-14T00:42:35.105908+00:00",
+  "uretim_zamani": "2026-10-14T17:11:17.942466+00:00",
   "haberler": [
     {
-      "baslik": "Şah Veliyyullah el-Dehlevî'ye göre kalbin pası ve sahte benliğin çöküşü",
-      "url": "https://tr.wikipedia.org/wiki/%C5%9Eah_Veliyyullah",
+      "baslik": "Mucizeler Kursu'na göre korku ve sevgi: Zihnindeki tek iki ses",
+      "url": "https://tr.wikipedia.org/wiki/H%C4%B1ristiyan_mitolojisi",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu ve kutsal an: Geleceğin endişesini bugünde bitirmek",
+      "url": "https://tr.wikipedia.org/wiki/%C5%9Eimdiki_zaman",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu Ders 45: 'Tanrı benimle, onu her yerde hissedebilirim'",
+      "url": "https://tr.wikipedia.org/wiki/Tanr%C4%B1",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

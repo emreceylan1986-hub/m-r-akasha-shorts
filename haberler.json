@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-13T21:11:12.712370+00:00",
+  "uretim_zamani": "2026-10-14T00:42:35.105908+00:00",
   "haberler": [
     {
-      "baslik": "Aynadaki yabancı: Rıza makamında nefsini seyretmek",
-      "url": "https://tr.wikipedia.org/wiki/R%C4%B1za",
+      "baslik": "Şah Veliyyullah el-Dehlevî'ye göre kalbin pası ve sahte benliğin çöküşü",
+      "url": "https://tr.wikipedia.org/wiki/%C5%9Eah_Veliyyullah",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "İçimizdeki sessizlik: Sufi bilgeliğinde sükûtun dili",
-      "url": "https://tr.wikipedia.org/wiki/S%C3%BCk%C3%BBt",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

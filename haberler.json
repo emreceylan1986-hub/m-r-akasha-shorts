@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-14T20:11:18.123002+00:00",
+  "uretim_zamani": "2026-10-15T17:11:23.831046+00:00",
   "haberler": [
     {
-      "baslik": "Zihnin arka odasında gizlenen o kör nokta — bilmediğin direnç",
-      "url": "https://tr.wikipedia.org/wiki/Diren%C3%A7_(psikanaliz)",
+      "baslik": "Wilhelm Wundt ve zihnin en küçük yapı taşları: İç gözlem neyi kaçırır?",
+      "url": "https://tr.wikipedia.org/wiki/Wilhelm_Wundt",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kurt Lewin ve alan kuramı: Çevrenin davranış üzerindeki görünmez ağı",
+      "url": "https://tr.wikipedia.org/wiki/Kurt_Lewin",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

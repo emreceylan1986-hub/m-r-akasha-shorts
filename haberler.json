@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-15T20:06:40.524863+00:00",
+  "uretim_zamani": "2026-10-15T21:11:15.574181+00:00",
   "haberler": [
     {
-      "baslik": "Kuşeyri Risalesi'ne göre kalbin derinliklerindeki o sessiz uyanış",
-      "url": "https://tr.wikipedia.org/wiki/Kuşeyri",
+      "baslik": "Bilişsel çelişki: İnançlarınla eylemlerin çatıştığında ruh nasıl bir kalkan kurar?",
+      "url": "https://tr.wikipedia.org/wiki/Bili%c5%9fsel_eli%c5%9fki",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Stoa felsefesine göre dış dünyayı durdurup içsel kaleyi korumanın sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Stoa_felsefesi",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Zihinsel tuzaklar: İç sesin sana her gün söylediği o görünmez yalanlar",
+      "url": "https://tr.wikipedia.org/wiki/Bili%c5%9fsel_yanlg%c4%b1",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-10-15T19:11:05.767139+00:00",
+  "uretim_zamani": "2026-10-15T20:06:40.524863+00:00",
   "haberler": [
     {
-      "baslik": "Rüya içinde kaybolmak: Çinli filozof Zhuangzi ve kelebek yanılsaması",
-      "url": "https://tr.wikipedia.org/wiki/Zhuangzi",
+      "baslik": "Kuşeyri Risalesi'ne göre kalbin derinliklerindeki o sessiz uyanış",
+      "url": "https://tr.wikipedia.org/wiki/Kuşeyri",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

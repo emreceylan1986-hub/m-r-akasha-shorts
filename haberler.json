@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-10-16T19:11:21.477895+00:00",
+  "uretim_zamani": "2026-10-16T20:11:18.430340+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing — Bölüm 1: 'Dile getirilebilen Tao, gerçek Tao değildir'",
-      "url": "https://tr.wikipedia.org/wiki/Tao Te Jing",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rüyandaki o tanıdık ama yabancı ev senin zihninin haritasıdır",
-      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_tabiri",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rüyanda yüksekten düşme hissi hayatındaki kontrol kaybının ilk uyarısıdır",
-      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya",
+      "baslik": "Sigmund Freud'un rüya tabiri: Gündüz bastırılanlar gece nasıl şekil değiştirir?",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%bcya_g%C3%B6rme",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

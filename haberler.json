@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-16T17:11:17.043295+00:00",
+  "uretim_zamani": "2026-10-16T19:11:21.477895+00:00",
   "haberler": [
     {
-      "baslik": "Rüyalarındaki o sürekli takipçi figürü: Bilinçdışının sakladığı asıl parça",
-      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%B1%C5%9f%C4%_kavram%C4%B1",
+      "baslik": "Tao Te Jing — Bölüm 1: 'Dile getirilebilen Tao, gerçek Tao değildir'",
+      "url": "https://tr.wikipedia.org/wiki/Tao Te Jing",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rüyalarında neden hep aynı labirentte kayboluyorsun? Zihnin kaçış haritası",
-      "url": "https://tr.wikipedia.org/wiki/Simgesel_etkile%C5%9fimcilik",
+      "baslik": "Rüyandaki o tanıdık ama yabancı ev senin zihninin haritasıdır",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_tabiri",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Uyanır uyanmaz silinen o son cümle: Bilinçaltının sana söylemeye çalıştığı sır",
-      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7alt%C4%B1_s%C3%BCre%C3%A7ler",
+      "baslik": "Rüyanda yüksekten düşme hissi hayatındaki kontrol kaybının ilk uyarısıdır",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

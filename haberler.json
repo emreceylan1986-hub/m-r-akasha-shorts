@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-15T21:11:15.574181+00:00",
+  "uretim_zamani": "2026-10-16T17:11:17.043295+00:00",
   "haberler": [
     {
-      "baslik": "Bilişsel çelişki: İnançlarınla eylemlerin çatıştığında ruh nasıl bir kalkan kurar?",
-      "url": "https://tr.wikipedia.org/wiki/Bili%c5%9fsel_eli%c5%9fki",
+      "baslik": "Rüyalarındaki o sürekli takipçi figürü: Bilinçdışının sakladığı asıl parça",
+      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%B1%C5%9f%C4%_kavram%C4%B1",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyalarında neden hep aynı labirentte kayboluyorsun? Zihnin kaçış haritası",
+      "url": "https://tr.wikipedia.org/wiki/Simgesel_etkile%C5%9fimcilik",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Stoa felsefesine göre dış dünyayı durdurup içsel kaleyi korumanın sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Stoa_felsefesi",
+      "baslik": "Uyanır uyanmaz silinen o son cümle: Bilinçaltının sana söylemeye çalıştığı sır",
+      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7alt%C4%B1_s%C3%BCre%C3%A7ler",
       "kaynak": "gemini-fallback",
       "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Zihinsel tuzaklar: İç sesin sana her gün söylediği o görünmez yalanlar",
-      "url": "https://tr.wikipedia.org/wiki/Bili%c5%9fsel_yanlg%c4%b1",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

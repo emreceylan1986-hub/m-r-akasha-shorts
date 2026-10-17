@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-17T17:11:00.744087+00:00",
+  "uretim_zamani": "2026-10-17T19:11:06.510852+00:00",
   "haberler": [
     {
-      "baslik": "Sufizmde kabz ve bast hali: Bedeninde hissettiğin o sebepsiz daralma ne anlatıyor?",
-      "url": "https://tr.wikipedia.org/wiki/S%C3%BCf%C3%AE",
+      "baslik": "Anahata çakran kapalıysa sevgi sana neden bir tehdit gibi görünür?",
+      "url": "https://tr.wikipedia.org/wiki/Anahata",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Aura alanındaki kaçak: Neden bazı insanların yanında enerjin anında tükenir?",
+      "url": "https://tr.wikipedia.org/wiki/Aura_(paranormal)",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Manipura çakrası ve onay bağımlılığı: Kendini kanıtlama çabasının enerji boyutu",
+      "url": "https://tr.wikipedia.org/wiki/Manipura",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

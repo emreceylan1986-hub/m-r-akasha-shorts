@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-10-16T21:10:55.866922+00:00",
+  "uretim_zamani": "2026-10-17T17:11:00.744087+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli geç kaldığını görüyorsan: Zihnindeki o görünmez baskının kaynağı",
-      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya tabiri",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mevlânâ'ya göre kuyuya düşen Yusuf ve ruhun karanlık gecedeki dönüşümü",
-      "url": "https://tr.wikipedia.org/wiki/Yusuf",
+      "baslik": "Sufizmde kabz ve bast hali: Bedeninde hissettiğin o sebepsiz daralma ne anlatıyor?",
+      "url": "https://tr.wikipedia.org/wiki/S%C3%BCf%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

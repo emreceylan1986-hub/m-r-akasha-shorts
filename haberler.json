@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-17T20:11:08.620326+00:00",
+  "uretim_zamani": "2026-10-17T21:06:24.418370+00:00",
   "haberler": [
     {
-      "baslik": "Manipura çakran kapalıysa hayatın sürekli bir onay arayışına dönüşür",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "Vishuddha çakrası tıkandığında boğazındaki o yumru ne anlatır?",
+      "url": "https://tr.wikipedia.org/wiki/Chakra",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Aşure çakrası ve boğaz düğümü: Yutkunduğun her hakikat enerjini kilitler",
-      "url": "https://tr.wikipedia.org/wiki/Vishuddha",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ajna çakrası ve zihinsel sis: Sezgilerini bastırdığında hayatın bulanıklaşır",
-      "url": "https://tr.wikipedia.org/wiki/Üçüncü_göz",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-17T19:11:06.510852+00:00",
+  "uretim_zamani": "2026-10-17T20:11:08.620326+00:00",
   "haberler": [
     {
-      "baslik": "Anahata çakran kapalıysa sevgi sana neden bir tehdit gibi görünür?",
-      "url": "https://tr.wikipedia.org/wiki/Anahata",
+      "baslik": "Manipura çakran kapalıysa hayatın sürekli bir onay arayışına dönüşür",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Aura alanındaki kaçak: Neden bazı insanların yanında enerjin anında tükenir?",
-      "url": "https://tr.wikipedia.org/wiki/Aura_(paranormal)",
+      "baslik": "Aşure çakrası ve boğaz düğümü: Yutkunduğun her hakikat enerjini kilitler",
+      "url": "https://tr.wikipedia.org/wiki/Vishuddha",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Manipura çakrası ve onay bağımlılığı: Kendini kanıtlama çabasının enerji boyutu",
-      "url": "https://tr.wikipedia.org/wiki/Manipura",
+      "baslik": "Ajna çakrası ve zihinsel sis: Sezgilerini bastırdığında hayatın bulanıklaşır",
+      "url": "https://tr.wikipedia.org/wiki/Üçüncü_göz",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

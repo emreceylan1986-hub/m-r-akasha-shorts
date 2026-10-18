@@ -607,8 +607,13 @@ def gorsel_kaynak_indir(keyword: str, hedef: Path, sure_sn: float, api_key: str,
         print(f"   ↳ Son çare: Pexels QC-red klibi zorla kullan")
         import shutil as _sh
         _sh.move(str(backup), str(hedef))
-        return pexels_bilgi or {"sure": sure_sn, "fotograf": f"Pexels(QC-red): {keyword}",
-                                "boyut": (HEDEF_GENISLIK, HEDEF_YUKSEKLIK)}
+        # 18 Eki: pexels_bilgi doluysa QC-red isareti KAYBOLUYORDU; artik her
+        # durumda isaretlenir, boylece montaj bu klibi hook'a koymaz.
+        _zorla = dict(pexels_bilgi) if pexels_bilgi else {"sure": sure_sn}
+        _zorla["fotograf"] = f"Pexels(QC-red): {keyword}"
+        _zorla["qc_red"] = True
+        _zorla.setdefault("boyut", (HEDEF_GENISLIK, HEDEF_YUKSEKLIK))
+        return _zorla
 
     # 4. Hiç bulunamadıysa exception
     raise RuntimeError(f"'{keyword}' için ne Pexels ne Wikimedia bulundu")
@@ -875,6 +880,10 @@ def main() -> int:
         _alt(f"Süre:   {sure_sn:.2f} saniye")
 
         senaryo = txt.read_text(encoding="utf-8").strip()
+        # 18 Eki — KONU BAGLAMI. `baslik` parametresi main()'den HIC gecilmiyordu;
+        # vision QC klibi yalniz arama kelimesiyle kiyasliyor, AI gorsel ureteci de
+        # konuyu bilmiyordu. Senaryonun ilk cumlesi konu olarak gecirilir.
+        _konu = (re.split(r"(?<=[.!?])\s+", senaryo.strip())[0] or senaryo)[:180]
         # Crossfade telafisi: her klip biraz uzun → xfade örtüşmesi toplamı korur.
         # toplam = n*L - (n-1)*d = sure_sn  →  L = (sure_sn + (n-1)*d)/n
         klip_basina = (sure_sn + (KLIP_SAYISI - 1) * CROSSFADE_SN) / KLIP_SAYISI
@@ -891,12 +900,17 @@ def main() -> int:
         _adim(4, f"Görsel kaynak (Pexels → Wikimedia fallback) — klip başına {klip_basina:.2f} sn...")
         ham_klipler: list[Path] = []
         kaynak_foto_mu: list[bool] = []
+        zayif_hook_mu: list[bool] = []   # 18 Eki: fotograf VEYA QC-red klip
         for sira, kw in enumerate(keywords, 1):
             ham = GECICI_KLASOR / f"ham_{damga}_{sira}.mp4"
-            bilgi = gorsel_kaynak_indir(kw, ham, klip_basina, api_key, sira=sira)
+            bilgi = gorsel_kaynak_indir(kw, ham, klip_basina, api_key, sira=sira,
+                                        baslik=_konu)
             ham_klipler.append(ham)
             _kaynak = str(bilgi.get("fotograf", ""))
-            kaynak_foto_mu.append(_kaynak.startswith(("Wikimedia:", "AI-Gemini:")))
+            _foto = _kaynak.startswith(("Wikimedia:", "AI-Gemini:"))
+            _qcred = bool(bilgi.get("qc_red")) or _kaynak.startswith("Pexels(QC-red):")
+            kaynak_foto_mu.append(_foto)
+            zayif_hook_mu.append(_foto or _qcred)
             _boyut = bilgi.get("boyut", ("?", "?"))
             _alt(
                 f"#{sira} '{kw}' → {_boyut[0]}×{_boyut[1]}, "
@@ -911,15 +925,29 @@ def main() -> int:
         # heavy text overlay lacks visual excitement". Akasha'nın konuları (Jung,
         # çakra, Lao Tzu) stok videoda karşılık bulmayınca Wikimedia çizimine
         # düşüyor ve o çizim HOOK'a geliyor. Anlatı en az bozulsun diye TEK TAKAS.
-        if kaynak_foto_mu and kaynak_foto_mu[0]:
-            hareketli = next((i for i, foto in enumerate(kaynak_foto_mu) if not foto), None)
-            if hareketli is not None:
-                ham_klipler[0], ham_klipler[hareketli] = ham_klipler[hareketli], ham_klipler[0]
-                kaynak_foto_mu[0], kaynak_foto_mu[hareketli] = (
-                    kaynak_foto_mu[hareketli], kaynak_foto_mu[0])
-                _alt(f"🔄 hook kurtarma: #1 fotoğraftı → #{hareketli+1} (hareketli) başa alındı")
+        # 🔴 18 Eki — HOOK ZAYIFSA TAKAS (eski: yalniz fotograf kontrolu).
+        # Olcum: Akasha son 40 videonun 6'si (%15), CB'nin 3'u (%8) hook QC'den
+        # (<5) dusup PRIVATE kaldi. Kosu loglarinda iki sebep var:
+        #   (a) #1 klip hareketsiz fotograf,
+        #   (b) #1 klip vision QC'nin REDDETTIGI ama "son care" diye zorla
+        #       kullanilan alakasiz stok klip. 17 Eki 20:10 kosusu:
+        #       'underwater light rays sunset' 3/10 red → zorla kullanildi →
+        #       hook QC "Background water video is generic and unrelated to
+        #       spirituality" 3/10 → PRIVATE.
+        # Kapi kendi sorununu uretiyordu: klibi eliyor, sonra basa koyuyordu.
+        if zayif_hook_mu and zayif_hook_mu[0]:
+            saglam = next((i for i, z in enumerate(zayif_hook_mu) if not z), None)
+            if saglam is not None:
+                ham_klipler[0], ham_klipler[saglam] = ham_klipler[saglam], ham_klipler[0]
+                zayif_hook_mu[0], zayif_hook_mu[saglam] = (
+                    zayif_hook_mu[saglam], zayif_hook_mu[0])
+                if saglam < len(kaynak_foto_mu):
+                    kaynak_foto_mu[0], kaynak_foto_mu[saglam] = (
+                        kaynak_foto_mu[saglam], kaynak_foto_mu[0])
+                _alt(f"🔄 hook kurtarma: #1 zayifti (fotograf/QC-red) → "
+                     f"#{saglam+1} basa alindi")
             else:
-                _alt("⚠️ tüm klipler fotoğraf — hook hareketsiz (Ken Burns'e kaldı)")
+                _alt("⚠️ tum klipler zayif (fotograf/QC-red) — hook kurtarilamadi")
 
         _adim(5, f"Her klip 1080×1920'a kırpılıp normalize ediliyor...")
         normal_klipler: list[Path] = []

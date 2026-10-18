@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-10-17T21:06:24.418370+00:00",
+  "uretim_zamani": "2026-10-18T17:11:10.765120+00:00",
   "haberler": [
     {
-      "baslik": "Vishuddha çakrası tıkandığında boğazındaki o yumru ne anlatır?",
-      "url": "https://tr.wikipedia.org/wiki/Chakra",
+      "baslik": "Mucizeler Kursu — Ders 35: Zihnim Kutsal Bir Varoluşun Parçasıdır",
+      "url": "https://tr.wikipedia.org/wiki/Kutsall%C4%B1k",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Açık Kalp Krizası: Neden Bazen Nedensizce Ağlamak İstersin?",
+      "url": "https://tr.wikipedia.org/wiki/Ar%C4%B1nma_(felsefe)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,

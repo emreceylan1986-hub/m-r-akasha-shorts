@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-10-18T20:10:56.136011+00:00",
+  "uretim_zamani": "2026-10-18T21:11:02.877490+00:00",
   "haberler": [
     {
-      "baslik": "Ajna çakrasındaki tıkanıklık: Hayatı sürekli bir belirsizlik sanmak",
-      "url": "https://tr.wikipedia.org/wiki/Anatomi",
+      "baslik": "Apophenia etkisi ve evrenin sana gönderdiği rastlantısal işaretler",
+      "url": "https://tr.wikipedia.org/wiki/Apophenia",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Epiktetos ve Enchiridion: Karşılaştığın olaylar değil senin onlara yüklediğin anlam seni yaralar",
+      "url": "https://tr.wikipedia.org/wiki/Enchiridion",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

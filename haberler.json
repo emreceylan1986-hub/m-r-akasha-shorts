@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-10-19T20:11:27.121962+00:00",
+  "uretim_zamani": "2026-10-19T21:10:52.553023+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu 36. Ders: Zihnimdeki kutsallık dünyayı özgürleştirir",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'nin 'Bana seni gerek seni' dizesindeki illüzyonsuz benlik",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Sahar çaktığında uyanmak: Sufi bilgeliğinde seher vaktinin sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Niy%C3%A2z%C3%AE-i_M%C3%AEsr%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

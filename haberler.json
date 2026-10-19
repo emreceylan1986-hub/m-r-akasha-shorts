@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-10-19T21:10:52.553023+00:00",
+  "uretim_zamani": "2026-10-19T21:22:18.538390+00:00",
   "haberler": [
     {
-      "baslik": "Sahar çaktığında uyanmak: Sufi bilgeliğinde seher vaktinin sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Niy%C3%A2z%C3%AE-i_M%C3%AEsr%C3%AE",
+      "baslik": "Solomon Asch'in uyma deneyi: Yalnız kalmamak için gerçeği feda edişin",
+      "url": "https://tr.wikipedia.org/wiki/Asch_uyma_deneyi",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Stanley Milgram'ın itaat deneyi ve vicdanın o görünmez askıya alınışı",
+      "url": "https://tr.wikipedia.org/wiki/Milgram_deneyi",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Philip Zimbardo ve Stanford Hapishane deneyi: Sistemin insanı yutuşu",
+      "url": "https://tr.wikipedia.org/wiki/Stanford_Hapishane_Deneyi",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

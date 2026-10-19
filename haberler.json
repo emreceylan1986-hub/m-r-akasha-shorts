@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-10-19T17:11:12.803331+00:00",
+  "uretim_zamani": "2026-10-19T19:12:04.546301+00:00",
   "haberler": [
     {
-      "baslik": "Sufizmde Kabz Hali: Ruhun daralması aslında bir genişleme hazırlığıdır",
-      "url": "https://tr.wikipedia.org/wiki/Kuşeyrî",
+      "baslik": "Psikolojide İkna Kapanı: Karşıt Görüşü Dinledikçe Kendi Fikrinin Güçlenmesi",
+      "url": "https://tr.wikipedia.org/wiki/Onaylama_yan%C4%B1lmas%C4%B1",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Psikolojik Tepkisellik: Yasaklanan Şeyin Zihninde Birdenbire Değer Kazanması",
+      "url": "https://tr.wikipedia.org/wiki/Tepkisellik",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Soren Kierkegaard'a göre kaygı: Özgürlüğün getirdiği o baş dönmesi",
-      "url": "https://tr.wikipedia.org/wiki/Søren_Kierkegaard",
+      "baslik": "Sosyal Kanıt Yanılgısı: Çoğunluk Ne Yapıyorsa Zihninin Onu Doğru Sanması",
+      "url": "https://tr.wikipedia.org/wiki/S%C3%BCr%C3%BC_psikolojisi",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

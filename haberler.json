@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-19T21:22:18.538390+00:00",
+  "uretim_zamani": "2026-10-20T00:46:35.622939+00:00",
   "haberler": [
     {
-      "baslik": "Solomon Asch'in uyma deneyi: Yalnız kalmamak için gerçeği feda edişin",
-      "url": "https://tr.wikipedia.org/wiki/Asch_uyma_deneyi",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Stanley Milgram'ın itaat deneyi ve vicdanın o görünmez askıya alınışı",
-      "url": "https://tr.wikipedia.org/wiki/Milgram_deneyi",
+      "baslik": "Mevlânâ'ya göre 'Bozuk saat bile günde iki kez doğruyu gösterir': Yanılsamalar silsilesi",
+      "url": "https://tr.wikipedia.org/wiki/Fihi_Ma_Fihi",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Philip Zimbardo ve Stanford Hapishane deneyi: Sistemin insanı yutuşu",
-      "url": "https://tr.wikipedia.org/wiki/Stanford_Hapishane_Deneyi",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

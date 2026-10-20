@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-10-20T20:10:54.136697+00:00",
+  "uretim_zamani": "2026-10-20T20:18:35.488694+00:00",
   "haberler": [
     {
-      "baslik": "Stoacı Hierokles'in benlik halkaları: Kendine yabancılaşmanın gerçek sebebi",
-      "url": "https://tr.wikipedia.org/wiki/Hierokles_(Stoac%C4%B1)",
+      "baslik": "İsmail Hakkı Bursevî'ye göre ruhun gurbet sancısı ve kalbin ihyası",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0sma%C2%ADil_Hak%C2%ADk%C4%B1_Bursev%C3%AE",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sühreverdî'nin İşrak felsefesinde karanlıktan nur alemine uyanış",
+      "url": "https://tr.wikipedia.org/wiki/%C5%9Eeh%C3%A2beddin_S%C3%Bchreverd%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

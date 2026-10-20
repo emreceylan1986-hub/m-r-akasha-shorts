@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-10-20T00:46:35.622939+00:00",
+  "uretim_zamani": "2026-10-20T17:11:06.865037+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre 'Bozuk saat bile günde iki kez doğruyu gösterir': Yanılsamalar silsilesi",
-      "url": "https://tr.wikipedia.org/wiki/Fihi_Ma_Fihi",
+      "baslik": "Niyâzî-i Mısrî'nin derman ararken dertte bulduğu o büyük sır",
+      "url": "https://tr.wikipedia.org/wiki/Niy%C3%A2z%C3%AE-i_M%C4%B1sr%C3%AE",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

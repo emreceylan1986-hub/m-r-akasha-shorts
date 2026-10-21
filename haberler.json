@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-10-20T20:18:35.488694+00:00",
+  "uretim_zamani": "2026-10-21T17:11:05.984417+00:00",
   "haberler": [
     {
-      "baslik": "İsmail Hakkı Bursevî'ye göre ruhun gurbet sancısı ve kalbin ihyası",
-      "url": "https://tr.wikipedia.org/wiki/%C4%B0sma%C2%ADil_Hak%C2%ADk%C4%B1_Bursev%C3%AE",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sühreverdî'nin İşrak felsefesinde karanlıktan nur alemine uyanış",
-      "url": "https://tr.wikipedia.org/wiki/%C5%9Eeh%C3%A2beddin_S%C3%Bchreverd%C3%AE",
+      "baslik": "Sühreverdî'nin Işık Felsefesi: İçindeki karanlık sadece ışığın eksikliğidir",
+      "url": "https://tr.wikipedia.org/wiki/S%C3%BChreverd%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-21T19:11:20.650508+00:00",
+  "uretim_zamani": "2026-10-21T20:11:24.159932+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 37: Zihnimin öfkeyle ördüğü duvarı fark etmek",
-      "url": "https://tr.wikipedia.org/wiki/Hristiyan_m%c3%bctesavviflar_listesi",
+      "baslik": "Mucizeler Kursu Ders 37: Zihnimin öfkeden başka bir şey barındırmadığı gerçeği",
+      "url": "https://tr.wikipedia.org/wiki/Ders_(e%C4%9fitim)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu Ders 38: Suçluluk duygusundan arınarak bugüne uyanmak",
-      "url": "https://tr.wikipedia.org/wiki/Hristiyan_m%c3%bctesavviflar_listesi",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu Ders 40: Korkunun fısıltılarını sevginin sessizliğiyle susturmak",
-      "url": "https://tr.wikipedia.org/wiki/Hristiyan_m%c3%bctesavviflar_listesi",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

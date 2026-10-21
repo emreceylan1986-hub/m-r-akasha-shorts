@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-21T20:11:24.159932+00:00",
+  "uretim_zamani": "2026-10-21T21:10:53.182916+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu Ders 37: Zihnimin öfkeden başka bir şey barındırmadığı gerçeği",
-      "url": "https://tr.wikipedia.org/wiki/Ders_(e%C4%9fitim)",
+      "baslik": "Mucizeler Kursu 38. Ders: Zihninde yarattığın bu hapishanenin anahtarı sende",
+      "url": "https://tr.wikipedia.org/wiki/Hapishane",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu 39. Ders: Kendi sınırlarını çektiğin o görünmez duvarın arkasındaki sen",
+      "url": "https://tr.wikipedia.org/wiki/S%C4%B1n%C4%B1r_(psikoloji)",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

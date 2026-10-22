@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-10-21T21:10:53.182916+00:00",
+  "uretim_zamani": "2026-10-22T17:11:41.476845+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu 38. Ders: Zihninde yarattığın bu hapishanenin anahtarı sende",
-      "url": "https://tr.wikipedia.org/wiki/Hapishane",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu 39. Ders: Kendi sınırlarını çektiğin o görünmez duvarın arkasındaki sen",
-      "url": "https://tr.wikipedia.org/wiki/S%C4%B1n%C4%B1r_(psikoloji)",
+      "baslik": "Svapna felsefesine göre uykudaki bilincin sakladığı hakikat",
+      "url": "https://en.wikipedia.org/wiki/Dream_state",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-23T20:08:41.994325+00:00",
+  "uretim_zamani": "2026-10-23T21:11:08.101060+00:00",
   "haberler": [
     {
-      "baslik": "Rüyalarda su görmek: Bilinçdışının senden sakladığı bastırılmış duygular",
-      "url": "https://tr.wikipedia.org/wiki/Psikanalitik_r%C3%BCya_yorumlanmas%C4%B1",
+      "baslik": "Rüyandaki o yabancı ev ve Jung'un bahsettiği keşfedilmemiş benlik",
+      "url": "https://tr.wikipedia.org/wiki/Analitik_psikoloji",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Ching 9. Bölüm: Doyuma ulaştığında durmayı bilme sanatı",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

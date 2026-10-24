@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-24T17:11:05.215054+00:00",
+  "uretim_zamani": "2026-10-24T19:07:35.489672+00:00",
   "haberler": [
     {
-      "baslik": "Svadhisthana çakrası ve suçluluk duygusu yüzünden tıkanan yaratıcılık",
-      "url": "https://tr.wikipedia.org/wiki/Svadhishthana",
+      "baslik": "Sahasrara çakrası ve zihninin evrensel akışla olan bağını koparması",
+      "url": "https://tr.wikipedia.org/wiki/Ta%C3%A7_%C3%A7akra",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sahasrara çakrası kapandığında: Hayatın anlamını kaybetme hissi",
-      "url": "https://tr.wikipedia.org/wiki/Sahasrara",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Jing 2. Bölüm: Zıtlıkların uyumu ve çabasız eylem",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

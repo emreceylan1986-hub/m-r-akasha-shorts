@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-10-24T20:10:51.147863+00:00",
+  "uretim_zamani": "2026-10-24T21:11:08.235733+00:00",
   "haberler": [
     {
-      "baslik": "Sühreverdî'nin Kırmızı Aklında bahsettiği tutsaklık ve kalbin özgürleşme arzusu",
-      "url": "https://tr.wikipedia.org/wiki/%C5%9Eehabeddin_S%C3%BChreverd%C3%AE",
+      "baslik": "Muladhara kök çakran tıkandığında: Güvende hissetmeme korkusunun bedendeki kökü",
+      "url": "https://tr.wikipedia.org/wiki/K%C3%B6k_%C3%A7akra",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Manipura solar pleksus çakrası: Kendi iradeni başkalarının onayına teslim ettiğinde ne olur?",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Anahata kalp çakrası açıldığında: Alınmayı ve kırılmayı bırakan ruhun sessiz özgürlüğü",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-10-25T19:11:11.258279+00:00",
+  "uretim_zamani": "2026-10-25T20:11:05.846870+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu 40. Ders: Sinsice içini kemiren o yalnızlık hissi",
-      "url": "https://tr.wikipedia.org/wiki/Spirit%C3%BCalizm",
+      "baslik": "Wolfgang Pauli ve Jung'un ortaklığı: Neden bazı tesadüfler hayatı değiştirir?",
+      "url": "https://tr.wikipedia.org/wiki/Wolfgang_Pauli",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Neden hep aynı insanlara çekiliyorsun? Zihninin kurduğu tekrar döngüsü",
-      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7 d%C4%B1%C5%9F%C4%B1",
+      "baslik": "Akaka / Akashic kayıtlar fikrine göre evrendeki eşzamanlı hafıza",
+      "url": "https://tr.wikipedia.org/wiki/Aka%C5%9Fa",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 993,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gözlemci etkisi: Zihnin odaklandığı gerçekliği değiştirme gücü",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6zlemci_etkisi_(kuantum_fizik)",
+      "kaynak": "gemini-fallback",
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

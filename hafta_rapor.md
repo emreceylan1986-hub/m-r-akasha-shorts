@@ -1,23 +1,23 @@
 # 📊 Aydınlanmanın Doruk Noktası — Haftalık Rapor
-_2026-10-18T23:52+00:00_
+_2026-10-25T23:43+00:00_
 
 ## Özet
-- **Abone:** 77 (+1 bu hafta)
-- **Toplam view:** 52,888 (+1,210 bu hafta)
-- **Toplam video:** 420
-- **Son 7 gün:** 26 video, 1,093 izl, ort 42/video
-- **<50 izl video sayısı:** 18/26 (kalite_temizleyici aday)
+- **Abone:** 82 (+5 bu hafta)
+- **Toplam view:** 56,073 (+3,185 bu hafta)
+- **Toplam video:** 444
+- **Son 7 gün:** 30 video, 2,245 izl, ort 74/video
+- **<50 izl video sayısı:** 19/30 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **148v** · 0👍 · 1💬 — Anahata çakrası ve kalbin sevgiyi bir tehdit gibi görmesi
-- **135v** · 2👍 · 1💬 — Mucizeler Kursu 35. Ders ve zihnin unuttuğu kutsal kaynak
-- **132v** · 0👍 · 1💬 — Mevlânâ'ya göre ney'in feryadı ve aslına duyulan o derin özlem
+- **538v** · 2👍 · 1💬 — Ferîdüddin Attâr'ın Mantıku't-Tayr eserinde kalbin yedi vadisi ve kayboluşun sırrı
+- **338v** · 11👍 · 1💬 — Niyâzî-i Mısrî'ye göre seher vakti ve zihnin susuşu
+- **237v** · 2👍 · 1💬 — İbnü'l-Arabî ve Fütûhât-ı Mekkiyye'de rüyaların ve kaderin saklı sırrı
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 1💬 — Daedalus Ve Labirent: Zihnin Hapishanesinden Özgürleşme Yolu
-- **0v** · 0👍 · 0💬 — Manipura çakrası ve dış onay arayışıyla kaybolan irade gücü
-- **0v** · 0👍 · 0💬 — Lao Tzu ve Tao Te Ching: Kelimelerin bittiği yerde başlayan huzur
+- **0v** · 0👍 · 0💬 — Sühreverdî'nin Kırmızı Akıl risalesine göre ruhun kafesinden kurtuluşu
+- **0v** · 0👍 · 0💬 — Mucizeler Kursu 38. Ders ve zihindeki hapishaneden özgürleşmek
+- **0v** · 0👍 · 0💬 — Mucizeler Kursu 37. Ders: Zihindeki öfkenin ötesindeki huzur
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **77 abone / 42 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **82 abone / 74 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı

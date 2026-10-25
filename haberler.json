@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-10-24T21:11:08.235733+00:00",
+  "uretim_zamani": "2026-10-25T17:11:13.068767+00:00",
   "haberler": [
     {
-      "baslik": "Muladhara kök çakran tıkandığında: Güvende hissetmeme korkusunun bedendeki kökü",
-      "url": "https://tr.wikipedia.org/wiki/K%C3%B6k_%C3%A7akra",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Manipura solar pleksus çakrası: Kendi iradeni başkalarının onayına teslim ettiğinde ne olur?",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Stoacı Prosochē sanatı: Zihninin kapısındaki nöbetçi olmak",
+      "url": "https://en.wikipedia.org/wiki/Stoicism",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Anahata kalp çakrası açıldığında: Alınmayı ve kırılmayı bırakan ruhun sessiz özgürlüğü",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "İbn Arabî ve Sefer-i Bâtın: Yaşadığın darlık gerçekte nereye çağırıyor?",
+      "url": "https://en.wikipedia.org/wiki/Ibn_Arabi",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

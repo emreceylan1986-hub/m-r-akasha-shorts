@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-10-25T17:11:13.068767+00:00",
+  "uretim_zamani": "2026-10-25T19:11:11.258279+00:00",
   "haberler": [
     {
-      "baslik": "Stoacı Prosochē sanatı: Zihninin kapısındaki nöbetçi olmak",
-      "url": "https://en.wikipedia.org/wiki/Stoicism",
+      "baslik": "Mucizeler Kursu 40. Ders: Sinsice içini kemiren o yalnızlık hissi",
+      "url": "https://tr.wikipedia.org/wiki/Spirit%C3%BCalizm",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "İbn Arabî ve Sefer-i Bâtın: Yaşadığın darlık gerçekte nereye çağırıyor?",
-      "url": "https://en.wikipedia.org/wiki/Ibn_Arabi",
+      "baslik": "Neden hep aynı insanlara çekiliyorsun? Zihninin kurduğu tekrar döngüsü",
+      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7 d%C4%B1%C5%9F%C4%B1",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

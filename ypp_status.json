@@ -1,20 +1,20 @@
 {
-  "uretim": "2026-10-26T17:17:11+00:00",
+  "uretim": "2026-10-26T19:15:44+00:00",
   "kanal": "Aydınlanmanın Doruk Noktası",
   "abone": 81,
   "toplam_video": 444,
-  "toplam_izlenme_yaşam_boyu": 56266,
-  "son_90g_izlenme": 35789,
-  "son_14g_izlenme": 3799,
-  "gunluk_izlenme_tahmin": 271.4,
+  "toplam_izlenme_yaşam_boyu": 56073,
+  "son_90g_izlenme": 36132,
+  "son_14g_izlenme": 4142,
+  "gunluk_izlenme_tahmin": 295.9,
   "early_tier": {
     "abone_hedef": 500,
     "abone_yuzde": 16.2,
     "abone_kalan": 419,
     "shorts_hedef_90g": 3000000,
-    "shorts_yuzde_90g": 1.19,
-    "shorts_kalan_90g": 2964211,
-    "tahmini_gun_shorts": 10924
+    "shorts_yuzde_90g": 1.2,
+    "shorts_kalan_90g": 2963868,
+    "tahmini_gun_shorts": 10018
   },
   "full_tier": {
     "abone_hedef": 1000,
@@ -22,7 +22,7 @@
     "abone_kalan": 919,
     "shorts_hedef_90g": 10000000,
     "shorts_yuzde_90g": 0.36,
-    "shorts_kalan_90g": 9964211,
-    "tahmini_gun_shorts": 36720
+    "shorts_kalan_90g": 9963868,
+    "tahmini_gun_shorts": 33678
   }
 }

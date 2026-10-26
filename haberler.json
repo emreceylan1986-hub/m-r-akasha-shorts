@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-26T17:11:40.036033+00:00",
+  "uretim_zamani": "2026-10-26T19:11:19.987227+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre Persona: Başkalarını mutlu ederken kaybettiğin özün",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Tao Te Ching 8. Bölüm: Su gibi yaşamak ruhu nasıl özgürleştirir?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Ching 8. Bölüm: Su gibi akmak ve dirençsizliğin gizli gücü",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Yunus Emre'nin 'Bana seni gerek seni' dizesindeki benliksizleşme sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung ve Bireyleşme: Kendi meşaleni yakmak neden bu kadar sancılı?",
-      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "baslik": "Kalp çakran kapandığında zihnin sevgiye karşı kurduğu savunma mekanizması",
+      "url": "https://tr.wikipedia.org/wiki/Anahata",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

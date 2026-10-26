@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-10-26T21:11:07.723879+00:00",
+  "uretim_zamani": "2026-10-26T21:17:37.794293+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin 'Bana seni gerek seni' derken kastettiği öz benlik",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Carl Jung ve bireyleşme: Kendi karanlığınla yüzleşmeden aydınlanamazsın",
+      "url": "tr.wikipedia.org/wiki/Carl_Jung",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu 41. Ders: Zihninin yarattığı bu dünyayı sen bağışlıyorsun",
+      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 9. Bölüm: Dolup taşmaktansa zamanında durmayı bilmek",
+      "url": "tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

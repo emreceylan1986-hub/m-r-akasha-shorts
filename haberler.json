@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-25T21:11:03.917887+00:00",
+  "uretim_zamani": "2026-10-26T17:11:40.036033+00:00",
   "haberler": [
     {
-      "baslik": "Zihnin anlam arayışı: Anlamlı tesadüfler sana ne anlatıyor?",
-      "url": "https://tr.wikipedia.org/wiki/Anlamland%C4%B1rma",
+      "baslik": "Carl Jung'a göre Persona: Başkalarını mutlu ederken kaybettiğin özün",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Ching 8. Bölüm: Su gibi akmak ve dirençsizliğin gizli gücü",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Carl Jung ve Bireyleşme: Kendi meşaleni yakmak neden bu kadar sancılı?",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

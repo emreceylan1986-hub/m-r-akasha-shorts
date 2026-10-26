@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-26T19:11:19.987227+00:00",
+  "uretim_zamani": "2026-10-26T20:11:06.140194+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Ching 8. Bölüm: Su gibi yaşamak ruhu nasıl özgürleştirir?",
+      "baslik": "Tao Te Ching 1. Bölüm: İsimlendirilen her şey hakikatin sadece bir gölgesidir",
       "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Carl Jung ve Enantiodromia: Bir duygunun aşırılığı neden tam zıttına dönüşür?",
+      "url": "https://tr.wikipedia.org/wiki/Carl_Jung",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'nin 'Bana seni gerek seni' dizesindeki benliksizleşme sırrı",
+      "baslik": "Yunus Emre'nin 'Bana seni gerek seni' sözündeki benliğin yok oluş sırrı",
       "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kalp çakran kapandığında zihnin sevgiye karşı kurduğu savunma mekanizması",
-      "url": "https://tr.wikipedia.org/wiki/Anahata",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

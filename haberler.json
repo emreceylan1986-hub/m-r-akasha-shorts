@@ -1,24 +1,8 @@
 {
-  "uretim_zamani": "2026-10-26T20:11:06.140194+00:00",
+  "uretim_zamani": "2026-10-26T21:11:07.723879+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Ching 1. Bölüm: İsimlendirilen her şey hakikatin sadece bir gölgesidir",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Carl Jung ve Enantiodromia: Bir duygunun aşırılığı neden tam zıttına dönüşür?",
-      "url": "https://tr.wikipedia.org/wiki/Carl_Jung",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'nin 'Bana seni gerek seni' sözündeki benliğin yok oluş sırrı",
+      "baslik": "Yunus Emre'nin 'Bana seni gerek seni' derken kastettiği öz benlik",
       "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 998,

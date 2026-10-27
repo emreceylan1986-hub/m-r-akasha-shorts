@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-10-26T21:17:37.794293+00:00",
+  "uretim_zamani": "2026-10-27T00:58:10.308863+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung ve bireyleşme: Kendi karanlığınla yüzleşmeden aydınlanamazsın",
-      "url": "tr.wikipedia.org/wiki/Carl_Jung",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu 41. Ders: Zihninin yarattığı bu dünyayı sen bağışlıyorsun",
-      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
+      "baslik": "Mevlânâ'ya göre 'Körler Şehri' ve kalbin gözüyle görme sanatı",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%Aen-i_R%C3%BBm%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing 9. Bölüm: Dolup taşmaktansa zamanında durmayı bilmek",
-      "url": "tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Yunus Emre'nin bahsettiği 'Bir ben vardır bende benden içeri' sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-27T00:58:10.308863+00:00",
+  "uretim_zamani": "2026-10-27T17:10:56.856052+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre 'Körler Şehri' ve kalbin gözüyle görme sanatı",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%Aen-i_R%C3%BBm%C3%AE",
+      "baslik": "İbn-i Sina'ya göre vehim gücü ve zihnin kendi ürettiği korkuyla felç olması",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0bn-i_S%C3%AEna",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'nin bahsettiği 'Bir ben vardır bende benden içeri' sırrı",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

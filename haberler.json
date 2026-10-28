@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-28T17:11:03.506647+00:00",
+  "uretim_zamani": "2026-10-28T19:11:07.073698+00:00",
   "haberler": [
     {
-      "baslik": "Aşk zannettiğin heyecan aslında çocukluk travmanın tetiklediği adrenalin mi?",
-      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C1%B1%C5%9F%C4%B1",
+      "baslik": "Marcus Aurelius'a göre zihnini yoran şey olaylar değil senin yüklediğin anlamlardır",
+      "url": "https://tr.wikipedia.org/wiki/Marcus_Aurelius",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Aşırı çekim hissettiğin insan aslında çocukluk yaranın bir aynası olabilir mi?",
+      "url": "https://tr.wikipedia.org/wiki/Ba%C4%9Flanma_kuram%C4%B1",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 11. Bölüm: Kabı kullanışlı kılan içindeki boşluktur",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

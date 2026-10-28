@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-10-28T00:48:00.930317+00:00",
+  "uretim_zamani": "2026-10-28T17:11:03.506647+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Ching 8. Bölüm: Su gibi akmak ve dirençsizliğin gücü",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Marcus Aurelius'a göre kontrol edemediğin şeyleri serbest bırakma sanatı",
-      "url": "https://tr.wikipedia.org/wiki/Marcus_Aurelius",
+      "baslik": "Aşk zannettiğin heyecan aslında çocukluk travmanın tetiklediği adrenalin mi?",
+      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C1%B1%C5%9F%C4%B1",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-10-28T20:11:26.645691+00:00",
+  "uretim_zamani": "2026-10-29T01:20:32.292043+00:00",
   "haberler": [
     {
-      "baslik": "Epiktetos ve Encheiridion: Sen yönetemediğin şeylerin tutsağısın",
-      "url": "https://tr.wikipedia.org/wiki/Epiktetos",
+      "baslik": "Zhuangzi'nin kelebek rüyası: Zihnindeki gerçeklik algısının kırıldığı an",
+      "url": "https://tr.wikipedia.org/wiki/Chuang_Tzu",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

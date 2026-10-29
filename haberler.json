@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-29T17:10:51.826771+00:00",
+  "uretim_zamani": "2026-10-29T19:10:51.371726+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'nın 'Sessizlik' öğretisi: Zihnin gürültüsünde kalbin sesini duymak",
-      "url": "https://tr.wikipedia.org/wiki/Mev%CC%82l%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
+      "baslik": "Ibn Haldun'a göre coğrafya kaderdir ama insan kalbi nerededir?",
+      "url": "https://tr.wikipedia.org/wiki/İbn_Haldun",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Bkz. Thomas Merton: Kalabalıktan kaçmadan içsel inzivaya çekilme sanatı",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Merton",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

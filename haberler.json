@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-30T19:11:04.972918+00:00",
+  "uretim_zamani": "2026-10-30T20:10:55.829725+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung ve rüyadaki düşme hissi: Bilinçaltının kibri yıkma çabası",
-      "url": "https://tr.wikipedia.org/wiki/Carl_Gustav_Jung",
+      "baslik": "Mucizeler Kursu 41. Ders: Derindeki sarsılmaz güven duygusunu hatırlamak",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%BCven",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Manipura karın çakrası tıkandığında ortaya çıkan hayır diyememe hali",
+      "url": "https://tr.wikipedia.org/wiki/Plexus_coeliacus",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

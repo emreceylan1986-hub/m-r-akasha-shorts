@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-10-30T01:24:39.624993+00:00",
+  "uretim_zamani": "2026-10-30T17:11:06.184251+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing 9. Bölüm: Taşmak üzere olan bardağı doldurmaya devam etme",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu 41. Ders: Zihnin Tanrı ile yürüdüğü an korku yok olur",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Anahata kalp çakrası kapandığında kalbin ördüğü koruyucu duvarlar",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

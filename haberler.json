@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-10-29T20:10:58.993713+00:00",
+  "uretim_zamani": "2026-10-30T01:24:39.624993+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing 9. Bölüm ve zamanında geri çekilmeyi bilme sanatı",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Tao Te Jing 9. Bölüm: Taşmak üzere olan bardağı doldurmaya devam etme",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "İbnül-Arabî'ye göre sürekli değişen tecelliler ve tutunmanın anlamsızlığı",
-      "url": "https://tr.wikipedia.org/wiki/%C4%B0bn%C3%BC%27l-%27Arab%C3%AE",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Anahata kalp çakrası tıkandığında ilişkilerde beliren kaybetme korkusu",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Mucizeler Kursu 41. Ders: Zihnin Tanrı ile yürüdüğü an korku yok olur",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

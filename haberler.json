@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-10-31T19:10:58.503970+00:00",
+  "uretim_zamani": "2026-10-31T20:11:11.215407+00:00",
   "haberler": [
     {
-      "baslik": "Ajna üçüncü göz çakrası tıkandığında zihin geleceğin kaygısına hapsolur",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "Mucizeler Kursu 42. Ders: Zihnindeki karmaşa ve bedendeki enerji blokajı",
+      "url": "https://tr.wikipedia.org/wiki/Enerji_(metafizik)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu 42. Ders: Tanrı benim gittiğim her yere benimle gider",
-      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Vishuddha boğaz çakrası tıkandığında beden kendi hakikatine dilsiz kalır",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "baslik": "İbn Sinâ'nın El-Kanun fi't-Tıbb eserine göre zihinsel kaygının bedendeki izleri",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0bn-i_S%C3%AEn%C3%A2",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-10-31T17:11:05.881903+00:00",
+  "uretim_zamani": "2026-10-31T19:10:58.503970+00:00",
   "haberler": [
     {
-      "baslik": "Sufi bilgeliğinde 'Kabz' hali: Bedenin daralması ve kalbin genişleme sancısı",
-      "url": "https://tr.wikipedia.org/wiki/Seyr-%C3%BC_s%C3%BCl%C3%BBk",
+      "baslik": "Ajna üçüncü göz çakrası tıkandığında zihin geleceğin kaygısına hapsolur",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu 42. Ders: Tanrı benim gittiğim her yere benimle gider",
+      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Vishuddha boğaz çakrası tıkandığında beden kendi hakikatine dilsiz kalır",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

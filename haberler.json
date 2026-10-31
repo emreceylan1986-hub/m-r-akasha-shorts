@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-30T20:10:55.829725+00:00",
+  "uretim_zamani": "2026-10-31T01:10:45.835632+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu 41. Ders: Derindeki sarsılmaz güven duygusunu hatırlamak",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%BCven",
+      "baslik": "Manipura çakrası tıkandığında başkalarının onayına bağımlı hale gelirsin",
+      "url": "https://tr.wikipedia.org/wiki/Kar%C4%B1n_bo%C5%9Flu%C4%9Fu_a%C4%9F%C4%B1",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Manipura karın çakrası tıkandığında ortaya çıkan hayır diyememe hali",
-      "url": "https://tr.wikipedia.org/wiki/Plexus_coeliacus",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

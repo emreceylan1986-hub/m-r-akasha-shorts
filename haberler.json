@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-11-01T17:11:10.572437+00:00",
+  "uretim_zamani": "2026-11-01T19:11:02.110638+00:00",
   "haberler": [
     {
-      "baslik": "Aşırı heyecanı aşk sanmak: Beynin adrenalin ve çekim tuzağı",
-      "url": "https://tr.wikipedia.org/wiki/Dopamin",
+      "baslik": "İbn Arabî ve Füsûsu'l-Hikem'e göre evrendeki eşzamanlı işaretler",
+      "url": "https://tr.wikipedia.org/wiki/F%C3%BCs%C3%BBsu%27l-Hikem",
       "kaynak": "gemini-fallback",
-      "skor": 991,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sühreverdî'ye göre sezgisel uyanış ve rüyadaki eşzamanlı semboller",
-      "url": "https://tr.wikipedia.org/wiki/Yahya_bin_Hab%C3%AA%C5%9Fi_S%C3%bchreverd%C3%AE",
-      "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

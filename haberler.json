@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-11-01T21:10:55.692994+00:00",
+  "uretim_zamani": "2026-11-02T17:11:11.742002+00:00",
   "haberler": [
     {
-      "baslik": "Niyazî-i Mısrî'ye göre aradığın dermanın aslında derdin kendisi olması",
-      "url": "https://tr.wikipedia.org/wiki/Niy%C3%A2z%C3%AE-i_M%C3%BCsr%C3%AE",
+      "baslik": "Carl Jung ve bireyleşme süreci: Kendi karanlığınla yüzleşmeden bütüne eremezsin",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Vishuddha boğaz çakrası tıkandığında kendi hakikatini söyleme korkusu",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

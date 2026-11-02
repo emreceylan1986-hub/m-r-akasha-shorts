@@ -1,23 +1,23 @@
 # 📊 Aydınlanmanın Doruk Noktası — Haftalık Rapor
-_2026-10-25T23:43+00:00_
+_2026-11-02T01:11+00:00_
 
 ## Özet
-- **Abone:** 82 (+5 bu hafta)
-- **Toplam view:** 56,073 (+3,185 bu hafta)
-- **Toplam video:** 444
-- **Son 7 gün:** 30 video, 2,245 izl, ort 74/video
-- **<50 izl video sayısı:** 19/30 (kalite_temizleyici aday)
+- **Abone:** 81 (-1 bu hafta)
+- **Toplam view:** 58,536 (+2,463 bu hafta)
+- **Toplam video:** 465
+- **Son 7 gün:** 30 video, 2,056 izl, ort 68/video
+- **<50 izl video sayısı:** 18/30 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **538v** · 2👍 · 1💬 — Ferîdüddin Attâr'ın Mantıku't-Tayr eserinde kalbin yedi vadisi ve kayboluşun sırrı
-- **338v** · 11👍 · 1💬 — Niyâzî-i Mısrî'ye göre seher vakti ve zihnin susuşu
-- **237v** · 2👍 · 1💬 — İbnü'l-Arabî ve Fütûhât-ı Mekkiyye'de rüyaların ve kaderin saklı sırrı
+- **924v** · 6👍 · 3💬 — Mevlânâ'ya göre içteki nedensiz darlık ruhun genişleme sancısıdır
+- **164v** · 1👍 · 1💬 — Yunus Emre'ye göre beden ölür ama aşkla uyanan ruh ölmez
+- **112v** · 0👍 · 1💬 — Carl Jung ve eşzamanlılık: Zihne düşen kişinin hemen araması
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 0💬 — Sühreverdî'nin Kırmızı Akıl risalesine göre ruhun kafesinden kurtuluşu
-- **0v** · 0👍 · 0💬 — Mucizeler Kursu 38. Ders ve zihindeki hapishaneden özgürleşmek
-- **0v** · 0👍 · 0💬 — Mucizeler Kursu 37. Ders: Zihindeki öfkenin ötesindeki huzur
+- **0v** · 0👍 · 0💬 — Mucizeler Kursu 42. Ders ve zihnin kendi yarattığı sınırlılık
+- **0v** · 0👍 · 1💬 — Ajna çakrası tıkandığında zihin vizyon yerine kuruntu üretir
+- **0v** · 0👍 · 0💬 — Carl Jung ve Gölge Kavramı: En Güçlü Olduğun Yer
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **82 abone / 74 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **81 abone / 68 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı

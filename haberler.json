@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-03T20:11:21.961477+00:00",
+  "uretim_zamani": "2026-11-03T21:11:17.515149+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ ve Divan-ı Kebir: Kalbinde sönmeyen o kırgınlığın gerçek sebebi",
-      "url": "https://tr.wikipedia.org/wiki/D%C3%AEv%C3%A2n-%C4%B1_Keb%C3%AEr",
+      "baslik": "Mevlânâ'ya göre kuyuya düşen Yûsuf'un karanlıktaki gizli teslimiyeti",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEni-i_R%C3%BBm%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu 43. Ders: 'Zihnimdeki yanılsamalar bedenimi ve dünyamı bağlayamaz'",
+      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Vishuddha boğaz çakrası tıkandığında bastırılan gerçekler ve ifade korkusu",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

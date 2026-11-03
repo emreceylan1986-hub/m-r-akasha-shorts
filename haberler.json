@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-11-02T21:11:24.719834+00:00",
+  "uretim_zamani": "2026-11-03T17:11:21.887516+00:00",
   "haberler": [
     {
-      "baslik": "Yunus Emre'nin 'Bir ben vardır bende benden içeri' dediği gizli öz",
-      "url": "https://tr.wikipedia.org/wiki/Ris%C3%A2let%C3%BC'n-Nushiyye",
+      "baslik": "Yunus Emre'nin 'Ete kemiğe büründüm' dizesinde saklı varoluş sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Ris%C3%A2let%27%C3%BC%27n-Nushiyye",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

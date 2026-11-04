@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-04T19:11:10.258850+00:00",
+  "uretim_zamani": "2026-11-04T20:11:55.122392+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre kırılan kalbin arkasındaki ilahi genişleme",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEni-R%C3%BBm%C3%AE",
+      "baslik": "Mucizeler Kursu 43. Ders: Tanrı benim algıladığım dünyayı görmüyor",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 9. Bölüm: Dolu bir bardağı taşımak zamanla yorar",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing 9. Bölüm: Doyuma ulaştığın an durmayı bilmek",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Visuddhimagga'ya göre nefes meditasyonu ve zihnin beş engeli",
+      "url": "https://tr.wikipedia.org/wiki/Buda",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ömer Hayyâm ve zamansızlık algısı: Anın içinde gizlenen sonsuzluk",
-      "url": "https://tr.wikipedia.org/wiki/%C3%96mer_Hayy%C3%A2m",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

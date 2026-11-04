@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-04T20:11:55.122392+00:00",
+  "uretim_zamani": "2026-11-04T21:11:55.902559+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu 43. Ders: Tanrı benim algıladığım dünyayı görmüyor",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Mucizeler Kursu 43. Ders: 'Tanrı tarafından yaratılmadığım hiçbir şey yoktur' ne anlama gelir?",
+      "url": "tr.wikipedia.org/wiki/Hristiyan_ilahiyatı",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing 9. Bölüm: Dolu bir bardağı taşımak zamanla yorar",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "baslik": "Mucizeler Kursu 44. Ders: 'Zihnimdeki şikayetler gerçek dünyanın önüne örülen duvardır'",
+      "url": "tr.wikipedia.org/wiki/İlahi_lütuf",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Visuddhimagga'ya göre nefes meditasyonu ve zihnin beş engeli",
-      "url": "https://tr.wikipedia.org/wiki/Buda",
+      "baslik": "Mucizeler Kursu 47. Ders: 'Tanrı hayattır ve sen O'nun nefesinden ayrı değilsin'",
+      "url": "tr.wikipedia.org/wiki/Yaşam",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

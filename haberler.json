@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-04T21:11:55.902559+00:00",
+  "uretim_zamani": "2026-11-05T17:11:01.129812+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu 43. Ders: 'Tanrı tarafından yaratılmadığım hiçbir şey yoktur' ne anlama gelir?",
-      "url": "tr.wikipedia.org/wiki/Hristiyan_ilahiyatı",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu 44. Ders: 'Zihnimdeki şikayetler gerçek dünyanın önüne örülen duvardır'",
-      "url": "tr.wikipedia.org/wiki/İlahi_lütuf",
+      "baslik": "Kuşanî ve Tasavvuf Mantığına Göre Kabz Hali: Nedensiz Ruhsal Daralma Ne Anlama Gelir?",
+      "url": "https://tr.wikipedia.org/wiki/Ku%C5%9Feyri",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu 47. Ders: 'Tanrı hayattır ve sen O'nun nefesinden ayrı değilsin'",
-      "url": "tr.wikipedia.org/wiki/Yaşam",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

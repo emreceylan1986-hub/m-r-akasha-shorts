@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-11-07T01:22:19.660752+00:00",
+  "uretim_zamani": "2026-11-07T17:11:09.915764+00:00",
   "haberler": [
     {
-      "baslik": "Muladhara çakranız tıkandığında gelen sürekli dünyevi güvensizlik hissi",
-      "url": "https://tr.wikipedia.org/wiki/Kök_çakra",
+      "baslik": "Vishuddha boğaz çakrası tıkandığında kendi gerçeğini söyleyememenin boğucu yükü",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sahasrara taç çakrası kapandığında evrensel akıştan kopuş ve varoluşsal yalnızlık",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

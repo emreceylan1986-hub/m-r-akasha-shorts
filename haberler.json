@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-11-07T17:11:09.915764+00:00",
+  "uretim_zamani": "2026-11-07T19:11:04.840687+00:00",
   "haberler": [
     {
-      "baslik": "Vishuddha boğaz çakrası tıkandığında kendi gerçeğini söyleyememenin boğucu yükü",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Svadhisthana çakrası tıkandığında suçluluk duygusu yaratıcılığı felç eder",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sahasrara taç çakrası kapandığında evrensel akıştan kopuş ve varoluşsal yalnızlık",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Sahaşrara çakrası tıkandığında evrensel güven yerini kronik kontrol ihtiyacına bırakır",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu 44. Ders: Tanrı gittiğim her yerde benimle olan ışıktır",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

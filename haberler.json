@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-11-08T00:03:33.631000+00:00",
+  "uretim_zamani": "2026-11-08T17:10:58.468363+00:00",
   "haberler": [
     {
-      "baslik": "Ferîdüddin Attâr'a göre karşına çıkan zor insan bir tesadüf değildir",
-      "url": "https://tr.wikipedia.org/wiki/Mant%C4%B1kut-%C5%9ETayr",
+      "baslik": "Wolfgang Pauli ve Jung: Hayatındaki anlamlı tesadüflerin kuantum kökeni",
+      "url": "https://tr.wikipedia.org/wiki/Kuantum_renk_dinami%C4%9Fi",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sühreverdî ve İşrakilik: Birdenbire gelen o içsel bilme hissi nedir?",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0%C5%9Frakilik",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

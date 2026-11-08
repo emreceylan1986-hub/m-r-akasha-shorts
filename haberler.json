@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-11-08T17:10:58.468363+00:00",
+  "uretim_zamani": "2026-11-08T19:10:52.255611+00:00",
   "haberler": [
     {
-      "baslik": "Wolfgang Pauli ve Jung: Hayatındaki anlamlı tesadüflerin kuantum kökeni",
-      "url": "https://tr.wikipedia.org/wiki/Kuantum_renk_dinami%C4%9Fi",
+      "baslik": "İbnü'l-Arabî'ye göre tevafuk ve hayatındaki hiçbir buluşmanın tesadüf olmaması",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0bn_Arab%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sühreverdî ve İşrakilik: Birdenbire gelen o içsel bilme hissi nedir?",
-      "url": "https://tr.wikipedia.org/wiki/%C4%B0%C5%9Frakilik",
+      "baslik": "Sühreverdî ve Hikmetü'l-İşrâk: Karşına çıkan zorluklar ışığa yönlendiren işaretlerdir",
+      "url": "https://tr.wikipedia.org/wiki/%C5%9Eihabeddin_S%C3%BChreverd%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

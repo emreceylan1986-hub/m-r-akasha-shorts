@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-11-08T19:10:52.255611+00:00",
+  "uretim_zamani": "2026-11-08T20:11:03.484212+00:00",
   "haberler": [
     {
-      "baslik": "İbnü'l-Arabî'ye göre tevafuk ve hayatındaki hiçbir buluşmanın tesadüf olmaması",
-      "url": "https://tr.wikipedia.org/wiki/%C4%B0bn_Arab%C3%AE",
+      "baslik": "Sühreverdî'ye göre sürekli karşınıza çıkan rakamlar zihnin bir oyunu mu?",
+      "url": "https://tr.wikipedia.org/wiki/Hikmet%C3%Bcl_I%C5%9Fr%C3%A2k",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sühreverdî ve Hikmetü'l-İşrâk: Karşına çıkan zorluklar ışığa yönlendiren işaretlerdir",
-      "url": "https://tr.wikipedia.org/wiki/%C5%9Eihabeddin_S%C3%BChreverd%C3%AE",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

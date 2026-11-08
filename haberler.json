@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-07T20:11:04.614941+00:00",
+  "uretim_zamani": "2026-11-08T00:03:33.631000+00:00",
   "haberler": [
     {
-      "baslik": "Muladhara çakrası ve bedenine yerleşmeyen ruhun sürekli kaçış isteği",
-      "url": "https://tr.wikipedia.org/wiki/K%C3%B6k_%C3%A7akra",
+      "baslik": "Ferîdüddin Attâr'a göre karşına çıkan zor insan bir tesadüf değildir",
+      "url": "https://tr.wikipedia.org/wiki/Mant%C4%B1kut-%C5%9ETayr",
       "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Svadhisthana çakrasındaki blokaj ve bastırılan duyguların bedendeki katılığı",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Manipura çakrası çöktüğünde kendi sınırlarını çizememe felci",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

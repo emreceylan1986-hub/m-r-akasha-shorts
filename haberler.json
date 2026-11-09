@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-09T19:12:35.687123+00:00",
+  "uretim_zamani": "2026-11-09T20:11:57.724983+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing 9. Bölüm: Zirvede tutunmaya çalışmak neden düşürür?",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Jing",
+      "baslik": "Carl Jung'a göre bireyleşme: Kendi karanlığınla tanışmadan tam olamazsın",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 9. Bölüm: Dolu bir bardağı taşmaya zorlamanın getirdiği yıkım",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre'ye göre ham kalmanın ve pişmenin ruhsal bedeli",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-09T17:11:15.043808+00:00",
+  "uretim_zamani": "2026-11-09T19:12:35.687123+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu 43. Ders: Tanrı benim algıladığım dünyayı yönetmez",
-      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Carl Jung'a göre başkalarında katlanamadığın kusur senin bastırılmış gölgendir",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(arketip)",
+      "baslik": "Tao Te Jing 9. Bölüm: Zirvede tutunmaya çalışmak neden düşürür?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Jing",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Carl Jung'a göre bireyleşme süreci toplumun beklentilerini reddetmekle başlar",
-      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

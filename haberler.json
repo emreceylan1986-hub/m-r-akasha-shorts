@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-11-09T00:12:59.856494+00:00",
+  "uretim_zamani": "2026-11-09T17:11:15.043808+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung ve persona: Masken yüzüne yapıştığında kendi gerçeğini unutursun",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "baslik": "Mucizeler Kursu 43. Ders: Tanrı benim algıladığım dünyayı yönetmez",
+      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung'a göre bireyleşme: Toplumun beklentilerini yıkıp kendi özüne dönmek",
-      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "baslik": "Carl Jung'a göre başkalarında katlanamadığın kusur senin bastırılmış gölgendir",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(arketip)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung ve gölge projeksiyonu: Başkasında en çok nefret ettiğin şey kendi karanlığındır",
-      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(psikoloji)",
+      "baslik": "Carl Jung'a göre bireyleşme süreci toplumun beklentilerini reddetmekle başlar",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

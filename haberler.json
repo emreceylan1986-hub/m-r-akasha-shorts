@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-08T20:11:03.484212+00:00",
+  "uretim_zamani": "2026-11-09T00:12:59.856494+00:00",
   "haberler": [
     {
-      "baslik": "Sühreverdî'ye göre sürekli karşınıza çıkan rakamlar zihnin bir oyunu mu?",
-      "url": "https://tr.wikipedia.org/wiki/Hikmet%C3%Bcl_I%C5%9Fr%C3%A2k",
+      "baslik": "Carl Jung ve persona: Masken yüzüne yapıştığında kendi gerçeğini unutursun",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(psikoloji)",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Carl Jung'a göre bireyleşme: Toplumun beklentilerini yıkıp kendi özüne dönmek",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Carl Jung ve gölge projeksiyonu: Başkasında en çok nefret ettiğin şey kendi karanlığındır",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(psikoloji)",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

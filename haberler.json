@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-11-10T00:29:18.911254+00:00",
+  "uretim_zamani": "2026-11-10T17:11:05.463086+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre 'Hamdım, piştim, yandım' sözünün arkasındaki üç ruhi evre",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEni_R%C3%BBm%C3%AE",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'nin 'Beni bende demen, bende değilim' dizesindeki egosuzluk hali",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Yunus Emre'ye göre 'Benim' dediğin hiçbir şey aslında sana ait değil",
+      "url": "https://tr.wikipedia.org/wiki/Divan-i_Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mevlânâ ve Ney'in feryadı: İnsanın asıl vatanından ayrılık sancısı",
-      "url": "https://tr.wikipedia.org/wiki/Mesnevi_(Mevl%C3%A2n%C3%A2)",
+      "baslik": "Mevlânâ ve Divan-ı Kebir'e göre aşırı tutku neden kalbi köreltir?",
+      "url": "https://tr.wikipedia.org/wiki/D%C3%AEv%C3%A2n-i_Keb%C3%AEr",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

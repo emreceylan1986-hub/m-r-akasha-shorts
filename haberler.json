@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-11-09T20:11:57.724983+00:00",
+  "uretim_zamani": "2026-11-10T00:29:18.911254+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre bireyleşme: Kendi karanlığınla tanışmadan tam olamazsın",
-      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "baslik": "Mevlânâ'ya göre 'Hamdım, piştim, yandım' sözünün arkasındaki üç ruhi evre",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEni_R%C3%BBm%C3%AE",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre'nin 'Beni bende demen, bende değilim' dizesindeki egosuzluk hali",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tao Te Jing 9. Bölüm: Dolu bir bardağı taşmaya zorlamanın getirdiği yıkım",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'ye göre ham kalmanın ve pişmenin ruhsal bedeli",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Mevlânâ ve Ney'in feryadı: İnsanın asıl vatanından ayrılık sancısı",
+      "url": "https://tr.wikipedia.org/wiki/Mesnevi_(Mevl%C3%A2n%C3%A2)",
       "kaynak": "gemini-fallback",
       "skor": 997,
       "yas_saat": 0,

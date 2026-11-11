@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-11T19:11:00.955351+00:00",
+  "uretim_zamani": "2026-11-11T20:11:07.499384+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre susmak ruhun kendi içindeki yankısını duymaktır",
-      "url": "https://tr.wikipedia.org/wiki/Ham%C5%9Fename",
+      "baslik": "Tao Te Ching 8. Bölüm: Su gibi yaşamak neden en büyük güçtür",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Aşırı Düşünme Hastalığı: Kendi zihninin kurguladığı senaryolardan nasıl kurtulursun",
+      "url": "https://tr.wikipedia.org/wiki/Meditasyon",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mevlânâ'ya göre sürekli bir şeyleri kontrol etme çabası ruhu nasıl yorar",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEni_R%C3%BBm%C3%AE",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

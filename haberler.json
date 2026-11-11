@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-11-10T20:11:02.730563+00:00",
+  "uretim_zamani": "2026-11-11T01:44:18.943478+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre hırçın insan içindeki sevgisizlikten bağırır",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2",
+      "baslik": "Mevlânâ'nın 'Sessizlik' öğretisi ve durmaksızın savunan zihin",
+      "url": "https://tr.wikipedia.org/wiki/Ham%C5%9Fe",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-12T20:11:04.049474+00:00",
+  "uretim_zamani": "2026-11-12T21:11:08.514230+00:00",
   "haberler": [
     {
-      "baslik": "Stoacı Hierokles'in benlik halkaları ve ruhun dış dünyayla hizalanması",
-      "url": "https://tr.wikipedia.org/wiki/Hierokles_(Stoacı)",
+      "baslik": "Tao Te Jing 12. Bölüm: Duyuların gürültüsü içinde içsel sükuneti bulmak",
+      "url": "tr.wikipedia.org/wiki/Lao_Tzu",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 29. Bölüm: Dünyayı düzeltmeye çalışmayı bırakıp merkeze dönmek",
+      "url": "tr.wikipedia.org/wiki/Taoizm",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 45. Bölüm: Büyük kusurun kusursuz görünmesi ve zihinsel illüzyon",
+      "url": "tr.wikipedia.org/wiki/Felsefe",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

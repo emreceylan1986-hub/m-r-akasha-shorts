@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-11-12T17:10:58.436396+00:00",
+  "uretim_zamani": "2026-11-12T19:11:19.509470+00:00",
   "haberler": [
     {
-      "baslik": "Anahata çakrası kapalıysa insan neden sevgiyi bir borç gibi hisseder?",
-      "url": "https://tr.wikipedia.org/wiki/Aura_(metafizik)",
+      "baslik": "Lao Tzu ve Wu-Wei: Zorlamayı bıraktığında hayat nasıl kendiliğinden akar?",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Jing 8. Bölüm: Su gibi yaşamak neden en büyük güçtür?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Marcus Aurelius'a göre kontrol edemediğin şeyleri kabullenmenin gizli huzuru",
+      "url": "https://tr.wikipedia.org/wiki/Marcus_Aurelius",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

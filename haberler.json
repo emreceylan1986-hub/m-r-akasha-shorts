@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-13T20:11:08.343213+00:00",
+  "uretim_zamani": "2026-11-13T21:11:55.279827+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre gece gördüğün yabancı aslında bastırdığın kimliğindir",
-      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%B1%C5%f",
+      "baslik": "Tao Te Jing Bölüm 1: Adlandırılabilen Tao, gerçek ve sonsuz Tao değildir",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyanda sürekli aynı mekâna dönmenin bilinçdışı anlamı nedir?",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_tabiri",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyanda yüksekten düşme hissi: Zihnin kontrolü kaybetme korkusu",
+      "url": "https://tr.wikipedia.org/wiki/Kolektif_bilin%C3%A7d%C4%B1%C5%9F%C4%B1",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

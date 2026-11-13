@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-11-13T18:10:52.877998+00:00",
+  "uretim_zamani": "2026-11-13T19:11:09.639389+00:00",
   "haberler": [
     {
-      "baslik": "Marcus Aurelius'a göre zihninin kalitesi düşündüğün düşüncelerin rengine bağlıdır",
-      "url": "https://tr.wikipedia.org/wiki/D%C3%BC%C5%9F%C3%BCnceler_(kitap)",
+      "baslik": "Tao Te Jing Bölüm 1: Adlandırılabilen Tao, gerçek ve sonsuz Tao değildir",
+      "url": "https://tr.wikipedia.org/wiki/Tao Te Jing",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyanda sürekli geç kalmak ya da kovalanmak: Jung'a göre bilinçaltının kaçtığın çağrısı",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_tabiri",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyandaki o tanıdık ama yabancı yüz: Carl Jung'un Anima ve Animus arketipi",
+      "url": "https://tr.wikipedia.org/wiki/Anima_ve_animus",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

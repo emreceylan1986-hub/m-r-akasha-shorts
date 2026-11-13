@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-13T19:11:09.639389+00:00",
+  "uretim_zamani": "2026-11-13T20:11:08.343213+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 1: Adlandırılabilen Tao, gerçek ve sonsuz Tao değildir",
-      "url": "https://tr.wikipedia.org/wiki/Tao Te Jing",
+      "baslik": "Carl Jung'a göre gece gördüğün yabancı aslında bastırdığın kimliğindir",
+      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%B1%C5%f",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rüyanda sürekli geç kalmak ya da kovalanmak: Jung'a göre bilinçaltının kaçtığın çağrısı",
-      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_tabiri",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rüyandaki o tanıdık ama yabancı yüz: Carl Jung'un Anima ve Animus arketipi",
-      "url": "https://tr.wikipedia.org/wiki/Anima_ve_animus",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

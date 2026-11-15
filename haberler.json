@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-11-15T17:10:45.830477+00:00",
+  "uretim_zamani": "2026-11-15T19:11:12.498597+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing Bölüm 16: Zihnin gürültüsü dindiğinde kaderin ritmi duyulur",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Carl Jung ve Sinkronisite: Hayatındaki anlamlı tesadüfler sana ne anlatıyor?",
-      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mevlânâ'ya göre karşına çıkan zor tesadüfler ruhunun uyanış davetidir",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE",
+      "baslik": "Kalbinin aniden hızla çarpması bir tehlike değil, ruhsal bir uyanış olabilir",
+      "url": "https://tr.wikipedia.org/wiki/Vagus_siniri",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

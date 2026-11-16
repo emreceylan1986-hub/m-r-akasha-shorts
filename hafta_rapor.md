@@ -1,23 +1,23 @@
 # 📊 Aydınlanmanın Doruk Noktası — Haftalık Rapor
-_2026-11-09T01:23+00:00_
+_2026-11-16T01:31+00:00_
 
 ## Özet
-- **Abone:** 83 (+2 bu hafta)
-- **Toplam view:** 61,472 (+2,936 bu hafta)
-- **Toplam video:** 488
-- **Son 7 gün:** 30 video, 2,355 izl, ort 78/video
-- **<50 izl video sayısı:** 20/30 (kalite_temizleyici aday)
+- **Abone:** 82 (-1 bu hafta)
+- **Toplam view:** 64,251 (+2,779 bu hafta)
+- **Toplam video:** 508
+- **Son 7 gün:** 28 video, 2,133 izl, ort 76/video
+- **<50 izl video sayısı:** 19/28 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **880v** · 3👍 · 1💬 — Boğaz çakrası tıkandığında beden susturulan gerçeği fiziksel yüke dönüştürür
-- **234v** · 3👍 · 1💬 — Sakral çakra tıkandığında yaratıcılık ve yaşama sevinci felç olur
-- **222v** · 1👍 · 1💬 — Sühreverdî'ye göre rüyalar Işık Âlemi'nden gelen iletilerdir
+- **723v** · 4👍 · 1💬 — İbn Sînâ'ya göre bastırılan duygular bedende maraza dönüşür
+- **495v** · 5👍 · 1💬 — Carl Jung ve Gölge Arketipi: Rüyandaki yabancı aslında kim
+- **186v** · 2👍 · 4💬 — İbn Ataullah el-İskenderî'ye göre ısrar ettiğin her istek bir zindandır
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 1💬 — Carl Jung'a göre persona maskesi gerçek kimliğini nasıl yutar
-- **0v** · 0👍 · 0💬 — Sühreverdî'ye göre sürekli tekrarlayan sayılar Âlem-i Misâl işaretidir
-- **0v** · 0👍 · 0💬 — İbnü'l-Arabî'ye göre tevafuk kaderin seninle konuşma şeklidir
+- **0v** · 0👍 · 0💬 — Kalbin hızlı çarpması bir hastalık değil ruhun uyanış çağrısı olabilir
+- **0v** · 0👍 · 0💬 — Lao Tzu'ya göre zihnin gürültüsü sustuğunda insan özüne döner
+- **0v** · 0👍 · 1💬 — Phaethon ve Güneş Arabası: Ham Tutkunun Yıkımı ve Jungian Gölge
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **83 abone / 78 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **82 abone / 76 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı

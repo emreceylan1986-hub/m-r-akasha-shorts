@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-11-15T20:11:05.611151+00:00",
+  "uretim_zamani": "2026-11-16T01:27:47.345420+00:00",
   "haberler": [
     {
-      "baslik": "Sufi felsefesinde 'Hâtır' kavramı: Zihnine aniden düşen düşünceler kimin sesi?",
-      "url": "https://tr.wikipedia.org/wiki/Hat%C4%B1r",
+      "baslik": "Mucizeler Kursu 44. Ders: Tanrı benim gittiğim her yerde benimle gider",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Carl Jung ve Bireyleşme: Toplumun senden yarattığı insanı öldürmek",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre'ye göre dilsiz olmak ruhun ilk kelamıdır",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

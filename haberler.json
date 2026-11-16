@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-16T01:27:47.345420+00:00",
+  "uretim_zamani": "2026-11-16T17:13:46.780996+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu 44. Ders: Tanrı benim gittiğim her yerde benimle gider",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "Tao Te Jing 15. Bölüm: Çamurlu suyun durulmasını beklemek ne demektir?",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung ve Bireyleşme: Toplumun senden yarattığı insanı öldürmek",
-      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "baslik": "Yunus Emre'ye göre ölmeden önce ölmek ruhun illüzyondan uyanışıdır",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'ye göre dilsiz olmak ruhun ilk kelamıdır",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Stoacı Seneca'ya göre hayali korkularla kendi zihninin mahkûmu olursun",
+      "url": "https://tr.wikipedia.org/wiki/Seneca",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

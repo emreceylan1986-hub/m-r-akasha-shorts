@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-11-16T19:12:32.630676+00:00",
+  "uretim_zamani": "2026-11-16T20:12:19.248549+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing 15. Bölüm: Berraklaşmak için hareketsiz kalmayı bilir misin?",
+      "baslik": "Tao Te Ching'in 16. Bölümü: Köklerine dönmek ve zihnin sonsuz sükûneti",
       "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,7 +10,7 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Carl Jung ve Bireyleşme: Kendi karanlığını kucaklamayan asla özgür olamaz",
+      "baslik": "Carl Jung ve Bireyleşme: Kendi mezonunu bulma yolunda toplumsal kalıplardan sıyrılmak",
       "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -18,8 +18,8 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'ye göre sen seni bilmeyince bu okumaktan murat nedir",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Mucizeler Kursu Ders 44: 'Tanrı benim gördüğüm her şeyin içindedir çünkü zihnim O'nunla bir'",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

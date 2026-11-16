@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-16T17:13:46.780996+00:00",
+  "uretim_zamani": "2026-11-16T19:12:32.630676+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Jing 15. Bölüm: Çamurlu suyun durulmasını beklemek ne demektir?",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "baslik": "Tao Te Jing 15. Bölüm: Berraklaşmak için hareketsiz kalmayı bilir misin?",
+      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'ye göre ölmeden önce ölmek ruhun illüzyondan uyanışıdır",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "baslik": "Carl Jung ve Bireyleşme: Kendi karanlığını kucaklamayan asla özgür olamaz",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Stoacı Seneca'ya göre hayali korkularla kendi zihninin mahkûmu olursun",
-      "url": "https://tr.wikipedia.org/wiki/Seneca",
+      "baslik": "Yunus Emre'ye göre sen seni bilmeyince bu okumaktan murat nedir",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

@@ -24,6 +24,10 @@ from pathlib import Path
 
 PANEL_KOK = Path(__file__).parent
 YUKLEMELER = PANEL_KOK / "yuklemeler.json"
+# 29 Eki: QC videoyu YouTube'dan indirmeye calisiyordu; yt-dlp bot
+# duvarina takildigi icin 110 kosunun HEPSINDE atlandi (hic calismadi).
+# Video zaten runner'da duruyor — once ONU kullan.
+CIKTI_KLASOR = PANEL_KOK / "shorts_ciktilari"
 QC_LOG = PANEL_KOK / "qc_video.log"
 
 # Eşikler
@@ -147,8 +151,9 @@ def altyazi_tasma_kontrol(video_yol):
         return None
 
 
-def kontrol_et(video_id):
-    """Bir video için tüm kontrolleri yap, rapor dict döndür."""
+def kontrol_et(video_id, yerel=None):
+    """Bir video için tüm kontrolleri yap, rapor dict döndür.
+    `yerel`: runner'da duran MP4 (varsa indirme yapilmaz)."""
     rapor = {"video_id": video_id, "url": f"https://youtu.be/{video_id}",
              "sorunlar": [], "uyarilar": [], "ok": True}
 
@@ -156,7 +161,10 @@ def kontrol_et(video_id):
         video_yol = Path(tmp) / "video.mp4"
 
         log(f"\n=== QC: {video_id} ===")
-        if not video_indir(video_id, video_yol):
+        if yerel and Path(yerel).exists():
+            video_yol = Path(yerel)
+            log(f"  yerel dosya kullanildi: {video_yol.name}")
+        elif not video_indir(video_id, video_yol):
             rapor["uyarilar"].append("INDIRILEMEDI (yt-dlp yok ya da video hala isleniyor) — QC atlandi")
             log(f"  ⚠ Video indirilemedi → QC atlandi (hard-fail degil)")
             return rapor
@@ -221,7 +229,15 @@ def son_n_video(n=5):
         return []
     try:
         d = json.loads(YUKLEMELER.read_text())
-        return [v.get("video_id") for v in d[-n:] if v.get("video_id")]
+        cift = []
+        for v in d[-n:]:
+            vid = v.get("video_id")
+            if not vid:
+                continue
+            kaynak = v.get("kaynak_dosya") or ""
+            yerel = CIKTI_KLASOR / kaynak if kaynak else None
+            cift.append((vid, str(yerel) if yerel and yerel.exists() else None))
+        return cift
     except Exception:
         return []
 
@@ -234,7 +250,7 @@ def main():
     args = p.parse_args()
 
     if args.video_id:
-        ids = [args.video_id]
+        ids = [(args.video_id, None)]
     elif args.son:
         ids = son_n_video(args.son)
     else:
@@ -245,7 +261,7 @@ def main():
         print("Kontrol edilecek video yok")
         sys.exit(0)
 
-    raporlar = [kontrol_et(vid) for vid in ids]
+    raporlar = [kontrol_et(vid, yerel) for vid, yerel in ids]
 
     log("\n=== ÖZET ===")
     sorunlu = [r for r in raporlar if not r["ok"]]

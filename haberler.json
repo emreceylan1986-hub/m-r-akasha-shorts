@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-11-17T17:13:54.984125+00:00",
+  "uretim_zamani": "2026-11-17T19:17:46.107626+00:00",
   "haberler": [
     {
-      "baslik": "Aynü'l-Kudât el-Hamedânî'ye göre kalbin kırılması ilahi tecellinin kapısıdır",
-      "url": "https://tr.wikipedia.org/wiki/Ayn%C3%Bclku%C3%B0%C3%A2t_el-Hamed%C3%A2n%C3%AE",
+      "baslik": "Gazzâlî'ye göre kalbin aynası paslandığında dünya nasıl görünür",
+      "url": "https://tr.wikipedia.org/wiki/Gazzâlî",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Hârizmî ve İslâm bilginlerinin zihinsel dönüşüm mirası",
+      "url": "https://tr.wikipedia.org/wiki/Hârizmî",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

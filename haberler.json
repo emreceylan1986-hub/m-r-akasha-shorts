@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-11-17T19:17:46.107626+00:00",
+  "uretim_zamani": "2026-11-17T20:11:05.707998+00:00",
   "haberler": [
     {
-      "baslik": "Gazzâlî'ye göre kalbin aynası paslandığında dünya nasıl görünür",
-      "url": "https://tr.wikipedia.org/wiki/Gazzâlî",
+      "baslik": "Mevlânâ'ya göre bardağın dolusu değil, boşluğu suyu taşırır",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BUm%C3%AE",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Hârizmî ve İslâm bilginlerinin zihinsel dönüşüm mirası",
-      "url": "https://tr.wikipedia.org/wiki/Hârizmî",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

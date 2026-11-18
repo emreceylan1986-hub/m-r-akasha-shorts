@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-11-18T20:12:06.846684+00:00",
+  "uretim_zamani": "2026-11-18T21:11:19.581591+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu 45. Ders: Tanrı'nın zihnimde yarattığı huzur dışında sığınak yok",
-      "url": "https://tr.wikipedia.org/wiki/Hristiyan_ilahiyat%C4%B1",
+      "baslik": "Mucizeler Kursu 48. Ders: Başkalarında eleştirdiğin her şey kendi gölgendir",
+      "url": "https://tr.wikipedia.org/wiki/Ele%C5%9ftiri",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

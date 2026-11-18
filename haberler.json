@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-11-17T20:11:05.707998+00:00",
+  "uretim_zamani": "2026-11-18T17:10:47.592201+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre bardağın dolusu değil, boşluğu suyu taşırır",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BUm%C3%AE",
+      "baslik": "İmam Rabbinî'ye göre seyr-i sülûk ve egonun gizli sahtekarlığı",
+      "url": "https://tr.wikipedia.org/wiki/%C4%B0mam-y_Rabbani",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

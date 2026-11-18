@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-18T17:10:47.592201+00:00",
+  "uretim_zamani": "2026-11-18T19:12:07.924124+00:00",
   "haberler": [
     {
-      "baslik": "İmam Rabbinî'ye göre seyr-i sülûk ve egonun gizli sahtekarlığı",
-      "url": "https://tr.wikipedia.org/wiki/%C4%B0mam-y_Rabbani",
+      "baslik": "Mucizeler Kursu 44. Ders: Tanrı benimle gittiğim her yerdedir",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre'ye göre ham kalbin işareti: Sürekli haklı çıkma arzusu",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu'na göre ego neden sürekli seni geçmişe hapseder?",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

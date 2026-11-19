@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-11-19T19:11:54.293047+00:00",
+  "uretim_zamani": "2026-11-19T20:12:22.509006+00:00",
   "haberler": [
     {
-      "baslik": "Gazzâlî'ye göre kalbin perdelenmesi: Dünyayı suçlarken kendi içini unutmak",
-      "url": "https://tr.wikipedia.org/wiki/Gazzali",
+      "baslik": "Sühreverdî'ye göre İşrâk: İçindeki nur kesintisiz yandığında karanlık kalmaz",
+      "url": "https://tr.wikipedia.org/wiki/İşrakilik",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

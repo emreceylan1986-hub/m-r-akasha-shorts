@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-11-19T17:12:51.754683+00:00",
+  "uretim_zamani": "2026-11-19T19:11:54.293047+00:00",
   "haberler": [
     {
-      "baslik": "İmam Gazzâlî'ye göre Kalbin Hastalıkları: Dünyaya bağlandıkça derinleşen içsel uyuşukluk",
-      "url": "https://tr.wikipedia.org/wiki/Gazz%C3%A2l%C3%AE",
+      "baslik": "Gazzâlî'ye göre kalbin perdelenmesi: Dünyayı suçlarken kendi içini unutmak",
+      "url": "https://tr.wikipedia.org/wiki/Gazzali",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

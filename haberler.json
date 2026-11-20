@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-20T17:10:54.599726+00:00",
+  "uretim_zamani": "2026-11-20T19:11:24.054691+00:00",
   "haberler": [
     {
-      "baslik": "Sühreverdî'ye göre rüyada görülen su ve ışık sembolleri",
-      "url": "https://tr.wikipedia.org/wiki/%C3%82lem-i_Mis%C3%A2l",
+      "baslik": "Mucizeler Kursu 49. Ders: Zihnindeki sessiz sese kulak verdiğinde korku erir",
+      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rüyanda sürekli aynı mekânı görüyorsan bilinçaltın neyi saklıyor?",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_tabiri",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Boğaz çakrası tıkandığında söyleyemediğin her söz boğazında düğümlenir",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

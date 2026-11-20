@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-19T21:11:57.663233+00:00",
+  "uretim_zamani": "2026-11-20T17:10:54.599726+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Ching 17. Bölüm: Halkın bile fark etmediği o görünmez lider",
-      "url": "tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "baslik": "Sühreverdî'ye göre rüyada görülen su ve ışık sembolleri",
+      "url": "https://tr.wikipedia.org/wiki/%C3%82lem-i_Mis%C3%A2l",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mevlânâ'ya göre dert dediğin şey aslında kalbe misafir olan ışıktır",
-      "url": "tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%A2n-i_R%C3%BOm%C3%AE",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'ye göre dildeki hırs kalbin aynasını nasıl karartır",
-      "url": "tr.wikipedia.org/wiki/Yunus_Emre",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

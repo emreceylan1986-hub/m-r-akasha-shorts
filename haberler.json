@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-11-20T20:12:28.005163+00:00",
+  "uretim_zamani": "2026-11-20T21:11:21.339219+00:00",
   "haberler": [
     {
-      "baslik": "Rüyanda sürekli aynı mekânı görüyorsan bilinçdışın sana ne anlatıyor?",
-      "url": "https://tr.wikipedia.org/wiki/Carl_Jung",
+      "baslik": "Carl Jung'a göre rüyanda gördüğün yılan değişimin ve şifanın sembolüdür",
+      "url": "https://tr.wikipedia.org/wiki/R%C3%BCya_analizi",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rüyandaki takip edilme hissi: Jung'a göre yüzleşmediğin arketip",
-      "url": "https://tr.wikipedia.org/wiki/Arketip",
+      "baslik": "Rüyanda sürekli geç kaldığını görüyorsan bilinçaltın bu mesajı veriyor",
+      "url": "https://tr.wikipedia.org/wiki/Bilin%C3%A7d%C4%B1%C5%9F%C4%B1",
       "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tao Te Ching'in 17. Bölümü: Kendiliğindenliğin ve zahmetsiz yönetimin gücü",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

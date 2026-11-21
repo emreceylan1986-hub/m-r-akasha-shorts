@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-11-21T19:14:32.475534+00:00",
+  "uretim_zamani": "2026-11-21T20:10:55.814479+00:00",
   "haberler": [
     {
-      "baslik": "Muladhara Çakrası tıkandığında zihin neden sürekli felaket senaryoları yazar?",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Vishuddha Çakranız kapalıysa ifade edilmeyen her kelime boğazda fiziksel düğüme dönüşür",
-      "url": "https://tr.wikipedia.org/wiki/Çakra",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu 50. Ders: Şifa bedende değil zihnin algıyı serbest bırakmasında başlar",
-      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
+      "baslik": "İbnü'l-Arabi'ye göre bedendeki ani sıkışma ruhun genişleme sancısıdır",
+      "url": "https://tr.wikipedia.org/wiki/İbn_el-%C3%86rabi",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

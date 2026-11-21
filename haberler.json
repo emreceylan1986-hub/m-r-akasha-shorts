@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-21T17:17:12.625390+00:00",
+  "uretim_zamani": "2026-11-21T19:14:32.475534+00:00",
   "haberler": [
     {
-      "baslik": "Manipura çakran tıkalıysa hayatında neden sürekli onay ararsın",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Muladhara Çakrası tıkandığında zihin neden sürekli felaket senaryoları yazar?",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Vishuddha Çakranız kapalıysa ifade edilmeyen her kelime boğazda fiziksel düğüme dönüşür",
+      "url": "https://tr.wikipedia.org/wiki/Çakra",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Svadhisthana çakra dengesizliği: Suçluluk duygusunun bedendeki enerjisel izi",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Mucizeler Kursu 50. Ders: Şifa bedende değil zihnin algıyı serbest bırakmasında başlar",
+      "url": "https://en.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Boğaz çakrası tıkandığında bedeninde ve duygularında ne olur",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

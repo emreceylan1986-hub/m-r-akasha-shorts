@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-11-21T21:10:55.674162+00:00",
+  "uretim_zamani": "2026-11-22T01:48:59.537708+00:00",
   "haberler": [
     {
-      "baslik": "İbn Kayyim'a göre kalbin hastalığı arzuların peşinde koşarken içsel huzuru kaybetmektir",
-      "url": "https://tr.wikipedia.org/wiki/%C4%B0bn_Kayyim_el-Cevziyye",
+      "baslik": "Carl Jung'a göre eşzamanlılık: Rastlantı sandığın olaylar zihninin dışarıya yansımasıdır",
+      "url": "https://tr.wikipedia.org/wiki/E%C5%9Fzamanl%C4%B1l%C4%B1k",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Aynü'l-Kudât el-Hamedânî'ye göre kaderle çatışmak zihnin kendi gölgesiyle dövüşmesidir",
+      "url": "https://tr.wikipedia.org/wiki/Kader",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

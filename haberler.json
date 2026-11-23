@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-23T17:17:13.480230+00:00",
+  "uretim_zamani": "2026-11-23T19:14:33.860434+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre 'Persona' masken ruhunu ele geçirdiğinde ne olur?",
-      "url": "https://tr.wikipedia.org/wiki/Persona_(arkotip)",
+      "baslik": "Carl Jung'a göre maskenle yüzleştiğinde arkasında kalan boşluk kimindir?",
+      "url": "https://tr.wikipedia.org/wiki/Jungian_archetypes",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Vishuddha çakrası tıkandığında kendi gerçeğini söylemekten neden korkarsın?",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu 50. Ders: Sevginin yerini korku aldığında illüzyon başlar",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

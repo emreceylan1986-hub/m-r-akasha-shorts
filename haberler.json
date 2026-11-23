@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-11-22T20:11:54.771912+00:00",
+  "uretim_zamani": "2026-11-23T17:17:13.480230+00:00",
   "haberler": [
     {
-      "baslik": "İbnü'l-Arabî'ye göre eşzamanlılık: Alemlerin birbiriyle konuşma dili",
-      "url": "https://tr.wikipedia.org/wiki/İbn_ü%27l-Arab%C3%AE",
+      "baslik": "Carl Jung'a göre 'Persona' masken ruhunu ele geçirdiğinde ne olur?",
+      "url": "https://tr.wikipedia.org/wiki/Persona_(arkotip)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sühreverdî'ye göre karşına çıkan tesadüfler ruhani dünyadan gelen işaretlerdir",
-      "url": "https://tr.wikipedia.org/wiki/Şihabeddin_Yahya_Sühreverd%C3%AE",
+      "baslik": "Vishuddha çakrası tıkandığında kendi gerçeğini söylemekten neden korkarsın?",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu 50. Ders: Sevginin yerini korku aldığında illüzyon başlar",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

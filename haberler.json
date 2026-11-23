@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-23T19:14:33.860434+00:00",
+  "uretim_zamani": "2026-11-23T20:11:40.146392+00:00",
   "haberler": [
     {
-      "baslik": "Carl Jung'a göre maskenle yüzleştiğinde arkasında kalan boşluk kimindir?",
-      "url": "https://tr.wikipedia.org/wiki/Jungian_archetypes",
+      "baslik": "Marcus Aurelius'a göre zihnini kontrol edemezsen arzuların sana hükmeder",
+      "url": "https://tr.wikipedia.org/wiki/Marcus_Aurelius",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre'ye göre sen seni bilmezsen bu okumak ne gerektir",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Şems-i Tebrîzî'ye göre yolun sonunu düşünmek beyhude bir telaştır",
+      "url": "https://tr.wikipedia.org/wiki/%C5%9Eems-i_Tebr%C3%AEz%C3%AE",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

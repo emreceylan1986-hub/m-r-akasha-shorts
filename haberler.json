@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-11-24T17:11:51.741551+00:00",
+  "uretim_zamani": "2026-11-24T19:11:10.977230+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre içindeki o kesintisiz özlem aslında neyin çağrısıdır?",
-      "url": "https://tr.wikipedia.org/wiki/Ney_(çalgı)",
+      "baslik": "Yunus Emre'ye göre benliğin ölümü: Ölmezden önce ölmenin sırrı",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Ching 17. Bölüm: Varla yok arasında zahmetsiz yönetmek",
+      "url": "https://tr.wikipedia.org/wiki/Laozi",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Yunus Emre'ye göre 'Benim' dediğin her şey bir gün sana ağır gelir",
-      "url": "https://tr.wikipedia.org/wiki/Mülkiyet",
+      "baslik": "Mevlânâ'ya göre aynadaki imge: Kendini neden başkalarında ararsın?",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEni_R%C3%BBm%C3%AE",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

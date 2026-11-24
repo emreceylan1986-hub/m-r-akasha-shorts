@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-23T21:11:02.180859+00:00",
+  "uretim_zamani": "2026-11-24T03:05:59.398067+00:00",
   "haberler": [
     {
-      "baslik": "Mucizeler Kursu 50. Ders: Sevgi korkunun bittiği yerde başlar",
-      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Carl Jung'a göre bastırdığın her duygu kaderin olarak karşına çıkar",
-      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "baslik": "Mevlânâ'ya göre kırılan kalp, ışığın içeri girdiği yerdir",
+      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%a2n%c3%a2_Cel%c3%a2ledd%c3%een-i_R%c3%bbm%c3%ae",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunus Emre'ye göre ham kalbin pişme sancısı ve içsel kırılma",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

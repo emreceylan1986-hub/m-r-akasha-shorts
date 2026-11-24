@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-11-24T03:05:59.398067+00:00",
+  "uretim_zamani": "2026-11-24T17:11:51.741551+00:00",
   "haberler": [
     {
-      "baslik": "Mevlânâ'ya göre kırılan kalp, ışığın içeri girdiği yerdir",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%a2n%c3%a2_Cel%c3%a2ledd%c3%een-i_R%c3%bbm%c3%ae",
+      "baslik": "Mevlânâ'ya göre içindeki o kesintisiz özlem aslında neyin çağrısıdır?",
+      "url": "https://tr.wikipedia.org/wiki/Ney_(çalgı)",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Yunus Emre'ye göre 'Benim' dediğin her şey bir gün sana ağır gelir",
+      "url": "https://tr.wikipedia.org/wiki/Mülkiyet",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

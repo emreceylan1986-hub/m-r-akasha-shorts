@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-11-24T20:10:57.300767+00:00",
+  "uretim_zamani": "2026-11-25T01:10:30.266538+00:00",
   "haberler": [
     {
-      "baslik": "Aziz Mahmud Hüdayî'ye göre nefsin rüyalardaki sureti",
-      "url": "https://tr.wikipedia.org/wiki/Aziz_Mahmud_H%C3%BCday%C3%AE",
+      "baslik": "Mucizeler Kursu 50. Ders: İçinde yankılanan o suçluluk sesinin gerçek sahibi kim",
+      "url": "tr.wikipedia.org/wiki/Mucizeler_Kursu",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Hacı Bayram-ı Veli'ye göre 'nefsini bilmek' zihinsel tükenişin ilacıdır",
-      "url": "https://tr.wikipedia.org/wiki/Hac%C4%B1_Bayram-%C4%B1_Veli",
+      "baslik": "Yunus Emre'ye göre dildeki 'ben' kelimesi kalpteki kapıyı nasıl kapatır",
+      "url": "tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

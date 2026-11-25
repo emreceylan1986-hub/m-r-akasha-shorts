@@ -1,24 +1,24 @@
 {
-  "uretim_zamani": "2026-11-25T17:15:53.891267+00:00",
+  "uretim_zamani": "2026-11-25T19:11:25.429260+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Ching'in 17. Bölümü: Kendiliğinden Olanın Sessiz Gücü",
-      "url": "https://tr.wikipedia.org/wiki/Laozi",
+      "baslik": "Yunusu Emre'ye göre ham kalbin pişme sancısı ve benliğin erimesi",
+      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mesnevi'ye Göre Kibir: Suyun Üstündeki Köpük Gibi Boş Bir Zirve",
-      "url": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEni_R%C3%BBm%C3%AE",
+      "baslik": "Anahata Kalp Çakrası tıkandığında sevgi alma korkusu zihnini esir alır",
+      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mucizeler Kursu'na Göre Öfke: Kendi Zihnini Cezalandırma İllüzyonu",
+      "baslik": "Mucizeler Kursu'na göre bağışlamak başkasını değil kendi zihnini serbest bırakmaktır",
       "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
       "skor": 997,

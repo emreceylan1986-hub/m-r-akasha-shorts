@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-25T19:11:25.429260+00:00",
+  "uretim_zamani": "2026-11-25T20:12:08.955326+00:00",
   "haberler": [
     {
-      "baslik": "Yunusu Emre'ye göre ham kalbin pişme sancısı ve benliğin erimesi",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Anahata Kalp Çakrası tıkandığında sevgi alma korkusu zihnini esir alır",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mucizeler Kursu'na göre bağışlamak başkasını değil kendi zihnini serbest bırakmaktır",
+      "baslik": "Mucizeler Kursu 50. Ders: Sevgi seni asla terk etmeyen tek sığınaktır",
       "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mucizeler Kursu'na göre kurban rolü seçilmiş bir savunma mekanizmasıdır",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Ching 8. Bölüm: Su gibi yaşamak neden en yüksek erdemdir?",
+      "url": "https://tr.wikipedia.org/wiki/Tao Te Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }

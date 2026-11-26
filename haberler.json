@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-11-26T17:11:15.461281+00:00",
+  "uretim_zamani": "2026-11-26T19:12:28.072857+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Ching 17. Bölüm: Su Gibi Alçak Yerde Durmanın Yenilmez Gücü",
-      "url": "https://tr.wikipedia.org/wiki/Tao_Te_Ching",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Yunusu Emre'ye göre kalbini kıran insan senin değil nefsinin düşmanıdır",
-      "url": "https://tr.wikipedia.org/wiki/Yunus_Emre",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Boğaz Çakrası Tıkandığında Kendi Gerçeğini Söylemekten Neden Korkarsın?",
-      "url": "https://tr.wikipedia.org/wiki/%C3%87akra",
+      "baslik": "Tao Te Ching'in 18. Bölümü: Büyük erdem kaybolunca kurallar başlar",
+      "url": "tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,

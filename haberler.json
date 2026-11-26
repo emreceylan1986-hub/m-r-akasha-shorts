@@ -1,8 +1,16 @@
 {
-  "uretim_zamani": "2026-11-26T19:12:28.072857+00:00",
+  "uretim_zamani": "2026-11-26T20:10:58.479680+00:00",
   "haberler": [
     {
-      "baslik": "Tao Te Ching'in 18. Bölümü: Büyük erdem kaybolunca kurallar başlar",
+      "baslik": "Tao Te Ching'in 17. Bölümü: Halkın Tanımadığı Liderin Sessiz Zaferi",
+      "url": "tr.wikipedia.org/wiki/Tao_Te_Ching",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Tao Te Ching'in 19. Bölümü: Bilgiyi ve Sınırları Bırakıp Sadeleşmek",
       "url": "tr.wikipedia.org/wiki/Tao_Te_Ching",
       "kaynak": "gemini-fallback",
       "skor": 998,

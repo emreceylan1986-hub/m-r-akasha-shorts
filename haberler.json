@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-27T17:11:12.285754+00:00",
+  "uretim_zamani": "2026-11-27T19:12:32.825449+00:00",
   "haberler": [
     {
-      "baslik": "Sühreverdî'ye göre rüyadaki karanlık kuyu benliğin doğum sancısıdır",
-      "url": "https://tr.wikipedia.org/wiki/Kuyu",
+      "baslik": "Mucizeler Kursu 50. Ders: Aşamayacağını sandığın her engel zihninin bir illüzyonudur",
+      "url": "https://tr.wikipedia.org/wiki/A_Course_in_Miracles",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Carl Jung'a göre rüyada gölge figürün seninle konuşması ne anlama gelir?",
+      "url": "https://tr.wikipedia.org/wiki/G%C3%B6lge_(psikoloji)",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Carl Jung'a göre rüyada kaybolmak benliğini yeniden inşa etme çağrısıdır",
+      "url": "https://tr.wikipedia.org/wiki/Bireyle%C5%9Fme",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
